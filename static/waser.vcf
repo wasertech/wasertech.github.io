@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:4.0
+N:Danny;Waser;;M.;
+FN: Danny Waser
+ORG:Waser Technologies;
+TITLE:Développeur d'agent conversationnel multimodal
+TEL;TYPE=home,voice;VALUE=uri:tel:+41-78-911-98-34
+EMAIL:danny@waser.tech
+END:VCARD
