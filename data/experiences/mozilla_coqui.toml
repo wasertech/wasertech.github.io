@@ -1,0 +1,25 @@
+date = "Nov. 2021 - Dec. 2022"
+
+[en]
+title = "Speech recognition developer"
+company = "Mozilla & Coqui-AI"
+details = """
+- Update of the CommonVoice French model training image
+With Mozilla, we have re-implemented the DeepSpeech model training image with the STT (Speech-To-Text) project to continue transcribing French with our machines.
+- Migration from DeepSpeech to STT for the French-speaking pipeline
+With Coqui-AI, we have implemented various improvements to the STT project to enable training of French-speaking models.
+- Training new speech transcription models
+Finally, I published new models for French, using 2x as much higher quality augmented data in order to reduce the average word error rate by 10%.
+"""
+
+[fr]
+title = "Développeur en reconnaissance vocale"
+company = "Mozilla & Coqui-AI"
+details = """
+- Mise à jour de l'image d'entraînement du modèle français CommonVoice
+Avec Mozilla, nous avons ré-implémenté l'image d'entraînement du modèle DeepSpeech avec le projet STT (Speech-To-Text) pour continuer à transcrire le français avec nos machines.
+- Migration de DeepSpeech vers STT pour le pipeline francophone
+Avec Coqui-AI, nous avons mis en œuvre diverses améliorations du projet STT pour permettre l'entraînement de modèles francophones.
+- Entraînement de nouveaux modèles de transcription vocale
+Enfin, j'ai publié de nouveaux modèles pour le français, en utilisant 2x plus de données augmentées de meilleure qualité afin de réduire le taux d'erreur de mot moyen de 10%.
+"""

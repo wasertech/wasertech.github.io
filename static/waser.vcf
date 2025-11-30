@@ -1,9 +1,12 @@
 BEGIN:VCARD
-VERSION:4.0
-N:Danny;Waser;;M.;
-FN: Danny Waser
-ORG:Waser Technologies;
-TITLE:Développeur d'agent conversationnel multimodal
-TEL;TYPE=home,voice;VALUE=uri:tel:+41-78-911-98-34
-EMAIL:danny@waser.tech
+VERSION:3.0
+N:Waser;Danny;;;
+FN:Danny Waser
+EMAIL;TYPE=INTERNET:danny@waser.tech
+TEL;TYPE=CELL:+41 (0) 78 911 98 34
+ADR;TYPE=HOME:;;Ch. de la Chaumière 6, 1010 Lausanne
+URL:https://waser.tech
+URL:https://github.com/wasertech
+URL:https://gitlab.com/wasertech
+URL:https://linkedin.com/in/wasertech/
 END:VCARD

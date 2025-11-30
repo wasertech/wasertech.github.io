@@ -1,0 +1,11 @@
+start_date = "Oct. 2023"
+end_date = "Nov. 2023"
+image = "static/GoogleAdvancedDataAnalyticsCertificate.png"
+
+[en]
+title = "Google Advanced Data Analytics Professional Certificate"
+issuer = "Google @ Coursera"
+
+[fr]
+title = "Certificat Professionnel Google Advanced Data Analytics"
+issuer = "Google @ Coursera"

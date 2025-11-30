@@ -1,0 +1,25 @@
+date = "Jan. 2020 - July 2023"
+
+[en]
+title = "Multimodal conversational agent developer"
+company = "Waser Technologies"
+details = """
+- Multi-modal language translator
+Fast translation tool that uses your material to translate using your preferred translation model.
+- Text-to-speech tools and voice transcription
+listen, can transcribe the voice locally in real time and say synthesises the human voice locally.
+- Conversational agent
+My implementation of a personal assistant that I use regularly to make my work easier. Its role is to interface the system and the user via natural language.
+"""
+
+[fr]
+title = "Développeur d'agents conversationnels multimodaux"
+company = "Waser Technologies"
+details = """
+- Traducteur de langage multi-modal
+Outil de traduction rapide qui utilise votre matériel pour traduire en utilisant votre modèle de traduction préféré.
+- Outils de synthèse vocale et de transcription vocale
+écoutez, peut transcrire la voix localement en temps réel et dire synthétise la voix humaine localement.
+- Agent conversationnel
+Mon implémentation d'un assistant personnel que j'utilise régulièrement pour me faciliter la tâche. Son rôle est d'interfacer le système et l'utilisateur via le langage naturel.
+"""

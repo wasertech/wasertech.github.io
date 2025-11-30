@@ -1,0 +1,231 @@
+{
+  "profile": {
+    "en": {
+      "content": "Passionate about conversational intelligence, I'm fluent in French, English and Spanish. With expertise in language model design and full-stack development, I specialise in improving the accuracy of speech transcription and creating conversational assistants. My ability to migrate and train AI models, combined with my experience in translation tools, make me a valuable asset for any AI company looking to innovate and optimise its solutions.\n"
+    },
+    "fr": {
+      "content": "Passionn\u00e9 par l'intelligence conversationnelle, je parle couramment le fran\u00e7ais, l'anglais et l'espagnol. Avec une expertise dans la conception de mod\u00e8les de langage et le d\u00e9veloppement full-stack, je me sp\u00e9cialise dans l'am\u00e9lioration de la pr\u00e9cision de la transcription vocale et la cr\u00e9ation d'assistants conversationnels. Ma capacit\u00e9 \u00e0 migrer et \u00e0 entra\u00eener des mod\u00e8les d'IA, combin\u00e9e \u00e0 mon exp\u00e9rience des outils de traduction, fait de moi un atout pr\u00e9cieux pour toute entreprise d'IA cherchant \u00e0 innover et \u00e0 optimiser ses solutions.\n"
+    }
+  },
+  "contact": {
+    "address": "Ch. de la Chaumi\u00e8re 6, 1010 Lausanne",
+    "phone": "+41 (0) 78 911 98 34",
+    "email": "danny@waser.tech",
+    "website": "https://waser.tech",
+    "github": "https://github.com/wasertech",
+    "gitlab": "https://gitlab.com/wasertech",
+    "linkedin": "https://linkedin.com/in/wasertech/"
+  },
+  "skills": [
+    {
+      "en": "GNU/Linux distribution",
+      "fr": "Distribution GNU/Linux"
+    },
+    {
+      "en": "Python",
+      "fr": "Python"
+    },
+    {
+      "en": "bash",
+      "fr": "bash"
+    },
+    {
+      "en": "git",
+      "fr": "git"
+    },
+    {
+      "en": "docker",
+      "fr": "docker"
+    },
+    {
+      "en": "HTML",
+      "fr": "HTML"
+    },
+    {
+      "en": "CSS",
+      "fr": "CSS"
+    },
+    {
+      "en": "JavaScript",
+      "fr": "JavaScript"
+    },
+    {
+      "en": "tensorflow",
+      "fr": "tensorflow"
+    },
+    {
+      "en": "torch",
+      "fr": "torch"
+    },
+    {
+      "en": "rasa",
+      "fr": "rasa"
+    },
+    {
+      "en": "transformers",
+      "fr": "transformers"
+    },
+    {
+      "en": "DeepSpeech/STT",
+      "fr": "DeepSpeech/STT"
+    },
+    {
+      "en": "TTS",
+      "fr": "TTS"
+    },
+    {
+      "en": "prompt_toolkit",
+      "fr": "prompt_toolkit"
+    },
+    {
+      "en": "JelasticAPI",
+      "fr": "JelasticAPI"
+    },
+    {
+      "en": "Django",
+      "fr": "Django"
+    },
+    {
+      "en": "node.js",
+      "fr": "node.js"
+    },
+    {
+      "en": "cookiecutter",
+      "fr": "cookiecutter"
+    },
+    {
+      "en": "dataset management",
+      "fr": "gestion de dataset"
+    }
+  ],
+  "languages": [
+    {
+      "en": "French",
+      "fr": "Fran\u00e7ais",
+      "level": "C2"
+    },
+    {
+      "en": "English",
+      "fr": "Anglais",
+      "level": "C1"
+    },
+    {
+      "en": "Spanish",
+      "fr": "Espagnol",
+      "level": "C1"
+    },
+    {
+      "en": "German",
+      "fr": "Allemand",
+      "level": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "en": "Fan of astronomy",
+      "fr": "Fan d'astronomie"
+    },
+    {
+      "en": "space opera",
+      "fr": "de space opera"
+    },
+    {
+      "en": "mountain trails",
+      "fr": "de sentiers de montagne"
+    },
+    {
+      "en": "conscious slam",
+      "fr": "de slam conscient"
+    },
+    {
+      "en": "epic adventures",
+      "fr": "d'aventures \u00e9piques"
+    }
+  ],
+  "experiences": [
+    {
+      "date": "Nov. 2021 - Dec. 2022",
+      "en": {
+        "title": "Speech recognition developer",
+        "company": "Mozilla & Coqui-AI",
+        "details": "- Update of the CommonVoice French model training image\nWith Mozilla, we have re-implemented the DeepSpeech model training image with the STT (Speech-To-Text) project to continue transcribing French with our machines.\n- Migration from DeepSpeech to STT for the French-speaking pipeline\nWith Coqui-AI, we have implemented various improvements to the STT project to enable training of French-speaking models.\n- Training new speech transcription models\nFinally, I published new models for French, using 2x as much higher quality augmented data in order to reduce the average word error rate by 10%.\n"
+      },
+      "fr": {
+        "title": "D\u00e9veloppeur en reconnaissance vocale",
+        "company": "Mozilla & Coqui-AI",
+        "details": "- Mise \u00e0 jour de l'image d'entra\u00eenement du mod\u00e8le fran\u00e7ais CommonVoice\nAvec Mozilla, nous avons r\u00e9-impl\u00e9ment\u00e9 l'image d'entra\u00eenement du mod\u00e8le DeepSpeech avec le projet STT (Speech-To-Text) pour continuer \u00e0 transcrire le fran\u00e7ais avec nos machines.\n- Migration de DeepSpeech vers STT pour le pipeline francophone\nAvec Coqui-AI, nous avons mis en \u0153uvre diverses am\u00e9liorations du projet STT pour permettre l'entra\u00eenement de mod\u00e8les francophones.\n- Entra\u00eenement de nouveaux mod\u00e8les de transcription vocale\nEnfin, j'ai publi\u00e9 de nouveaux mod\u00e8les pour le fran\u00e7ais, en utilisant 2x plus de donn\u00e9es augment\u00e9es de meilleure qualit\u00e9 afin de r\u00e9duire le taux d'erreur de mot moyen de 10%.\n"
+      }
+    },
+    {
+      "date": "Jan. 2024 - March 2024",
+      "en": {
+        "title": "Engineer in Artificial Intelligence (AI)",
+        "company": "Synthflow AI",
+        "details": "- Over the phone conversational agents\nModeling conversations over the phone to create production ready conversational agents.\n"
+      },
+      "fr": {
+        "title": "Ing\u00e9nieur en Intelligence Artificielle (IA)",
+        "company": "Synthflow AI",
+        "details": "- Agents conversationnels t\u00e9l\u00e9phoniques\nMod\u00e9lisation de conversations t\u00e9l\u00e9phoniques pour cr\u00e9er des agents conversationnels pr\u00eats pour la production.\n"
+      }
+    },
+    {
+      "date": "Jan. 2020 - July 2023",
+      "en": {
+        "title": "Multimodal conversational agent developer",
+        "company": "Waser Technologies",
+        "details": "- Multi-modal language translator\nFast translation tool that uses your material to translate using your preferred translation model.\n- Text-to-speech tools and voice transcription\nlisten, can transcribe the voice locally in real time and say synthesises the human voice locally.\n- Conversational agent\nMy implementation of a personal assistant that I use regularly to make my work easier. Its role is to interface the system and the user via natural language.\n"
+      },
+      "fr": {
+        "title": "D\u00e9veloppeur d'agents conversationnels multimodaux",
+        "company": "Waser Technologies",
+        "details": "- Traducteur de langage multi-modal\nOutil de traduction rapide qui utilise votre mat\u00e9riel pour traduire en utilisant votre mod\u00e8le de traduction pr\u00e9f\u00e9r\u00e9.\n- Outils de synth\u00e8se vocale et de transcription vocale\n\u00e9coutez, peut transcrire la voix localement en temps r\u00e9el et dire synth\u00e9tise la voix humaine localement.\n- Agent conversationnel\nMon impl\u00e9mentation d'un assistant personnel que j'utilise r\u00e9guli\u00e8rement pour me faciliter la t\u00e2che. Son r\u00f4le est d'interfacer le syst\u00e8me et l'utilisateur via le langage naturel.\n"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "start_date": "Oct. 2023",
+      "end_date": "Nov. 2023",
+      "image": "static/GoogleAdvancedDataAnalyticsCertificate.png",
+      "en": {
+        "title": "Google Advanced Data Analytics Professional Certificate",
+        "issuer": "Google @ Coursera"
+      },
+      "fr": {
+        "title": "Certificat Professionnel Google Advanced Data Analytics",
+        "issuer": "Google @ Coursera"
+      }
+    }
+  ],
+  "sections": {
+    "profile": {
+      "en": "PROFILE",
+      "fr": "PROFIL"
+    },
+    "contact": {
+      "en": "CONTACT",
+      "fr": "CONTACT"
+    },
+    "technical_skills": {
+      "en": "TECHNICAL SKILLS",
+      "fr": "COMP\u00c9TENCES TECHNIQUES"
+    },
+    "languages": {
+      "en": "LANGUAGES",
+      "fr": "LANGUES"
+    },
+    "personal_interests": {
+      "en": "PERSONAL INTERESTS",
+      "fr": "INT\u00c9R\u00caTS PERSONNELS"
+    },
+    "professional_experience": {
+      "en": "PROFESSIONAL EXPERIENCE",
+      "fr": "EXP\u00c9RIENCE PROFESSIONNELLE"
+    },
+    "certification": {
+      "en": "CERTIFICATION",
+      "fr": "CERTIFICATION"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+date = "Jan. 2024 - March 2024"
+
+[en]
+title = "Engineer in Artificial Intelligence (AI)"
+company = "Synthflow AI"
+details = """
+- Over the phone conversational agents
+Modeling conversations over the phone to create production ready conversational agents.
+"""
+
+[fr]
+title = "Ingénieur en Intelligence Artificielle (IA)"
+company = "Synthflow AI"
+details = """
+- Agents conversationnels téléphoniques
+Modélisation de conversations téléphoniques pour créer des agents conversationnels prêts pour la production.
+"""

@@ -1,0 +1,9 @@
+[en]
+content = """
+Passionate about conversational intelligence, I'm fluent in French, English and Spanish. With expertise in language model design and full-stack development, I specialise in improving the accuracy of speech transcription and creating conversational assistants. My ability to migrate and train AI models, combined with my experience in translation tools, make me a valuable asset for any AI company looking to innovate and optimise its solutions.
+"""
+
+[fr]
+content = """
+Passionné par l'intelligence conversationnelle, je parle couramment le français, l'anglais et l'espagnol. Avec une expertise dans la conception de modèles de langage et le développement full-stack, je me spécialise dans l'amélioration de la précision de la transcription vocale et la création d'assistants conversationnels. Ma capacité à migrer et à entraîner des modèles d'IA, combinée à mon expérience des outils de traduction, fait de moi un atout précieux pour toute entreprise d'IA cherchant à innover et à optimiser ses solutions.
+"""

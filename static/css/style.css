@@ -1,0 +1,80 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2rem;
+}
+
+.left-column {
+    /* Styles for the left column */
+}
+
+.right-column {
+    /* Styles for the right column */
+}
+
+.portrait {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; /* Rounded corners for the square image */
+    margin-bottom: 1rem;
+}
+
+.left-column .fa,
+.left-column .fab,
+.left-column .fas {
+    margin-right: 0.5rem;
+    width: 1rem; /* Fixed width for icons to align text */
+    text-align: center;
+}
+
+/* Header Navigation */
+header.container nav ul {
+    margin-bottom: 0;
+}
+
+header.container #main-nav {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--pico-muted-border-color);
+    padding-bottom: 1rem;
+}
+
+header.container #main-nav ul {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header.container #main-nav li {
+    margin: 0 10px;
+}
+
+header.container #main-nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--pico-primary);
+}
+
+header.container #main-nav a:hover {
+    color: var(--pico-primary-hover);
+}
+
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    header.container #main-nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header.container #main-nav li {
+        margin-bottom: 0.5rem;
+    }
+}
