@@ -1,0 +1,581 @@
+{
+  "profile": {
+    "en": {
+      "content": "Passionate about conversational intelligence, I'm fluent in French, English and Spanish. With expertise in language model design and full-stack development, I specialise in improving the accuracy of speech transcription and creating conversational assistants. My ability to migrate and train AI models, combined with my experience in translation tools, make me a valuable asset for any AI company looking to innovate and optimise its solutions.\n"
+    },
+    "fr": {
+      "content": "Passionn\u00e9 par l'intelligence conversationnelle, je parle couramment le fran\u00e7ais, l'anglais et l'espagnol. Avec une expertise dans la conception de mod\u00e8les de langage et le d\u00e9veloppement full-stack, je me sp\u00e9cialise dans l'am\u00e9lioration de la pr\u00e9cision de la transcription vocale et la cr\u00e9ation d'assistants conversationnels. Ma capacit\u00e9 \u00e0 migrer et \u00e0 entra\u00eener des mod\u00e8les d'IA, combin\u00e9e \u00e0 mon exp\u00e9rience des outils de traduction, fait de moi un atout pr\u00e9cieux pour toute entreprise d'IA cherchant \u00e0 innover et \u00e0 optimiser ses solutions.\n"
+    }
+  },
+  "contact": {
+    "address": "Ch. de la Chaumi\u00e8re 6, 1010 Lausanne",
+    "phone": "+41 (0) 78 911 98 34",
+    "email": "danny@waser.tech",
+    "website": "https://waser.tech",
+    "github": "https://github.com/wasertech",
+    "gitlab": "https://gitlab.com/wasertech",
+    "linkedin": "https://linkedin.com/in/wasertech/"
+  },
+  "skills": [
+    {
+      "en": "GNU/Linux distribution",
+      "fr": "Distribution GNU/Linux"
+    },
+    {
+      "en": "Python",
+      "fr": "Python"
+    },
+    {
+      "en": "bash",
+      "fr": "bash"
+    },
+    {
+      "en": "git",
+      "fr": "git"
+    },
+    {
+      "en": "docker",
+      "fr": "docker"
+    },
+    {
+      "en": "HTML",
+      "fr": "HTML"
+    },
+    {
+      "en": "CSS",
+      "fr": "CSS"
+    },
+    {
+      "en": "JavaScript",
+      "fr": "JavaScript"
+    },
+    {
+      "en": "tensorflow",
+      "fr": "tensorflow"
+    },
+    {
+      "en": "torch",
+      "fr": "torch"
+    },
+    {
+      "en": "transformers",
+      "fr": "transformers"
+    },
+    {
+      "en": "DeepSpeech/STT",
+      "fr": "DeepSpeech/STT"
+    },
+    {
+      "en": "TTS",
+      "fr": "TTS"
+    },
+    {
+      "en": "prompt_toolkit",
+      "fr": "prompt_toolkit"
+    },
+    {
+      "en": "JelasticAPI",
+      "fr": "JelasticAPI"
+    },
+    {
+      "en": "Django",
+      "fr": "Django"
+    },
+    {
+      "en": "node.js",
+      "fr": "node.js"
+    },
+    {
+      "en": "cookiecutter",
+      "fr": "cookiecutter"
+    },
+    {
+      "en": "dataset management",
+      "fr": "gestion de dataset"
+    }
+  ],
+  "languages": [
+    {
+      "en": "French",
+      "fr": "Fran\u00e7ais",
+      "level": "C2"
+    },
+    {
+      "en": "English",
+      "fr": "Anglais",
+      "level": "C1"
+    },
+    {
+      "en": "Spanish",
+      "fr": "Espagnol",
+      "level": "C1"
+    },
+    {
+      "en": "German",
+      "fr": "Allemand",
+      "level": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "en": "Fan of astronomy",
+      "fr": "Fan d'astronomie"
+    },
+    {
+      "en": "space opera",
+      "fr": "de space opera"
+    },
+    {
+      "en": "mountain trails",
+      "fr": "de sentiers de montagne"
+    },
+    {
+      "en": "conscious slam",
+      "fr": "de slam conscient"
+    },
+    {
+      "en": "epic adventures",
+      "fr": "d'aventures \u00e9piques"
+    }
+  ],
+  "experiences": [
+    {
+      "date": "Nov. 2021 - Dec. 2022",
+      "en": {
+        "title": "Speech recognition developer",
+        "company": "Mozilla & Coqui-AI",
+        "details": "- [Update of the CommonVoice French model training image](https://github.com/common-voice/commonvoice-fr/pulls?q=is%3Apr+author%3Awasertech+)\nWith Mozilla, we have re-implemented the DeepSpeech model training image with the STT (Speech-To-Text) project to continue transcribing French with our machines.\n- [Migration from DeepSpeech to STT for the French-speaking pipeline](https://github.com/coqui-ai/STT/issues?q=author%3Awasertech)\nWith Coqui-AI, we have implemented various improvements to the STT project to enable training of French-speaking models.\n- [Training new speech transcription models](https://github.com/wasertech/commonvoice-fr/releases)\nFinally, I published new models for French, using 2x as much higher quality augmented data in order to reduce the average word error rate by 10%.\n"
+      },
+      "fr": {
+        "title": "D\u00e9veloppeur en reconnaissance vocale",
+        "company": "Mozilla & Coqui-AI",
+        "details": "- [Mise \u00e0 jour de l'image d'entra\u00eenement du mod\u00e8le fran\u00e7ais CommonVoice](https://github.com/common-voice/commonvoice-fr/pulls?q=is%3Apr+author%3Awasertech+)\nAvec Mozilla, nous avons r\u00e9-impl\u00e9ment\u00e9 l'image d'entra\u00eenement du mod\u00e8le DeepSpeech avec le projet STT (Speech-To-Text) pour continuer \u00e0 transcrire le fran\u00e7ais avec nos machines.\n- [Migration de DeepSpeech vers STT pour le pipeline francophone](https://github.com/coqui-ai/STT/issues?q=author%3Awasertech)\nAvec Coqui-AI, nous avons mis en \u0153uvre diverses am\u00e9liorations du projet STT pour permettre l'entra\u00eenement de mod\u00e8les francophones.\n- [Entra\u00eenement de nouveaux mod\u00e8les de transcription vocale](https://github.com/wasertech/commonvoice-fr/releases)\nEnfin, j'ai publi\u00e9 de nouveaux mod\u00e8les pour le fran\u00e7ais, en utilisant 2x plus de donn\u00e9es augment\u00e9es de meilleure qualit\u00e9 afin de r\u00e9duire le taux d'erreur de mot moyen de 10%.\n"
+      }
+    },
+    {
+      "date": "Jan. 2024 - March 2024",
+      "en": {
+        "title": "Engineer in Artificial Intelligence (AI)",
+        "company": "Synthflow AI",
+        "details": "- Over the phone conversational agents\nModeling conversations over the phone to create production ready conversational agents.\n"
+      },
+      "fr": {
+        "title": "Ing\u00e9nieur en Intelligence Artificielle (IA)",
+        "company": "Synthflow AI",
+        "details": "- Agents conversationnels t\u00e9l\u00e9phoniques\nMod\u00e9lisation de conversations t\u00e9l\u00e9phoniques pour cr\u00e9er des agents conversationnels pr\u00eats pour la production.\n"
+      }
+    },
+    {
+      "date": "Jan. 2020 - July 2023",
+      "en": {
+        "title": "Multimodal conversational agent developer",
+        "company": "Waser Technologies",
+        "details": "- [Multi-modal language translator](https://github.com/wasertech/Translator)\nFast translation tool that uses your material to translate using your preferred translation model.\n- [Text-to-speech tools](https://gitlab.com/waser-technologies/technologies/say) and [voice transcription](https://gitlab.com/waser-technologies/technologies/listen)\nlisten, can transcribe the voice locally in real time and say synthesises the human voice locally.\n- [Conversational agent](https://gitlab.com/waser-technologies/technologies/assistant)\nMy implementation of a personal assistant that I use regularly to make my work easier. Its role is to interface the system and the user via natural language.\n"
+      },
+      "fr": {
+        "title": "D\u00e9veloppeur d'agents conversationnels multimodaux",
+        "company": "Waser Technologies",
+        "details": "- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator)\nOutil de traduction rapide qui utilise votre mat\u00e9riel pour traduire en utilisant votre mod\u00e8le de traduction pr\u00e9f\u00e9r\u00e9.\n- [Outils de synth\u00e8se vocale](https://gitlab.com/waser-technologies/technologies/say) et de [transcription vocale](https://gitlab.com/waser-technologies/technologies/listen)\n\u00e9coutez, peut transcrire la voix localement en temps r\u00e9el et dire synth\u00e9tise la voix humaine localement.\n- [Agent conversationnel](https://gitlab.com/waser-technologies/technologies/assistant)\nMon impl\u00e9mentation d'un assistant personnel que j'utilise r\u00e9guli\u00e8rement pour me faciliter la t\u00e2che. Son r\u00f4le est d'interfacer le syst\u00e8me et l'utilisateur via le langage naturel.\n"
+      }
+    }
+  ],
+  "education": [
+    {
+      "date": "Aug. 2014 - July 2017",
+      "pdf_include": true,
+      "en": {
+        "title": "Commercial Diploma (CFC + MPC)",
+        "institution": "\u00c9cole de Culture G\u00e9n\u00e9rale et de Commerce",
+        "location": "Gymnase de Beaulieu, Lausanne"
+      },
+      "fr": {
+        "title": "Dipl\u00f4me Commercial (CFC + MPC)",
+        "institution": "\u00c9cole de Culture G\u00e9n\u00e9rale et de Commerce",
+        "location": "Gymnase de Beaulieu, Lausanne"
+      }
+    },
+    {
+      "date": "Aug. 2005 - July 2014",
+      "pdf_include": false,
+      "en": {
+        "title": "Secondary Level Certificate (VSG)",
+        "institution": "Primary and secondary level school",
+        "location": "Entre-Bois, Lausanne"
+      },
+      "fr": {
+        "title": "Certificat de niveau secondaire (VSG)",
+        "institution": "\u00c9cole primaire et secondaire",
+        "location": "Entre-Bois, Lausanne"
+      }
+    }
+  ],
+  "certifications": [
+    {
+      "start_date": "Oct. 2023",
+      "end_date": "Nov. 2023",
+      "image": "static/GoogleAdvancedDataAnalyticsCertificate.png",
+      "en": {
+        "title": "Google Advanced Data Analytics Professional Certificate",
+        "issuer": "Google @ Coursera"
+      },
+      "fr": {
+        "title": "Certificat Professionnel Google Advanced Data Analytics",
+        "issuer": "Google @ Coursera"
+      }
+    }
+  ],
+  "contributions": {
+    "manual": [
+      {
+        "project": "Mozilla Common Voice",
+        "url": "https://github.com/common-voice/commonvoice-fr",
+        "category": "speech",
+        "pdf_include": true,
+        "en": {
+          "title": "French STT Model Training Pipeline",
+          "details": "Maintained the CommonVoice-FR training image and published improved French speech models"
+        },
+        "fr": {
+          "title": "Pipeline d'entra\u00eenement de mod\u00e8les STT fran\u00e7ais",
+          "details": "Maintenance de l'image d'entra\u00eenement CommonVoice-FR et publication de mod\u00e8les fran\u00e7ais am\u00e9lior\u00e9s"
+        }
+      }
+    ],
+    "github": [
+      {
+        "project": "huggingface/transformers",
+        "url": "https://github.com/huggingface/transformers",
+        "stars": 153967,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "fix: Initialize ApertusMLP's xielu activation using `torch_dtype`",
+            "url": "https://github.com/huggingface/transformers/pull/42864",
+            "merged_at": "2025-12-15T16:09:50Z"
+          }
+        ],
+        "latest_merge": "2025-12-15T16:09:50Z"
+      },
+      {
+        "project": "django-cms/django-cms",
+        "url": "https://github.com/django-cms/django-cms",
+        "stars": 10608,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "fix: typos in French translations",
+            "url": "https://github.com/django-cms/django-cms/pull/7514",
+            "merged_at": "2023-03-28T15:22:33Z"
+          }
+        ],
+        "latest_merge": "2023-03-28T15:22:33Z"
+      },
+      {
+        "project": "coqui-ai/STT",
+        "url": "https://github.com/coqui-ai/STT",
+        "stars": 2543,
+        "pr_count": 12,
+        "prs": [
+          {
+            "title": "Fix CCPMF importer",
+            "url": "https://github.com/coqui-ai/STT/pull/2067",
+            "merged_at": "2022-01-12T15:38:07Z"
+          },
+          {
+            "title": "Bring back importer for TrainingSpeech",
+            "url": "https://github.com/coqui-ai/STT/pull/2111",
+            "merged_at": "2022-02-23T10:31:24Z"
+          },
+          {
+            "title": "Add excluded sentences to LM",
+            "url": "https://github.com/coqui-ai/STT/pull/2112",
+            "merged_at": "2022-02-19T21:14:32Z"
+          },
+          {
+            "title": "Make lm_optimizer.py as python module",
+            "url": "https://github.com/coqui-ai/STT/pull/2116",
+            "merged_at": "2022-02-23T10:30:46Z"
+          },
+          {
+            "title": "[FIX]: lm_optimize module import from training utils",
+            "url": "https://github.com/coqui-ai/STT/pull/2148",
+            "merged_at": "2022-03-03T15:31:50Z"
+          },
+          {
+            "title": "Fix LM optimization script importing non existing function and add CI testing",
+            "url": "https://github.com/coqui-ai/STT/pull/2203",
+            "merged_at": "2022-04-26T19:21:35Z"
+          },
+          {
+            "title": "Workaround batch size memory test",
+            "url": "https://github.com/coqui-ai/STT/pull/2205",
+            "merged_at": "2022-04-27T10:50:44Z"
+          },
+          {
+            "title": "Fix importers save_excluded_max_sec_to_disk flag",
+            "url": "https://github.com/coqui-ai/STT/pull/2213",
+            "merged_at": "2022-05-30T12:50:54Z"
+          },
+          {
+            "title": "export to tflite using python37 venv",
+            "url": "https://github.com/coqui-ai/STT/pull/2221",
+            "merged_at": "2022-05-30T17:21:36Z"
+          },
+          {
+            "title": "Remove `convert_graphdef_memmapped_format`",
+            "url": "https://github.com/coqui-ai/STT/pull/2222",
+            "merged_at": "2022-05-30T12:51:13Z"
+          },
+          {
+            "title": "Update BUILDING.rst",
+            "url": "https://github.com/coqui-ai/STT/pull/2285",
+            "merged_at": "2022-08-23T09:19:43Z"
+          },
+          {
+            "title": "Updated missing checkpoint path error message",
+            "url": "https://github.com/coqui-ai/STT/pull/2330",
+            "merged_at": "2023-01-12T14:05:17Z"
+          }
+        ],
+        "latest_merge": "2023-01-12T14:05:17Z"
+      },
+      {
+        "project": "casper-hansen/AutoAWQ",
+        "url": "https://github.com/casper-hansen/AutoAWQ",
+        "stars": 2296,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "Let installed PyTorch decide required version number",
+            "url": "https://github.com/casper-hansen/AutoAWQ/pull/573",
+            "merged_at": "2024-09-12T10:41:34Z"
+          }
+        ],
+        "latest_merge": "2024-09-12T10:41:34Z"
+      },
+      {
+        "project": "ixray-team/ixray-1.6-stcop",
+        "url": "https://github.com/ixray-team/ixray-1.6-stcop",
+        "stars": 295,
+        "pr_count": 3,
+        "prs": [
+          {
+            "title": "Support common cross-platform rendering pipeline thru Vulkan",
+            "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/185",
+            "merged_at": "2025-09-07T08:28:22Z"
+          },
+          {
+            "title": "Add support for preferred fallback language",
+            "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/191",
+            "merged_at": "2025-09-13T03:02:16Z"
+          },
+          {
+            "title": "Fix language reload and translate inventory items when switching language ",
+            "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/207",
+            "merged_at": "2025-11-12T08:54:02Z"
+          }
+        ],
+        "latest_merge": "2025-11-12T08:54:02Z"
+      },
+      {
+        "project": "coqui-ai/STT-models",
+        "url": "https://github.com/coqui-ai/STT-models",
+        "stars": 148,
+        "pr_count": 6,
+        "prs": [
+          {
+            "title": "New release 0.8.3 for French STT",
+            "url": "https://github.com/coqui-ai/STT-models/pull/11",
+            "merged_at": "2022-02-15T20:37:07Z"
+          },
+          {
+            "title": "Update cv-fr v0.8 and add v0.9",
+            "url": "https://github.com/coqui-ai/STT-models/pull/17",
+            "merged_at": "2022-07-11T16:49:10Z"
+          },
+          {
+            "title": "Fix broken link for chatio",
+            "url": "https://github.com/coqui-ai/STT-models/pull/20",
+            "merged_at": "2022-08-09T23:19:39Z"
+          },
+          {
+            "title": "Update MODEL_CARD.md",
+            "url": "https://github.com/coqui-ai/STT-models/pull/21",
+            "merged_at": "2022-08-09T23:20:07Z"
+          },
+          {
+            "title": "Update MODEL_CARD.md",
+            "url": "https://github.com/coqui-ai/STT-models/pull/22",
+            "merged_at": "2022-08-09T23:20:26Z"
+          },
+          {
+            "title": "Update MODEL_CARD.md",
+            "url": "https://github.com/coqui-ai/STT-models/pull/23",
+            "merged_at": "2022-08-09T23:20:45Z"
+          }
+        ],
+        "latest_merge": "2022-08-09T23:20:45Z"
+      },
+      {
+        "project": "coqui-ai/STT-examples",
+        "url": "https://github.com/coqui-ai/STT-examples",
+        "stars": 129,
+        "pr_count": 3,
+        "prs": [
+          {
+            "title": "Add Django streaming example",
+            "url": "https://github.com/coqui-ai/STT-examples/pull/34",
+            "merged_at": "2022-06-24T19:07:17Z"
+          },
+          {
+            "title": "Update README.rst",
+            "url": "https://github.com/coqui-ai/STT-examples/pull/36",
+            "merged_at": "2022-06-26T05:56:13Z"
+          },
+          {
+            "title": "Update README.md",
+            "url": "https://github.com/coqui-ai/STT-examples/pull/38",
+            "merged_at": "2022-09-23T12:16:55Z"
+          }
+        ],
+        "latest_merge": "2022-09-23T12:16:55Z"
+      }
+    ]
+  },
+  "portfolio": [
+    {
+      "name": "Assistant",
+      "category": "software",
+      "url": "https://gitlab.com/waser-technologies/technologies/assistant",
+      "image": "static/images/assistant.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Listen",
+      "category": "software",
+      "url": "https://gitlab.com/waser-technologies/technologies/listen",
+      "image": "static/images/soundwaves.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Say",
+      "category": "software",
+      "url": "https://gitlab.com/waser-technologies/technologies/say",
+      "image": "static/images/speech.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Translator",
+      "category": "software",
+      "url": "https://github.com/wasertech/Translator",
+      "image": "static/images/translator.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Speech-To-Text (STT)",
+      "category": "software",
+      "url": "https://github.com/coqui-ai/STT",
+      "image": "static/images/coqui.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "CommonVoice-FR",
+      "category": "software",
+      "url": "https://github.com/wasertech/commonvoice-fr/releases",
+      "image": "static/images/commonvoice.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Cloud.API",
+      "category": "software",
+      "url": "https://gitlab.com/waser-technologies/technologies/cloud.api",
+      "image": "static/images/cloud_api.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Id\u00e9al Isolation",
+      "category": "website",
+      "url": "https://idealisolation.ch",
+      "image": "static/images/ideal-isolation.jpg",
+      "pdf_include": false
+    },
+    {
+      "name": "Google Advanced Data Analytics",
+      "category": "course",
+      "url": "https://github.com/wasertech/Google-Advanced-Data-Analytics-Certificate",
+      "image": "static/images/gada-badge.png",
+      "pdf_include": false
+    }
+  ],
+  "articles": [
+    {
+      "date": "May 5, 2021",
+      "url": "https://discourse.mozilla.org/t/entrainer-des-modeles-sur-mesure-avec-commonvoice-fr/97503",
+      "image": "static/images/commonvoice.jpg",
+      "pdf_include": false,
+      "en": {
+        "title": "Train custom STT models for french with commonvoice-fr",
+        "summary": "How to train custom STT models using the commonvoice-fr docker image, CommonVoice and pre-trained models."
+      },
+      "fr": {
+        "title": "Entra\u00eener des mod\u00e8les STT personnalis\u00e9s pour le fran\u00e7ais avec commonvoice-fr",
+        "summary": "Comment entra\u00eener des mod\u00e8les STT personnalis\u00e9s avec l'image Docker commonvoice-fr, CommonVoice et des mod\u00e8les pr\u00e9-entra\u00een\u00e9s."
+      }
+    }
+  ],
+  "media": [],
+  "sections": {
+    "profile": {
+      "en": "PROFILE",
+      "fr": "PROFIL"
+    },
+    "contact": {
+      "en": "CONTACT",
+      "fr": "CONTACT"
+    },
+    "technical_skills": {
+      "en": "TECHNICAL SKILLS",
+      "fr": "COMP\u00c9TENCES TECHNIQUES"
+    },
+    "languages": {
+      "en": "LANGUAGES",
+      "fr": "LANGUES"
+    },
+    "personal_interests": {
+      "en": "PERSONAL INTERESTS",
+      "fr": "INT\u00c9R\u00caTS PERSONNELS"
+    },
+    "professional_experience": {
+      "en": "PROFESSIONAL EXPERIENCE",
+      "fr": "EXP\u00c9RIENCE PROFESSIONNELLE"
+    },
+    "education": {
+      "en": "EDUCATION",
+      "fr": "FORMATION"
+    },
+    "certification": {
+      "en": "CERTIFICATION",
+      "fr": "CERTIFICATION"
+    },
+    "contributions": {
+      "en": "OPEN SOURCE CONTRIBUTIONS",
+      "fr": "CONTRIBUTIONS OPEN SOURCE"
+    },
+    "portfolio": {
+      "en": "PORTFOLIO",
+      "fr": "PORTFOLIO"
+    },
+    "articles": {
+      "en": "ARTICLES",
+      "fr": "ARTICLES"
+    },
+    "media": {
+      "en": "FEATURED MEDIA",
+      "fr": "M\u00c9DIAS"
+    },
+    "scan_contact": {
+      "en": "SCAN TO CONNECT",
+      "fr": "SCANNEZ POUR CONNECTER"
+    }
+  }
+}

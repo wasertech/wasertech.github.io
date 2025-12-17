@@ -1,0 +1,51 @@
+[profile]
+en = "PROFILE"
+fr = "PROFIL"
+
+[contact]
+en = "CONTACT"
+fr = "CONTACT"
+
+[technical_skills]
+en = "TECHNICAL SKILLS"
+fr = "COMPÉTENCES TECHNIQUES"
+
+[languages]
+en = "LANGUAGES"
+fr = "LANGUES"
+
+[personal_interests]
+en = "PERSONAL INTERESTS"
+fr = "INTÉRÊTS PERSONNELS"
+
+[professional_experience]
+en = "PROFESSIONAL EXPERIENCE"
+fr = "EXPÉRIENCE PROFESSIONNELLE"
+
+[education]
+en = "EDUCATION"
+fr = "FORMATION"
+
+[certification]
+en = "CERTIFICATION"
+fr = "CERTIFICATION"
+
+[contributions]
+en = "OPEN SOURCE CONTRIBUTIONS"
+fr = "CONTRIBUTIONS OPEN SOURCE"
+
+[portfolio]
+en = "PORTFOLIO"
+fr = "PORTFOLIO"
+
+[articles]
+en = "ARTICLES"
+fr = "ARTICLES"
+
+[media]
+en = "FEATURED MEDIA"
+fr = "MÉDIAS"
+
+[scan_contact]
+en = "SCAN TO CONNECT"
+fr = "SCANNEZ POUR CONNECTER"

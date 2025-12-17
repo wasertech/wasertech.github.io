@@ -1,0 +1,62 @@
+[[projects]]
+name = "Assistant"
+category = "software"
+url = "https://gitlab.com/waser-technologies/technologies/assistant"
+image = "static/images/assistant.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Listen"
+category = "software"
+url = "https://gitlab.com/waser-technologies/technologies/listen"
+image = "static/images/soundwaves.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Say"
+category = "software"
+url = "https://gitlab.com/waser-technologies/technologies/say"
+image = "static/images/speech.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Translator"
+category = "software"
+url = "https://github.com/wasertech/Translator"
+image = "static/images/translator.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Speech-To-Text (STT)"
+category = "software"
+url = "https://github.com/coqui-ai/STT"
+image = "static/images/coqui.jpg"
+pdf_include = false
+
+[[projects]]
+name = "CommonVoice-FR"
+category = "software"
+url = "https://github.com/wasertech/commonvoice-fr/releases"
+image = "static/images/commonvoice.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Cloud.API"
+category = "software"
+url = "https://gitlab.com/waser-technologies/technologies/cloud.api"
+image = "static/images/cloud_api.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Idéal Isolation"
+category = "website"
+url = "https://idealisolation.ch"
+image = "static/images/ideal-isolation.jpg"
+pdf_include = false
+
+[[projects]]
+name = "Google Advanced Data Analytics"
+category = "course"
+url = "https://github.com/wasertech/Google-Advanced-Data-Analytics-Certificate"
+image = "static/images/gada-badge.png"
+pdf_include = false
