@@ -22,6 +22,26 @@ fr = "INTÉRÊTS PERSONNELS"
 en = "PROFESSIONAL EXPERIENCE"
 fr = "EXPÉRIENCE PROFESSIONNELLE"
 
+[education]
+en = "EDUCATION"
+fr = "FORMATION"
+
 [certification]
 en = "CERTIFICATION"
 fr = "CERTIFICATION"
+
+[contributions]
+en = "OPEN SOURCE CONTRIBUTIONS"
+fr = "CONTRIBUTIONS OPEN SOURCE"
+
+[portfolio]
+en = "PORTFOLIO"
+fr = "PORTFOLIO"
+
+[articles]
+en = "ARTICLES"
+fr = "ARTICLES"
+
+[media]
+en = "FEATURED MEDIA"
+fr = "MÉDIAS"

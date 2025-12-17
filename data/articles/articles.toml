@@ -1,0 +1,13 @@
+[[articles]]
+date = "May 5, 2021"
+url = "https://discourse.mozilla.org/t/entrainer-des-modeles-sur-mesure-avec-commonvoice-fr/97503"
+image = "static/images/commonvoice.jpg"
+pdf_include = false
+
+[articles.en]
+title = "Train custom STT models for french with commonvoice-fr"
+summary = "How to train custom STT models using the commonvoice-fr docker image, CommonVoice and pre-trained models."
+
+[articles.fr]
+title = "Entraîner des modèles STT personnalisés pour le français avec commonvoice-fr"
+summary = "Comment entraîner des modèles STT personnalisés avec l'image Docker commonvoice-fr, CommonVoice et des modèles pré-entraînés."

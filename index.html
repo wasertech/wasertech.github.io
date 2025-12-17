@@ -3,44 +3,26 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Danny Waser</title>
-    <link rel="icon" type="image/x-xicon" href="static/favicon.png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Danny Waser - AI Engineer</title>
+    <link rel="icon" type="image/x-icon" href="static/favicon.png">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS (No framework) -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <header class="container">
-        <nav>
-            <ul>
-                <li><strong>Danny Waser</strong></li>
-            </ul>
-            <ul>
-                <li><a href="#" class="lang-switch" data-lang="en">EN</a></li>
-                <li><a href="#" class="lang-switch" data-lang="fr">FR</a></li>
-            </ul>
-        </nav>
-        <nav id="main-nav"></nav>
-    </header>
-    <nav id="main-nav" class="container">
-        <!-- Navigation links will be dynamically inserted here -->
-    </nav>
-    <main class="container" id="cv-container">
-        <!-- CV content will be dynamically inserted here -->
-    </main>
-    <footer class="container">
-        <div class="grid">
-            <div>
-                <a href="#" id="download-cv" class="button" download>Download CV (PDF)</a>
-            </div>
-            <div>
-                <a href="static/waser.vcf" download>
-                    <h4>vCard Contact</h4>
-                    <img src="static/images/qrc.png" alt="vCard QR Code" style="width: 100px;">
-                </a>
-            </div>
-        </div>
-    </footer>
-    <script src="static/js/app.js"></script>
+    <div id="app">
+        <!-- App content will be injected here by app.js -->
+        <div class="loading">Loading...</div>
+    </div>
+    
+    <script src="static/js/app.js?v=3"></script>
 </body>
 </html>

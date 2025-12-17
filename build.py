@@ -1,7 +1,102 @@
 import toml
 import json
 import os
+import subprocess
 import qrcode
+from datetime import datetime
+
+def fetch_github_contributions(username="wasertech", min_stars=100, exclude_repos=None):
+    """
+    Fetch merged PRs to external repos using gh CLI.
+    Returns list of contributions sorted by stars (most popular first).
+    """
+    if exclude_repos is None:
+        exclude_repos = []
+    
+    try:
+        # GraphQL query to get merged PRs with repo info
+        query = '''
+        {
+          user(login: "%s") {
+            pullRequests(first: 100, states: MERGED) {
+              nodes {
+                title
+                url
+                mergedAt
+                repository {
+                  nameWithOwner
+                  owner { login }
+                  stargazerCount
+                }
+              }
+            }
+          }
+        }
+        ''' % username
+        
+        result = subprocess.run(
+            ['gh', 'api', 'graphql', '-f', f'query={query}'],
+            capture_output=True, text=True, timeout=30
+        )
+        
+        if result.returncode != 0:
+            print(f"Warning: gh CLI failed: {result.stderr}")
+            return []
+        
+        data = json.loads(result.stdout)
+        prs = data.get('data', {}).get('user', {}).get('pullRequests', {}).get('nodes', [])
+        
+        # Filter: external repos only, above min_stars, not in exclude list
+        contributions = {}
+        for pr in prs:
+            repo = pr['repository']
+            repo_name = repo['nameWithOwner']
+            owner = repo['owner']['login']
+            stars = repo['stargazerCount']
+            
+            # Skip own repos and excluded repos
+            if owner == username or repo_name in exclude_repos:
+                continue
+            
+            # Skip low-star repos
+            if stars < min_stars:
+                continue
+            
+            # Group by repo, count PRs
+            if repo_name not in contributions:
+                contributions[repo_name] = {
+                    'project': repo_name,
+                    'url': f"https://github.com/{repo_name}",
+                    'stars': stars,
+                    'pr_count': 0,
+                    'prs': [],
+                    'latest_merge': None,
+                }
+            
+            contributions[repo_name]['pr_count'] += 1
+            contributions[repo_name]['prs'].append({
+                'title': pr['title'],
+                'url': pr['url'],
+                'merged_at': pr['mergedAt']
+            })
+            
+            # Track latest merge date
+            merge_date = pr['mergedAt']
+            if contributions[repo_name]['latest_merge'] is None or merge_date > contributions[repo_name]['latest_merge']:
+                contributions[repo_name]['latest_merge'] = merge_date
+        
+        # Sort by stars (descending)
+        sorted_contribs = sorted(contributions.values(), key=lambda x: x['stars'], reverse=True)
+        
+        return sorted_contribs
+        
+    except subprocess.TimeoutExpired:
+        print("Warning: gh CLI timed out")
+        return []
+    except Exception as e:
+        print(f"Warning: Failed to fetch contributions: {e}")
+        return []
+
 
 def build_data():
     data = {}
@@ -28,11 +123,59 @@ def build_data():
         if filename.endswith('.toml'):
             data['experiences'].append(toml.load(os.path.join('data/experiences', filename)))
 
+    # Education
+    if os.path.exists('data/education/education.toml'):
+        data['education'] = toml.load('data/education/education.toml')['education']
+    else:
+        data['education'] = []
+
     # Certifications
     data['certifications'] = []
     for filename in sorted(os.listdir('data/certifications')):
         if filename.endswith('.toml'):
             data['certifications'].append(toml.load(os.path.join('data/certifications', filename)))
+
+    # Contributions (auto-fetched from GitHub)
+    contrib_config = {}
+    if os.path.exists('data/contributions/contributions.toml'):
+        contrib_config = toml.load('data/contributions/contributions.toml')
+    
+    min_stars = contrib_config.get('min_stars', 100)
+    exclude_repos = contrib_config.get('exclude_repos', [])
+    manual_contribs = contrib_config.get('contributions', [])
+    
+    # Fetch from GitHub
+    print("Fetching contributions from GitHub...")
+    github_contribs = fetch_github_contributions(
+        username="wasertech",
+        min_stars=min_stars,
+        exclude_repos=exclude_repos
+    )
+    print(f"  Found {len(github_contribs)} external repos with {min_stars}+ stars")
+    
+    # Merge manual and auto-fetched
+    data['contributions'] = {
+        'manual': manual_contribs,
+        'github': github_contribs
+    }
+
+    # Portfolio/Projects
+    if os.path.exists('data/portfolio/projects.toml'):
+        data['portfolio'] = toml.load('data/portfolio/projects.toml')['projects']
+    else:
+        data['portfolio'] = []
+
+    # Articles
+    if os.path.exists('data/articles/articles.toml'):
+        data['articles'] = toml.load('data/articles/articles.toml')['articles']
+    else:
+        data['articles'] = []
+
+    # Media
+    # if os.path.exists('data/media/media.toml'):
+    #     data['media'] = toml.load('data/media/media.toml')['media']
+    # else:
+    data['media'] = []
 
     # Sections
     data['sections'] = toml.load('data/sections/sections.toml')
@@ -71,6 +214,7 @@ END:VCARD"""
     img = qr.make_image(fill_color="black", back_color="white")
     img.save('static/images/qrc.png')
     print("qrc.png built successfully.")
+
 
 if __name__ == '__main__':
     build_data()

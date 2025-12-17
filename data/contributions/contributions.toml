@@ -1,0 +1,27 @@
+# OSS Contributions - fetched automatically via GitHub CLI in build.py
+# This file contains static overrides/additions if needed
+# The build process will merge auto-fetched data with this file
+
+# Minimum stars threshold for auto-fetch
+min_stars = 100
+
+# Projects to always exclude from contributions list
+exclude_repos = [
+    "PredictiveSingularity/Chat-Interface",
+    "DF-Innovation/backend",
+]
+
+# Manual additions (if any contributions aren't on GitHub)
+[[contributions]]
+project = "Mozilla Common Voice"
+url = "https://github.com/common-voice/commonvoice-fr"
+category = "speech"
+pdf_include = true
+
+[contributions.en]
+title = "French STT Model Training Pipeline"
+details = "Maintained the CommonVoice-FR training image and published improved French speech models"
+
+[contributions.fr]
+title = "Pipeline d'entraînement de modèles STT français"
+details = "Maintenance de l'image d'entraînement CommonVoice-FR et publication de modèles français améliorés"

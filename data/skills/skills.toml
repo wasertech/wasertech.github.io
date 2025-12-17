@@ -39,10 +39,6 @@ en = "torch"
 fr = "torch"
 
 [[skills]]
-en = "rasa"
-fr = "rasa"
-
-[[skills]]
 en = "transformers"
 fr = "transformers"
 

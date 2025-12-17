@@ -1,0 +1,17 @@
+[[media]]
+type = "youtube"
+embed_url = "https://www.youtube.com/embed/XCZHkj74xDY?si=7Sz3TXzCYKEl4z-6"
+title = "Demo 1"
+pdf_include = false
+
+[[media]]
+type = "youtube"
+embed_url = "https://www.youtube.com/embed/3_E58TYbLX0"
+title = "Demo 2"
+pdf_include = false
+
+[[media]]
+type = "youtube"
+embed_url = "https://www.youtube.com/embed/eI-aK_j65Sk"
+title = "Demo 3"
+pdf_include = false

@@ -4,11 +4,11 @@ date = "Jan. 2020 - July 2023"
 title = "Multimodal conversational agent developer"
 company = "Waser Technologies"
 details = """
-- Multi-modal language translator
+- [Multi-modal language translator](https://github.com/wasertech/Translator)
 Fast translation tool that uses your material to translate using your preferred translation model.
-- Text-to-speech tools and voice transcription
+- [Text-to-speech tools](https://gitlab.com/waser-technologies/technologies/say) and [voice transcription](https://gitlab.com/waser-technologies/technologies/listen)
 listen, can transcribe the voice locally in real time and say synthesises the human voice locally.
-- Conversational agent
+- [Conversational agent](https://gitlab.com/waser-technologies/technologies/assistant)
 My implementation of a personal assistant that I use regularly to make my work easier. Its role is to interface the system and the user via natural language.
 """
 
@@ -16,10 +16,10 @@ My implementation of a personal assistant that I use regularly to make my work e
 title = "Développeur d'agents conversationnels multimodaux"
 company = "Waser Technologies"
 details = """
-- Traducteur de langage multi-modal
+- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator)
 Outil de traduction rapide qui utilise votre matériel pour traduire en utilisant votre modèle de traduction préféré.
-- Outils de synthèse vocale et de transcription vocale
+- [Outils de synthèse vocale](https://gitlab.com/waser-technologies/technologies/say) et de [transcription vocale](https://gitlab.com/waser-technologies/technologies/listen)
 écoutez, peut transcrire la voix localement en temps réel et dire synthétise la voix humaine localement.
-- Agent conversationnel
+- [Agent conversationnel](https://gitlab.com/waser-technologies/technologies/assistant)
 Mon implémentation d'un assistant personnel que j'utilise régulièrement pour me faciliter la tâche. Son rôle est d'interfacer le système et l'utilisateur via le langage naturel.
 """

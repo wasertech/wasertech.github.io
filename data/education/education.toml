@@ -1,0 +1,27 @@
+[[education]]
+date = "Aug. 2014 - July 2017"
+pdf_include = true
+
+[education.en]
+title = "Commercial Diploma (CFC + MPC)"
+institution = "École de Culture Générale et de Commerce"
+location = "Gymnase de Beaulieu, Lausanne"
+
+[education.fr]
+title = "Diplôme Commercial (CFC + MPC)"
+institution = "École de Culture Générale et de Commerce"
+location = "Gymnase de Beaulieu, Lausanne"
+
+[[education]]
+date = "Aug. 2005 - July 2014"
+pdf_include = false
+
+[education.en]
+title = "Secondary Level Certificate (VSG)"
+institution = "Primary and secondary level school"
+location = "Entre-Bois, Lausanne"
+
+[education.fr]
+title = "Certificat de niveau secondaire (VSG)"
+institution = "École primaire et secondaire"
+location = "Entre-Bois, Lausanne"

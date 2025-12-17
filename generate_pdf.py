@@ -3,6 +3,7 @@ from fpdf import FPDF
 import os
 import datetime
 from PIL import Image
+import re
 
 class PDF(FPDF):
     def __init__(self, *args, **kwargs):
@@ -136,9 +137,50 @@ def generate_pdf(lang):
     current_y_right = pdf.print_section_header(right_col_x, current_y_right, data['sections']['professional_experience'][lang])
     for exp in sorted(data['experiences'], key=date_key, reverse=True):
         current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, exp[lang]['title'], font_size=10, style='B', line_height=5)
-        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, f"{exp[lang]['company']} | {exp['date']}", font_size=9, line_height=4, style='I')
-        details_with_bullets = exp[lang]['details'].replace('- ', '• ')
-        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, details_with_bullets, font_size=9, line_height=4, margin_bottom=5)
+        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, f"{exp[lang]['company']} | {exp['date']}", font_size=9, line_height=4, style='I', margin_bottom=2)
+        
+        pdf.set_xy(right_col_x, current_y_right)
+        
+        details = exp[lang]['details']
+        
+        if details.startswith('- '):
+            details = details[2:]
+        bullet_points = details.split('\n- ')
+        
+        for point in bullet_points:
+            pdf.set_x(right_col_x)
+            pdf.write(4, '• ')
+            
+            lines = point.split('\n')
+            first_line = lines[0]
+            rest_of_lines = '\n'.join(lines[1:])
+            
+            match = re.match(r'\[(.*?)\]\((.*?)\)', first_line)
+            
+            # Temporarily change left margin to avoid wrapping to page start
+            pdf.set_left_margin(right_col_x + 4)
+            
+            if match:
+                link_text = match.group(1)
+                link_url = match.group(2)
+                
+                pdf.set_font('DejaVuSans', 'U', 9)
+                pdf.set_text_color(0, 0, 255)
+                pdf.write(4, link_text, link_url)
+                pdf.set_font('DejaVuSans', '', 9)
+                pdf.set_text_color(0, 0, 0)
+            else:
+                pdf.write(4, first_line)
+            
+            # Restore margins
+            pdf.set_left_margin(15)
+            pdf.ln(4)
+            
+            if rest_of_lines:
+                pdf.set_x(right_col_x + 4)
+                pdf.multi_cell(col_width_right - 4, 4, rest_of_lines)
+
+        current_y_right = pdf.get_y() + 5
 
     # Certification
     current_y_right = pdf.print_section_header(right_col_x, current_y_right, data['sections']['certification'][lang])
