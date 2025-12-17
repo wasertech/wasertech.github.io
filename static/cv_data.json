@@ -245,7 +245,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 153965,
+        "stars": 153967,
         "pr_count": 1,
         "prs": [
           {
@@ -572,6 +572,10 @@
     "media": {
       "en": "FEATURED MEDIA",
       "fr": "M\u00c9DIAS"
+    },
+    "scan_contact": {
+      "en": "SCAN TO CONNECT",
+      "fr": "SCANNEZ POUR CONNECTER"
     }
   }
 }

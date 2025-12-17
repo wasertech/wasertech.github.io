@@ -434,3 +434,43 @@ section {
         margin-bottom: 0;
     }
 }
+
+/* QR Code Container in Sidebar */
+.qr-container {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    border: 1px dashed var(--border-color);
+    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.qr-container:hover {
+    border-color: var(--accent-primary);
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-2px);
+}
+
+.qr-container img {
+    width: 140px;
+    height: 140px;
+    border-radius: 4px;
+    border: 4px solid white;
+    /* Ensure white border for scanning contrast */
+    margin-bottom: 0.75rem;
+    transition: transform 0.3s ease;
+}
+
+.qr-container:hover img {
+    transform: scale(1.05);
+}
+
+.qr-label {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}

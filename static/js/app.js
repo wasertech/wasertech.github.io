@@ -51,6 +51,11 @@ document.addEventListener('DOMContentLoaded', () => {
                     <button class="lang-btn ${lang === 'fr' ? 'active' : ''}" data-lang="fr">FR</button>
                 </div>
                 
+                <div class="qr-container">
+                    <img src="static/images/qrc.png" alt="Contact QR Code" title="Scan to save contact">
+                    <div class="qr-label">${s.scan_contact[lang]}</div>
+                </div>
+                
                 <div style="margin-top: 2rem; text-align: center;">
                     <a href="static/CV_${lang.toUpperCase()}.pdf" class="cta-button" download>
                         <i class="fas fa-file-download"></i> PDF

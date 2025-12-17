@@ -45,3 +45,7 @@ fr = "ARTICLES"
 [media]
 en = "FEATURED MEDIA"
 fr = "MÉDIAS"
+
+[scan_contact]
+en = "SCAN TO CONNECT"
+fr = "SCANNEZ POUR CONNECTER"
