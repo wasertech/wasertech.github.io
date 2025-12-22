@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> ${s.professional_experience[lang]}</a>
                     <a href="#contributions" class="nav-link"><i class="fas fa-code-branch"></i> ${s.contributions[lang]}</a>
                     <a href="#portfolio" class="nav-link"><i class="fas fa-laptop-code"></i> ${s.portfolio[lang]}</a>
-                    <a href="#media" class="nav-link"><i class="fas fa-photo-video"></i> ${s.media[lang]}</a>
+                    <!-- <a href="#media" class="nav-link"><i class="fas fa-photo-video"></i> ${s.media[lang]}</a> -->
                 </nav>
 
                 <div class="lang-switch-container">
