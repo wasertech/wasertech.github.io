@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
             .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>');
     };
 
-    const getSocialLinksHtml = (contact) => {
-        const links = [
+    const getSocialLinksHtml = (contact, whitelist = null) => {
+        let links = [
             { key: 'github', icon: 'fab fa-github', title: 'GitHub' },
             { key: 'gitlab', icon: 'fab fa-gitlab', title: 'GitLab' },
             { key: 'linkedin', icon: 'fab fa-linkedin', title: 'LinkedIn' },
@@ -28,6 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: 'discourse', icon: 'fab fa-firefox', title: 'Discourse' }, // Using firefox icon for mozilla discourse as in old index
             { key: 'matrix', icon: 'fas fa-comments', title: 'Matrix' }
         ];
+
+        if (whitelist) {
+            links = links.filter(l => whitelist.includes(l.key));
+        }
 
         return `
             <div class="social-links">
@@ -58,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="static/images/portrait.webp" alt="Profile" class="profile-image">
                     <h1 class="profile-name">Danny Waser</h1>
                     <p class="profile-tagline">AI Engineer & Full Stack Dev</p>
-                    ${getSocialLinksHtml(d.contact)}
+                    ${getSocialLinksHtml(d.contact, ['github', 'gitlab', 'linkedin'])}
                 </div>
 
                 <nav class="nav-menu">
