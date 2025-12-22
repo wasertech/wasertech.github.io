@@ -13,8 +13,12 @@
     "email": "danny@waser.tech",
     "website": "https://waser.tech",
     "github": "https://github.com/wasertech",
-    "gitlab": "https://gitlab.com/wasertech",
-    "linkedin": "https://linkedin.com/in/wasertech/"
+    "gitlab": "https://gitlab.com/waser-technologies",
+    "linkedin": "https://linkedin.com/in/wasertech/",
+    "docker": "https://hub.docker.com/u/wasertech",
+    "discourse": "https://discourse.mozilla.org/u/skeilnet/summary",
+    "youtube": "https://www.youtube.com/@wasertech",
+    "matrix": "https://matrix.to/#/@skeilnet:mozilla.org"
   },
   "skills": [
     {
@@ -245,7 +249,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 153967,
+        "stars": 154135,
         "pr_count": 1,
         "prs": [
           {
@@ -259,7 +263,7 @@
       {
         "project": "django-cms/django-cms",
         "url": "https://github.com/django-cms/django-cms",
-        "stars": 10608,
+        "stars": 10607,
         "pr_count": 1,
         "prs": [
           {
@@ -273,7 +277,7 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2543,
+        "stars": 2544,
         "pr_count": 12,
         "prs": [
           {
@@ -342,7 +346,7 @@
       {
         "project": "casper-hansen/AutoAWQ",
         "url": "https://github.com/casper-hansen/AutoAWQ",
-        "stars": 2296,
+        "stars": 2298,
         "pr_count": 1,
         "prs": [
           {
@@ -356,7 +360,7 @@
       {
         "project": "ixray-team/ixray-1.6-stcop",
         "url": "https://github.com/ixray-team/ixray-1.6-stcop",
-        "stars": 295,
+        "stars": 296,
         "pr_count": 3,
         "prs": [
           {

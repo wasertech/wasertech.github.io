@@ -112,7 +112,11 @@ def generate_pdf(lang):
         data['contact']['website'],
         data['contact']['github'],
         data['contact']['gitlab'],
-        data['contact']['linkedin']
+        data['contact']['linkedin'],
+        data['contact']['docker'],
+        data['contact']['discourse'],
+        data['contact']['youtube'],
+        data['contact']['matrix']
     ]
     for item in contact_items:
         current_y_left = pdf.print_text_block(left_col_x, current_y_left, col_width_left, item, margin_bottom=0)
