@@ -197,6 +197,10 @@ URL:{contact_data['website']}
 URL:{contact_data['github']}
 URL:{contact_data['gitlab']}
 URL:{contact_data['linkedin']}
+URL:{contact_data['docker']}
+URL:{contact_data['discourse']}
+URL:{contact_data['youtube']}
+URL:{contact_data['matrix']}
 END:VCARD"""
     with open('static/waser.vcf', 'w') as f:
         f.write(vcard)

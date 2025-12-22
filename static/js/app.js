@@ -18,6 +18,32 @@ document.addEventListener('DOMContentLoaded', () => {
             .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>');
     };
 
+    const getSocialLinksHtml = (contact, whitelist = null) => {
+        let links = [
+            { key: 'github', icon: 'fab fa-github', title: 'GitHub' },
+            { key: 'gitlab', icon: 'fab fa-gitlab', title: 'GitLab' },
+            { key: 'linkedin', icon: 'fab fa-linkedin', title: 'LinkedIn' },
+            { key: 'docker', icon: 'fab fa-docker', title: 'Docker Hub' },
+            { key: 'youtube', icon: 'fab fa-youtube', title: 'YouTube' },
+            { key: 'discourse', icon: 'fab fa-firefox', title: 'Discourse' }, // Using firefox icon for mozilla discourse as in old index
+            { key: 'matrix', icon: 'fas fa-comments', title: 'Matrix' }
+        ];
+
+        if (whitelist) {
+            links = links.filter(l => whitelist.includes(l.key));
+        }
+
+        return `
+            <div class="social-links">
+                ${links.map(l => contact[l.key] ? `
+                    <a href="${contact[l.key]}" class="social-icon" target="_blank" title="${l.title}">
+                        <i class="${l.icon}"></i>
+                    </a>
+                ` : '').join('')}
+            </div>
+        `;
+    };
+
     const renderApp = (lang) => {
         if (!currentData) return;
         const d = currentData;
@@ -36,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="static/images/portrait.webp" alt="Profile" class="profile-image">
                     <h1 class="profile-name">Danny Waser</h1>
                     <p class="profile-tagline">AI Engineer & Full Stack Dev</p>
+                    ${getSocialLinksHtml(d.contact, ['github', 'gitlab', 'linkedin'])}
                 </div>
 
                 <nav class="nav-menu">
@@ -43,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> ${s.professional_experience[lang]}</a>
                     <a href="#contributions" class="nav-link"><i class="fas fa-code-branch"></i> ${s.contributions[lang]}</a>
                     <a href="#portfolio" class="nav-link"><i class="fas fa-laptop-code"></i> ${s.portfolio[lang]}</a>
-                    <a href="#media" class="nav-link"><i class="fas fa-photo-video"></i> ${s.media[lang]}</a>
+                    <!-- <a href="#media" class="nav-link"><i class="fas fa-photo-video"></i> ${s.media[lang]}</a> -->
                 </nav>
 
                 <div class="lang-switch-container">
@@ -79,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <li style="margin-bottom: 0.5rem;"><i class="fas fa-envelope" style="width:20px"></i> <a href="mailto:${d.contact.email}">${d.contact.email}</a></li>
                                 <li><i class="fas fa-globe" style="width:20px"></i> <a href="${d.contact.website}" target="_blank">waser.tech</a></li>
                             </ul>
+                            ${getSocialLinksHtml(d.contact)}
                          </div>
                          <div>
                             <h3>${s.technical_skills[lang]}</h3>
