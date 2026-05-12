@@ -48,13 +48,6 @@ image = "static/images/cloud_api.jpg"
 pdf_include = false
 
 [[projects]]
-name = "Idéal Isolation"
-category = "website"
-url = "https://idealisolation.ch"
-image = "static/images/ideal-isolation.jpg"
-pdf_include = false
-
-[[projects]]
 name = "Google Advanced Data Analytics"
 category = "course"
 url = "https://github.com/wasertech/Google-Advanced-Data-Analytics-Certificate"

@@ -1,14 +1,22 @@
 [[skills]]
-en = "GNU/Linux distribution"
-fr = "Distribution GNU/Linux"
-
-[[skills]]
 en = "Python"
 fr = "Python"
 
 [[skills]]
+en = "GNU/Linux"
+fr = "GNU/Linux"
+
+[[skills]]
 en = "bash"
 fr = "bash"
+
+[[skills]]
+en = "Zsh"
+fr = "Zsh"
+
+[[skills]]
+en = "Xonsh"
+fr = "Xonsh"
 
 [[skills]]
 en = "git"
@@ -43,20 +51,8 @@ en = "transformers"
 fr = "transformers"
 
 [[skills]]
-en = "DeepSpeech/STT"
-fr = "DeepSpeech/STT"
-
-[[skills]]
-en = "TTS"
-fr = "TTS"
-
-[[skills]]
 en = "prompt_toolkit"
 fr = "prompt_toolkit"
-
-[[skills]]
-en = "JelasticAPI"
-fr = "JelasticAPI"
 
 [[skills]]
 en = "Django"
@@ -65,11 +61,3 @@ fr = "Django"
 [[skills]]
 en = "node.js"
 fr = "node.js"
-
-[[skills]]
-en = "cookiecutter"
-fr = "cookiecutter"
-
-[[skills]]
-en = "dataset management"
-fr = "gestion de dataset"
