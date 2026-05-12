@@ -1,6 +1,7 @@
 start_date = "Oct. 2023"
 end_date = "Nov. 2023"
 image = "static/GoogleAdvancedDataAnalyticsCertificate.png"
+url = "static/GoogleAdvancedDataAnalyticsCertificate.pdf"
 
 [en]
 title = "Google Advanced Data Analytics Professional Certificate"

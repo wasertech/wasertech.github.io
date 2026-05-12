@@ -166,27 +166,25 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2 class="section-title">${s.contributions[lang]}</h2>
                     <div class="grid-2">
                         ${github.map(repo => `
-                            <article class="card">
+                            <article class="card contrib-card">
                                 <div class="contrib-header">
-                                    <a href="${repo.url}" target="_blank"><strong>${repo.project}</strong></a>
+                                    <a href="${repo.url}" target="_blank" class="contrib-project-link">${repo.project}</a>
                                     <span class="contrib-stars"><i class="fas fa-star"></i> ${formatStars(repo.stars)}</span>
                                 </div>
-                                <p class="contrib-stats">
-                                    ${repo.pr_count} PR${repo.pr_count > 1 ? 's' : ''} merged
-                                </p>
+                                <p class="contrib-stats">${repo.pr_count} PR${repo.pr_count > 1 ? 's' : ''} merged</p>
                                 <ul class="pr-list">
                                     ${repo.prs.slice(0, 3).map(pr => `<li><a href="${pr.url}" target="_blank">${pr.title}</a></li>`).join('')}
                                 </ul>
                             </article>
                         `).join('')}
                         ${manual.map(c => `
-                            <article class="card">
+                            <article class="card contrib-card">
                                 <div class="contrib-header">
-                                    <a href="${c.url}" target="_blank"><strong>${c.project}</strong></a>
-                                    <span class="contrib-stars"><i class="fas fa-check"></i> Contrib</span>
+                                    <a href="${c.url}" target="_blank" class="contrib-project-link">${c.project}</a>
+                                    <span class="contrib-badge"><i class="fas fa-check-circle"></i> ${s.contribution[lang] || 'Contribution'}</span>
                                 </div>
-                                <p><strong>${c[lang].title}</strong></p>
-                                <p style="font-size: 0.9rem; color: var(--text-secondary);">${c[lang].details}</p>
+                                <p class="contrib-title"><strong>${c[lang].title}</strong></p>
+                                <p class="contrib-details">${c[lang].details}</p>
                             </article>
                         `).join('')}
                     </div>
@@ -197,11 +195,33 @@ document.addEventListener('DOMContentLoaded', () => {
         // 4. Portfolio
         const renderPortfolio = () => {
             if (!d.portfolio || d.portfolio.length === 0) return '';
-            return `
-                <section id="portfolio">
-                    <h2 class="section-title">${s.portfolio[lang]}</h2>
+
+            const software = d.portfolio.filter(p => p.category === 'software');
+            const courses = d.portfolio.filter(p => p.category === 'course');
+
+            let html = `<section id="portfolio">
+                <h2 class="section-title">${s.portfolio[lang]}</h2>`;
+
+            // Software projects — description-based cards
+            if (software.length > 0) {
+                html += `<h3 style="margin-bottom: 1rem; color: var(--accent-primary);">${s.software[lang] || 'Software'}</h3>
+                    <div class="grid-2">
+                        ${software.map(p => `
+                            <div class="card software-card">
+                                <a href="${p.url}" target="_blank" class="software-card-link">
+                                    <h4>${p.name}</h4>
+                                </a>
+                                <p class="software-description">${p[lang]?.description || ''}</p>
+                            </div>
+                        `).join('')}
+                    </div>`;
+            }
+
+            // Courses / Certifications — image-based cards
+            if (courses.length > 0) {
+                html += `<h3 style="margin-top: 3rem; margin-bottom: 1rem; color: var(--accent-primary);">${s.certifications[lang] || 'Certifications'}</h3>
                     <div class="grid-3">
-                        ${d.portfolio.map(p => `
+                        ${courses.map(p => `
                             <div class="card project-card">
                                 <a href="${p.url}" target="_blank">
                                     <img src="${p.image}" alt="${p.name}" loading="lazy">
@@ -210,9 +230,11 @@ document.addEventListener('DOMContentLoaded', () => {
                                 </a>
                             </div>
                         `).join('')}
-                    </div>
-                </section>
-            `;
+                    </div>`;
+            }
+
+            html += `</section>`;
+            return html;
         };
 
         // 5. Media/Articles
@@ -250,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${renderMedia()}
                 
                 <footer style="margin-top: 5rem; text-align: center; color: var(--text-secondary); font-size: 0.9rem;">
-                    <p>&copy; ${new Date().getFullYear()} Danny Waser. Built with 🧠 by Antigravity.</p>
+                    <p>&copy; ${new Date().getFullYear()} Danny Waser.</p>
                 </footer>
             </main>
         `;

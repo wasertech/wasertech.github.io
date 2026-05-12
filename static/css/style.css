@@ -196,24 +196,91 @@ section {
 /* OSS Contribution Cards Fixes */
 .contrib-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: flex-start;
-    /* Better alignment for multi-line titles */
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+    gap: 0.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.contrib-project-link {
+    font-size: 1.05rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    word-break: break-word;
+    line-height: 1.3;
+    transition: color 0.2s;
+}
+
+.contrib-project-link:hover {
+    color: var(--accent-primary);
 }
 
 .contrib-stars {
     background: rgba(251, 191, 36, 0.1);
     color: #fbbf24;
-    padding: 0.25rem 0.5rem;
+    padding: 0.2rem 0.5rem;
     border-radius: 15px;
     font-size: 0.75rem;
     font-weight: 600;
     white-space: nowrap;
-    /* Prevent wrapping */
-    flex-shrink: 0;
-    /* Don't shrink the badge */
+}
+
+.contrib-badge {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22c55e;
+    padding: 0.2rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.contrib-stats {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+}
+
+.contrib-title {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+}
+
+.contrib-details {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.pr-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pr-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.pr-list li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--accent-secondary);
+}
+
+.pr-list li a {
+    color: var(--text-secondary);
+    text-decoration: none;
+}
+
+.pr-list li a:hover {
+    color: var(--accent-primary);
 }
 
 /* CTA Button Styling */
@@ -347,43 +414,6 @@ section {
     border: 1px solid rgba(56, 189, 248, 0.2);
 }
 
-/* OSS Contribution Cards */
-.contrib-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-}
-
-.contrib-stars {
-    background: rgba(251, 191, 36, 0.1);
-    color: #fbbf24;
-    padding: 0.25rem 0.75rem;
-    border-radius: 15px;
-    font-size: 0.85rem;
-    font-weight: 600;
-}
-
-.contrib-stats {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    margin-bottom: 1rem;
-}
-
-.pr-list li {
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    padding-left: 1rem;
-    position: relative;
-}
-
-.pr-list li::before {
-    content: '▹';
-    position: absolute;
-    left: 0;
-    color: var(--accent-secondary);
-}
-
 /* Projects / Portfolio */
 .project-card img {
     width: 100%;
@@ -393,6 +423,11 @@ section {
     margin-bottom: 1rem;
 }
 
+.project-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .project-category {
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -400,6 +435,36 @@ section {
     letter-spacing: 1px;
     margin-bottom: 0.5rem;
     display: block;
+}
+
+/* Software Project Cards */
+.software-card {
+    padding: 1.5rem;
+}
+
+.software-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    margin-bottom: 0.75rem;
+}
+
+.software-card-link h4 {
+    font-size: 1.15rem;
+    margin: 0;
+    color: var(--accent-primary);
+    transition: color 0.2s;
+}
+
+.software-card-link:hover h4 {
+    color: var(--accent-secondary);
+}
+
+.software-description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin: 0;
 }
 
 /* Mobile Responsiveness */
@@ -419,7 +484,7 @@ section {
 
     .main-content {
         margin-left: 0;
-        padding: 2rem 1.5rem;
+        padding: 1.5rem 1rem;
     }
 
     .nav-menu {
@@ -432,6 +497,90 @@ section {
     .nav-link {
         white-space: nowrap;
         margin-bottom: 0;
+        font-size: 0.85rem;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .card {
+        padding: 1.25rem;
+        overflow: hidden;
+    }
+
+    /* Contributions — already column layout, just scale down */
+    .contrib-project-link {
+        font-size: 1rem;
+        word-break: break-all;
+    }
+
+    .contrib-stars,
+    .contrib-badge {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.4rem;
+    }
+
+    .contrib-stats {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .pr-list li {
+        font-size: 0.8rem;
+    }
+
+    .project-card img {
+        height: 140px;
+    }
+
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .profile-name {
+        font-size: 1.25rem;
+    }
+
+    .qr-container img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .software-card-link h4 {
+        font-size: 1.05rem;
+    }
+
+    .software-description {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        padding: 1rem 0.75rem;
+    }
+
+    .card {
+        padding: 1rem;
+    }
+
+    .software-card-link h4 {
+        font-size: 0.95rem;
+    }
+
+    .software-description {
+        font-size: 0.8rem;
     }
 }
 

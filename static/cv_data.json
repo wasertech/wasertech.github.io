@@ -22,16 +22,24 @@
   },
   "skills": [
     {
-      "en": "GNU/Linux distribution",
-      "fr": "Distribution GNU/Linux"
-    },
-    {
       "en": "Python",
       "fr": "Python"
     },
     {
+      "en": "GNU/Linux",
+      "fr": "GNU/Linux"
+    },
+    {
       "en": "bash",
       "fr": "bash"
+    },
+    {
+      "en": "Zsh",
+      "fr": "Zsh"
+    },
+    {
+      "en": "Xonsh",
+      "fr": "Xonsh"
     },
     {
       "en": "git",
@@ -66,20 +74,8 @@
       "fr": "transformers"
     },
     {
-      "en": "DeepSpeech/STT",
-      "fr": "DeepSpeech/STT"
-    },
-    {
-      "en": "TTS",
-      "fr": "TTS"
-    },
-    {
       "en": "prompt_toolkit",
       "fr": "prompt_toolkit"
-    },
-    {
-      "en": "JelasticAPI",
-      "fr": "JelasticAPI"
     },
     {
       "en": "Django",
@@ -88,14 +84,6 @@
     {
       "en": "node.js",
       "fr": "node.js"
-    },
-    {
-      "en": "cookiecutter",
-      "fr": "cookiecutter"
-    },
-    {
-      "en": "dataset management",
-      "fr": "gestion de dataset"
     }
   ],
   "languages": [
@@ -218,6 +206,7 @@
       "start_date": "Oct. 2023",
       "end_date": "Nov. 2023",
       "image": "static/GoogleAdvancedDataAnalyticsCertificate.png",
+      "url": "static/GoogleAdvancedDataAnalyticsCertificate.pdf",
       "en": {
         "title": "Google Advanced Data Analytics Professional Certificate",
         "issuer": "Google @ Coursera"
@@ -249,7 +238,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 154135,
+        "stars": 160530,
         "pr_count": 1,
         "prs": [
           {
@@ -263,7 +252,7 @@
       {
         "project": "django-cms/django-cms",
         "url": "https://github.com/django-cms/django-cms",
-        "stars": 10607,
+        "stars": 10633,
         "pr_count": 1,
         "prs": [
           {
@@ -277,7 +266,7 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2544,
+        "stars": 2585,
         "pr_count": 12,
         "prs": [
           {
@@ -346,7 +335,7 @@
       {
         "project": "casper-hansen/AutoAWQ",
         "url": "https://github.com/casper-hansen/AutoAWQ",
-        "stars": 2298,
+        "stars": 2335,
         "pr_count": 1,
         "prs": [
           {
@@ -360,7 +349,7 @@
       {
         "project": "ixray-team/ixray-1.6-stcop",
         "url": "https://github.com/ixray-team/ixray-1.6-stcop",
-        "stars": 296,
+        "stars": 381,
         "pr_count": 3,
         "prs": [
           {
@@ -384,7 +373,7 @@
       {
         "project": "coqui-ai/STT-models",
         "url": "https://github.com/coqui-ai/STT-models",
-        "stars": 148,
+        "stars": 155,
         "pr_count": 6,
         "prs": [
           {
@@ -423,7 +412,7 @@
       {
         "project": "coqui-ai/STT-examples",
         "url": "https://github.com/coqui-ai/STT-examples",
-        "stars": 129,
+        "stars": 132,
         "pr_count": 3,
         "prs": [
           {
@@ -452,61 +441,70 @@
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/assistant",
       "image": "static/images/assistant.jpg",
-      "pdf_include": false
+      "pdf_include": false,
+      "en": {
+        "description": "AI-powered shell combining a Xonsh terminal with a multi-agent LLM system. Talk naturally, run commands, browse the web, and read/edit files from one prompt. An orchestrator delegates tasks to specialised agents (system ops, web research). Integrates with Ollama/vLLM/OpenAI APIs, SearXNG search, Rich TUI, and optional voice via Say/Listen."
+      },
+      "fr": {
+        "description": "Shell aliment\u00e9 par l'IA combinant un terminal Xonsh avec un syst\u00e8me multi-agent LLM. Parlez naturellement, ex\u00e9cutez des commandes, naviguez sur le web et lisez/modifiez des fichiers depuis un seul prompt. Un orchestrateur d\u00e9l\u00e8gue les t\u00e2ches \u00e0 des agents sp\u00e9cialis\u00e9s (ops syst\u00e8me, recherche web). Int\u00e8gre Ollama/vLLM/OpenAI, SearXNG, Rich TUI, et voix optionnelle via Say/Listen."
+      }
     },
     {
       "name": "Listen",
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/listen",
       "image": "static/images/soundwaves.jpg",
-      "pdf_include": false
+      "pdf_include": false,
+      "en": {
+        "description": "Speech-to-text system with server-client architecture. The server hosts ASR models over a socket as a background service; the client transcribes audio from files or live microphone input in real time. Uses Faster-Whisper, webRTC VAD for non-speech filtering, and supports configurable recording for training."
+      },
+      "fr": {
+        "description": "Syst\u00e8me de reconnaissance vocale avec architecture serveur-client. Le serveur h\u00e9berge des mod\u00e8les ASR via socket en service de fond ; le client transcrit l'audio depuis des fichiers ou le micro en temps r\u00e9el. Utilise Faster-Whisper, webRTC VAD pour le filtrage non-parlant, et supporte l'enregistrement configurable pour l'entra\u00eenement."
+      }
     },
     {
       "name": "Say",
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/say",
       "image": "static/images/speech.jpg",
-      "pdf_include": false
+      "pdf_include": false,
+      "en": {
+        "description": "Text-to-speech tool that works like `echo` but with voice output. Uses OpenVoice v2 to generate convincing, customizable voices from short audio samples (5\u201315 seconds). Runs as a background server with a CLI client, supports multiple languages, and outputs WAV files."
+      },
+      "fr": {
+        "description": "Outil de synth\u00e8se vocale qui fonctionne comme `echo` mais avec une sortie vocale. Utilise OpenVoice v2 pour g\u00e9n\u00e9rer des voix convaincues et personnalisables \u00e0 partir de courts \u00e9chantillons audio (5\u201315 secondes). S'ex\u00e9cute comme serveur de fond avec un client CLI, supporte plusieurs langues et produit des fichiers WAV."
+      }
     },
     {
       "name": "Translator",
       "category": "software",
       "url": "https://github.com/wasertech/Translator",
       "image": "static/images/translator.jpg",
-      "pdf_include": false
-    },
-    {
-      "name": "Speech-To-Text (STT)",
-      "category": "software",
-      "url": "https://github.com/coqui-ai/STT",
-      "image": "static/images/coqui.jpg",
-      "pdf_include": false
-    },
-    {
-      "name": "CommonVoice-FR",
-      "category": "software",
-      "url": "https://github.com/wasertech/commonvoice-fr/releases",
-      "image": "static/images/commonvoice.jpg",
-      "pdf_include": false
+      "pdf_include": false,
+      "en": {
+        "description": "Lightweight CLI and Python package for fast, batch-friendly translation workflows. Supports single-sentence translation, directory/file translation, and full PO (gettext) file handling \u2014 preserving metadata, comments, and structure. Ideal for localization workflows (Poedit/Django). Uses Hugging Face NLLB-200 with 200+ language support."
+      },
+      "fr": {
+        "description": "CLI et package Python l\u00e9ger pour des workflows de traduction rapides et batch. Supporte la traduction phrase par phrase, par r\u00e9pertoire/fichier, et la gestion compl\u00e8te de fichiers PO (gettext) \u2014 pr\u00e9servant m\u00e9tadonn\u00e9es, commentaires et structure. Id\u00e9al pour la localisation (Poedit/Django). Utilise NLLB-200 de Hugging Face avec 200+ langues."
+      }
     },
     {
       "name": "Cloud.API",
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/cloud.api",
       "image": "static/images/cloud_api.jpg",
-      "pdf_include": false
-    },
-    {
-      "name": "Id\u00e9al Isolation",
-      "category": "website",
-      "url": "https://idealisolation.ch",
-      "image": "static/images/ideal-isolation.jpg",
-      "pdf_include": false
+      "pdf_include": false,
+      "en": {
+        "description": "Python library and CLI for managing Jelastic cloud environments \u2014 create, start, stop, delete, clone, and configure environments programmatically. Includes an MCP (Model Context Protocol) server that lets AI assistants like Claude directly interact with and manage cloud infrastructure."
+      },
+      "fr": {
+        "description": "Biblioth\u00e8que Python et CLI pour g\u00e9rer des environnements cloud Jelastic \u2014 cr\u00e9er, d\u00e9marrer, arr\u00eater, supprimer, cloner et configurer des environnements programmatically. Inclut un serveur MCP (Model Context Protocol) permettant aux assistants IA comme Claude d'interagir directement avec l'infrastructure cloud."
+      }
     },
     {
       "name": "Google Advanced Data Analytics",
       "category": "course",
-      "url": "https://github.com/wasertech/Google-Advanced-Data-Analytics-Certificate",
+      "url": "static/GoogleAdvancedDataAnalyticsCertificate.pdf",
       "image": "static/images/gada-badge.png",
       "pdf_include": false
     }
@@ -568,6 +566,22 @@
     "portfolio": {
       "en": "PORTFOLIO",
       "fr": "PORTFOLIO"
+    },
+    "software": {
+      "en": "SOFTWARE PROJECTS",
+      "fr": "PROJETS LOGICIELS"
+    },
+    "certifications": {
+      "en": "CERTIFICATIONS",
+      "fr": "CERTIFICATIONS"
+    },
+    "view_project": {
+      "en": "View project",
+      "fr": "Voir le projet"
+    },
+    "contribution": {
+      "en": "Contribution",
+      "fr": "Contribution"
     },
     "articles": {
       "en": "ARTICLES",

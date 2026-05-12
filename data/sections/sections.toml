@@ -38,6 +38,22 @@ fr = "CONTRIBUTIONS OPEN SOURCE"
 en = "PORTFOLIO"
 fr = "PORTFOLIO"
 
+[software]
+en = "SOFTWARE PROJECTS"
+fr = "PROJETS LOGICIELS"
+
+[certifications]
+en = "CERTIFICATIONS"
+fr = "CERTIFICATIONS"
+
+[view_project]
+en = "View project"
+fr = "Voir le projet"
+
+[contribution]
+en = "Contribution"
+fr = "Contribution"
+
 [articles]
 en = "ARTICLES"
 fr = "ARTICLES"
