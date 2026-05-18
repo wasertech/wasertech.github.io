@@ -3,52 +3,52 @@ name = "Assistant"
 category = "software"
 url = "https://gitlab.com/waser-technologies/technologies/assistant"
 image = "static/images/assistant.jpg"
-pdf_include = false
+pdf_include = true
 
 [projects.en]
-description = "AI-powered shell combining a Xonsh terminal with a multi-agent LLM system. Talk naturally, run commands, browse the web, and read/edit files from one prompt. An orchestrator delegates tasks to specialised agents (system ops, web research). Integrates with Ollama/vLLM/OpenAI APIs, SearXNG search, Rich TUI, and optional voice via Say/Listen."
+description = "Multi-agent LLM shell orchestrating specialised agents for system ops, web research, and file editing via a natural language prompt."
 
 [projects.fr]
-description = "Shell alimenté par l'IA combinant un terminal Xonsh avec un système multi-agent LLM. Parlez naturellement, exécutez des commandes, naviguez sur le web et lisez/modifiez des fichiers depuis un seul prompt. Un orchestrateur délègue les tâches à des agents spécialisés (ops système, recherche web). Intègre Ollama/vLLM/OpenAI, SearXNG, Rich TUI, et voix optionnelle via Say/Listen."
+description = "Shell LLM multi-agent orchestrant des agents spécialisés pour les opérations système, la recherche web et l'édition de fichiers via prompt naturel."
 
 [[projects]]
 name = "Listen"
 category = "software"
 url = "https://gitlab.com/waser-technologies/technologies/listen"
 image = "static/images/soundwaves.jpg"
-pdf_include = false
+pdf_include = true
 
 [projects.en]
-description = "Speech-to-text system with server-client architecture. The server hosts ASR models over a socket as a background service; the client transcribes audio from files or live microphone input in real time. Uses Faster-Whisper, webRTC VAD for non-speech filtering, and supports configurable recording for training."
+description = "Real-time speech-to-text system with server-client architecture using Faster-Whisper and VAD for efficient audio transcription."
 
 [projects.fr]
-description = "Système de reconnaissance vocale avec architecture serveur-client. Le serveur héberge des modèles ASR via socket en service de fond ; le client transcrit l'audio depuis des fichiers ou le micro en temps réel. Utilise Faster-Whisper, webRTC VAD pour le filtrage non-parlant, et supporte l'enregistrement configurable pour l'entraînement."
+description = "Système de reconnaissance vocale en temps réel avec architecture serveur-client utilisant Faster-Whisper et VAD pour une transcription efficace."
 
 [[projects]]
 name = "Say"
 category = "software"
 url = "https://gitlab.com/waser-technologies/technologies/say"
 image = "static/images/speech.jpg"
-pdf_include = false
+pdf_include = true
 
 [projects.en]
-description = "Text-to-speech tool that works like `echo` but with voice output. Uses OpenVoice v2 to generate convincing, customizable voices from short audio samples (5–15 seconds). Runs as a background server with a CLI client, supports multiple languages, and outputs WAV files."
+description = "Text-to-speech tool generating high-quality customizable voices from 10-second audio samples using OpenVoice v2."
 
 [projects.fr]
-description = "Outil de synthèse vocale qui fonctionne comme `echo` mais avec une sortie vocale. Utilise OpenVoice v2 pour générer des voix convaincues et personnalisables à partir de courts échantillons audio (5–15 secondes). S'exécute comme serveur de fond avec un client CLI, supporte plusieurs langues et produit des fichiers WAV."
+description = "Outil de synthèse vocale générant des voix personnalisables de haute qualité à partir d'échantillons de 10 secondes via OpenVoice v2."
 
 [[projects]]
 name = "Translator"
 category = "software"
 url = "https://github.com/wasertech/Translator"
 image = "static/images/translator.jpg"
-pdf_include = false
+pdf_include = true
 
 [projects.en]
-description = "Lightweight CLI and Python package for fast, batch-friendly translation workflows. Supports single-sentence translation, directory/file translation, and full PO (gettext) file handling — preserving metadata, comments, and structure. Ideal for localization workflows (Poedit/Django). Uses Hugging Face NLLB-200 with 200+ language support."
+description = "Batch-friendly translation CLI leveraging Hugging Face NLLB-200 with full support for metadata-preserving PO file handling."
 
 [projects.fr]
-description = "CLI et package Python léger pour des workflows de traduction rapides et batch. Supporte la traduction phrase par phrase, par répertoire/fichier, et la gestion complète de fichiers PO (gettext) — préservant métadonnées, commentaires et structure. Idéal pour la localisation (Poedit/Django). Utilise NLLB-200 de Hugging Face avec 200+ langues."
+description = "CLI de traduction par lots exploitant NLLB-200 d'Hugging Face avec support complet des fichiers PO préservant les métadonnées."
 
 [[projects]]
 name = "Cloud.API"
@@ -58,10 +58,10 @@ image = "static/images/cloud_api.jpg"
 pdf_include = false
 
 [projects.en]
-description = "Python library and CLI for managing Jelastic cloud environments — create, start, stop, delete, clone, and configure environments programmatically. Includes an MCP (Model Context Protocol) server that lets AI assistants like Claude directly interact with and manage cloud infrastructure."
+description = "Python library and MCP server for programmatic management and AI-driven interaction with Jelastic cloud environments."
 
 [projects.fr]
-description = "Bibliothèque Python et CLI pour gérer des environnements cloud Jelastic — créer, démarrer, arrêter, supprimer, cloner et configurer des environnements programmatically. Inclut un serveur MCP (Model Context Protocol) permettant aux assistants IA comme Claude d'interagir directement avec l'infrastructure cloud."
+description = "Bibliothèque Python et serveur MCP pour la gestion programmatique et l'interaction par IA des environnements cloud Jelastic."
 
 [[projects]]
 name = "Google Advanced Data Analytics"

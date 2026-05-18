@@ -1,5 +1,6 @@
 import json
 from fpdf import FPDF
+from fpdf.enums import XPos, YPos
 import os
 import datetime
 from PIL import Image
@@ -8,61 +9,51 @@ import re
 class PDF(FPDF):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.set_auto_page_break(auto=False, margin=0)
-        self.add_font('DejaVuSans', '', 'static/fonts/DejaVuSans.ttf', uni=True)
-        self.add_font('DejaVuSans', 'B', 'static/fonts/DejaVuSans-Bold.ttf', uni=True)
-        self.add_font('DejaVuSans', 'I', 'static/fonts/DejaVuSans-Oblique.ttf', uni=True)
-        self.add_font('DejaVuSans', 'BI', 'static/fonts/DejaVuSans-BoldOblique.ttf', uni=True)
+        self.set_auto_page_break(auto=True, margin=10)
+        self.add_font('DejaVuSans', '', 'static/fonts/DejaVuSans.ttf')
+        self.add_font('DejaVuSans', 'B', 'static/fonts/DejaVuSans-Bold.ttf')
+        self.add_font('DejaVuSans', 'I', 'static/fonts/DejaVuSans-Oblique.ttf')
+        self.add_font('DejaVuSans', 'BI', 'static/fonts/DejaVuSans-BoldOblique.ttf')
 
-    def draw_line(self, y_pos):
-        self.set_line_width(0.4)
-        self.line(15, y_pos, 210 - 15, y_pos) # Full page width, with margins
+    def draw_line(self, x_start, x_end, y_pos):
+        self.set_line_width(0.1)
+        self.set_draw_color(180, 180, 180)
+        self.line(x_start, y_pos, x_end, y_pos)
+        self.set_draw_color(0, 0, 0)
 
-    def print_section_header(self, x, y, text, font_size=12, margin_bottom=5):
-        self.set_xy(x, y)
-        self.set_font('DejaVuSans', 'B', font_size)
-        self.cell(0, 5, text.upper(), new_x='LMARGIN', new_y='NEXT')
-        return self.get_y() + margin_bottom
+    def print_section_header(self, text, width=0, margin_top=2, x_pos=15):
+        self.set_x(x_pos)
+        if margin_top > 0: self.ln(margin_top)
+        self.set_x(x_pos)
+        self.set_font('DejaVuSans', 'B', 9.5)
+        self.set_text_color(60, 60, 60)
+        actual_width = width if width > 0 else (210 - 15 - x_pos)
+        self.cell(actual_width, 5, text.upper(), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.draw_line(x_pos, x_pos + actual_width, self.get_y() - 0.5)
+        self.ln(1.2) # Reduced from 1.5
+        self.set_text_color(0, 0, 0)
 
-    def print_text_block(self, x, y, width, text, font_size=9, line_height=4, style='', margin_bottom=3):
-        self.set_xy(x, y)
-        self.set_font('DejaVuSans', style, font_size)
-        self.multi_cell(width, line_height, text)
-        return self.get_y() + margin_bottom
-
-def crop_and_resize_image(image_path, output_path, target_width_mm=40, dpi=300):
+def crop_and_resize_image(image_path, output_path, target_width_mm=25, dpi=300):
+    if not os.path.exists(image_path): return
     img = Image.open(image_path)
     width, height = img.size
-    
-    # Calculate target pixel size
     target_pixel_width = int(target_width_mm / 25.4 * dpi)
-    size = (target_pixel_width, target_pixel_width) # Square image
-
-    # Crop the image to a square from the center, with an upward shift
+    size = (target_pixel_width, target_pixel_width)
     new_edge = min(width, height)
     left = (width - new_edge)/2
-    
-    # Shift the crop up. The "- height * 0.15" will move the crop window up.
-    top_offset = height * 0.15 
-    top = (height - new_edge)/2 - top_offset
-    top = max(0, top) # Ensure we don't go out of bounds
-    
+    top = (height - new_edge)/2 - (height * 0.15)
+    top = max(0, top)
     right = (width + new_edge)/2
     bottom = top + new_edge
-    if bottom > height:
-        bottom = height
-        top = bottom - new_edge
-
-    img = img.crop((left, top, right, bottom))
-    
-    # Resize to the desired size
-    img = img.resize(size, Image.Resampling.LANCZOS)
+    img = img.crop((left, top, right, bottom)).resize(size, Image.Resampling.LANCZOS)
     img.save(output_path)
 
 def date_key(experience):
-    date_str = experience['date'].split(' - ')[0]
-    date_str = date_str.replace('.', '')
-    return datetime.datetime.strptime(date_str, '%b %Y')
+    date_str = experience['date'].split(' - ')[0].replace('.', '')
+    for fmt in ('%b %Y', '%B %Y'):
+        try: return datetime.datetime.strptime(date_str, fmt)
+        except ValueError: continue
+    return datetime.datetime.min
 
 def generate_pdf(lang):
     with open('static/cv_data.json', 'r') as f:
@@ -70,131 +61,141 @@ def generate_pdf(lang):
 
     pdf = PDF(orientation='P', unit='mm', format='A4')
     pdf.add_page()
+    pdf.set_margins(15, 12, 15)
+    content_width = 180
 
     # --- Header ---
-    header_y = 10
-    pdf.set_xy(15, header_y)
-    pdf.set_font('DejaVuSans', 'B', 36)
-    pdf.cell(0, 10, 'DANNY WASER', new_x='LMARGIN', new_y='NEXT')
-
-    header_y = pdf.get_y()
-    pdf.set_xy(15, header_y)
-    pdf.set_font('DejaVuSans', '', 10)
-    pdf.cell(0, 5, f"{'SWISS CITIZEN' if lang == 'en' else 'CITOYEN SUISSE'}    {'26 YEARS OLD' if lang == 'en' else '26 ANS'}", new_x='LMARGIN', new_y='NEXT')
+    pdf.set_font('DejaVuSans', 'B', 18)
+    pdf.cell(0, 8, 'DANNY WASER', new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     
-    # Image needs to be placed after the text, but visually top right
-    processed_image_path = "static/images/portrait_thumb.png"
-    image_width_mm = 40 # This is the width in mm for the PDF
-    image_dpi = 300 # DPI for rendering
-    crop_and_resize_image('static/images/portrait.webp', processed_image_path, target_width_mm=image_width_mm, dpi=image_dpi)
-    pdf.image(processed_image_path, x=155, y=10, w=image_width_mm)
-    pdf.draw_line(55) # Move line below image
-
-    # --- Columns Setup ---
-    left_col_x = 15
-    right_col_x = 85
-    col_width_left = 65
-    col_width_right = 110
-    current_y_left = 60 # Starting Y for left column content
-    current_y_right = 60 # Starting Y for right column content
-
-    # --- Left Column Content ---
-    # Profile
-    current_y_left = pdf.print_section_header(left_col_x, current_y_left, data['sections']['profile'][lang])
-    current_y_left = pdf.print_text_block(left_col_x, current_y_left, col_width_left, data['profile'][lang]['content'], margin_bottom=5)
-
-    # Contact
-    current_y_left = pdf.print_section_header(left_col_x, current_y_left, data['sections']['contact'][lang])
-    contact_items = [
-        data['contact']['address'],
-        data['contact']['phone'],
-        data['contact']['email'],
-        data['contact']['website'],
-        data['contact']['github'],
-        data['contact']['gitlab'],
-        data['contact']['linkedin'],
-        data['contact']['docker'],
-        data['contact']['discourse'],
-        data['contact']['youtube'],
-        data['contact']['matrix']
-    ]
-    for item in contact_items:
-        current_y_left = pdf.print_text_block(left_col_x, current_y_left, col_width_left, item, margin_bottom=0)
-    current_y_left += 5 # Add extra margin after contact details
-
-    # Technical Skills
-    current_y_left = pdf.print_section_header(left_col_x, current_y_left, data['sections']['technical_skills'][lang])
-    current_y_left = pdf.print_text_block(left_col_x, current_y_left, col_width_left, ', '.join([skill[lang] for skill in data['skills']]), margin_bottom=5)
-
-    # Languages
-    current_y_left = pdf.print_section_header(left_col_x, current_y_left, data['sections']['languages'][lang])
-    for lang_item in data['languages']:
-        current_y_left = pdf.print_text_block(left_col_x, current_y_left, col_width_left, f"- {lang_item[lang]} ({lang_item['level']})", margin_bottom=0)
-    current_y_left += 5
-
-    # Personal Interests
-    current_y_left = pdf.print_section_header(left_col_x, current_y_left, data['sections']['personal_interests'][lang])
-    current_y_left = pdf.print_text_block(left_col_x, current_y_left, col_width_left, ', '.join([interest[lang] for interest in data['interests']]), margin_bottom=5)
+    pdf.set_font('DejaVuSans', 'B', 10)
+    pdf.set_text_color(100, 100, 100)
+    pdf.cell(0, 5, "AI ENGINEER & FULL-STACK DEVELOPER", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     
-    # --- Right Column Content ---
-    # Professional Experience
-    current_y_right = pdf.print_section_header(right_col_x, current_y_right, data['sections']['professional_experience'][lang])
+    pdf.set_font('DejaVuSans', '', 8)
+    pdf.set_text_color(0, 0, 0)
+    info = f"{'SWISS CITIZEN' if lang == 'en' else 'CITOYEN SUISSE'} | {'26 YEARS OLD' if lang == 'en' else '26 ANS'} | Lausanne, CH"
+    pdf.cell(0, 4, info, new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    
+    # Links
+    links = []
+    if data['contact'].get('email'): links.append((data['contact']['email'], f"mailto:{data['contact']['email']}"))
+    if data['contact'].get('phone'): links.append((data['contact']['phone'], f"tel:{data['contact']['phone']}"))
+    if data['contact'].get('website'): links.append(('waser.tech', data['contact']['website']))
+    if data['contact'].get('linkedin'): links.append(('LinkedIn', data['contact']['linkedin']))
+    if data['contact'].get('github'): links.append(('GitHub', data['contact']['github']))
+
+    pdf.set_font('DejaVuSans', '', 8)
+    for i, (text, url) in enumerate(links):
+        pdf.set_text_color(0, 0, 150)
+        pdf.write(4, text, url)
+        pdf.set_text_color(0, 0, 0)
+        if i < len(links) - 1: pdf.write(4, ' | ')
+    pdf.ln(5.5)
+
+    # Photo
+    img_path = "static/images/portrait_thumb.png"
+    crop_and_resize_image('static/images/portrait.webp', img_path, target_width_mm=25)
+    if os.path.exists(img_path): pdf.image(img_path, x=170, y=12, w=25)
+
+    # --- Profile ---
+    pdf.print_section_header(data['sections']['profile'][lang], margin_top=0.5)
+    pdf.set_font('DejaVuSans', '', 9)
+    pdf.multi_cell(0, 3.8, data['profile'][lang]['content'].strip())
+
+    # --- Professional Experience ---
+    pdf.print_section_header(data['sections']['professional_experience'][lang], margin_top=2) # Reduced from 3
     for exp in sorted(data['experiences'], key=date_key, reverse=True):
-        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, exp[lang]['title'], font_size=10, style='B', line_height=5)
-        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, f"{exp[lang]['company']} | {exp['date']}", font_size=9, line_height=4, style='I', margin_bottom=2)
+        pdf.set_font('DejaVuSans', 'B', 9.5)
+        pdf.cell(140, 4.5, exp[lang]['title'])
+        pdf.set_font('DejaVuSans', 'I', 8.5)
+        pdf.cell(40, 4.5, exp['date'], new_x=XPos.LMARGIN, new_y=YPos.NEXT, align='R')
         
-        pdf.set_xy(right_col_x, current_y_right)
+        pdf.set_font('DejaVuSans', 'B', 8.5)
+        pdf.set_text_color(80, 80, 80)
+        pdf.cell(0, 4, exp[lang]['company'], new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pdf.set_text_color(0, 0, 0)
         
-        details = exp[lang]['details']
-        
-        if details.startswith('- '):
-            details = details[2:]
-        bullet_points = details.split('\n- ')
-        
-        for point in bullet_points:
-            pdf.set_x(right_col_x)
-            pdf.write(4, '• ')
-            
-            lines = point.split('\n')
-            first_line = lines[0]
-            rest_of_lines = '\n'.join(lines[1:])
-            
-            match = re.match(r'\[(.*?)\]\((.*?)\)', first_line)
-            
-            # Temporarily change left margin to avoid wrapping to page start
-            pdf.set_left_margin(right_col_x + 4)
-            
-            if match:
-                link_text = match.group(1)
-                link_url = match.group(2)
-                
-                pdf.set_font('DejaVuSans', 'U', 9)
-                pdf.set_text_color(0, 0, 255)
-                pdf.write(4, link_text, link_url)
-                pdf.set_font('DejaVuSans', '', 9)
-                pdf.set_text_color(0, 0, 0)
-            else:
-                pdf.write(4, first_line)
-            
-            # Restore margins
-            pdf.set_left_margin(15)
-            pdf.ln(4)
-            
-            if rest_of_lines:
-                pdf.set_x(right_col_x + 4)
-                pdf.multi_cell(col_width_right - 4, 4, rest_of_lines)
+        for line in exp[lang]['details'].strip().split('\n'):
+            line = line.strip()
+            if not line: continue
+            if line.startswith('- '): line = line[2:]
+            pdf.set_x(20)
+            pdf.set_font('DejaVuSans', '', 9)
+            pdf.write(3.5, '• ') # Reduced from 3.8
+            orig_l_margin = pdf.l_margin
+            pdf.set_left_margin(23)
+            parts = re.split(r'(\[.*?\]\(.*?\))', line)
+            for part in parts:
+                match = re.match(r'\[(.*?)\]\((.*?)\)', part)
+                if match:
+                    pdf.set_text_color(0, 0, 150)
+                    pdf.write(3.5, match.group(1), match.group(2))
+                    pdf.set_text_color(0, 0, 0)
+                else: pdf.write(3.5, part)
+            pdf.ln(3.5) # Reduced from 3.8
+            pdf.set_left_margin(orig_l_margin)
+        pdf.ln(0.8) # Reduced from 1
 
-        current_y_right = pdf.get_y() + 5
+    # --- Key Projects ---
+    pdf.print_section_header(data['sections']['software'][lang] if 'software' in data['sections'] else "KEY PROJECTS", margin_top=2) # Reduced from 3
+    for project in data['portfolio']:
+        if not project.get('pdf_include', False): continue
+        pdf.set_font('DejaVuSans', 'B', 9)
+        pdf.set_text_color(0, 0, 150)
+        pdf.write(4, project['name'], project['url']) # Reduced from 4.2
+        pdf.set_text_color(0, 0, 0)
+        pdf.set_font('DejaVuSans', '', 9)
+        pdf.write(4, f": {project[lang]['description']}") # Reduced from 4.2
+        pdf.ln(4.2) # Reduced from 4.5
 
-    # Certification
-    current_y_right = pdf.print_section_header(right_col_x, current_y_right, data['sections']['certification'][lang])
+    # --- Skills ---
+    pdf.print_section_header(data['sections']['technical_skills'][lang], margin_top=2) # Reduced from 3
+    grouped = {}
+    for sk in data['skills']:
+        cat = sk.get('category', 'Other')
+        if cat not in grouped: grouped[cat] = []
+        grouped[cat].append(sk[lang])
+    
+    for cat, sks in grouped.items():
+        pdf.set_font('DejaVuSans', 'B', 9)
+        pdf.write(4, f"{cat}: ") # Reduced from 4.2
+        pdf.set_font('DejaVuSans', '', 9)
+        pdf.write(4, ', '.join(sks)) # Reduced from 4.2
+        pdf.ln(4.2) # Reduced from 4.5
+
+    # --- Education & Certification ---
+    pdf.print_section_header(f"{data['sections']['certification'][lang]} / {data['sections']['education'][lang]}", margin_top=2) # Reduced from 3
+    pdf.set_font('DejaVuSans', '', 9)
     for cert in data['certifications']:
-        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, cert[lang]['title'], font_size=10, style='B', line_height=5)
-        current_y_right = pdf.print_text_block(right_col_x, current_y_right, col_width_right, f"{cert[lang]['issuer']} | {cert['start_date']} - {cert['end_date']}", font_size=9, line_height=4, style='I', margin_bottom=5)
-        # Note: The certificate image is for the web, not printed in PDF
+        pdf.write(4, "• ") # Reduced from 4.2
+        pdf.set_font('DejaVuSans', 'B', 9)
+        pdf.set_text_color(0, 0, 150)
+        pdf.write(4, cert[lang]['title'], cert.get('url', ''))
+        pdf.set_text_color(0, 0, 0)
+        pdf.set_font('DejaVuSans', 'I', 9)
+        pdf.write(4, f" ({cert[lang]['issuer']}, {cert['start_date']}-{cert['end_date']})")
+        pdf.ln(4.2)
+    
+    for edu in data['education']:
+        if not edu.get('pdf_include', True): continue
+        pdf.set_font('DejaVuSans', '', 9)
+        pdf.write(4, f"• {edu[lang]['title']} ")
+        pdf.set_font('DejaVuSans', 'I', 9)
+        pdf.write(4, f"({edu[lang]['institution']}, {edu['date']})")
+        pdf.ln(4.2)
+
+    # --- Languages ---
+    pdf.print_section_header(data['sections']['languages'][lang], margin_top=2) # Reduced from 3
+    pdf.set_font('DejaVuSans', '', 9)
+    pdf.cell(0, 4.2, ', '.join([f"{l[lang]} ({l['level']})" for l in data['languages']]), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+    # --- Personal Interests ---
+    pdf.print_section_header((data['sections']['personal_interests'][lang] if 'personal_interests' in data['sections'] else "INTERESTS"), margin_top=2) # Reduced from 3
+    pdf.set_font('DejaVuSans', '', 9)
+    pdf.multi_cell(0, 4, ', '.join([i[lang] for i in data['interests']]))
 
     pdf.output(f"static/CV_{lang.upper()}.pdf")
-    print(f"static/CV_{lang.upper()}.pdf generated successfully.")
 
 if __name__ == '__main__':
     generate_pdf('en')

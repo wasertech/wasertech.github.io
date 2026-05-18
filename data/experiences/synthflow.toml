@@ -4,14 +4,14 @@ date = "Jan. 2024 - March 2024"
 title = "Engineer in Artificial Intelligence (AI)"
 company = "Synthflow AI"
 details = """
-- Over the phone conversational agents
-Modeling conversations over the phone to create production ready conversational agents.
+- Rapid R&D and prototyping of multi-agent conversational systems for telephonic deployment.
+- Iterative implementation of LLM-based dialogue managers and prompt engineering for real-time interaction.
 """
 
 [fr]
 title = "Ingénieur en Intelligence Artificielle (IA)"
 company = "Synthflow AI"
 details = """
-- Agents conversationnels téléphoniques
-Modélisation de conversations téléphoniques pour créer des agents conversationnels prêts pour la production.
+- R&D rapide et prototypage de systèmes conversationnels multi-agents pour le déploiement téléphonique.
+- Implémentation itérative de gestionnaires de dialogue basés sur les LLM et ingénierie de prompt pour l'interaction en temps réel.
 """

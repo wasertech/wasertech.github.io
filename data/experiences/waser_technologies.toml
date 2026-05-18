@@ -1,25 +1,19 @@
 date = "Jan. 2020 - July 2023"
 
 [en]
-title = "Multimodal conversational agent developer"
+title = "AI Developer & Founder (Entrepreneurial)"
 company = "Waser Technologies"
 details = """
-- [Multi-modal language translator](https://github.com/wasertech/Translator)
-Fast translation tool that uses your material to translate using your preferred translation model.
-- [Text-to-speech tools](https://gitlab.com/waser-technologies/technologies/say) and [voice transcription](https://gitlab.com/waser-technologies/technologies/listen)
-listen, can transcribe the voice locally in real time and say synthesises the human voice locally.
-- [Conversational agent](https://gitlab.com/waser-technologies/technologies/assistant)
-My implementation of a personal assistant that I use regularly to make my work easier. Its role is to interface the system and the user via natural language.
+- [Multi-modal language translator](https://github.com/wasertech/Translator): High-performance translation tool leveraging local LLMs.
+- [Local, real-time voice transcription and speech synthesis](https://gitlab.com/waser-technologies/technologies/listen): Low-latency processing using Faster-Whisper and OpenVoice.
+- [Natural language system orchestrator](https://gitlab.com/waser-technologies/technologies/assistant): AI-powered shell for seamless system interaction.
 """
 
 [fr]
-title = "Développeur d'agents conversationnels multimodaux"
+title = "Développeur IA & Fondateur (Activité Entrepreneuriale)"
 company = "Waser Technologies"
 details = """
-- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator)
-Outil de traduction rapide qui utilise votre matériel pour traduire en utilisant votre modèle de traduction préféré.
-- [Outils de synthèse vocale](https://gitlab.com/waser-technologies/technologies/say) et de [transcription vocale](https://gitlab.com/waser-technologies/technologies/listen)
-écoutez, peut transcrire la voix localement en temps réel et dire synthétise la voix humaine localement.
-- [Agent conversationnel](https://gitlab.com/waser-technologies/technologies/assistant)
-Mon implémentation d'un assistant personnel que j'utilise régulièrement pour me faciliter la tâche. Son rôle est d'interfacer le système et l'utilisateur via le langage naturel.
+- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator) : Outil de traduction haute performance exploitant des LLM locaux.
+- [Transcription vocale et synthèse vocale locale en temps réel](https://gitlab.com/waser-technologies/technologies/listen) : Traitement à faible latence via Faster-Whisper et OpenVoice.
+- [Orchestrateur système en langage naturel](https://gitlab.com/waser-technologies/technologies/assistant) : Shell propulsé par l'IA pour une interaction système fluide.
 """

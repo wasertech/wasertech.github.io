@@ -1,63 +1,78 @@
+# IA & Frameworks
 [[skills]]
+category = "IA & Frameworks"
+en = "PyTorch & TensorFlow"
+fr = "PyTorch & TensorFlow"
+
+[[skills]]
+category = "IA & Frameworks"
+en = "Transformers (Hugging Face)"
+fr = "Transformers (Hugging Face)"
+
+[[skills]]
+category = "IA & Frameworks"
+en = "RAG & LLM Orchestration"
+fr = "RAG & Orchestration LLM"
+
+[[skills]]
+category = "IA & Frameworks"
+en = "Automatic Speech Recognition (ASR)"
+fr = "Reconnaissance Vocale (ASR)"
+
+[[skills]]
+category = "IA & Frameworks"
+en = "Text-to-Speech (TTS)"
+fr = "Synthèse Vocale (TTS)"
+
+# Programming Languages
+[[skills]]
+category = "Languages"
 en = "Python"
 fr = "Python"
 
 [[skills]]
-en = "GNU/Linux"
-fr = "GNU/Linux"
+category = "Languages"
+en = "Bash & Zsh"
+fr = "Bash & Zsh"
 
 [[skills]]
-en = "bash"
-fr = "bash"
+category = "Languages"
+en = "JavaScript (Node.js)"
+fr = "JavaScript (Node.js)"
 
 [[skills]]
-en = "Zsh"
-fr = "Zsh"
+category = "Languages"
+en = "HTML & CSS"
+fr = "HTML & CSS"
+
+# DevOps & Tools
+[[skills]]
+category = "DevOps & Tools"
+en = "Docker"
+fr = "Docker"
 
 [[skills]]
-en = "Xonsh"
-fr = "Xonsh"
+category = "DevOps & Tools"
+en = "GNU/Linux Administration"
+fr = "Administration GNU/Linux"
 
 [[skills]]
-en = "git"
-fr = "git"
+category = "DevOps & Tools"
+en = "Git"
+fr = "Git"
 
 [[skills]]
-en = "docker"
-fr = "docker"
+category = "DevOps & Tools"
+en = "Cloud Infrastructure (Jelastic)"
+fr = "Infrastructure Cloud (Jelastic)"
 
+# Libraries
 [[skills]]
-en = "HTML"
-fr = "HTML"
-
-[[skills]]
-en = "CSS"
-fr = "CSS"
-
-[[skills]]
-en = "JavaScript"
-fr = "JavaScript"
-
-[[skills]]
-en = "tensorflow"
-fr = "tensorflow"
-
-[[skills]]
-en = "torch"
-fr = "torch"
-
-[[skills]]
-en = "transformers"
-fr = "transformers"
-
-[[skills]]
-en = "prompt_toolkit"
-fr = "prompt_toolkit"
-
-[[skills]]
+category = "Libraries"
 en = "Django"
 fr = "Django"
 
 [[skills]]
-en = "node.js"
-fr = "node.js"
+category = "Libraries"
+en = "Prompt Toolkit"
+fr = "Prompt Toolkit"

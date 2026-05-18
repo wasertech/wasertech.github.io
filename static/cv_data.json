@@ -22,68 +22,79 @@
   },
   "skills": [
     {
+      "category": "IA & Frameworks",
+      "en": "PyTorch & TensorFlow",
+      "fr": "PyTorch & TensorFlow"
+    },
+    {
+      "category": "IA & Frameworks",
+      "en": "Transformers (Hugging Face)",
+      "fr": "Transformers (Hugging Face)"
+    },
+    {
+      "category": "IA & Frameworks",
+      "en": "RAG & LLM Orchestration",
+      "fr": "RAG & Orchestration LLM"
+    },
+    {
+      "category": "IA & Frameworks",
+      "en": "Automatic Speech Recognition (ASR)",
+      "fr": "Reconnaissance Vocale (ASR)"
+    },
+    {
+      "category": "IA & Frameworks",
+      "en": "Text-to-Speech (TTS)",
+      "fr": "Synth\u00e8se Vocale (TTS)"
+    },
+    {
+      "category": "Languages",
       "en": "Python",
       "fr": "Python"
     },
     {
-      "en": "GNU/Linux",
-      "fr": "GNU/Linux"
+      "category": "Languages",
+      "en": "Bash & Zsh",
+      "fr": "Bash & Zsh"
     },
     {
-      "en": "bash",
-      "fr": "bash"
+      "category": "Languages",
+      "en": "JavaScript (Node.js)",
+      "fr": "JavaScript (Node.js)"
     },
     {
-      "en": "Zsh",
-      "fr": "Zsh"
+      "category": "Languages",
+      "en": "HTML & CSS",
+      "fr": "HTML & CSS"
     },
     {
-      "en": "Xonsh",
-      "fr": "Xonsh"
+      "category": "DevOps & Tools",
+      "en": "Docker",
+      "fr": "Docker"
     },
     {
-      "en": "git",
-      "fr": "git"
+      "category": "DevOps & Tools",
+      "en": "GNU/Linux Administration",
+      "fr": "Administration GNU/Linux"
     },
     {
-      "en": "docker",
-      "fr": "docker"
+      "category": "DevOps & Tools",
+      "en": "Git",
+      "fr": "Git"
     },
     {
-      "en": "HTML",
-      "fr": "HTML"
+      "category": "DevOps & Tools",
+      "en": "Cloud Infrastructure (Jelastic)",
+      "fr": "Infrastructure Cloud (Jelastic)"
     },
     {
-      "en": "CSS",
-      "fr": "CSS"
-    },
-    {
-      "en": "JavaScript",
-      "fr": "JavaScript"
-    },
-    {
-      "en": "tensorflow",
-      "fr": "tensorflow"
-    },
-    {
-      "en": "torch",
-      "fr": "torch"
-    },
-    {
-      "en": "transformers",
-      "fr": "transformers"
-    },
-    {
-      "en": "prompt_toolkit",
-      "fr": "prompt_toolkit"
-    },
-    {
+      "category": "Libraries",
       "en": "Django",
       "fr": "Django"
     },
     {
-      "en": "node.js",
-      "fr": "node.js"
+      "category": "Libraries",
+      "en": "Prompt Toolkit",
+      "fr": "Prompt Toolkit"
     }
   ],
   "languages": [
@@ -132,6 +143,19 @@
   ],
   "experiences": [
     {
+      "date": "Sep 2024 - Mar 2026",
+      "en": {
+        "title": "Data Scientist",
+        "company": "Id\u00e9al Isolation S\u00e0rl & DF Innovation S\u00e0rl",
+        "details": "- Id\u00e9al Isolation: Strategic analysis of operational bottlenecks; development of data pipelines and predictive models to optimize quotation and invoicing workflows.\n- DF Innovation: R&D in Generative AI (RAG, Fine-tuning), quantitative algorithmic trading, and Solana smart-contracts.\n"
+      },
+      "fr": {
+        "title": "Data Scientist",
+        "company": "Id\u00e9al Isolation S\u00e0rl & DF Innovation S\u00e0rl",
+        "details": "- Id\u00e9al Isolation: Analyse strat\u00e9gique des freins op\u00e9rationnels ; d\u00e9veloppement de pipelines de donn\u00e9es et mod\u00e8les pr\u00e9dictifs pour optimiser les devis et la facturation.\n- DF Innovation: R&D en IA G\u00e9n\u00e9rative (RAG, Fine-tuning), trading quantitatif algorithmique et smart-contracts Solana.\n"
+      }
+    },
+    {
       "date": "Nov. 2021 - Dec. 2022",
       "en": {
         "title": "Speech recognition developer",
@@ -149,25 +173,25 @@
       "en": {
         "title": "Engineer in Artificial Intelligence (AI)",
         "company": "Synthflow AI",
-        "details": "- Over the phone conversational agents\nModeling conversations over the phone to create production ready conversational agents.\n"
+        "details": "- Rapid R&D and prototyping of multi-agent conversational systems for telephonic deployment.\n- Iterative implementation of LLM-based dialogue managers and prompt engineering for real-time interaction.\n"
       },
       "fr": {
         "title": "Ing\u00e9nieur en Intelligence Artificielle (IA)",
         "company": "Synthflow AI",
-        "details": "- Agents conversationnels t\u00e9l\u00e9phoniques\nMod\u00e9lisation de conversations t\u00e9l\u00e9phoniques pour cr\u00e9er des agents conversationnels pr\u00eats pour la production.\n"
+        "details": "- R&D rapide et prototypage de syst\u00e8mes conversationnels multi-agents pour le d\u00e9ploiement t\u00e9l\u00e9phonique.\n- Impl\u00e9mentation it\u00e9rative de gestionnaires de dialogue bas\u00e9s sur les LLM et ing\u00e9nierie de prompt pour l'interaction en temps r\u00e9el.\n"
       }
     },
     {
       "date": "Jan. 2020 - July 2023",
       "en": {
-        "title": "Multimodal conversational agent developer",
+        "title": "AI Developer & Founder (Entrepreneurial)",
         "company": "Waser Technologies",
-        "details": "- [Multi-modal language translator](https://github.com/wasertech/Translator)\nFast translation tool that uses your material to translate using your preferred translation model.\n- [Text-to-speech tools](https://gitlab.com/waser-technologies/technologies/say) and [voice transcription](https://gitlab.com/waser-technologies/technologies/listen)\nlisten, can transcribe the voice locally in real time and say synthesises the human voice locally.\n- [Conversational agent](https://gitlab.com/waser-technologies/technologies/assistant)\nMy implementation of a personal assistant that I use regularly to make my work easier. Its role is to interface the system and the user via natural language.\n"
+        "details": "- [Multi-modal language translator](https://github.com/wasertech/Translator): High-performance translation tool leveraging local LLMs.\n- [Local, real-time voice transcription and speech synthesis](https://gitlab.com/waser-technologies/technologies/listen): Low-latency processing using Faster-Whisper and OpenVoice.\n- [Natural language system orchestrator](https://gitlab.com/waser-technologies/technologies/assistant): AI-powered shell for seamless system interaction.\n"
       },
       "fr": {
-        "title": "D\u00e9veloppeur d'agents conversationnels multimodaux",
+        "title": "D\u00e9veloppeur IA & Fondateur (Activit\u00e9 Entrepreneuriale)",
         "company": "Waser Technologies",
-        "details": "- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator)\nOutil de traduction rapide qui utilise votre mat\u00e9riel pour traduire en utilisant votre mod\u00e8le de traduction pr\u00e9f\u00e9r\u00e9.\n- [Outils de synth\u00e8se vocale](https://gitlab.com/waser-technologies/technologies/say) et de [transcription vocale](https://gitlab.com/waser-technologies/technologies/listen)\n\u00e9coutez, peut transcrire la voix localement en temps r\u00e9el et dire synth\u00e9tise la voix humaine localement.\n- [Agent conversationnel](https://gitlab.com/waser-technologies/technologies/assistant)\nMon impl\u00e9mentation d'un assistant personnel que j'utilise r\u00e9guli\u00e8rement pour me faciliter la t\u00e2che. Son r\u00f4le est d'interfacer le syst\u00e8me et l'utilisateur via le langage naturel.\n"
+        "details": "- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator) : Outil de traduction haute performance exploitant des LLM locaux.\n- [Transcription vocale et synth\u00e8se vocale locale en temps r\u00e9el](https://gitlab.com/waser-technologies/technologies/listen) : Traitement \u00e0 faible latence via Faster-Whisper et OpenVoice.\n- [Orchestrateur syst\u00e8me en langage naturel](https://gitlab.com/waser-technologies/technologies/assistant) : Shell propuls\u00e9 par l'IA pour une interaction syst\u00e8me fluide.\n"
       }
     }
   ],
@@ -206,7 +230,7 @@
       "start_date": "Oct. 2023",
       "end_date": "Nov. 2023",
       "image": "static/GoogleAdvancedDataAnalyticsCertificate.png",
-      "url": "static/GoogleAdvancedDataAnalyticsCertificate.pdf",
+      "url": "https://wasertech.github.io/static/GoogleAdvancedDataAnalyticsCertificate.pdf",
       "en": {
         "title": "Google Advanced Data Analytics Professional Certificate",
         "issuer": "Google @ Coursera"
@@ -238,7 +262,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 160530,
+        "stars": 160722,
         "pr_count": 1,
         "prs": [
           {
@@ -252,7 +276,7 @@
       {
         "project": "django-cms/django-cms",
         "url": "https://github.com/django-cms/django-cms",
-        "stars": 10633,
+        "stars": 10634,
         "pr_count": 1,
         "prs": [
           {
@@ -266,7 +290,7 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2585,
+        "stars": 2584,
         "pr_count": 12,
         "prs": [
           {
@@ -335,7 +359,7 @@
       {
         "project": "casper-hansen/AutoAWQ",
         "url": "https://github.com/casper-hansen/AutoAWQ",
-        "stars": 2335,
+        "stars": 2338,
         "pr_count": 1,
         "prs": [
           {
@@ -349,7 +373,7 @@
       {
         "project": "ixray-team/ixray-1.6-stcop",
         "url": "https://github.com/ixray-team/ixray-1.6-stcop",
-        "stars": 381,
+        "stars": 385,
         "pr_count": 3,
         "prs": [
           {
@@ -441,12 +465,12 @@
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/assistant",
       "image": "static/images/assistant.jpg",
-      "pdf_include": false,
+      "pdf_include": true,
       "en": {
-        "description": "AI-powered shell combining a Xonsh terminal with a multi-agent LLM system. Talk naturally, run commands, browse the web, and read/edit files from one prompt. An orchestrator delegates tasks to specialised agents (system ops, web research). Integrates with Ollama/vLLM/OpenAI APIs, SearXNG search, Rich TUI, and optional voice via Say/Listen."
+        "description": "Multi-agent LLM shell orchestrating specialised agents for system ops, web research, and file editing via a natural language prompt."
       },
       "fr": {
-        "description": "Shell aliment\u00e9 par l'IA combinant un terminal Xonsh avec un syst\u00e8me multi-agent LLM. Parlez naturellement, ex\u00e9cutez des commandes, naviguez sur le web et lisez/modifiez des fichiers depuis un seul prompt. Un orchestrateur d\u00e9l\u00e8gue les t\u00e2ches \u00e0 des agents sp\u00e9cialis\u00e9s (ops syst\u00e8me, recherche web). Int\u00e8gre Ollama/vLLM/OpenAI, SearXNG, Rich TUI, et voix optionnelle via Say/Listen."
+        "description": "Shell LLM multi-agent orchestrant des agents sp\u00e9cialis\u00e9s pour les op\u00e9rations syst\u00e8me, la recherche web et l'\u00e9dition de fichiers via prompt naturel."
       }
     },
     {
@@ -454,12 +478,12 @@
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/listen",
       "image": "static/images/soundwaves.jpg",
-      "pdf_include": false,
+      "pdf_include": true,
       "en": {
-        "description": "Speech-to-text system with server-client architecture. The server hosts ASR models over a socket as a background service; the client transcribes audio from files or live microphone input in real time. Uses Faster-Whisper, webRTC VAD for non-speech filtering, and supports configurable recording for training."
+        "description": "Real-time speech-to-text system with server-client architecture using Faster-Whisper and VAD for efficient audio transcription."
       },
       "fr": {
-        "description": "Syst\u00e8me de reconnaissance vocale avec architecture serveur-client. Le serveur h\u00e9berge des mod\u00e8les ASR via socket en service de fond ; le client transcrit l'audio depuis des fichiers ou le micro en temps r\u00e9el. Utilise Faster-Whisper, webRTC VAD pour le filtrage non-parlant, et supporte l'enregistrement configurable pour l'entra\u00eenement."
+        "description": "Syst\u00e8me de reconnaissance vocale en temps r\u00e9el avec architecture serveur-client utilisant Faster-Whisper et VAD pour une transcription efficace."
       }
     },
     {
@@ -467,12 +491,12 @@
       "category": "software",
       "url": "https://gitlab.com/waser-technologies/technologies/say",
       "image": "static/images/speech.jpg",
-      "pdf_include": false,
+      "pdf_include": true,
       "en": {
-        "description": "Text-to-speech tool that works like `echo` but with voice output. Uses OpenVoice v2 to generate convincing, customizable voices from short audio samples (5\u201315 seconds). Runs as a background server with a CLI client, supports multiple languages, and outputs WAV files."
+        "description": "Text-to-speech tool generating high-quality customizable voices from 10-second audio samples using OpenVoice v2."
       },
       "fr": {
-        "description": "Outil de synth\u00e8se vocale qui fonctionne comme `echo` mais avec une sortie vocale. Utilise OpenVoice v2 pour g\u00e9n\u00e9rer des voix convaincues et personnalisables \u00e0 partir de courts \u00e9chantillons audio (5\u201315 secondes). S'ex\u00e9cute comme serveur de fond avec un client CLI, supporte plusieurs langues et produit des fichiers WAV."
+        "description": "Outil de synth\u00e8se vocale g\u00e9n\u00e9rant des voix personnalisables de haute qualit\u00e9 \u00e0 partir d'\u00e9chantillons de 10 secondes via OpenVoice v2."
       }
     },
     {
@@ -480,12 +504,12 @@
       "category": "software",
       "url": "https://github.com/wasertech/Translator",
       "image": "static/images/translator.jpg",
-      "pdf_include": false,
+      "pdf_include": true,
       "en": {
-        "description": "Lightweight CLI and Python package for fast, batch-friendly translation workflows. Supports single-sentence translation, directory/file translation, and full PO (gettext) file handling \u2014 preserving metadata, comments, and structure. Ideal for localization workflows (Poedit/Django). Uses Hugging Face NLLB-200 with 200+ language support."
+        "description": "Batch-friendly translation CLI leveraging Hugging Face NLLB-200 with full support for metadata-preserving PO file handling."
       },
       "fr": {
-        "description": "CLI et package Python l\u00e9ger pour des workflows de traduction rapides et batch. Supporte la traduction phrase par phrase, par r\u00e9pertoire/fichier, et la gestion compl\u00e8te de fichiers PO (gettext) \u2014 pr\u00e9servant m\u00e9tadonn\u00e9es, commentaires et structure. Id\u00e9al pour la localisation (Poedit/Django). Utilise NLLB-200 de Hugging Face avec 200+ langues."
+        "description": "CLI de traduction par lots exploitant NLLB-200 d'Hugging Face avec support complet des fichiers PO pr\u00e9servant les m\u00e9tadonn\u00e9es."
       }
     },
     {
@@ -495,10 +519,10 @@
       "image": "static/images/cloud_api.jpg",
       "pdf_include": false,
       "en": {
-        "description": "Python library and CLI for managing Jelastic cloud environments \u2014 create, start, stop, delete, clone, and configure environments programmatically. Includes an MCP (Model Context Protocol) server that lets AI assistants like Claude directly interact with and manage cloud infrastructure."
+        "description": "Python library and MCP server for programmatic management and AI-driven interaction with Jelastic cloud environments."
       },
       "fr": {
-        "description": "Biblioth\u00e8que Python et CLI pour g\u00e9rer des environnements cloud Jelastic \u2014 cr\u00e9er, d\u00e9marrer, arr\u00eater, supprimer, cloner et configurer des environnements programmatically. Inclut un serveur MCP (Model Context Protocol) permettant aux assistants IA comme Claude d'interagir directement avec l'infrastructure cloud."
+        "description": "Biblioth\u00e8que Python et serveur MCP pour la gestion programmatique et l'interaction par IA des environnements cloud Jelastic."
       }
     },
     {

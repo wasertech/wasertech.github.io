@@ -14,8 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!text) return '';
         return text
             .replace(/- /g, '') // Remove list bullets for cleaner look
-            .replace(/\n/g, '<br>')
-            .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>');
+            .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
+            .replace(/\[([^\]]+)\]/g, '') // Strip non-link [text] brackets
+            .replace(/\n\n/g, '<br>') // Double newline -> single break
+            .replace(/\n/g, ''); // Remove remaining single newlines
     };
 
     const getSocialLinksHtml = (contact, whitelist = null) => {
@@ -110,8 +112,23 @@ document.addEventListener('DOMContentLoaded', () => {
                          </div>
                          <div>
                             <h3>${s.technical_skills[lang]}</h3>
-                            <div class="skills-container" style="margin-top: 1rem;">
-                                ${d.skills.map(skill => `<span class="skill-tag">${getSkillName(skill)}</span>`).join('')}
+                            <div style="margin-top: 1rem;">
+                                ${(() => {
+                                    const grouped = {};
+                                    d.skills.forEach(skill => {
+                                        const cat = skill.category || 'Other';
+                                        if (!grouped[cat]) grouped[cat] = [];
+                                        grouped[cat].push(getSkillName(skill));
+                                    });
+                                    return Object.entries(grouped).map(([cat, skills]) => `
+                                        <div style="margin-bottom: 1rem;">
+                                            <h4 style="font-size: 0.9rem; margin-bottom: 0.3rem; color: var(--accent-primary);">${cat}</h4>
+                                            <div class="skills-container">
+                                                ${skills.map(s => `<span class="skill-tag">${s}</span>`).join('')}
+                                            </div>
+                                        </div>
+                                    `).join('');
+                                })()}
                             </div>
                          </div>
                     </div>

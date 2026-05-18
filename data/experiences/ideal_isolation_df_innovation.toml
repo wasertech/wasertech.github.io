@@ -1,0 +1,17 @@
+date = "Sep 2024 - Mar 2026"
+
+[en]
+title = "Data Scientist"
+company = "Idéal Isolation Sàrl & DF Innovation Sàrl"
+details = """
+- Idéal Isolation: Strategic analysis of operational bottlenecks; development of data pipelines and predictive models to optimize quotation and invoicing workflows.
+- DF Innovation: R&D in Generative AI (RAG, Fine-tuning), quantitative algorithmic trading, and Solana smart-contracts.
+"""
+
+[fr]
+title = "Data Scientist"
+company = "Idéal Isolation Sàrl & DF Innovation Sàrl"
+details = """
+- Idéal Isolation: Analyse stratégique des freins opérationnels ; développement de pipelines de données et modèles prédictifs pour optimiser les devis et la facturation.
+- DF Innovation: R&D en IA Générative (RAG, Fine-tuning), trading quantitatif algorithmique et smart-contracts Solana.
+"""
