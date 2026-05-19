@@ -1,4 +1,17 @@
 [[projects]]
+name = "Hugging Face Profile"
+category = "software"
+url = "https://huggingface.co/wasertech"
+image = "static/images/portrait_thumb.png"
+pdf_include = true
+
+[projects.en]
+description = "Official Hugging Face profile hosting open-source LLMs, speech models, and specialized AI datasets."
+
+[projects.fr]
+description = "Profil Hugging Face officiel hébergeant des LLM open-source, des modèles de parole et des ensembles de données IA spécialisés."
+
+[[projects]]
 name = "Assistant"
 category = "software"
 url = "https://gitlab.com/waser-technologies/technologies/assistant"

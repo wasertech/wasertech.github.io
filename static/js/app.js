@@ -13,11 +13,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const parseMarkdown = (text) => {
         if (!text) return '';
         return text
-            .replace(/- /g, '') // Remove list bullets for cleaner look
             .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank">$1</a>')
             .replace(/\[([^\]]+)\]/g, '') // Strip non-link [text] brackets
-            .replace(/\n\n/g, '<br>') // Double newline -> single break
-            .replace(/\n/g, ''); // Remove remaining single newlines
+            .split('\n')
+            .map(line => line.trim())
+            .filter(line => line !== '')
+            .map(line => {
+                if (line.startsWith('- ')) {
+                    let content = line.substring(2);
+                    // If line has a colon, treat the first part as a bold title
+                    if (content.includes(': ')) {
+                        const colonIndex = content.indexOf(': ');
+                        const title = content.substring(0, colonIndex);
+                        const desc = content.substring(colonIndex + 2);
+                        return `<div style="margin-top: 1rem; margin-bottom: 0.5rem; line-height: 1.5;">
+                            <span style="font-weight: 600; color: var(--accent-primary);">• ${title}:</span> 
+                            ${desc}
+                        </div>`;
+                    }
+                    return `<div style="margin-top: 1rem; margin-bottom: 0.2rem; font-weight: 600; color: var(--accent-primary);">• ${content}</div>`;
+                }
+                return `<div style="margin-bottom: 0.5rem; line-height: 1.5;">${line}</div>`;
+            })
+            .join('');
     };
 
     const getSocialLinksHtml = (contact, whitelist = null) => {
@@ -25,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: 'github', icon: 'fab fa-github', title: 'GitHub' },
             { key: 'gitlab', icon: 'fab fa-gitlab', title: 'GitLab' },
             { key: 'linkedin', icon: 'fab fa-linkedin', title: 'LinkedIn' },
+            { key: 'huggingface', icon: 'fas fa-face-smile', title: 'Hugging Face' },
             { key: 'docker', icon: 'fab fa-docker', title: 'Docker Hub' },
             { key: 'youtube', icon: 'fab fa-youtube', title: 'YouTube' },
             { key: 'discourse', icon: 'fab fa-firefox', title: 'Discourse' }, // Using firefox icon for mozilla discourse as in old index
@@ -64,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <img src="static/images/portrait.webp" alt="Profile" class="profile-image">
                     <h1 class="profile-name">Danny Waser</h1>
                     <p class="profile-tagline">AI Engineer & Full Stack Dev</p>
-                    ${getSocialLinksHtml(d.contact, ['github', 'gitlab', 'linkedin'])}
+                    ${getSocialLinksHtml(d.contact, ['github', 'gitlab', 'linkedin', 'huggingface'])}
                 </div>
 
                 <nav class="nav-menu">

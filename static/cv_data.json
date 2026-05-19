@@ -15,6 +15,7 @@
     "github": "https://github.com/wasertech",
     "gitlab": "https://gitlab.com/wasertech",
     "linkedin": "https://linkedin.com/in/wasertech/",
+    "huggingface": "https://huggingface.co/wasertech",
     "docker": "https://hub.docker.com/u/wasertech",
     "discourse": "https://discourse.mozilla.org/u/skeilnet/summary",
     "youtube": "https://www.youtube.com/@wasertech",
@@ -262,7 +263,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 160722,
+        "stars": 160774,
         "pr_count": 1,
         "prs": [
           {
@@ -290,7 +291,7 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2584,
+        "stars": 2583,
         "pr_count": 12,
         "prs": [
           {
@@ -460,6 +461,19 @@
     ]
   },
   "portfolio": [
+    {
+      "name": "Hugging Face Profile",
+      "category": "software",
+      "url": "https://huggingface.co/wasertech",
+      "image": "static/images/portrait_thumb.png",
+      "pdf_include": true,
+      "en": {
+        "description": "Official Hugging Face profile hosting open-source LLMs, speech models, and specialized AI datasets."
+      },
+      "fr": {
+        "description": "Profil Hugging Face officiel h\u00e9bergeant des LLM open-source, des mod\u00e8les de parole et des ensembles de donn\u00e9es IA sp\u00e9cialis\u00e9s."
+      }
+    },
     {
       "name": "Assistant",
       "category": "software",
