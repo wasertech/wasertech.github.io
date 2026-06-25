@@ -10,9 +10,11 @@ The project separates content (data) from presentation (templates/scripts), maki
 ## 🏗 Architecture
 
 *   **Data Layer (`data/`)**: All CV content is stored here in `.toml` files (e.g., `profile.toml`, `experiences/*.toml`). This acts as the single source of truth.
+*   **Applications Tracking (`contacts/`)**: Subdirectory per job application. Each contains a `contact.toml` file acting as the source of truth for that application's metadata and cover letter text.
 *   **Build Scripts**:
     *   `build.py`: Aggregates all `.toml` files into a single `static/cv_data.json` file for the frontend. It also fetches GitHub contributions using the `gh` CLI and generates the vCard/QR code.
     *   `generate_pdf.py`: Reads `static/cv_data.json` and uses `fpdf2` to render pixel-perfect PDF resumes (`CV_EN.pdf`, `CV_FR.pdf`).
+    *   `gen_letters.py`: Reads a `contact.toml` file (or its containing directory) to render a specific `COVER_LETTER.pdf` in that folder.
 *   **Frontend (`static/`)**: A static web application.
     *   `index.html`: The main entry point.
     *   `js/app.js`: Fetches `cv_data.json` and renders the UI.
@@ -28,6 +30,7 @@ The project uses a `Makefile` to automate common tasks.
 | `make all` | Runs the full build process: generates JSON data, vCard, QR code, and PDFs. |
 | `make build` | Runs only `build.py` (JSON, vCard, QR code). |
 | `make pdf` | Runs only `generate_pdf.py` (PDF generation). |
+| `.venv/bin/python3 gen_letters.py <path>` | Generates a cover letter from a `contact.toml` file or a directory (e.g. `contacts/swissquote`) |
 | `make serve` | Starts a local HTTP server at `http://localhost:8000` to view the site (bypassing CORS issues). |
 | `make clean` | Removes all generated artifacts (`cv_data.json`, PDFs, etc.). |
 
@@ -37,6 +40,45 @@ The project uses a `Makefile` to automate common tasks.
     *   **New Experiences/Certifications:** Create a new `.toml` file in `data/experiences/` or `data/certifications/`. Use existing files as templates.
     *   **Updating Static Info:** Edit the single `.toml` files (e.g., `profile.toml`, `skills.toml`).
     *   **Rebuild:** Always run `make all` (or at least `make build`) after modifying data files to see changes.
+    *   **New Job Applications:** Create a directory in `contacts/<company>/` containing a `contact.toml`. To generate the cover letter, run:
+        ```bash
+        .venv/bin/python3 gen_letters.py contacts/<company>
+        ```
+
+## Contact Log / Application Tracking (`contact.toml` format)
+
+Each application in `contacts/<company_directory>/contact.toml` must follow this schema:
+
+```toml
+[contact]
+date_postulation = "YYYY-MM-DD"                     # (mandatory)
+methode_postulation = "voie electronique"           # (mandatory: 'voie electronique', 'lettre', 'contact personnel', 'téléphone')
+entreprise = "Company Name"                         # (mandatory)
+rue = "Street Name"                                 # (mandatory)
+numero = "Number"                                   # (mandatory)
+case_postale = ""                                   # (optional)
+pays = "Country"                                    # (mandatory)
+npa = "Zip/NPA"                                     # (mandatory)
+lieu = "City/Lieu"                                  # (mandatory)
+personne_contactee = "Contact Person/Department"    # (mandatory)
+courriel = "contact@email.com"                      # (mandatory)
+telephone = ""                                      # (optional)
+poste = "Job Title"                                 # (mandatory)
+lien_offre = "https://..."                           # (mandatory: MUST be a direct link to the offer; 404/broken/generic links are invalid!)
+taux_occupation = "100%"                            # (mandatory)
+statut = "en suspens"                               # (mandatory: 'en suspens', 'engagement', 'réponse négative')
+
+[cover_letter]
+langue = "fr"                                       # (mandatory: 'fr' or 'en')
+body = [                                            # (mandatory: array of paragraphs)
+    "Paragraph 1...",
+    "Paragraph 2..."
+]
+```
+
+> [!IMPORTANT]
+> Le lien de l'offre (`lien_offre`) doit toujours être un lien direct vers l'annonce. Si le lien mène vers une page 404, est cassé ou générique, il n'est pas valide !
+
 *   **Code Style:**
     *   Python scripts generally follow PEP 8.
     *   The frontend uses standard HTML5/CSS3 and vanilla JavaScript (ES6+).

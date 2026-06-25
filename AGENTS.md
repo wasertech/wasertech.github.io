@@ -7,8 +7,10 @@ Python-based Curriculum Vitae (CV) generator. CV content lives in `data/*.toml` 
 ## Architecture
 
 - **Data Layer (`data/`)**: All CV content stored as `.toml` files — the single source of truth.
+- **Applications Tracking (`contacts/`)**: Subdirectory per job application. Each has a `contact.toml` file acting as the source of truth for the application's metadata (status, contact, dates) and cover letter text.
 - **`build.py`**: Aggregates TOML into `static/cv_data.json`, fetches GitHub contributions via `gh` CLI, generates vCard and QR code.
 - **`generate_pdf.py`**: Reads `cv_data.json` and uses `fpdf2` to render `CV_EN.pdf` and `CV_FR.pdf`.
+- **`gen_letters.py`**: Generates a specific `COVER_LETTER.pdf` from a `contact.toml` file or its directory.
 - **Frontend (`static/`)**: Static website using vanilla JS, Pico.css. `js/app.js` fetches `cv_data.json` and renders the UI.
 
 ## Commands
@@ -19,6 +21,7 @@ Python-based Curriculum Vitae (CV) generator. CV content lives in `data/*.toml` 
 | `make all` | Full build: JSON data, vCard, QR code, and PDFs |
 | `make build` | Run `build.py` only (JSON, vCard, QR code) |
 | `make pdf` | Run `generate_pdf.py` only (PDF generation) |
+| `.venv/bin/python3 gen_letters.py <path>` | Generate a cover letter from a `contact.toml` file or a directory (e.g. `contacts/swissquote`) |
 | `make serve` | Start local HTTP server at `http://localhost:8000` |
 | `make clean` | Remove generated artifacts |
 
@@ -29,6 +32,45 @@ There are no unit tests in this project. To verify changes, run `make all` then 
 1. Edit `.toml` files in `data/` to modify CV content.
 2. Run `make all` to regenerate all assets.
 3. Run `make serve` to preview the website locally (required due to CORS — opening `index.html` directly will not work).
+4. For job applications, manage files inside `contacts/<company>/contact.toml`. To generate the corresponding cover letter PDF, run:
+   ```bash
+   .venv/bin/python3 gen_letters.py contacts/<company>
+   ```
+
+## Contact Log / Application Tracking (`contact.toml` format)
+
+Each application in `contacts/<company_directory>/contact.toml` must follow this schema:
+
+```toml
+[contact]
+date_postulation = "YYYY-MM-DD"                     # (mandatory)
+methode_postulation = "voie electronique"           # (mandatory: 'voie electronique', 'lettre', 'contact personnel', 'téléphone')
+entreprise = "Company Name"                         # (mandatory)
+rue = "Street Name"                                 # (mandatory)
+numero = "Number"                                   # (mandatory)
+case_postale = ""                                   # (optional)
+pays = "Country"                                    # (mandatory)
+npa = "Zip/NPA"                                     # (mandatory)
+lieu = "City/Lieu"                                  # (mandatory)
+personne_contactee = "Contact Person/Department"    # (mandatory)
+courriel = "contact@email.com"                      # (mandatory)
+telephone = ""                                      # (optional)
+poste = "Job Title"                                 # (mandatory)
+lien_offre = "https://..."                           # (mandatory: MUST be a direct link to the offer; 404/broken/generic links are invalid!)
+taux_occupation = "100%"                            # (mandatory)
+statut = "en suspens"                               # (mandatory: 'en suspens', 'engagement', 'réponse négative')
+
+[cover_letter]
+langue = "fr"                                       # (mandatory: 'fr' or 'en')
+body = [                                            # (mandatory: array of paragraphs)
+    "Paragraph 1...",
+    "Paragraph 2..."
+]
+```
+
+> [!IMPORTANT]
+> The link to the offer (`lien_offre`) must always be a direct link to the job announcement. If it returns a 404, is broken, or is a generic careers landing page, it is **invalid**!
+
 
 ## Code Style
 

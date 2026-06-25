@@ -3,3 +3,7 @@
 gha-creds-*.json
 .kilo/
 contacts/
+searches/
+.antigravitycli/
+.vscode/
+__*__/

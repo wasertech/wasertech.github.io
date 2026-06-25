@@ -58,10 +58,10 @@ image = "static/images/translator.jpg"
 pdf_include = true
 
 [projects.en]
-description = "Batch-friendly translation CLI leveraging Hugging Face NLLB-200 with full support for metadata-preserving PO file handling."
+description = "Batch-friendly translation CLI leveraging Hugging Face translation pipelines (NLLB-200 and compatible models) with full support for metadata-preserving PO file handling."
 
 [projects.fr]
-description = "CLI de traduction par lots exploitant NLLB-200 d'Hugging Face avec support complet des fichiers PO préservant les métadonnées."
+description = "CLI de traduction par lots exploitant les pipelines de traduction Hugging Face (NLLB-200 et modèles compatibles) avec support complet des fichiers PO préservant les métadonnées."
 
 [[projects]]
 name = "Cloud.API"

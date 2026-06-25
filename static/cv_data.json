@@ -9,6 +9,7 @@
   },
   "contact": {
     "address": "Ch. de la Chaumi\u00e8re 6, 1010 Lausanne",
+    "birthDate": "1998-03-17",
     "phone": "+41 (0) 78 911 98 34",
     "email": "danny@waser.tech",
     "website": "https://waser.tech",
@@ -263,7 +264,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 160774,
+        "stars": 161911,
         "pr_count": 1,
         "prs": [
           {
@@ -277,7 +278,7 @@
       {
         "project": "django-cms/django-cms",
         "url": "https://github.com/django-cms/django-cms",
-        "stars": 10634,
+        "stars": 10649,
         "pr_count": 1,
         "prs": [
           {
@@ -291,7 +292,7 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2583,
+        "stars": 2591,
         "pr_count": 12,
         "prs": [
           {
@@ -360,7 +361,7 @@
       {
         "project": "casper-hansen/AutoAWQ",
         "url": "https://github.com/casper-hansen/AutoAWQ",
-        "stars": 2338,
+        "stars": 2348,
         "pr_count": 1,
         "prs": [
           {
@@ -374,7 +375,7 @@
       {
         "project": "ixray-team/ixray-1.6-stcop",
         "url": "https://github.com/ixray-team/ixray-1.6-stcop",
-        "stars": 385,
+        "stars": 390,
         "pr_count": 3,
         "prs": [
           {
@@ -520,10 +521,10 @@
       "image": "static/images/translator.jpg",
       "pdf_include": true,
       "en": {
-        "description": "Batch-friendly translation CLI leveraging Hugging Face NLLB-200 with full support for metadata-preserving PO file handling."
+        "description": "Batch-friendly translation CLI leveraging Hugging Face translation pipelines (NLLB-200 and compatible models) with full support for metadata-preserving PO file handling."
       },
       "fr": {
-        "description": "CLI de traduction par lots exploitant NLLB-200 d'Hugging Face avec support complet des fichiers PO pr\u00e9servant les m\u00e9tadonn\u00e9es."
+        "description": "CLI de traduction par lots exploitant les pipelines de traduction Hugging Face (NLLB-200 et mod\u00e8les compatibles) avec support complet des fichiers PO pr\u00e9servant les m\u00e9tadonn\u00e9es."
       }
     },
     {
