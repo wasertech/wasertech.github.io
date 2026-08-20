@@ -1,17 +1,21 @@
-date = "Sep 2024 - Mar 2026"
+date = "09.2024 - 03.2026"
 
 [en]
 title = "Data Scientist"
 company = "Idéal Isolation Sàrl & DF Innovation Sàrl"
 details = """
-- Idéal Isolation: Strategic analysis of operational bottlenecks; development of data pipelines and predictive models to optimize quotation and invoicing workflows.
-- DF Innovation: R&D in Generative AI (RAG, Fine-tuning), quantitative algorithmic trading, and Solana smart-contracts.
+- Operational Analytics (e-CF D.7): Strategic analysis of bottlenecks in quotation and invoicing workflows; developed data pipelines and predictive models to optimize resource allocation and reduce processing delays — in direct collaboration with management on business requirements.
+- Generative AI R&D (e-CF B.1): Designed and developed custom RAG pipelines and fine-tuned LLMs for domain-specific document understanding and synthesis.
+- Algorithmic Trading: Developed quantitative trading strategies using ML-driven signal extraction from market data, with backtesting infrastructure and performance analysis.
+- Blockchain: Prototyped Solana smart-contracts for automated market operations.
 """
 
 [fr]
 title = "Data Scientist"
 company = "Idéal Isolation Sàrl & DF Innovation Sàrl"
 details = """
-- Idéal Isolation: Analyse stratégique des freins opérationnels ; développement de pipelines de données et modèles prédictifs pour optimiser les devis et la facturation.
-- DF Innovation: R&D en IA Générative (RAG, Fine-tuning), trading quantitatif algorithmique et smart-contracts Solana.
+- Analyse Opérationnelle (e-CF D.7) : Analyse stratégique des goulets d'étranglement dans les workflows de devis et facturation ; développement de pipelines de données et modèles prédictifs pour optimiser l'allocation des ressources et réduire les délais de traitement — en collaboration directe avec la direction sur les exigences métier.
+- R&D en ML Génératif (e-CF B.1) : Conception et développement d'applications RAG sur mesure et fine-tuning de LLMs pour la compréhension et la synthèse de documents spécialisés.
+- Trading Algorithmique : Développement de stratégies de trading quantitatives utilisant l'extraction de signaux par ML sur des données de marché, avec infrastructure de backtest et analyse de performance.
+- Blockchain : Prototypage de smart-contracts Solana pour des opérations de marché automatisées.
 """

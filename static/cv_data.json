@@ -1,10 +1,10 @@
 {
   "profile": {
     "en": {
-      "content": "Passionate about conversational intelligence, I'm fluent in French, English and Spanish. With expertise in language model design and full-stack development, I specialise in improving the accuracy of speech transcription and creating conversational assistants. My ability to migrate and train AI models, combined with my experience in translation tools, make me a valuable asset for any AI company looking to innovate and optimise its solutions.\n"
+      "content": "Machine Learning Engineer & Data Scientist: end-to-end ML solutions \u2014 from data exploration and analysis (e-CF D.7) to production deployment (B.4) \u2014 including data pipelines, RAG, LLM fine-tuning, speech and automation. 57 merged PRs across 12+ open-source repositories (Coqui-STT, AutoAWQ, HuggingFace); 10% WER reduction on French speech models; local inference of 70B+ models on a dual-GPU workstation. Direct C-suite collaboration: functional prototype in under 2 weeks per feature.\n"
     },
     "fr": {
-      "content": "Passionn\u00e9 par l'intelligence conversationnelle, je parle couramment le fran\u00e7ais, l'anglais et l'espagnol. Avec une expertise dans la conception de mod\u00e8les de langage et le d\u00e9veloppement full-stack, je me sp\u00e9cialise dans l'am\u00e9lioration de la pr\u00e9cision de la transcription vocale et la cr\u00e9ation d'assistants conversationnels. Ma capacit\u00e9 \u00e0 migrer et \u00e0 entra\u00eener des mod\u00e8les d'IA, combin\u00e9e \u00e0 mon exp\u00e9rience des outils de traduction, fait de moi un atout pr\u00e9cieux pour toute entreprise d'IA cherchant \u00e0 innover et \u00e0 optimiser ses solutions.\n"
+      "content": "Ing\u00e9nieur en machine learning & scientifique des donn\u00e9es : solutions ML de bout en bout \u2014 de l'exploration et l'analyse des donn\u00e9es (e-CF D.7) au d\u00e9ploiement en production (B.4) \u2014 incluant pipelines de donn\u00e9es, RAG, fine-tuning de LLMs, traitement de la parole et automatisation. 57 PRs merg\u00e9es dans 12+ d\u00e9p\u00f4ts open source (Coqui-STT, AutoAWQ, HuggingFace) ; r\u00e9duction de 10% du taux d'erreur de parole sur les mod\u00e8les fran\u00e7ais ; inf\u00e9rence locale de mod\u00e8les 70B+ sur station dual-GPU. Collaboration directe avec la direction : prototype fonctionnel en moins de 2 semaines par fonctionnalit\u00e9.\n"
     }
   },
   "contact": {
@@ -24,79 +24,1568 @@
   },
   "skills": [
     {
-      "category": "IA & Frameworks",
-      "en": "PyTorch & TensorFlow",
-      "fr": "PyTorch & TensorFlow"
+      "category": "Administration syst\u00e8mes",
+      "fr": "Centre de calcul",
+      "en": "Data Center Operations",
+      "fr_desc": "Server infrastructure operations and supervision",
+      "en_desc": "Exploitation et supervision d'infrastructure serveur"
     },
     {
-      "category": "IA & Frameworks",
-      "en": "Transformers (Hugging Face)",
-      "fr": "Transformers (Hugging Face)"
+      "category": "Applications serveur",
+      "fr": "Apache Tomcat",
+      "en": "Apache Tomcat",
+      "fr_desc": "D\u00e9ploiement et configuration de conteneur de servlets",
+      "en_desc": "Servlet container deployment and configuration"
     },
     {
-      "category": "IA & Frameworks",
-      "en": "RAG & LLM Orchestration",
-      "fr": "RAG & Orchestration LLM"
+      "category": "Applications serveur",
+      "fr": "Apache HTTP Server",
+      "en": "Apache HTTP Server",
+      "fr_desc": "Configuration de serveur web et virtual hosts",
+      "en_desc": "Web server configuration and virtual hosts"
     },
     {
-      "category": "IA & Frameworks",
-      "en": "Automatic Speech Recognition (ASR)",
-      "fr": "Reconnaissance Vocale (ASR)"
+      "category": "Base de donn\u00e9es",
+      "fr": "ETL",
+      "en": "ETL",
+      "fr_desc": "Pipelines d'extraction, transformation, chargement de donn\u00e9es",
+      "en_desc": "Data extraction, transformation, loading pipelines"
     },
     {
-      "category": "IA & Frameworks",
-      "en": "Text-to-Speech (TTS)",
-      "fr": "Synth\u00e8se Vocale (TTS)"
+      "category": "Base de donn\u00e9es",
+      "fr": "MariaDB",
+      "en": "MariaDB",
+      "fr_desc": "Gestion de base de donn\u00e9es relationnelle",
+      "en_desc": "Relational database management"
     },
     {
-      "category": "Languages",
-      "en": "Python",
-      "fr": "Python"
+      "category": "Base de donn\u00e9es",
+      "fr": "MongoDB",
+      "en": "MongoDB",
+      "fr_desc": "Base de donn\u00e9es NoSQL orient\u00e9e documents",
+      "en_desc": "NoSQL document database"
     },
     {
-      "category": "Languages",
-      "en": "Bash & Zsh",
-      "fr": "Bash & Zsh"
+      "category": "Base de donn\u00e9es",
+      "fr": "MySQL",
+      "en": "MySQL",
+      "fr_desc": "Base de donn\u00e9es relationnelle",
+      "en_desc": "Relational database"
     },
     {
-      "category": "Languages",
-      "en": "JavaScript (Node.js)",
-      "fr": "JavaScript (Node.js)"
+      "category": "Base de donn\u00e9es",
+      "fr": "PostgreSQL",
+      "en": "PostgreSQL",
+      "fr_desc": "Base de donn\u00e9es relationnelle avanc\u00e9e, JSONB, extensions",
+      "en_desc": "Advanced relational database, JSONB, extensions"
     },
     {
-      "category": "Languages",
-      "en": "HTML & CSS",
-      "fr": "HTML & CSS"
+      "category": "Base de donn\u00e9es",
+      "fr": "SQL Server",
+      "en": "SQL Server",
+      "fr_desc": "Base de donn\u00e9es relationnelle Microsoft",
+      "en_desc": "Microsoft relational database"
     },
     {
-      "category": "DevOps & Tools",
+      "category": "BI & Data science",
+      "fr": "Tableau",
+      "en": "Tableau",
+      "fr_desc": "Visualisation de donn\u00e9es et tableaux de bord",
+      "en_desc": "Data visualization and dashboards"
+    },
+    {
+      "category": "Blockchain",
+      "fr": "Ethereum",
+      "en": "Ethereum",
+      "fr_desc": "Smart contracts, DeFi, technologie blockchain",
+      "en_desc": "Smart contracts, DeFi, blockchain technology"
+    },
+    {
+      "category": "Bureautique / Gestion",
+      "fr": "MS Office",
+      "en": "MS Office",
+      "fr_desc": "Word, Excel, PowerPoint, Outlook",
+      "en_desc": "Word, Excel, PowerPoint, Outlook"
+    },
+    {
+      "category": "Cloud",
+      "fr": "AWS",
+      "en": "AWS",
+      "fr_desc": "EC2, S3, Lambda, infrastructure cloud",
+      "en_desc": "EC2, S3, Lambda, cloud infrastructure"
+    },
+    {
+      "category": "Cloud",
+      "fr": "Azure",
+      "en": "Azure",
+      "fr_desc": "Services cloud Microsoft",
+      "en_desc": "Microsoft cloud services"
+    },
+    {
+      "category": "Cloud",
+      "fr": "Firebase",
+      "en": "Firebase",
+      "fr_desc": "Backend as a service mobile/web",
+      "en_desc": "Mobile/Web backend as a service"
+    },
+    {
+      "category": "Cloud",
+      "fr": "Google Cloud Platform",
+      "en": "Google Cloud Platform",
+      "fr_desc": "GCP compute, stockage, services ML",
+      "en_desc": "GCP compute, storage, ML services"
+    },
+    {
+      "category": "Bureautique / Gestion",
+      "fr": "Microsoft 365",
+      "en": "Microsoft 365",
+      "fr_desc": "Suite collaborative, bureautique cloud",
+      "en_desc": "Collaboration suite, cloud office"
+    },
+    {
+      "category": "CMS",
+      "fr": "Wordpress",
+      "en": "Wordpress",
+      "fr_desc": "Gestion de contenu, th\u00e8mes, plugins",
+      "en_desc": "Content management, themes, plugins"
+    },
+    {
+      "category": "Design Patterns",
+      "fr": "MVC",
+      "en": "MVC",
+      "fr_desc": "Architecture Model-View-Controller",
+      "en_desc": "Model-View-Controller architecture"
+    },
+    {
+      "category": "Design Patterns",
+      "fr": "MVVM",
+      "en": "MVVM",
+      "fr_desc": "Architecture Model-View-ViewModel",
+      "en_desc": "Model-View-ViewModel architecture"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Ansible",
+      "en": "Ansible",
+      "fr_desc": "Gestion de configuration, automatisation",
+      "en_desc": "Configuration management, automation"
+    },
+    {
+      "category": "DevOps",
+      "fr": "CD",
+      "en": "CD",
+      "fr_desc": "Pipelines de livraison continue",
+      "en_desc": "Continuous delivery pipelines"
+    },
+    {
+      "category": "DevOps",
+      "fr": "CI",
+      "en": "CI",
+      "fr_desc": "Pipelines d'int\u00e9gration continue",
+      "en_desc": "Continuous integration pipelines"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Docker",
       "en": "Docker",
-      "fr": "Docker"
+      "fr_desc": "Containerization, images, orchestration",
+      "en_desc": "Conteneurisation, images, orchestration"
     },
     {
-      "category": "DevOps & Tools",
-      "en": "GNU/Linux Administration",
-      "fr": "Administration GNU/Linux"
+      "category": "DevOps",
+      "fr": "GitHub Actions",
+      "en": "GitHub Actions",
+      "fr_desc": "Automatisation CI/CD sur GitHub",
+      "en_desc": "CI/CD automation on GitHub"
     },
     {
-      "category": "DevOps & Tools",
-      "en": "Git",
-      "fr": "Git"
+      "category": "DevOps",
+      "fr": "GitLab",
+      "en": "GitLab",
+      "fr_desc": "Plateforme Git, CI/CD, DevOps",
+      "en_desc": "Git platform, CI/CD, DevOps"
     },
     {
-      "category": "DevOps & Tools",
-      "en": "Cloud Infrastructure (Jelastic)",
-      "fr": "Infrastructure Cloud (Jelastic)"
+      "category": "DevOps",
+      "fr": "Grafana",
+      "en": "Grafana",
+      "fr_desc": "Tableaux de bord de monitoring, observabilit\u00e9",
+      "en_desc": "Monitoring dashboards, observability"
     },
     {
-      "category": "Libraries",
+      "category": "DevOps",
+      "fr": "Kubernetes",
+      "en": "Kubernetes",
+      "fr_desc": "Orchestration de conteneurs, gestion de clusters",
+      "en_desc": "Container orchestration, cluster management"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Prometheus",
+      "en": "Prometheus",
+      "fr_desc": "Collecte de m\u00e9triques, alerting",
+      "en_desc": "Metrics collection, alerting"
+    },
+    {
+      "category": "DevOps",
+      "fr": "YAML",
+      "en": "YAML",
+      "fr_desc": "Langage de configuration, pipelines",
+      "en_desc": "Configuration language, pipelines"
+    },
+    {
+      "category": "Framework",
+      "fr": "Angular",
+      "en": "Angular",
+      "fr_desc": "Framework frontend, TypeScript",
+      "en_desc": "Frontend framework, TypeScript"
+    },
+    {
+      "category": "Framework",
+      "fr": "Bootstrap",
+      "en": "Bootstrap",
+      "fr_desc": "Framework CSS, design responsive",
+      "en_desc": "CSS framework, responsive design"
+    },
+    {
+      "category": "Framework",
+      "fr": "Django",
       "en": "Django",
-      "fr": "Django"
+      "fr_desc": "Framework web Python, ORM, admin",
+      "en_desc": "Python web framework, ORM, admin"
     },
     {
-      "category": "Libraries",
-      "en": "Prompt Toolkit",
-      "fr": "Prompt Toolkit"
+      "category": "Framework",
+      "fr": "jQuery",
+      "en": "jQuery",
+      "fr_desc": "Biblioth\u00e8que JavaScript, manipulation DOM",
+      "en_desc": "JavaScript library, DOM manipulation"
+    },
+    {
+      "category": "Framework",
+      "fr": "Node",
+      "en": "Node",
+      "fr_desc": "Runtime JavaScript, c\u00f4t\u00e9 serveur",
+      "en_desc": "JavaScript runtime, server-side"
+    },
+    {
+      "category": "Framework",
+      "fr": "PyTorch",
+      "en": "PyTorch",
+      "fr_desc": "Framework deep learning, tenseurs, autograd",
+      "en_desc": "Deep learning framework, tensors, autograd"
+    },
+    {
+      "category": "Framework",
+      "fr": "React",
+      "en": "React",
+      "fr_desc": "Biblioth\u00e8que frontend, composants",
+      "en_desc": "Frontend library, components"
+    },
+    {
+      "category": "Framework",
+      "fr": "Vue",
+      "en": "Vue",
+      "fr_desc": "Framework frontend progressif",
+      "en_desc": "Progressive frontend framework"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Deep learning",
+      "en": "Deep learning",
+      "fr_desc": "R\u00e9seaux de neurones, transformers, entra\u00eenement",
+      "en_desc": "Neural networks, transformers, training"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Machine learning",
+      "en": "Machine learning",
+      "fr_desc": "Apprentissage supervis\u00e9/non supervis\u00e9, feature engineering",
+      "en_desc": "Supervised/unsupervised learning, feature engineering"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "NLP",
+      "en": "NLP",
+      "fr_desc": "Traitement du langage naturel, LLMs",
+      "en_desc": "Natural language processing, LLMs"
+    },
+    {
+      "category": "Interface de programmation (API)",
+      "fr": "DirectX",
+      "en": "DirectX",
+      "fr_desc": "API graphique, rendu GPU",
+      "en_desc": "Graphics API, GPU rendering"
+    },
+    {
+      "category": "Interface de programmation (API)",
+      "fr": "DOM",
+      "en": "DOM",
+      "fr_desc": "Document Object Model, APIs navigateur",
+      "en_desc": "Document Object Model, browser APIs"
+    },
+    {
+      "category": "ITSM & Services",
+      "fr": "JIRA",
+      "en": "JIRA",
+      "fr_desc": "Suivi de tickets, gestion de projet",
+      "en_desc": "Issue tracking, project management"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "Bash",
+      "en": "Bash",
+      "fr_desc": "Scripting shell, automatisation",
+      "en_desc": "Shell scripting, automation"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "C++",
+      "en": "C++",
+      "fr_desc": "Programmation syst\u00e8me, performance",
+      "en_desc": "System programming, performance"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "CSS",
+      "en": "CSS",
+      "fr_desc": "Styles, design responsive",
+      "en_desc": "Styling, responsive design"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "HTML",
+      "en": "HTML",
+      "fr_desc": "Balises, structure s\u00e9mantique",
+      "en_desc": "Markup, semantic structure"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "Javascript",
+      "en": "Javascript",
+      "fr_desc": "Scripting frontend/backend, ES6+",
+      "en_desc": "Frontend/backend scripting, ES6+"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "JSON",
+      "en": "JSON",
+      "fr_desc": "Format d'\u00e9change de donn\u00e9es",
+      "en_desc": "Data interchange format"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "PHP",
+      "en": "PHP",
+      "fr_desc": "Scripting c\u00f4t\u00e9 serveur",
+      "en_desc": "Server-side scripting"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "Python",
+      "en": "Python",
+      "fr_desc": "8+ ans, programmation syst\u00e8me, asynchrone, ML",
+      "en_desc": "8+ years, system programming, async, ML"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "SH",
+      "en": "SH",
+      "fr_desc": "Scripting shell",
+      "en_desc": "Shell scripting"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "Shell",
+      "en": "Shell",
+      "fr_desc": "Shell Unix, scripting",
+      "en_desc": "Unix shell, scripting"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "SQL",
+      "en": "SQL",
+      "fr_desc": "Requ\u00eates, jointures, optimisation",
+      "en_desc": "Queries, joins, optimization"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "TypeScript",
+      "en": "TypeScript",
+      "fr_desc": "Sur-ensemble JavaScript typ\u00e9",
+      "en_desc": "Typed JavaScript superset"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "XML",
+      "en": "XML",
+      "fr_desc": "Balises, s\u00e9rialisation de donn\u00e9es",
+      "en_desc": "Markup, data serialization"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "Desktop",
+      "en": "Desktop",
+      "fr_desc": "Mat\u00e9riel, assemblage, d\u00e9pannage",
+      "en_desc": "Hardware, assembly, troubleshooting"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "Laptop",
+      "en": "Laptop",
+      "fr_desc": "Mat\u00e9riel, assemblage, d\u00e9pannage",
+      "en_desc": "Hardware, assembly, troubleshooting"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "Imprimante",
+      "en": "Imprimante",
+      "fr_desc": "Imprimantes, pilotes, maintenance",
+      "en_desc": "Printers, drivers, maintenance"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "P\u00e9riph\u00e9riques",
+      "en": "P\u00e9riph\u00e9riques",
+      "fr_desc": "P\u00e9riph\u00e9riques, connectivit\u00e9",
+      "en_desc": "Peripherals, connectivity"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "Routeurs",
+      "en": "Routeurs",
+      "fr_desc": "Routeurs, \u00e9quipement r\u00e9seau",
+      "en_desc": "Routers, network equipment"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "Smartphone",
+      "en": "Smartphone",
+      "fr_desc": "Appareils mobiles, configuration",
+      "en_desc": "Mobile devices, configuration"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "tablette",
+      "en": "tablette",
+      "fr_desc": "Appareils mobiles, configuration",
+      "en_desc": "Mobile devices, configuration"
+    },
+    {
+      "category": "Mat\u00e9riel & Equipement",
+      "fr": "Switch",
+      "en": "Switch",
+      "fr_desc": "Switches, infrastructure LAN",
+      "en_desc": "Switches, LAN infrastructure"
+    },
+    {
+      "category": "OS",
+      "fr": "Android",
+      "en": "Android",
+      "fr_desc": "OS mobile, d\u00e9veloppement",
+      "en_desc": "Mobile OS, development"
+    },
+    {
+      "category": "OS",
+      "fr": "iOS",
+      "en": "iOS",
+      "fr_desc": "OS mobile Apple",
+      "en_desc": "Apple mobile OS"
+    },
+    {
+      "category": "OS",
+      "fr": "Linux",
+      "en": "Linux",
+      "fr_desc": "Administration, kernel, systemd",
+      "en_desc": "Administration, kernel, systemd"
+    },
+    {
+      "category": "OS",
+      "fr": "OSX",
+      "en": "OSX",
+      "fr_desc": "OS desktop Apple",
+      "en_desc": "Apple desktop OS"
+    },
+    {
+      "category": "OS",
+      "fr": "Unix",
+      "en": "Unix",
+      "fr_desc": "Syst\u00e8mes Unix, POSIX",
+      "en_desc": "Unix systems, POSIX"
+    },
+    {
+      "category": "OS",
+      "fr": "Windows",
+      "en": "Windows",
+      "fr_desc": "OS desktop, administration",
+      "en_desc": "Desktop OS, administration"
+    },
+    {
+      "category": "OS",
+      "fr": "Windows serveur",
+      "en": "Windows serveur",
+      "fr_desc": "OS serveur, Active Directory",
+      "en_desc": "Server OS, Active Directory"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "3G",
+      "en": "3G",
+      "fr_desc": "Technologies r\u00e9seau mobile",
+      "en_desc": "Mobile network technologies"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "4G",
+      "en": "4G",
+      "fr_desc": "Technologies r\u00e9seau mobile",
+      "en_desc": "Mobile network technologies"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "5G",
+      "en": "5G",
+      "fr_desc": "Technologies r\u00e9seau mobile",
+      "en_desc": "Mobile network technologies"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "DHCP",
+      "en": "DHCP",
+      "fr_desc": "Allocation d'adresses IP",
+      "en_desc": "IP address allocation"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "Ethernet",
+      "en": "Ethernet",
+      "fr_desc": "R\u00e9seau filaire",
+      "en_desc": "Wired networking"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "HTTP",
+      "en": "HTTP",
+      "fr_desc": "Protocole web, REST",
+      "en_desc": "Web protocol, REST"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "Internet",
+      "en": "Internet",
+      "fr_desc": "Fondamentaux r\u00e9seau",
+      "en_desc": "Networking fundamentals"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "IP",
+      "en": "IP",
+      "fr_desc": "Protocole Internet, adressage",
+      "en_desc": "Internet Protocol, addressing"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "LAN",
+      "en": "LAN",
+      "fr_desc": "R\u00e9seaux locaux et \u00e9tendus",
+      "en_desc": "Local and wide area networks"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "WAN",
+      "en": "WAN",
+      "fr_desc": "R\u00e9seaux locaux et \u00e9tendus",
+      "en_desc": "Local and wide area networks"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "POP3",
+      "en": "POP3",
+      "fr_desc": "Protocoles email",
+      "en_desc": "Email protocols"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "SMTP",
+      "en": "SMTP",
+      "fr_desc": "Protocoles email",
+      "en_desc": "Email protocols"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "TCP",
+      "en": "TCP",
+      "fr_desc": "Pile r\u00e9seau, sockets",
+      "en_desc": "Network stack, sockets"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "VoIP",
+      "en": "VoIP",
+      "fr_desc": "Voix sur IP",
+      "en_desc": "Voice over IP"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "Wifi",
+      "en": "Wifi",
+      "fr_desc": "R\u00e9seau sans fil",
+      "en_desc": "Wireless networking"
+    },
+    {
+      "category": "S\u00e9curit\u00e9",
+      "fr": "Antivirus",
+      "en": "Antivirus",
+      "fr_desc": "Protection contre les malwares",
+      "en_desc": "Malware protection"
+    },
+    {
+      "category": "S\u00e9curit\u00e9",
+      "fr": "Firewall",
+      "en": "Firewall",
+      "fr_desc": "S\u00e9curit\u00e9 r\u00e9seau, filtrage",
+      "en_desc": "Network security, filtering"
+    },
+    {
+      "category": "S\u00e9curit\u00e9",
+      "fr": "GPO",
+      "en": "GPO",
+      "fr_desc": "Gestion des strat\u00e9gies de groupe",
+      "en_desc": "Group policy management"
+    },
+    {
+      "category": "S\u00e9curit\u00e9",
+      "fr": "Spyware",
+      "en": "Spyware",
+      "fr_desc": "Protection anti-spyware",
+      "en_desc": "Anti-spyware protection"
+    },
+    {
+      "category": "S\u00e9curit\u00e9",
+      "fr": "SSL",
+      "en": "SSL",
+      "fr_desc": "Chiffrement de transport, certificats",
+      "en_desc": "Transport encryption, certificates"
+    },
+    {
+      "category": "S\u00e9curit\u00e9",
+      "fr": "VPN",
+      "en": "VPN",
+      "fr_desc": "R\u00e9seaux priv\u00e9s virtuels",
+      "en_desc": "Virtual private networks"
+    },
+    {
+      "category": "Test & Qualit\u00e9",
+      "fr": "Selenium",
+      "en": "Selenium",
+      "fr_desc": "Tests navigateur automatis\u00e9s",
+      "en_desc": "Automated browser testing"
+    },
+    {
+      "category": "Virtualisation",
+      "fr": "HyperV",
+      "en": "HyperV",
+      "fr_desc": "Hyperviseur Microsoft",
+      "en_desc": "Microsoft hypervisor"
+    },
+    {
+      "category": "Virtualisation",
+      "fr": "VirtualBox",
+      "en": "VirtualBox",
+      "fr_desc": "Virtualisation desktop",
+      "en_desc": "Desktop virtualization"
+    },
+    {
+      "category": "Virtualisation",
+      "fr": "VMWare",
+      "en": "VMWare",
+      "fr_desc": "Plateforme de virtualisation",
+      "en_desc": "Virtualization platform"
+    },
+    {
+      "category": "Virtualisation",
+      "fr": "VMWare Workstation",
+      "en": "VMWare Workstation",
+      "fr_desc": "Hyperviseur desktop",
+      "en_desc": "Desktop hypervisor"
+    },
+    {
+      "category": "Visioconf\u00e9rence",
+      "fr": "Teams",
+      "en": "Teams",
+      "fr_desc": "Collaboration, r\u00e9unions",
+      "en_desc": "Collaboration, meetings"
+    },
+    {
+      "category": "Visioconf\u00e9rence",
+      "fr": "Zoom",
+      "en": "Zoom",
+      "fr_desc": "Visioconf\u00e9rence",
+      "en_desc": "Video conferencing"
+    },
+    {
+      "category": "Web Service",
+      "fr": "REST",
+      "en": "REST",
+      "fr_desc": "APIs RESTful, verbes HTTP",
+      "en_desc": "RESTful APIs, HTTP verbs"
+    },
+    {
+      "category": "Gouvernance",
+      "fr": "Lean",
+      "en": "Lean",
+      "fr_desc": "Principes Lean, r\u00e9duction du gaspillage",
+      "en_desc": "Lean principles, waste reduction"
+    },
+    {
+      "category": "Gouvernance",
+      "fr": "RGPD",
+      "en": "RGPD",
+      "fr_desc": "Conformit\u00e9 RGPD, protection des donn\u00e9es",
+      "en_desc": "GDPR compliance, data protection"
+    },
+    {
+      "category": "Processus",
+      "fr": "BPM",
+      "en": "BPM",
+      "fr_desc": "Gestion des processus m\u00e9tier",
+      "en_desc": "Business process management"
+    },
+    {
+      "category": "Projet",
+      "fr": "Agile",
+      "en": "Agile",
+      "fr_desc": "M\u00e9thodologies agiles, c\u00e9r\u00e9monies",
+      "en_desc": "Agile methodologies, ceremonies"
+    },
+    {
+      "category": "Projet",
+      "fr": "DevOps",
+      "en": "DevOps",
+      "fr_desc": "Culture DevOps, pipelines",
+      "en_desc": "DevOps culture, pipelines"
+    },
+    {
+      "category": "Projet",
+      "fr": "Kanban",
+      "en": "Kanban",
+      "fr_desc": "Gestion visuelle du flux de travail",
+      "en_desc": "Visual workflow management"
+    },
+    {
+      "category": "Projet",
+      "fr": "Scrum",
+      "en": "Scrum",
+      "fr_desc": "Framework Scrum, sprints",
+      "en_desc": "Scrum framework, sprints"
+    },
+    {
+      "category": "Test",
+      "fr": "BDD",
+      "en": "BDD",
+      "fr_desc": "D\u00e9veloppement pilot\u00e9 par le comportement",
+      "en_desc": "Behavior-driven development"
+    },
+    {
+      "category": "Test",
+      "fr": "TDD",
+      "en": "TDD",
+      "fr_desc": "D\u00e9veloppement pilot\u00e9 par les tests",
+      "en_desc": "Test-driven development"
+    },
+    {
+      "category": "Langues",
+      "fr": "Fran\u00e7ais",
+      "en": "French",
+      "fr_desc": "Langue maternelle (C2)",
+      "en_desc": "Native language (C2)"
+    },
+    {
+      "category": "Langues",
+      "fr": "Anglais",
+      "en": "English",
+      "fr_desc": "Niveau professionnel (C1)",
+      "en_desc": "Professional working proficiency (C1)"
+    },
+    {
+      "category": "Langues",
+      "fr": "Espagnol",
+      "en": "Spanish",
+      "fr_desc": "Niveau avanc\u00e9 (C1)",
+      "en_desc": "Advanced proficiency (C1)"
+    },
+    {
+      "category": "Langues",
+      "fr": "Allemand",
+      "en": "German",
+      "fr_desc": "Niveau interm\u00e9diaire (B1)",
+      "en_desc": "Intermediate proficiency (B1)"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "CUDA C++",
+      "en": "CUDA C++",
+      "fr_desc": "D\u00e9veloppement de kernels GPU, optimisation m\u00e9moire, parall\u00e9lisation",
+      "en_desc": "GPU kernel development, memory optimization, parallelization"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "Kernels Triton",
+      "en": "Triton Kernels",
+      "fr_desc": "Langage de kernel Triton pour optimisations d'inf\u00e9rence",
+      "en_desc": "Triton kernel language for inference optimization"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Quantification AWQ",
+      "en": "AWQ Quantization",
+      "fr_desc": "Pipelines de quantification, PR merg\u00e9e AutoAWQ #573",
+      "en_desc": "Quantization pipelines, merged PR AutoAWQ #573"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Quantification GPTQ",
+      "en": "GPTQ Quantization",
+      "fr_desc": "Pipelines de quantification de mod\u00e8les",
+      "en_desc": "Model quantization pipelines"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Quantification GGUF",
+      "en": "GGUF Quantization",
+      "fr_desc": "Quantification GGUF, formats llama.cpp",
+      "en_desc": "GGUF quantization, llama.cpp formats"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "PyTorch Internals",
+      "en": "PyTorch Internals",
+      "fr_desc": "autograd, ATen, torch.compile, PR merg\u00e9e transformers #42864",
+      "en_desc": "autograd, ATen, torch.compile, merged PR transformers #42864"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "llama.cpp",
+      "en": "llama.cpp",
+      "fr_desc": "Inf\u00e9rence LLM locale, d\u00e9codage sp\u00e9culatif, cache tree-of-thought",
+      "en_desc": "Local LLM inference, speculative decoding, tree-of-thought caching"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "vLLM",
+      "en": "vLLM",
+      "fr_desc": "Serveur d'inf\u00e9rence haute performance, batching continu",
+      "en_desc": "High-throughput inference server, continuous batching"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Orchestration multi-agent",
+      "en": "Multi-Agent Orchestration",
+      "fr_desc": "Syst\u00e8mes multi-agents pour interaction syst\u00e8me complexe",
+      "en_desc": "Multi-agent systems for complex system interaction"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Pipelines RAG",
+      "en": "RAG Pipelines",
+      "fr_desc": "G\u00e9n\u00e9ration augment\u00e9e par recherche pour recherche & synth\u00e8se documentaire",
+      "en_desc": "Retrieval-augmented generation for document search & synthesis"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Fine-tuning LoRA",
+      "en": "LoRA Fine-tuning",
+      "fr_desc": "Fine-tuning param\u00e9trique efficace (LoRA/QLoRA)",
+      "en_desc": "Parameter-efficient fine-tuning (LoRA/QLoRA)"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Fine-tuning SFT",
+      "en": "SFT Fine-tuning",
+      "fr_desc": "Curatation de datasets SFT (50k+ exemples) & fine-tuning supervis\u00e9",
+      "en_desc": "SFT dataset curation (50k+ examples) & supervised fine-tuning"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "\u00c9cosyst\u00e8me Hugging Face",
+      "en": "Hugging Face Ecosystem",
+      "fr_desc": "transformers, datasets, tokenizers, ~10 mod\u00e8les publi\u00e9s",
+      "en_desc": "transformers, datasets, tokenizers, ~10 models published"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Ing\u00e9nierie de prompt",
+      "en": "Prompt Engineering",
+      "fr_desc": "Templates, cha\u00eenage, gestion de contexte pour syst\u00e8mes LLM de production",
+      "en_desc": "Templates, chaining, context management for production LLM systems"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "DeepSpeech",
+      "en": "DeepSpeech",
+      "fr_desc": "Reconnaissance vocale, entra\u00eenement et d\u00e9ploiement",
+      "en_desc": "Speech recognition, training and deployment"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Coqui STT",
+      "en": "Coqui STT",
+      "fr_desc": "12 PR merg\u00e9es dans coqui-ai/STT",
+      "en_desc": "12 merged PRs in coqui-ai/STT"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Whisper",
+      "en": "Whisper",
+      "fr_desc": "Transcription automatique, int\u00e9gration Faster-Whisper",
+      "en_desc": "Automatic transcription, Faster-Whisper integration"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "OpenVoice",
+      "en": "OpenVoice",
+      "fr_desc": "Clonage vocal few-shot, synth\u00e8se multilingue temps r\u00e9el (OpenVoice v2)",
+      "en_desc": "Few-shot voice cloning, real-time multilingual synthesis (OpenVoice v2)"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "D\u00e9tection d'activit\u00e9 vocale",
+      "en": "Voice Activity Detection",
+      "fr_desc": "VAD temps r\u00e9el pour pipelines de reconnaissance vocale",
+      "en_desc": "Real-time VAD for speech recognition pipelines"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "FFmpeg",
+      "en": "FFmpeg",
+      "fr_desc": "Traitement et streaming audio/vid\u00e9o, pipelines multim\u00e9dia",
+      "en_desc": "Audio/video processing and streaming, multimedia pipelines"
+    },
+    {
+      "category": "DevOps",
+      "fr": "GNU",
+      "en": "GNU",
+      "fr_desc": "systemd, kernel tuning, modules, performance optimization",
+      "en_desc": "systemd, kernel tuning, modules, performance optimization"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Arch Linux",
+      "en": "Arch Linux",
+      "fr_desc": "GNU/Linux, systemd, kernel tuning, modules, performance optimization",
+      "en_desc": "GNU/Linux, systemd, kernel tuning, modules, performance optimization"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Manjaro",
+      "en": "Manjaro",
+      "fr_desc": "Distribution GNU/Linux Arch-based, gestion de paquets, maintenance",
+      "en_desc": "Arch-based GNU/Linux distribution, package management, maintenance"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Serveur GPU NVIDIA",
+      "en": "NVIDIA GPU Server",
+      "fr_desc": "Multi-GPU (dual RTX Titan), CUDA toolkit, inference serving, fan control",
+      "en_desc": "Multi-GPU (dual RTX Titan), CUDA toolkit, inference serving, fan control"
+    },
+    {
+      "category": "DevOps",
+      "fr": "CUDA Toolkit",
+      "en": "CUDA Toolkit",
+      "fr_desc": "Toolkit NVIDIA pour calcul GPU, compilation, profilage",
+      "en_desc": "NVIDIA GPU computing toolkit, compilation, profiling"
+    },
+    {
+      "category": "DevOps",
+      "fr": "Git & CI",
+      "en": "Git & CI",
+      "fr_desc": "GitHub/GitLab, GitHub Actions, pipelines CI, automations",
+      "en_desc": "GitHub/GitLab, GitHub Actions, CI pipelines, automations"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "OmniRoute Gateway",
+      "en": "OmniRoute Gateway",
+      "fr_desc": "Passerelle LLM locale avec search, fetch, routage d'inf\u00e9rence et proxy CLI",
+      "en_desc": "Local LLM gateway with search, fetch, inference routing, and CLI proxy"
+    },
+    {
+      "category": "Applications serveur",
+      "fr": "SearXNG",
+      "en": "SearXNG",
+      "fr_desc": "Moteur de recherche auto-h\u00e9berg\u00e9, scraping et extraction web par ML",
+      "en_desc": "Self-hosted search engine, AI-powered web scraping and extraction"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "crawl4ai",
+      "en": "crawl4ai",
+      "fr_desc": "Moteur de recherche auto-h\u00e9berg\u00e9, scraping et extraction web par ML",
+      "en_desc": "Self-hosted search engine, AI-powered web scraping and extraction"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Docling",
+      "en": "Docling",
+      "fr_desc": "Conversion de documents (PDF/images \u2192 Markdown) sur GPU",
+      "en_desc": "Document conversion (PDF/images \u2192 Markdown) on GPU"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Docling Serve",
+      "en": "Docling Serve",
+      "fr_desc": "Conversion de documents (PDF/images \u2192 Markdown) sur GPU",
+      "en_desc": "Document conversion (PDF/images \u2192 Markdown) on GPU"
+    },
+    {
+      "category": "Framework",
+      "fr": "TensorFlow",
+      "en": "TensorFlow",
+      "fr_desc": "Entra\u00eenement, export TFLite, optimisation de graphes, PR merg\u00e9es STT #2222 #2221",
+      "en_desc": "Training, TFLite export, graph optimization, merged PRs STT #2222 #2221"
+    },
+    {
+      "category": "Framework",
+      "fr": "FastAPI",
+      "en": "FastAPI",
+      "fr_desc": "Framework web asynchrone, APIs REST, documentation automatique",
+      "en_desc": "Async web framework, REST APIs, auto-documentation"
+    },
+    {
+      "category": "R\u00e9seaux, protocoles & T\u00e9l\u00e9communications",
+      "fr": "WebSocket",
+      "en": "WebSocket",
+      "fr_desc": "Architectures temps r\u00e9el, streaming audio, clients asynchrones, SSE",
+      "en_desc": "Real-time architectures, audio streaming, async clients, SSE"
+    },
+    {
+      "category": "Framework",
+      "fr": "Hermes Agent",
+      "en": "Hermes Agent",
+      "fr_desc": "Framework agent ML multi-provider, skills, cron, MCP, gateway, Telegram",
+      "en_desc": "Multi-provider AI agent framework, skills, cron, MCP, gateway, Telegram"
+    },
+    {
+      "category": "Applications serveur",
+      "fr": "Freqtrade",
+      "en": "Freqtrade",
+      "fr_desc": "Bot de trading algorithmique, strat\u00e9gies ML, backtesting, 52 paires multi-exchange",
+      "en_desc": "Algorithmic trading bot, ML-driven strategies, backtesting, 52-pair multi-exchange"
+    },
+    {
+      "category": "Base de donn\u00e9es",
+      "fr": "SQLite",
+      "en": "SQLite",
+      "fr_desc": "Recherche plein texte, bases vectorielles, stockage de sessions, analytics",
+      "en_desc": "Full-text search, vector databases, session storage, analytics"
+    },
+    {
+      "category": "Base de donn\u00e9es",
+      "fr": "FTS5",
+      "en": "FTS5",
+      "fr_desc": "Recherche plein texte, bases vectorielles, stockage de sessions, analytics",
+      "en_desc": "Full-text search, vector databases, session storage, analytics"
+    },
+    {
+      "category": "Data Science",
+      "fr": "Jupyter",
+      "en": "Jupyter",
+      "fr_desc": "Analyse de donn\u00e9es interactive, s\u00e9ries temporelles, prototypage de pipelines ML",
+      "en_desc": "Interactive data analysis, time series, ML pipeline prototyping"
+    },
+    {
+      "category": "Data Science",
+      "fr": "Pandas",
+      "en": "Pandas",
+      "fr_desc": "Analyse de donn\u00e9es interactive, s\u00e9ries temporelles, prototypage de pipelines ML",
+      "en_desc": "Interactive data analysis, time series, ML pipeline prototyping"
+    },
+    {
+      "category": "Data Science",
+      "fr": "NumPy",
+      "en": "NumPy",
+      "fr_desc": "Analyse de donn\u00e9es interactive, s\u00e9ries temporelles, prototypage de pipelines ML",
+      "en_desc": "Interactive data analysis, time series, ML pipeline prototyping"
+    },
+    {
+      "category": "Data Science",
+      "fr": "Pipelines de donn\u00e9es",
+      "en": "Data Pipelines",
+      "fr_desc": "Ingestion, nettoyage, transformation, stockage, analyse",
+      "en_desc": "Ingestion, cleaning, transformation, storage, analysis"
+    },
+    {
+      "category": "Data Science",
+      "fr": "Curatation de datasets SFT",
+      "en": "SFT Dataset Curation",
+      "fr_desc": "Standardisation multi-sources, filtrage qualit\u00e9 (50k+ exemples)",
+      "en_desc": "Multi-source standardization, quality filtering (50k+ examples)"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "OpenCV",
+      "en": "OpenCV",
+      "fr_desc": "Traitement d'image, pipelines de vision par ordinateur, int\u00e9gration cam\u00e9ra",
+      "en_desc": "Image processing, computer vision pipelines, camera integration"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "Pillow",
+      "en": "Pillow",
+      "fr_desc": "Traitement d'image, pipelines de vision par ordinateur, int\u00e9gration cam\u00e9ra",
+      "en_desc": "Image processing, computer vision pipelines, camera integration"
+    },
+    {
+      "category": "Blockchain",
+      "fr": "Solana",
+      "en": "Solana",
+      "fr_desc": "D\u00e9veloppement d'applications d\u00e9centralis\u00e9es et smart contracts sur Solana (Rust, Anchor)",
+      "en_desc": "Decentralized app development and smart contracts on Solana (Rust, Anchor)"
+    },
+    {
+      "category": "CMS",
+      "fr": "Django CMS",
+      "en": "Django CMS",
+      "fr_desc": "Gestion de contenu et personnalisation de th\u00e8mes avec Django CMS",
+      "en_desc": "Content management and theme customization with Django CMS"
+    },
+    {
+      "category": "Langages informatiques",
+      "fr": "xonsh",
+      "en": "xonsh",
+      "fr_desc": "Shell Python mixte pour scripts et automatisation",
+      "en_desc": "Python-powered shell for scripting and automation"
+    },
+    {
+      "category": "OS",
+      "fr": "systemd",
+      "en": "systemd",
+      "fr_desc": "Gestion de services et init system Linux",
+      "en_desc": "Linux service management and init system"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "pi",
+      "en": "pi",
+      "fr_desc": "Agent CLI (Nous Research) pour d\u00e9l\u00e9gation de t\u00e2ches de coding",
+      "en_desc": "Nous Research CLI agent for coding task delegation"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "oh-my-pi",
+      "en": "oh-my-pi",
+      "fr_desc": "Framework d'orchestration et de configuration d'agents pi",
+      "en_desc": "Orchestration and configuration framework for pi agents"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "opencode",
+      "en": "opencode",
+      "fr_desc": "Agent CLI open source pour impl\u00e9mentation et revue de code",
+      "en_desc": "Open-source CLI agent for code implementation and review"
+    },
+    {
+      "category": "Machine Learning",
+      "fr": "GitHub Copilot",
+      "en": "GitHub Copilot",
+      "fr_desc": "Assistant de code IA, compl\u00e9tion et refactoring en \u00e9diteur",
+      "en_desc": "AI code assistant, editor completion and refactoring"
+    }
+  ],
+  "competences_pro": [
+    {
+      "nom": "Planifier",
+      "competences": [
+        {
+          "id": "A.1",
+          "titre": "Syst\u00e8mes d'information et alignement strat\u00e9gique m\u00e9tier",
+          "niveaux": [
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "A.2",
+          "titre": "Gestion des niveaux de service",
+          "niveaux": [
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "A.3",
+          "titre": "Mise en place d'un plan d'activit\u00e9s",
+          "niveaux": [
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "A.4",
+          "titre": "Planification des produits/services",
+          "niveaux": [
+            2,
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "A.5",
+          "titre": "Conception de l'architecture",
+          "niveaux": [
+            3,
+            4,
+            5
+          ],
+          "niveau_max": 5
+        },
+        {
+          "id": "A.6",
+          "titre": "Conception des applications",
+          "niveaux": [
+            1,
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "A.7",
+          "titre": "Veille technologique",
+          "niveaux": [
+            3,
+            4,
+            5
+          ],
+          "niveau_max": 5
+        },
+        {
+          "id": "A.8",
+          "titre": "Gestion du d\u00e9veloppement durable",
+          "niveaux": [
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "A.9",
+          "titre": "Innovation",
+          "niveaux": [
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "A.10",
+          "titre": "Exp\u00e9rience utilisateur",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        }
+      ]
+    },
+    {
+      "nom": "D\u00e9velopper",
+      "competences": [
+        {
+          "id": "B.1",
+          "titre": "Conception et d\u00e9veloppement d'applications",
+          "niveaux": [
+            1,
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "B.2",
+          "titre": "Int\u00e9gration des composants",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "B.3",
+          "titre": "Tests",
+          "niveaux": [
+            1,
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "B.4",
+          "titre": "D\u00e9ploiement de la solution",
+          "niveaux": [
+            1,
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "B.5",
+          "titre": "Production de la documentation",
+          "niveaux": [
+            1,
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "B.6",
+          "titre": "Ing\u00e9nierie syst\u00e8me",
+          "niveaux": [
+            3,
+            4
+          ],
+          "niveau_max": 4
+        }
+      ]
+    },
+    {
+      "nom": "Exploiter",
+      "competences": [
+        {
+          "id": "C.1",
+          "titre": "Support utilisateur",
+          "niveaux": [
+            1,
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "C.2",
+          "titre": "Support aux changements",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "C.3",
+          "titre": "Fourniture de services",
+          "niveaux": [
+            1,
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "C.4",
+          "titre": "Gestion des probl\u00e8mes",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "C.5",
+          "titre": "Gestion des syst\u00e8mes",
+          "niveaux": [
+            1,
+            2,
+            3
+          ],
+          "niveau_max": 3
+        }
+      ]
+    },
+    {
+      "nom": "Faciliter",
+      "competences": [
+        {
+          "id": "D.1",
+          "titre": "D\u00e9veloppement d'une strat\u00e9gie de s\u00e9curit\u00e9 de l'information",
+          "niveaux": [
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "D.2",
+          "titre": "D\u00e9veloppement d'une strat\u00e9gie pour la qualit\u00e9 des TIC",
+          "niveaux": [
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "D.3",
+          "titre": "Prestation de services de formation",
+          "niveaux": [
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "D.4",
+          "titre": "Achats",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "D.5",
+          "titre": "D\u00e9veloppement des ventes",
+          "niveaux": [
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "D.6",
+          "titre": "Marketing num\u00e9rique",
+          "niveaux": [
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "D.7",
+          "titre": "Science des donn\u00e9es et analyse",
+          "niveaux": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "niveau_max": 5
+        },
+        {
+          "id": "D.8",
+          "titre": "Gestion des contrats",
+          "niveaux": [
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "D.9",
+          "titre": "D\u00e9veloppement du personnel",
+          "niveaux": [
+            2
+          ],
+          "niveau_max": 2
+        },
+        {
+          "id": "D.10",
+          "titre": "Gestion de l'information et de la connaissance",
+          "niveaux": [
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "D.11",
+          "titre": "Identification des besoins",
+          "niveaux": [
+            3
+          ],
+          "niveau_max": 3
+        }
+      ]
+    },
+    {
+      "nom": "G\u00e9rer",
+      "competences": [
+        {
+          "id": "E.1",
+          "titre": "D\u00e9veloppement pr\u00e9visionnel",
+          "niveaux": [
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "E.2",
+          "titre": "Gestion des projets et du portefeuille de projets",
+          "niveaux": [
+            2,
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "E.3",
+          "titre": "Gestion des risques",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "E.4",
+          "titre": "Gestion de la relation client",
+          "niveaux": [
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "E.5",
+          "titre": "Am\u00e9lioration des processus",
+          "niveaux": [
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "E.6",
+          "titre": "Gestion de la qualit\u00e9 des TIC",
+          "niveaux": [
+            2,
+            3,
+            4
+          ],
+          "niveau_max": 4
+        },
+        {
+          "id": "E.7",
+          "titre": "Gestion des changements m\u00e9tier",
+          "niveaux": [
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "E.8",
+          "titre": "Gestion de la s\u00e9curit\u00e9 de l'information",
+          "niveaux": [
+            2,
+            3
+          ],
+          "niveau_max": 3
+        },
+        {
+          "id": "E.9",
+          "titre": "Gouvernance des syst\u00e8mes d'information",
+          "niveaux": [
+            4
+          ],
+          "niveau_max": 4
+        }
+      ]
     }
   ],
   "languages": [
@@ -145,61 +1634,61 @@
   ],
   "experiences": [
     {
-      "date": "Sep 2024 - Mar 2026",
+      "date": "09.2024 - 03.2026",
       "en": {
         "title": "Data Scientist",
         "company": "Id\u00e9al Isolation S\u00e0rl & DF Innovation S\u00e0rl",
-        "details": "- Id\u00e9al Isolation: Strategic analysis of operational bottlenecks; development of data pipelines and predictive models to optimize quotation and invoicing workflows.\n- DF Innovation: R&D in Generative AI (RAG, Fine-tuning), quantitative algorithmic trading, and Solana smart-contracts.\n"
+        "details": "- Operational Analytics (e-CF D.7): Strategic analysis of bottlenecks in quotation and invoicing workflows; developed data pipelines and predictive models to optimize resource allocation and reduce processing delays \u2014 in direct collaboration with management on business requirements.\n- Generative AI R&D (e-CF B.1): Designed and developed custom RAG pipelines and fine-tuned LLMs for domain-specific document understanding and synthesis.\n- Algorithmic Trading: Developed quantitative trading strategies using ML-driven signal extraction from market data, with backtesting infrastructure and performance analysis.\n- Blockchain: Prototyped Solana smart-contracts for automated market operations.\n"
       },
       "fr": {
         "title": "Data Scientist",
         "company": "Id\u00e9al Isolation S\u00e0rl & DF Innovation S\u00e0rl",
-        "details": "- Id\u00e9al Isolation: Analyse strat\u00e9gique des freins op\u00e9rationnels ; d\u00e9veloppement de pipelines de donn\u00e9es et mod\u00e8les pr\u00e9dictifs pour optimiser les devis et la facturation.\n- DF Innovation: R&D en IA G\u00e9n\u00e9rative (RAG, Fine-tuning), trading quantitatif algorithmique et smart-contracts Solana.\n"
+        "details": "- Analyse Op\u00e9rationnelle (e-CF D.7) : Analyse strat\u00e9gique des goulets d'\u00e9tranglement dans les workflows de devis et facturation ; d\u00e9veloppement de pipelines de donn\u00e9es et mod\u00e8les pr\u00e9dictifs pour optimiser l'allocation des ressources et r\u00e9duire les d\u00e9lais de traitement \u2014 en collaboration directe avec la direction sur les exigences m\u00e9tier.\n- R&D en ML G\u00e9n\u00e9ratif (e-CF B.1) : Conception et d\u00e9veloppement d'applications RAG sur mesure et fine-tuning de LLMs pour la compr\u00e9hension et la synth\u00e8se de documents sp\u00e9cialis\u00e9s.\n- Trading Algorithmique : D\u00e9veloppement de strat\u00e9gies de trading quantitatives utilisant l'extraction de signaux par ML sur des donn\u00e9es de march\u00e9, avec infrastructure de backtest et analyse de performance.\n- Blockchain : Prototypage de smart-contracts Solana pour des op\u00e9rations de march\u00e9 automatis\u00e9es.\n"
       }
     },
     {
-      "date": "Nov. 2021 - Dec. 2022",
+      "date": "11.2021 - 12.2022",
       "en": {
         "title": "Speech recognition developer",
         "company": "Mozilla & Coqui-AI",
-        "details": "- [Update of the CommonVoice French model training image](https://github.com/common-voice/commonvoice-fr/pulls?q=is%3Apr+author%3Awasertech+)\nWith Mozilla, we have re-implemented the DeepSpeech model training image with the STT (Speech-To-Text) project to continue transcribing French with our machines.\n- [Migration from DeepSpeech to STT for the French-speaking pipeline](https://github.com/coqui-ai/STT/issues?q=author%3Awasertech)\nWith Coqui-AI, we have implemented various improvements to the STT project to enable training of French-speaking models.\n- [Training new speech transcription models](https://github.com/wasertech/commonvoice-fr/releases)\nFinally, I published new models for French, using 2x as much higher quality augmented data in order to reduce the average word error rate by 10%.\n"
+        "details": "- 12 merged PRs in coqui-ai/STT across 1.5 years: Fixes to memory management during batch training [#2205](https://github.com/coqui-ai/STT/pull/2205), TF graph export optimization [#2222](https://github.com/coqui-ai/STT/pull/2222) ; removed memmapped format, TFLite export pipeline [#2221](https://github.com/coqui-ai/STT/pull/2221), LM optimization module refactoring [#2116](https://github.com/coqui-ai/STT/pull/2116), [#2203](https://github.com/coqui-ai/STT/pull/2203), importer fixes [#2148](https://github.com/coqui-ai/STT/pull/2148), [#2111](https://github.com/coqui-ai/STT/pull/2111), and CI improvements [#2285](https://github.com/coqui-ai/STT/pull/2285).\n- CommonVoice FR maintenance ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)): Reimplemented the DeepSpeech model training image using the STT framework to continue French transcription capacity after DeepSpeech deprecation.\n- Published French speech models ([github.com/wasertech/commonvoice-fr/releases](https://github.com/wasertech/commonvoice-fr/releases)): Trained new French models using 2\u00d7 higher-quality augmented data, reducing average Word Error Rate by 10%.\n- DeepSpeech \u2192 STT migration: Led the migration of the French-language training pipeline from deprecated DeepSpeech to the STT codebase.\n"
       },
       "fr": {
         "title": "D\u00e9veloppeur en reconnaissance vocale",
         "company": "Mozilla & Coqui-AI",
-        "details": "- [Mise \u00e0 jour de l'image d'entra\u00eenement du mod\u00e8le fran\u00e7ais CommonVoice](https://github.com/common-voice/commonvoice-fr/pulls?q=is%3Apr+author%3Awasertech+)\nAvec Mozilla, nous avons r\u00e9-impl\u00e9ment\u00e9 l'image d'entra\u00eenement du mod\u00e8le DeepSpeech avec le projet STT (Speech-To-Text) pour continuer \u00e0 transcrire le fran\u00e7ais avec nos machines.\n- [Migration de DeepSpeech vers STT pour le pipeline francophone](https://github.com/coqui-ai/STT/issues?q=author%3Awasertech)\nAvec Coqui-AI, nous avons mis en \u0153uvre diverses am\u00e9liorations du projet STT pour permettre l'entra\u00eenement de mod\u00e8les francophones.\n- [Entra\u00eenement de nouveaux mod\u00e8les de transcription vocale](https://github.com/wasertech/commonvoice-fr/releases)\nEnfin, j'ai publi\u00e9 de nouveaux mod\u00e8les pour le fran\u00e7ais, en utilisant 2x plus de donn\u00e9es augment\u00e9es de meilleure qualit\u00e9 afin de r\u00e9duire le taux d'erreur de mot moyen de 10%.\n"
+        "details": "- 12 PR merg\u00e9es dans coqui-ai/STT sur 1.5 ans : Corrections de gestion m\u00e9moire pendant l'entra\u00eenement batch [#2205](https://github.com/coqui-ai/STT/pull/2205), optimisation d'export de graphe TF [#2222](https://github.com/coqui-ai/STT/pull/2222) ; suppression du format memmapped, pipeline d'export TFLite [#2221](https://github.com/coqui-ai/STT/pull/2221), refactoring du module d'optimisation LM [#2116](https://github.com/coqui-ai/STT/pull/2116), [#2203](https://github.com/coqui-ai/STT/pull/2203), corrections d'importers [#2148](https://github.com/coqui-ai/STT/pull/2148), [#2111](https://github.com/coqui-ai/STT/pull/2111) et am\u00e9liorations CI [#2285](https://github.com/coqui-ai/STT/pull/2285).\n- Maintenance CommonVoice FR ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : R\u00e9impl\u00e9mentation de l'image d'entra\u00eenement DeepSpeech avec le framework STT pour continuer la transcription fran\u00e7aise apr\u00e8s la d\u00e9pr\u00e9ciation de DeepSpeech.\n- Mod\u00e8les fran\u00e7ais publi\u00e9s ([github.com/wasertech/commonvoice-fr/releases](https://github.com/wasertech/commonvoice-fr/releases)) : Entra\u00eenement de nouveaux mod\u00e8les fran\u00e7ais avec 2\u00d7 plus de donn\u00e9es augment\u00e9es de meilleure qualit\u00e9, r\u00e9duisant le taux d'erreur de mot moyen de 10%.\n- Migration DeepSpeech \u2192 STT : Pilotage de la migration du pipeline d'entra\u00eenement francophone de DeepSpeech (d\u00e9pr\u00e9ci\u00e9) vers la codebase STT.\n"
       }
     },
     {
-      "date": "Jan. 2024 - March 2024",
+      "date": "01.2024 - 03.2024",
       "en": {
-        "title": "Engineer in Artificial Intelligence (AI)",
+        "title": "Machine Learning Engineer",
         "company": "Synthflow AI",
-        "details": "- Rapid R&D and prototyping of multi-agent conversational systems for telephonic deployment.\n- Iterative implementation of LLM-based dialogue managers and prompt engineering for real-time interaction.\n"
+        "details": "- Multi-agent conversational systems (e-CF B.1): Designed and prototyped production voice-call systems deploying multiple specialized LLM agents in tandem for telephony.\n- Real-time dialogue management: Iterative implementation of LLM-based dialogue managers with dynamic prompt engineering for sub-second response times in live calls.\n- Rapid R&D cycle (e-CF E.2): From concept to functional prototype in under 2 weeks per feature, working directly with C-suite on product requirements.\n"
       },
       "fr": {
-        "title": "Ing\u00e9nieur en Intelligence Artificielle (IA)",
+        "title": "Ing\u00e9nieur en Machine Learning (ML)",
         "company": "Synthflow AI",
-        "details": "- R&D rapide et prototypage de syst\u00e8mes conversationnels multi-agents pour le d\u00e9ploiement t\u00e9l\u00e9phonique.\n- Impl\u00e9mentation it\u00e9rative de gestionnaires de dialogue bas\u00e9s sur les LLM et ing\u00e9nierie de prompt pour l'interaction en temps r\u00e9el.\n"
+        "details": "- Syst\u00e8mes conversationnels multi-agents (e-CF B.1) : Conception et prototypage de syst\u00e8mes d'appels vocaux de production d\u00e9ployant plusieurs agents LLM sp\u00e9cialis\u00e9s en tandem pour la t\u00e9l\u00e9phonie.\n- Gestion de dialogue temps r\u00e9el : Impl\u00e9mentation it\u00e9rative de gestionnaires de dialogue bas\u00e9s sur LLM avec ing\u00e9nierie de prompt dynamique pour des temps de r\u00e9ponse inf\u00e9rieurs \u00e0 la seconde en appel en direct.\n- Cycle R&D rapide (e-CF E.2) : Du concept au prototype fonctionnel en moins de 2 semaines par fonctionnalit\u00e9, en travaillant directement avec la direction sur les exigences produit.\n"
       }
     },
     {
-      "date": "Jan. 2020 - July 2023",
+      "date": "01.2020 - 07.2023",
       "en": {
         "title": "AI Developer & Founder (Entrepreneurial)",
         "company": "Waser Technologies",
-        "details": "- [Multi-modal language translator](https://github.com/wasertech/Translator): High-performance translation tool leveraging local LLMs.\n- [Local, real-time voice transcription and speech synthesis](https://gitlab.com/waser-technologies/technologies/listen): Low-latency processing using Faster-Whisper and OpenVoice.\n- [Natural language system orchestrator](https://gitlab.com/waser-technologies/technologies/assistant): AI-powered shell for seamless system interaction.\n"
+        "details": "- CUDA kernel optimization: Merged PRs in [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) and [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29), updated build process for Torch version compatibility and flexible quantization kernel compilation.\n- Multi-modal translator ([github.com/wasertech/Translator](https://github.com/wasertech/Translator)): Batch translation CLI with PO file support, multi-language detection, and NLLB-200 integration. 4 merged PRs covering locale handling, type safety, and PO workflow.\n- Real-time speech transcription pipeline ([gitlab.com/waser-technologies/technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)): End-to-end client-server architecture combining Faster-Whisper with VAD for latency-optimized live transcription; paired with OpenVoice v2 for few-shot voice cloning and TTS.\n- Multi-agent LLM orchestrator ([gitlab.com/waser-technologies/technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)): production assistant running on local hardware (96GB RAM, dual RTX Titan) orchestrating specialized agents for system ops, web research, and file editing via natural language, with on-premise inference serving.\n- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)): Merged fix for ApertusMLP xielu activation initialization using torch_dtype.\n"
       },
       "fr": {
-        "title": "D\u00e9veloppeur IA & Fondateur (Activit\u00e9 Entrepreneuriale)",
+        "title": "D\u00e9veloppeur ML & Fondateur (Activit\u00e9 Entrepreneuriale)",
         "company": "Waser Technologies",
-        "details": "- [Traducteur de langage multi-modal](https://github.com/wasertech/Translator) : Outil de traduction haute performance exploitant des LLM locaux.\n- [Transcription vocale et synth\u00e8se vocale locale en temps r\u00e9el](https://gitlab.com/waser-technologies/technologies/listen) : Traitement \u00e0 faible latence via Faster-Whisper et OpenVoice.\n- [Orchestrateur syst\u00e8me en langage naturel](https://gitlab.com/waser-technologies/technologies/assistant) : Shell propuls\u00e9 par l'IA pour une interaction syst\u00e8me fluide.\n"
+        "details": "- Optimisation de kernels CUDA : PR merg\u00e9es dans [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) et [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29), mise \u00e0 jour du build process pour compatibilit\u00e9 Torch et compilation flexible de kernels de quantification.\n- Traducteur multi-modal ([github.com/wasertech/Translator](https://github.com/wasertech/Translator)) : CLI de traduction par lots avec support PO, d\u00e9tection multi-langue et int\u00e9gration NLLB-200. 4 PR merg\u00e9es (locale, type safety, workflow PO).\n- Pipeline de transcription vocale temps r\u00e9el ([gitlab.com/waser-technologies/technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Architecture client-serveur de bout en bout combinant Faster-Whisper et VAD pour la transcription en direct avec latence minimale ; associ\u00e9 \u00e0 OpenVoice v2 pour le clonage vocal few-shot et la TTS.\n- Orchestrateur LLM multi-agent ([gitlab.com/waser-technologies/technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : assistant de production sur hardware local (96GB RAM, dual RTX Titan) orchestrant des agents sp\u00e9cialis\u00e9s pour les op\u00e9rations syst\u00e8me, la recherche web et l'\u00e9dition de fichiers via langage naturel, avec inf\u00e9rence sur site.\n- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : Correction merg\u00e9e pour l'initialisation de l'activation xielu d'ApertusMLP utilisant torch_dtype.\n"
       }
     }
   ],
   "education": [
     {
-      "date": "Aug. 2014 - July 2017",
+      "date": "08.2014 - 07.2017",
       "pdf_include": true,
       "en": {
         "title": "Commercial Diploma (CFC + MPC)",
@@ -213,7 +1702,7 @@
       }
     },
     {
-      "date": "Aug. 2005 - July 2014",
+      "date": "08.2005 - 07.2014",
       "pdf_include": false,
       "en": {
         "title": "Secondary Level Certificate (VSG)",
@@ -229,8 +1718,8 @@
   ],
   "certifications": [
     {
-      "start_date": "Oct. 2023",
-      "end_date": "Nov. 2023",
+      "start_date": "10.2023",
+      "end_date": "11.2023",
       "image": "static/GoogleAdvancedDataAnalyticsCertificate.png",
       "url": "https://wasertech.github.io/static/GoogleAdvancedDataAnalyticsCertificate.pdf",
       "en": {
@@ -247,7 +1736,8 @@
     "manual": [
       {
         "project": "Mozilla Common Voice",
-        "url": "https://github.com/common-voice/commonvoice-fr",
+        "url": "https://github.com/wasertech/commonvoice-fr/releases",
+        "title_url": "https://github.com/common-voice/commonvoice-fr/pull/168",
         "category": "speech",
         "pdf_include": true,
         "en": {
@@ -264,13 +1754,16 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 161911,
+        "stars": 164276,
         "pr_count": 1,
         "prs": [
           {
             "title": "fix: Initialize ApertusMLP's xielu activation using `torch_dtype`",
             "url": "https://github.com/huggingface/transformers/pull/42864",
-            "merged_at": "2025-12-15T16:09:50Z"
+            "merged_at": "2025-12-15T16:09:50Z",
+            "additions": 7,
+            "deletions": 2,
+            "size": 9
           }
         ],
         "latest_merge": "2025-12-15T16:09:50Z"
@@ -278,13 +1771,16 @@
       {
         "project": "django-cms/django-cms",
         "url": "https://github.com/django-cms/django-cms",
-        "stars": 10649,
+        "stars": 10661,
         "pr_count": 1,
         "prs": [
           {
             "title": "fix: typos in French translations",
             "url": "https://github.com/django-cms/django-cms/pull/7514",
-            "merged_at": "2023-03-28T15:22:33Z"
+            "merged_at": "2023-03-28T15:22:33Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
           }
         ],
         "latest_merge": "2023-03-28T15:22:33Z"
@@ -292,68 +1788,104 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2591,
+        "stars": 2604,
         "pr_count": 12,
         "prs": [
           {
-            "title": "Fix CCPMF importer",
-            "url": "https://github.com/coqui-ai/STT/pull/2067",
-            "merged_at": "2022-01-12T15:38:07Z"
-          },
-          {
             "title": "Bring back importer for TrainingSpeech",
             "url": "https://github.com/coqui-ai/STT/pull/2111",
-            "merged_at": "2022-02-23T10:31:24Z"
+            "merged_at": "2022-02-23T10:31:24Z",
+            "additions": 293,
+            "deletions": 0,
+            "size": 293
           },
           {
             "title": "Add excluded sentences to LM",
             "url": "https://github.com/coqui-ai/STT/pull/2112",
-            "merged_at": "2022-02-19T21:14:32Z"
+            "merged_at": "2022-02-19T21:14:32Z",
+            "additions": 119,
+            "deletions": 17,
+            "size": 136
+          },
+          {
+            "title": "Fix CCPMF importer",
+            "url": "https://github.com/coqui-ai/STT/pull/2067",
+            "merged_at": "2022-01-12T15:38:07Z",
+            "additions": 97,
+            "deletions": 31,
+            "size": 128
           },
           {
             "title": "Make lm_optimizer.py as python module",
             "url": "https://github.com/coqui-ai/STT/pull/2116",
-            "merged_at": "2022-02-23T10:30:46Z"
-          },
-          {
-            "title": "[FIX]: lm_optimize module import from training utils",
-            "url": "https://github.com/coqui-ai/STT/pull/2148",
-            "merged_at": "2022-03-03T15:31:50Z"
-          },
-          {
-            "title": "Fix LM optimization script importing non existing function and add CI testing",
-            "url": "https://github.com/coqui-ai/STT/pull/2203",
-            "merged_at": "2022-04-26T19:21:35Z"
+            "merged_at": "2022-02-23T10:30:46Z",
+            "additions": 71,
+            "deletions": 47,
+            "size": 118
           },
           {
             "title": "Workaround batch size memory test",
             "url": "https://github.com/coqui-ai/STT/pull/2205",
-            "merged_at": "2022-04-27T10:50:44Z"
-          },
-          {
-            "title": "Fix importers save_excluded_max_sec_to_disk flag",
-            "url": "https://github.com/coqui-ai/STT/pull/2213",
-            "merged_at": "2022-05-30T12:50:54Z"
+            "merged_at": "2022-04-27T10:50:44Z",
+            "additions": 61,
+            "deletions": 7,
+            "size": 68
           },
           {
             "title": "export to tflite using python37 venv",
             "url": "https://github.com/coqui-ai/STT/pull/2221",
-            "merged_at": "2022-05-30T17:21:36Z"
+            "merged_at": "2022-05-30T17:21:36Z",
+            "additions": 32,
+            "deletions": 13,
+            "size": 45
           },
           {
-            "title": "Remove `convert_graphdef_memmapped_format`",
-            "url": "https://github.com/coqui-ai/STT/pull/2222",
-            "merged_at": "2022-05-30T12:51:13Z"
+            "title": "Fix LM optimization script importing non existing function and add CI testing",
+            "url": "https://github.com/coqui-ai/STT/pull/2203",
+            "merged_at": "2022-04-26T19:21:35Z",
+            "additions": 37,
+            "deletions": 1,
+            "size": 38
+          },
+          {
+            "title": "Fix importers save_excluded_max_sec_to_disk flag",
+            "url": "https://github.com/coqui-ai/STT/pull/2213",
+            "merged_at": "2022-05-30T12:50:54Z",
+            "additions": 31,
+            "deletions": 4,
+            "size": 35
           },
           {
             "title": "Update BUILDING.rst",
             "url": "https://github.com/coqui-ai/STT/pull/2285",
-            "merged_at": "2022-08-23T09:19:43Z"
+            "merged_at": "2022-08-23T09:19:43Z",
+            "additions": 8,
+            "deletions": 8,
+            "size": 16
           },
           {
             "title": "Updated missing checkpoint path error message",
             "url": "https://github.com/coqui-ai/STT/pull/2330",
-            "merged_at": "2023-01-12T14:05:17Z"
+            "merged_at": "2023-01-12T14:05:17Z",
+            "additions": 11,
+            "deletions": 1,
+            "size": 12
+          },
+          {
+            "title": "Remove `convert_graphdef_memmapped_format`",
+            "url": "https://github.com/coqui-ai/STT/pull/2222",
+            "merged_at": "2022-05-30T12:51:13Z",
+            "additions": 0,
+            "deletions": 4,
+            "size": 4
+          },
+          {
+            "title": "[FIX]: lm_optimize module import from training utils",
+            "url": "https://github.com/coqui-ai/STT/pull/2148",
+            "merged_at": "2022-03-03T15:31:50Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
           }
         ],
         "latest_merge": "2023-01-12T14:05:17Z"
@@ -361,13 +1893,16 @@
       {
         "project": "casper-hansen/AutoAWQ",
         "url": "https://github.com/casper-hansen/AutoAWQ",
-        "stars": 2348,
+        "stars": 2349,
         "pr_count": 1,
         "prs": [
           {
             "title": "Let installed PyTorch decide required version number",
             "url": "https://github.com/casper-hansen/AutoAWQ/pull/573",
-            "merged_at": "2024-09-12T10:41:34Z"
+            "merged_at": "2024-09-12T10:41:34Z",
+            "additions": 2,
+            "deletions": 1,
+            "size": 3
           }
         ],
         "latest_merge": "2024-09-12T10:41:34Z"
@@ -375,23 +1910,32 @@
       {
         "project": "ixray-team/ixray-1.6-stcop",
         "url": "https://github.com/ixray-team/ixray-1.6-stcop",
-        "stars": 390,
+        "stars": 440,
         "pr_count": 3,
         "prs": [
           {
             "title": "Support common cross-platform rendering pipeline thru Vulkan",
             "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/185",
-            "merged_at": "2025-09-07T08:28:22Z"
-          },
-          {
-            "title": "Add support for preferred fallback language",
-            "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/191",
-            "merged_at": "2025-09-13T03:02:16Z"
+            "merged_at": "2025-09-07T08:28:22Z",
+            "additions": 3186,
+            "deletions": 42,
+            "size": 3228
           },
           {
             "title": "Fix language reload and translate inventory items when switching language ",
             "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/207",
-            "merged_at": "2025-11-12T08:54:02Z"
+            "merged_at": "2025-11-12T08:54:02Z",
+            "additions": 173,
+            "deletions": 12,
+            "size": 185
+          },
+          {
+            "title": "Add support for preferred fallback language",
+            "url": "https://github.com/ixray-team/ixray-1.6-stcop/pull/191",
+            "merged_at": "2025-09-13T03:02:16Z",
+            "additions": 90,
+            "deletions": 4,
+            "size": 94
           }
         ],
         "latest_merge": "2025-11-12T08:54:02Z"
@@ -399,38 +1943,56 @@
       {
         "project": "coqui-ai/STT-models",
         "url": "https://github.com/coqui-ai/STT-models",
-        "stars": 155,
+        "stars": 153,
         "pr_count": 6,
         "prs": [
           {
-            "title": "New release 0.8.3 for French STT",
-            "url": "https://github.com/coqui-ai/STT-models/pull/11",
-            "merged_at": "2022-02-15T20:37:07Z"
-          },
-          {
             "title": "Update cv-fr v0.8 and add v0.9",
             "url": "https://github.com/coqui-ai/STT-models/pull/17",
-            "merged_at": "2022-07-11T16:49:10Z"
+            "merged_at": "2022-07-11T16:49:10Z",
+            "additions": 620,
+            "deletions": 4,
+            "size": 624
+          },
+          {
+            "title": "New release 0.8.3 for French STT",
+            "url": "https://github.com/coqui-ai/STT-models/pull/11",
+            "merged_at": "2022-02-15T20:37:07Z",
+            "additions": 600,
+            "deletions": 0,
+            "size": 600
           },
           {
             "title": "Fix broken link for chatio",
             "url": "https://github.com/coqui-ai/STT-models/pull/20",
-            "merged_at": "2022-08-09T23:19:39Z"
+            "merged_at": "2022-08-09T23:19:39Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
           },
           {
             "title": "Update MODEL_CARD.md",
             "url": "https://github.com/coqui-ai/STT-models/pull/21",
-            "merged_at": "2022-08-09T23:20:07Z"
+            "merged_at": "2022-08-09T23:20:07Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
           },
           {
             "title": "Update MODEL_CARD.md",
             "url": "https://github.com/coqui-ai/STT-models/pull/22",
-            "merged_at": "2022-08-09T23:20:26Z"
+            "merged_at": "2022-08-09T23:20:26Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
           },
           {
             "title": "Update MODEL_CARD.md",
             "url": "https://github.com/coqui-ai/STT-models/pull/23",
-            "merged_at": "2022-08-09T23:20:45Z"
+            "merged_at": "2022-08-09T23:20:45Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
           }
         ],
         "latest_merge": "2022-08-09T23:20:45Z"
@@ -444,20 +2006,138 @@
           {
             "title": "Add Django streaming example",
             "url": "https://github.com/coqui-ai/STT-examples/pull/34",
-            "merged_at": "2022-06-24T19:07:17Z"
-          },
-          {
-            "title": "Update README.rst",
-            "url": "https://github.com/coqui-ai/STT-examples/pull/36",
-            "merged_at": "2022-06-26T05:56:13Z"
+            "merged_at": "2022-06-24T19:07:17Z",
+            "additions": 1492,
+            "deletions": 0,
+            "size": 1492
           },
           {
             "title": "Update README.md",
             "url": "https://github.com/coqui-ai/STT-examples/pull/38",
-            "merged_at": "2022-09-23T12:16:55Z"
+            "merged_at": "2022-09-23T12:16:55Z",
+            "additions": 3,
+            "deletions": 3,
+            "size": 6
+          },
+          {
+            "title": "Update README.rst",
+            "url": "https://github.com/coqui-ai/STT-examples/pull/36",
+            "merged_at": "2022-06-26T05:56:13Z",
+            "additions": 1,
+            "deletions": 0,
+            "size": 1
           }
         ],
         "latest_merge": "2022-09-23T12:16:55Z"
+      },
+      {
+        "project": "casper-hansen/AutoAWQ_kernels",
+        "url": "https://github.com/casper-hansen/AutoAWQ_kernels",
+        "stars": 80,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "Update build process for flexibility and torch version compatibility",
+            "url": "https://github.com/casper-hansen/AutoAWQ_kernels/pull/29",
+            "merged_at": "2024-09-10T13:12:15Z",
+            "additions": 26,
+            "deletions": 9,
+            "size": 35
+          }
+        ],
+        "latest_merge": "2024-09-10T13:12:15Z"
+      },
+      {
+        "project": "EsupPortail/Esup-Pod",
+        "url": "https://github.com/EsupPortail/Esup-Pod",
+        "stars": 48,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "Use  \ud83d\udc38-STT",
+            "url": "https://github.com/EsupPortail/Esup-Pod/pull/587",
+            "merged_at": "2022-02-21T10:54:50Z",
+            "additions": 21,
+            "deletions": 21,
+            "size": 42
+          }
+        ],
+        "latest_merge": "2022-02-21T10:54:50Z"
+      },
+      {
+        "project": "coqui-ai/stt-model-manager",
+        "url": "https://github.com/coqui-ai/stt-model-manager",
+        "stars": 26,
+        "pr_count": 4,
+        "prs": [
+          {
+            "title": "Fix security vulnerabilities",
+            "url": "https://github.com/coqui-ai/stt-model-manager/pull/47",
+            "merged_at": "2022-07-14T17:00:23Z",
+            "additions": 3898,
+            "deletions": 2587,
+            "size": 6485
+          },
+          {
+            "title": "Version 0.0.21-GM",
+            "url": "https://github.com/coqui-ai/stt-model-manager/pull/45",
+            "merged_at": "2022-07-13T05:43:13Z",
+            "additions": 88,
+            "deletions": 26,
+            "size": 114
+          },
+          {
+            "title": "Loosen STT version requirement",
+            "url": "https://github.com/coqui-ai/stt-model-manager/pull/41",
+            "merged_at": "2022-07-12T16:25:59Z",
+            "additions": 4,
+            "deletions": 4,
+            "size": 8
+          },
+          {
+            "title": "Loosen `coqpit`",
+            "url": "https://github.com/coqui-ai/stt-model-manager/pull/52",
+            "merged_at": "2022-10-07T20:33:22Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
+          }
+        ],
+        "latest_merge": "2022-10-07T20:33:22Z"
+      },
+      {
+        "project": "dperelman/gamepad-util",
+        "url": "https://github.com/dperelman/gamepad-util",
+        "stars": 15,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "Update identify_evdev.py",
+            "url": "https://github.com/dperelman/gamepad-util/pull/4",
+            "merged_at": "2022-08-09T10:11:49Z",
+            "additions": 1,
+            "deletions": 1,
+            "size": 2
+          }
+        ],
+        "latest_merge": "2022-08-09T10:11:49Z"
+      },
+      {
+        "project": "ixray-community/ixray-unofficial-patch",
+        "url": "https://github.com/ixray-community/ixray-unofficial-patch",
+        "stars": 2,
+        "pr_count": 1,
+        "prs": [
+          {
+            "title": "Update README with mod loading instructions",
+            "url": "https://github.com/ixray-community/ixray-unofficial-patch/pull/2",
+            "merged_at": "2025-09-03T22:19:50Z",
+            "additions": 3,
+            "deletions": 0,
+            "size": 3
+          }
+        ],
+        "latest_merge": "2025-09-03T22:19:50Z"
       }
     ]
   },
@@ -469,10 +2149,10 @@
       "image": "static/images/portrait_thumb.png",
       "pdf_include": true,
       "en": {
-        "description": "Official Hugging Face profile hosting open-source LLMs, speech models, and specialized AI datasets."
+        "description": "Official Hugging Face profile hosting open-source LLMs, speech models, and specialized ML datasets."
       },
       "fr": {
-        "description": "Profil Hugging Face officiel h\u00e9bergeant des LLM open-source, des mod\u00e8les de parole et des ensembles de donn\u00e9es IA sp\u00e9cialis\u00e9s."
+        "description": "Profil Hugging Face officiel h\u00e9bergeant des LLM open-source, des mod\u00e8les de parole et des ensembles de donn\u00e9es ML sp\u00e9cialis\u00e9s."
       }
     },
     {
@@ -534,10 +2214,10 @@
       "image": "static/images/cloud_api.jpg",
       "pdf_include": false,
       "en": {
-        "description": "Python library and MCP server for programmatic management and AI-driven interaction with Jelastic cloud environments."
+        "description": "Python library and MCP server for programmatic management and ML-driven interaction with Jelastic cloud environments."
       },
       "fr": {
-        "description": "Biblioth\u00e8que Python et serveur MCP pour la gestion programmatique et l'interaction par IA des environnements cloud Jelastic."
+        "description": "Biblioth\u00e8que Python et serveur MCP pour la gestion programmatique et l'interaction par ML des environnements cloud Jelastic."
       }
     },
     {
@@ -577,6 +2257,10 @@
     "technical_skills": {
       "en": "TECHNICAL SKILLS",
       "fr": "COMP\u00c9TENCES TECHNIQUES"
+    },
+    "professional_competencies": {
+      "en": "PROFESSIONAL COMPETENCIES",
+      "fr": "COMP\u00c9TENCES PROFESSIONNELLES"
     },
     "languages": {
       "en": "LANGUAGES",

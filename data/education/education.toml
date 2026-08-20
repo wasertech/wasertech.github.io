@@ -1,5 +1,5 @@
 [[education]]
-date = "Aug. 2014 - July 2017"
+date = "08.2014 - 07.2017"
 pdf_include = true
 
 [education.en]
@@ -13,7 +13,7 @@ institution = "École de Culture Générale et de Commerce"
 location = "Gymnase de Beaulieu, Lausanne"
 
 [[education]]
-date = "Aug. 2005 - July 2014"
+date = "08.2005 - 07.2014"
 pdf_include = false
 
 [education.en]

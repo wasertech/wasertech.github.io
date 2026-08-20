@@ -1,0 +1,298 @@
+A - Planifier
+A.1. Systèmes d'information et alignement stratégique métier
+Anticipe les besoins métier à long terme, influence l'amélioration de l'efficacité des processus de l'organisation. Détermine le modèle SI et l'architecture d'entreprise en maintenant la cohérence avec la politique de l'organisation et en garantissant un environnement sécurisé. Reconnaît les risques potentiels et les exigences métiers pour assurer la résilience dans l'alignement des systèmes et des services par rapport à la stratégie métier. Prend, en matière de SI, des décisions stratégiques pour l'entreprise y compris en termes de stratégies d'approvisionnement.
+
+Niveaux de maîtrise
+Niveau 4 - Pilote la construction et l'implémentation de solutions SI innovantes sur le long terme.
+
+A.2. Gestion des niveaux de service
+Définit, valide et fait appliquer les accords de niveaux de service (SLA) et les contrats sous-jacents adaptés aux services proposés. Négocie les niveaux de performance des services en prenant en compte les besoins et ressources des parties prenantes et de l'entreprise.
+
+Niveaux de maîtrise
+Niveau 3 - S'assure du contenu du SLA.
+
+A.3. Mise en place d'un plan d'activités
+Prend en charge la conception et la structure d'un plan d'activités ou d'un plan produit, y compris l'identification d'approches alternatives et de propositions en matière de retour sur investissement. Tient compte des modèles d'approvisionnement possibles et applicables. Présente une analyse des coûts-bénéfices et argumente le choix de la stratégie. S'assure de la conformité avec les stratégies en matière technologique et de risques pour l'entreprise. Communique et vend le plan d'activités aux parties prenantes concernées et traite des intérêts politiques, financiers et structurels.
+
+Niveaux de maîtrise
+Niveau 3 - Exploite des connaissances spécialisées pour fournir une analyse du contexte du marché, etc.
+Niveau 4 - Pilote l'élaboration d'une stratégie de système d'information conforme aux exigences de l'activité (par exemple, distribué ou favorisant la mobilité) et tient compte des risques et opportunités.
+
+A.4. Planification des produits/services
+Analyse et définit l'état actuel et l'état ciblé. Évalue avec une démarche critique la rentabilité, les facteurs de risques, les opportunités, les forces et les faiblesses. Élabore des plans structurés, fixe des échéances et des jalons tout en s'assurant de l'optimisation des activités et des ressources. Gère le portefeuille des services et les demandes de changement. Définit le volume de livraison et donne un aperçu des exigences documentaires supplémentaires. Définit les règles de manipulation des produits en accord avec la règlementation en vigueur.
+
+Niveaux de maîtrise
+Niveau 2 - Documente de façon systématique les éléments normalisés et basiques d'un produit.
+Niveau 3 - Exploite des connaissances spécialisées pour produire et tenir à jour des documents complexes.
+Niveau 4 - Pilote l'élaboration et la tenue à jour de plans globaux et en prend la responsabilité.
+
+A.5. Conception de l'architecture
+Définit, détaille, actualise et met en place une approche formelle pour implémenter les solutions nécessaires au développement et à l'exploitation de l'architecture du SI, en tenant compte des exigences issues de l'activité, du management et de l'infrastructure de données et d'information. Identifie les modifications nécessaires et les composants concernés : matériels, logiciels, applications, processus, services, informations et plateforme technologique. Prend en compte l'interopérabilité, la réversibilité, l'évolutivité, la facilité d'utilisation, l'accessibilité et la sécurité, y compris le besoin de prévoir l'évolution et la gestion de la vulnérabilité au sein des technologies actuelles et émergentes. S'assure de la correspondance entre l'évolution de l'activité et les développements technologiques et les services, afin d'assurer la capacité des solutions informatiques conformément au SLA.
+
+Niveaux de maîtrise
+Niveau 3 - Exploite des connaissances spécialisées pour définir de façon pertinente les technologies de l'information et de la communication et les caractéristiques nécessaires à l'élaboration de multiples projets, applications ou améliorations d'infrastructure dans le domaine des TIC.
+Niveau 4 - Prend en charge la définition de la stratégie de déploiement de technologies de l'information et de la communication conformes aux besoins métier. Tient compte de la plateforme technologique en place, de l'obsolescence des équipements et des dernières innovations technologiques.
+Niveau 5 - Oriente le pilotage stratégique afin de mettre en oeuvre la stratégie d'entreprise. Applique une approche stratégique pour découvrir et reconnaître de nouveaux modèles dans les ensembles de données et les nouveaux systèmes TIC pour l'intérêt économique de l'activité.
+
+A.6. Conception des applications
+Analyse, définit, actualise et met en place un modèle pour mettre en oeuvre des applications en accord avec la politique SI et les besoins des clients/utilisateurs. Sélectionne les options techniques les plus adéquates pour la conception d'applications, tout en optimisant l'équilibre entre coûts et qualité. Conçoit les structures de données et construit les modèles de structuration des systèmes en fonction des résultats d'analyse obtenus par le biais de différents langages de modélisation. S'assurer que tous les aspects tiennent compte de l'interopérabilité, des facilités d'utilisation, de l'accessibilité et la sécurité. Identifie un cadre commun de référence pour faire valider les modèles par des utilisateurs représentatifs en se fondant sur des modèles de développement (par exemple, sur une approche itérative).
+
+Niveaux de maîtrise
+Niveau 1 - Prend part à la conception et à la définition des caractéristiques fonctionnelles et des interfaces.
+Niveau 2 - Organise le plan global de conception de l'application.
+Niveau 3 - Prend la responsabilité de ses propres actions et de celles des autres pour garantir l'intégration correcte de l'application dans un environnement complexe et son adaptation aux besoins des clients/utilisateurs.
+
+A.7. Veille technologique
+Étudie en détail les dernières innovations technologiques en matière de TIC pour aider à la compréhension des évolutions technologiques. Encourage et explore les sources internes et externes (y compris par exemple les activités de recherche, les brevets, les activités de démarrage, les communautés numériques) pour des idées et opportunités innovantes. Met au point des solutions originales pour l'adoption ou l'intégration de technologies et/ou d'idées nouvelles ou existantes dans des produits, applications ou services existants, ou pour la création de nouveaux produits, applications ou services.
+
+Niveaux de maîtrise
+Niveau 3 - Détecte les signes de changement pour assurer la supervision et l'analyse des développements technologiques actuels et précurseurs en matière de TIC. Établit des relations avec les communautés concernées.
+Niveau 4 - Valide les technologies nouvelles et émergentes, en association avec une compréhension experte de l'activité, pour envisager et formuler des solutions pour le futur. Crée les processus de veille technologique sur l'ensemble de l'organisation.
+Niveau 5 - Planifie et pilote une structure d'organisation et un système de support pour une veille technologique systématique. Propose et influence les décisions stratégiques en envisageant et en formulant les futures solutions de TIC.
+
+A.8. Gestion du développement durable
+Évalue l'impact des solutions informatiques en termes d'éco-responsabilité, consommation énergétique comprise, de traitement des déchets et de politique environnementale. Analyse les perspectives et les impacts sur le développement durable social et financier des projets, développements, services et exploitations de TIC. Conseille les entreprises et les parties prenantes du domaine des TIC en matière d'options de développement durable compatibles avec la stratégie de l'entreprise. Applique une politique éco-responsable d'achat et de vente des TIC.
+
+Niveaux de maîtrise
+Niveau 3 - Favorise la prise de conscience, la formation et l'engagement en vue de l'instauration d'un développement durable, et utilise les outils nécessaires pour conduire cette approche.
+Niveau 4 - Définit la stratégie de développement durable des SI et des services numériques. Contribue à la définition de la stratégie de l'entreprise pour veiller à ce que le développement durable soit pris en compte et incorporé.
+
+A.9. Innovation
+Envisage des solutions créatives pour élaborer de nouveaux concepts, idées, produits ou services. Fait preuve d'un mode de pensée ouvert et innovant, sachant tirer parti des avancées technologiques pour répondre aux besoins de l'activité/de l'entreprise ou pour orienter la recherche.
+
+Niveaux de maîtrise
+Niveau 4 - Adopte un mode de pensée indépendant et une conscience technologique permettant l'intégration de concepts disparates dans des solutions originales.
+
+A.10. Expérience utilisateur
+Évalue et applique les principes fondamentaux de l'interaction personne-machine pour créer des produits et des services numériques intuitifs, faciles à utiliser, sûrs et efficaces. Comprend les besoins et les objectifs des utilisateurs, applique la compréhension du comportement des utilisateurs pour mettre au point différentes options et fonctions du produit numérique afin de créer une expérience utilisateur transparente.
+
+Niveaux de maîtrise
+Niveau 2 - Applique des options d'interfaces numériques (web, mobiles, IoT) et des lignes directrices en vue de parvenir à l'utilisabilité pour tous.
+Niveau 3 - Établit et cultive les relations avec les clients et les utilisateurs afin de comprendre leurs tâches, leurs besoins et leurs objectifs. Utilise des méthodes de spécialiste pour obtenir une large adhésion d'utilisateurs significatifs.
+
+
+B - Développer
+B.1. Conception et développement d'applications
+Interprète les techniques de conception pour développer une application adaptée aux besoins du client. Adapte les solutions existantes en procédant, par exemple, au portage d'une application vers un autre système d'exploitation. Code, débogue, contrôle, documente et communique sur les étapes de développement du produit. Choisit les options techniques appropriées au développement comme la réutilisation, l'amélioration ou la reconfiguration de composants existants. Optimise l'efficacité, les coûts et la qualité. Valide les résultats avec les représentants des utilisateurs, intègre et met en service la solution dans son ensemble.
+
+Niveaux de maîtrise
+Niveau 1 - Agit sous supervision pour développer, contrôler et documenter les applications.
+Niveau 2 - Développe et valide les applications de manière systématique.
+Niveau 3 - Agit de manière créative pour développer des applications et choisir les options techniques appropriées. Prend part à d'autres activités de développement. Optimise le développement, la maintenance et les performances des applications en suivant des modèles de conception et en réutilisant des solutions éprouvées.
+
+B.2. Intégration des composants
+Intègre des composants matériels, logiciels ou de sous-systèmes dans un système existant ou totalement nouveau. Respecte les procédures et processus établis comme la gestion de configurations et la maintenance de packages. Prend en compte la compatibilité des modules existants ou nouveaux pour assurer l'intégrité du système, son interopérabilité et la sécurité de l'information. Vérifie et soumet à essai la capacité et les performances du système ainsi que la documentation dans le cas d'une intégration réussie.
+
+Niveaux de maîtrise
+Niveau 2 - Identifie de façon systématique la compatibilité des spécifications matérielles et logicielles. Documente toutes les activités pendant l'installation et consigne les écarts et les corrections apportées.
+Niveau 3 - Tient compte de ses propres actions et de celles des autres dans le processus d'intégration. Respecte les normes et les procédures de contrôle des changements appropriées pour maintenir l'intégrité des fonctionnalités et la fiabilité de l'ensemble du système.
+
+B.3. Tests
+Met au point et exécute des procédures de tests systématiques pour les systèmes informatiques ou les exigences d'utilisabilité du client afin d'établir la conformité avec les spécifications de conception. S'assure que les composants ou systèmes, nouveaux ou mis à jour, fonctionnent comme prévu. Garantit la conformité aux spécifications internes, externes, nationales et internationales, ce qui inclut les normes de santé, de sécurité, d'utilisabilité, de performance, de fiabilité et de compatibilité. Produit des documents et des rapports mettant en évidence les exigences de certification.
+
+Niveaux de maîtrise
+Niveau 1 - Réalise des tests simples en stricte conformité avec les instructions détaillées.
+Niveau 2 - Organise des campagnes de tests et élabore des scripts pour mettre à l'épreuve les vulnérabilités potentielles. Consigne et communique les résultats et leur analyse.
+Niveau 3 - Exploite des connaissances spécialisées pour superviser des campagnes de tests complexes. Veille à ce que les tests et leurs résultats soient documentés pour fournir des éléments d'information aux responsables des processus intervenant ultérieurement, tels que les concepteurs, les utilisateurs ou les techniciens de maintenance. Garantit la conformité avec les procédures d'essai, notamment en tenant un journal d'audit documenté.
+
+B.4. Déploiement de la solution
+Effectue, sur la base des normes de pratique générale prédéfinies, les interventions programmées nécessaires à la mise en oeuvre des solutions et des services, y compris l'installation, la sécurisation, la mise à jour ou la mise hors service. Configure les matériels, les logiciels ou le réseau pour assurer l'interopérabilité des composants du système et corriger les défauts, incompatibilités ou pertes (dommages) liés. A recours à des ressources spécialisées supplémentaires si nécessaire, telles que des fournisseurs réseau tiers. Délivre formellement une solution entièrement opérationnelle au management des TIC de l'utilisateur et complète la documentation avec toutes les informations pertinentes, y compris les destinataires des équipements, les paramètres de configuration et les données de performance.
+
+Niveaux de maîtrise
+Niveau 1 - Retire ou installe des composants sous supervision en suivant des instructions détaillées.
+Niveau 2 - Agit de manière systématique pour installer ou désinstaller des éléments du système. Identifie les composants défaillants et détermine la cause principale des défaillances. Assiste les collègues moins expérimentés.
+Niveau 3 - Tient compte de ses propres actions et de celles des autres pour proposer une solution et met en place une communication efficace et profitable avec les parties prenantes. Exploite des connaissances spécialisées pour influencer le développement de la solution, par des conseils et des recommandations.
+
+B.5. Production de la documentation
+Produit des documents en intégrant des informations et en maintenant la conformité aux exigences importantes. Choisit le style et le format appropriés en déterminant le type de support et le mode de présentation de la documentation. Crée des modèles pour les systèmes de gestion de documents. S'assure que la documentation est conforme aux besoins techniques et aux besoins des processus de développement des applications TIC des clients, et que les documents existants sont valides et à jour. Soutient le développement de documents interactifs.
+
+Niveaux de maîtrise
+Niveau 1 - Utilise et applique des normes pour définir la structure des documents.
+Niveau 2 - S'assure que la documentation est complète, correcte et fournie à un emplacement et avec un format corrects.
+Niveau 3 - Adapte le niveau de détail de manière à répondre aux besoins du public ciblé.
+
+B.6. Ingénierie système
+Construits les réseaux/connexions de réseau, les composants et les interfaces nécessaires. Suit une méthodologie systématique pour analyser et étudier des plateformes d'infrastructure ou des solutions pour le cloud, l'IoT et d'autres technologies afin de répondre aux exigences commerciales et techniques. Construit des modèles de structuration des systèmes et met en place un comportement système pour intégrer des dispositifs physiques, des réseaux, des composants matériels et/ou logiciels. S'assure de la sécurité de l'information, de la protection des données et de l'efficacité énergétique. Réalise des essais pour confirmer que les exigences sont remplies.
+
+Niveaux de maîtrise
+Niveau 3 - Assure l'interopérabilité des composants du système. Exploite un large éventail de connaissances spécialisées pour créer une infrastructure numérique qui répondra aux contraintes du système et sera à la hauteur des attentes du client.
+Niveau 4 - Maîtrise la complexité en développant des procédures et des architectures normalisées pour faciliter le développement d'un produit cohérent. Établit un ensemble d'exigences système destinées à guider la conception de l'infrastructure numérique. Identifie les exigences système et les fonctions qu'il convient d'assigner aux différents éléments et/ou couches de l'infrastructure.
+
+
+C - Exploiter
+C.1. Support utilisateur
+Répond aux demandes et problèmes des utilisateurs en enregistrant les informations pertinentes. S'assure de la résolution des incidents ou les fait remonter, et optimise les performances du système conformément aux accords de niveaux de service (SLA) définis au préalable. Sait contrôler le résultat d'une solution proposée et la satisfaction client qui en résulte.
+
+Niveaux de maîtrise
+Niveau 1 - Dialogue avec les utilisateurs, applique des connaissances de base sur le produit pour répondre à leurs demandes. Résout des incidents selon des procédures prédéfinies.
+Niveau 2 - Interprète de façon systématique les problèmes rencontrés par les utilisateurs et identifie les solutions ainsi que les éventuels effets secondaires. Utilise son expérience pour résoudre les problèmes des utilisateurs et interroge les bases de données pour y trouver des solutions éventuelles. Fait remonter les incidents complexes ou non résolus. Consigne et fait un suivi des problèmes du début à la fin.
+
+C.2. Support aux changements
+Évalue, met en oeuvre et accompagne l'évolution d'une solution TIC, en analysant les changements et leur impact. Assure un contrôle et une planification efficaces des modifications de logiciels ou de matériel informatiques afin d'éviter que de multiples mises à niveau n'aient des effets imprévisibles. Réduit à un minimum les interruptions de service dues aux basculements informatiques et se conforme à l'accord de niveau de service (SLA) défini. Prend en compte les procédures de sécurité de l'information et s'y conforme.
+
+Niveaux de maîtrise
+Niveau 2 - Lors d'un basculement informatique, s'organise systématiquement pour satisfaire les besoins opérationnels au jour le jour et y réagir en évitant les interruptions de service et en respectant l'accord de niveau de service (SLA) et les contraintes liées à la sécurité de l'information.
+Niveau 3 - Assure l'intégrité du système en vérifiant l'application des mises à jour fonctionnelles, des ajouts de logiciels ou de matériel et des opérations de maintenance. Se conforme aux contraintes budgétaires.
+
+C.3. Fourniture de services
+Assure la fourniture des services en fonction des accords sur les niveaux de service (SLA) établis. Prend des mesures proactives pour assurer la stabilité et la sécurité des applications et de l'infrastructure des TIC afin d'éviter d'éventuelles interruptions de service, en tenant compte des problématiques de planification des capacités et de sécurité des informations. Tient à jour la base de données des documents opérationnels ainsi que les journaux des incidents de service. Assure la maintenance des outils de suivi et de gestion (par exemple scripts, procédures). Maintient les services du Système d'Information (SI). Gère tous les aspects de disponibilité de service.
+
+Niveaux de maîtrise
+Niveau 1 - Agit sous supervision pour enregistrer et suivre les données de fiabilité.
+Niveau 2 - Analyse de manière systématique les données de performance et communique les résultats à des experts confirmés. Fait remonter les éventuelles défaillances par rapport au niveau de service et les risques pour la sécurité, formule des recommandations pour améliorer la fiabilité du service. Assure le suivi des données de fiabilité dans le cadre du SLA.
+
+C.4. Gestion des problèmes
+Gère le cycle de vie des incidents et des problèmes. Identifie l'origine des incidents et les résout. Adopte une approche proactive pour éviter ou identifier l'origine des problèmes informatiques. Met en place un système de connaissances basé sur la récurrence d'erreurs habituelles. Résout ou fait remonter les incidents. Optimise les performances des systèmes ou des composants.
+
+Niveaux de maîtrise
+Niveau 2 - Identifie et classe les types d'incidents et les interruptions de service. Consigne les incidents en les répertoriant selon leurs symptômes et leur résolution.
+Niveau 3 - Exploite les connaissances spécialisées et fait preuve d'une compréhension approfondie de l'infrastructure TIC et du processus de gestion des problèmes pour identifier les défaillances et les résoudre avec le moins d'interruption possible. Prend des décisions réfléchies dans des situations tendues pour agir de manière appropriée et réduire l'impact sur l'activité à un minimum. Identifie rapidement les composants défectueux, sélectionne parmi la réparation, le remplacement ou la reconfiguration.
+
+C.5. Gestion des systèmes
+Surveille et commande les services informatiques et les systèmes physiques et matériels sous-jacents. Gère le matériel informatique, les applications, les réseaux, les serveurs, les ressources virtuelles et les autres systèmes techniques. Assure une administration à jour des ressources, des utilisateurs et des authentifications. Gère les appareils dans une organisation « Bring Your Own Device » (prenez vos appareils personnels) (BYOD), en développant la productivité et la flexibilité de l'utilisateur, en empêchant la perte des données et en augmentant la sécurité des données.
+
+Niveaux de maîtrise
+Niveau 1 - Effectue des opérations de systèmes basiques.
+Niveau 2 - Gère de façon systématique les besoins opérationnels au jour le jour sur l'ensemble du système informatique, en évitant les interruptions de service conformément à la stratégie de service et de sécurité des informations.
+Niveau 3 - Optimise l'environnement technique et cloud. Évalue les performances des systèmes et les problèmes/questions des utilisateurs. Responsable du remplacement des ressources en temps utile, dans les limites du budget autorisé.
+
+
+D - Faciliter
+D.1. Développement d'une stratégie de sécurité de l'information
+Définit et rend applicable une stratégie d'organisation formelle, avec sa portée et sa culture, permettant d'assurer l'intégrité et la sécurité de l'information vis-à-vis de menaces externes et internes. Analyse la stratégie d'activité et de technologie parallèlement aux tendances qui se dessinent en matière de menaces afin d'anticiper les vulnérabilités potentielles et les exigences posées par les mesures d'atténuation des risques. Suit les attentes légales, réglementaires et sociales impliquant la sécurité des services et les données sensibles. Met en place les bases d'un système de gestion de la sécurité de l'information, comprenant l'identification des rôles et des responsabilités. S'appuie sur des normes établies pour fixer les objectifs d'intégrité et de disponibilité de l'information ainsi que de confidentialité des données.
+
+Niveaux de maîtrise
+Niveau 4 - Fait preuve d'un niveau élevé d'expertise et exploite au mieux les normes externes et les bonnes pratiques.
+
+D.2. Développement d'une stratégie pour la qualité des TIC
+Définit, améliore et précise une stratégie formelle pour satisfaire les attentes des utilisateurs et améliorer les performances de l'entreprise (en trouvant un équilibre entre les coûts et les risques). Identifie les processus critiques qui influent sur la fourniture des services et la performance des produits afin de les définir dans le système de management de la qualité des TIC. Utilise des normes adaptées pour formuler les objectifs qualité applicables à la gestion des services et à la qualité des produits, des données et des processus. Identifie les responsabilités du management de la qualité des TIC.
+
+Niveaux de maîtrise
+Niveau 4 - Exploite un large éventail de connaissances spécialisées pour utiliser au mieux et permettre l'application de normes externes et de bonnes pratiques.
+
+D.3. Prestation de services de formation
+Définit et met en place une politique de formation informatique pour répondre aux besoins et lacunes constatés en matière d'aptitudes professionnelles. Les incorpore au sein des plans internes de développement des collaborateurs, en tant qu'outil permettant de faciliter les développements de carrières. Structure, organise et planifie les programmes de formation, évalue la qualité de cette formation grâce à un processus de retour d'information et met en oeuvre une démarche d'amélioration continue. Adapte les plans de formation pour répondre à une demande en constante évolution.
+
+Niveaux de maîtrise
+Niveau 2 - Organise l'identification des besoins en matière de formation. Recueille les exigences de l'organisation, identifie, sélectionne et planifie les sessions de formation.
+
+D.4. Achats
+Applique une procédure d'achat cohérente, comprenant la mise en place des sous-processus suivants : définition des exigences, identification des fournisseurs, analyse des propositions, évaluation de l'efficacité énergétique et de la conformité environnementale des produits, évaluation des fournisseurs et de leurs processus, sélection des fournisseurs ainsi que négociation et conclusion des contrats. Garantit que la totalité du processus d'achat est adapté à l'objectif, respecte les obligations légales et ajoute une plus-value à l'organisation.
+
+Niveaux de maîtrise
+Niveau 2 - Comprend et applique les principes du processus d'achat, passe des commandes sur la base des contrats fournisseurs existants. Garantit le bon déroulement des commandes, y compris la validation des produits livrés et la corrélation avec les paiements afférents.
+Niveau 3 - Exploite des connaissances spécialisées pour déployer un processus d'achat en préservant de bonnes relations commerciales avec les fournisseurs. Sélectionne les fournisseurs, les produits et les services en évaluant les performances, les coûts, le respect des délais et la qualité. Conclut des contrats en respectant les politiques des organisations.
+
+D.5. Développement des ventes
+Met en place un processus systématique pour les ventes et le marketing relatifs aux produits et services de l'organisation, y compris les revendeurs à valeur ajoutée (VAR) le cas échéant, comprenant la compréhension des besoins des clients, les prévisions de ventes, l'évaluation des prospects et les tactiques de négociation. Élabore des propositions techniques pour satisfaire les besoins des clients et proposer des offres compétitives compatibles avec la capacité de production de l'organisation.
+
+Niveaux de maîtrise
+Niveau 2 - Participe à la rédaction de propositions compatibles avec la capacité métier et les exigences des clients.
+
+D.6. Marketing numérique
+Comprend les principes fondamentaux du marketing numérique. Connaît les différences entre les approches traditionnelles et numériques. Sait évaluer les différents canaux (marketing) disponibles. Évalue l'efficacité des différentes approches et applique des techniques de mesure rigoureuses. Planifie une stratégie cohérente en exploitant les moyens disponibles les plus efficaces. Comprend les problèmes et enjeux de protection des données et de respect de la vie privée qu'entraîne la mise en oeuvre de la stratégie marketing.
+
+Niveaux de maîtrise
+Niveau 2 - Comprend et applique les techniques de marketing numérique nécessaires pour mettre en oeuvre un plan efficace et complet s'appuyant sur différents domaines du numérique comme le référencement et la recherche, les objets publicitaires, les campagnes d'emailing, les médias sociaux et le marketing mobile.
+
+D.7. Science des données et analyse
+Utilise et met en application des techniques d'analyse des données telles que l'exploration des données, l'apprentissage automatique, les analyses prescriptives et prédictives permettant d'exploiter les données pour répondre aux défis et aux opportunités de l'organisation. Identifie, extrait et intègre des données hétérogènes à partir de nombreuses sources, tout en respectant les aspects éthiques et en garantissant la conformité aux différentes réglementations en matière de protection des données personnelles. Évalue les données existantes et identifie les nouvelles exigences en matière de données dans l'intérêt de l'organisation, y compris les réseaux sociaux et les données ouvertes.
+
+Niveaux de maîtrise
+Niveau 2 - Recherche et recueille les données. Prépare les données en vue de leur analyse à partir de sources et de formats multiples.
+Niveau 3 - Conçoit et réalise des outils d'analyse des données pour accompagner le cycle de vie des données des organisations. Vérifie la véracité des données. Traite les données et visualise les résultats de l'analyse des données pour le domaine considéré.
+Niveau 4 - Interprète les résultats de l'analyse des données. Effectue une analyse correcte de la rentabilité des données. Fournit des informations sur les exigences des organisations en matière de données, planifie, conçoit, développe et recommande de nouvelles sources de données. Crée de nouveaux modèles et algorithmes pour les données qui pilotent la stratégie. Organise, synthétise et traduit les informations pour faciliter la prise de décision.
+Niveau 5 - Mobilise les ressources pour optimiser la façon dont les données sont utilisées au sein de l'organisation dans le but de piloter l'innovation. Utilise les données pour améliorer les processus et alimenter/développe r la stratégie commerciale.
+
+D.8. Gestion des contrats
+Apporte et négocie des contrats conformément aux processus de l'organisation. Fait le nécessaire pour que les contrats et les produits soient fournis dans les temps, qu'ils satisfassent aux normes de qualité et respectent les exigences de conformité. Gère les non-conformités, fait remonter les problèmes importants, pilote les plans de reprise et modifie les contrats, si nécessaire. Veille au respect du budget. Évalue et gère la conformité des fournisseurs aux normes juridiques, d'hygiène, de sûreté et de sécurité. Noue et maintient les relations et la régularité des communications avec les fournisseurs.
+
+Niveaux de maîtrise
+Niveau 2 - Contrôle systématiquement la conformité des contrats et fait remonter rapidement les anomalies.
+
+D.9. Développement du personnel
+Détermine les compétences individuelles et collectives, en identifiant les besoins et les lacunes. Examine les possibilités de formation et de perfectionnement et sélectionne la méthodologie appropriée en tenant compte des besoins au niveau individuel, des projets et de l'entreprise. Guide et/ou conseille les individus et les équipes pour répondre à leurs besoins de formation.
+
+Niveaux de maîtrise
+Niveau 2 - Informe et forme les individus et les groupes, organise des sessions de formation.
+
+D.10. Gestion de l'information et de la connaissance
+Identifie les informations et les connaissances importantes pour l'organisation et développe les processus et les structures pour les gérer. Crée une structure d'information pour permettre l'exploitation, l'optimisation et le partage des informations. Maîtrise les bons outils et les déploie pour créer, extraire, maintenir, renouveler et diffuser les connaissances métier afin de tirer profit des informations.
+
+Niveaux de maîtrise
+Niveau 3 - Analyse les processus métier et les exigences associées en matière d'information dans le but de permettre un partage efficace des informations. Aide la communauté visée à évaluer les connaissances et les informations de façon critique.
+Niveau 4 - Intègre et synthétise les informations provenant de sources internes et externes pour apporter une connaissance utile à l'organisation.
+
+D.11. Identification des besoins
+Écoute attentivement les clients internes et externes, formule et clarifie leurs besoins. Gère les relations avec toutes les parties prenantes pour garantir que les solutions et les services sont conformes aux exigences métier. Propose différentes solutions (par exemple « faire ou faire faire ») en effectuant des analyses contextuelles favorisant la conception de systèmes centrés sur l'utilisateur. Conseille le client pour le choix d'une solution appropriée. Agit comme un défenseur de la solution choisie et s'engage dans sa mise en oeuvre ou son processus de configuration.
+
+Niveaux de maîtrise
+Niveau 3 - Établit des relations de confiance avec les clients et les aide à clarifier leurs besoins.
+
+
+E - Gérer
+E.1. Développement prévisionnel
+Interprète les besoins du marché et évalue l'accueil par le marché de nouveaux produits ou services. Évalue les possibilités pour l'organisation de satisfaire aux exigences futures de qualité et de production. Applique un système de mesure approprié pour faciliter la prise de décision dans les fonctions de production, de marketing, de vente et de distribution.
+
+Niveaux de maîtrise
+Niveau 3 - Exploite des aptitudes pour fournir des prévisions à court terme à partir des données du marché et de l'évaluation des capacités de production et de vente de l'organisation.
+Niveau 4 - Prend en charge la génération de prévisions à long terme. Appréhende le marché mondial, en identifiant et évaluant les informations pertinentes issues du contexte commercial, politique et social le plus large possible.
+
+E.2. Gestion des projets et du portefeuille de projets
+Met en oeuvre des plans d'action dans le cadre d'un programme de changement. Planifie, dirige et gère un ou plusieurs projets ou services de TIC, pour en assurer la coordination et gérer les interdépendances. Organise les projets de manière à développer ou mettre en oeuvre de nouveaux processus internes ou externes pour répondre aux besoins identifiés de l'entreprise. Définit les tâches, les responsabilités, les points critiques, les ressources, les besoins en compétences, les interfaces et le budget, optimise les coûts et les délais, réduit le plus possible le gaspillage et cible un niveau de qualité élevé. Élabore des plans d'urgence pour faire face aux problèmes imprévus lors de la mise en oeuvre. Livre les projets dans les temps, respecte le budget et les exigences initiales, en tenant compte des circonstances fluctuantes. Crée des documents et les maintient à jour pour faciliter le suivi de l'avancement du projet.
+
+Niveaux de maîtrise
+Niveau 2 - Comprend et applique les principes de la gestion de projet, met en oeuvre la méthodologie, les outils et les processus pour gérer des projets simples. Optimise les coûts et réduit le gaspillage.
+Niveau 3 - Prend en compte ses propres tâches et celles des autres dans les limites du projet, en effectuant des choix, en donnant des instructions et en optimisant les tâches et les ressources. Gère et supervise les relations au sein de l'équipe, planifie et fixe les objectifs de l'équipe ainsi que les données de sortie et documente les résultats.
+Niveau 4 - Gère des projets ou des programmes complexes ainsi que les interactions avec d'autres projets. Influence la stratégie du projet en proposant de nouvelles solutions ou des alternatives et en tenant compte de l'efficacité et de la productivité. Est habilité à revoir les règles et à choisir les normes. Assume la responsabilité globale des résultats du projet, y compris la gestion financière et la gestion des ressources, et intervient au-delà des limites du projet.
+
+E.3. Gestion des risques
+Met en oeuvre la gestion des risques dans les systèmes d'information en appliquant les politiques et les procédures de gestion des risques définies par l'entreprise. Évalue les risques encourus par les activités de l'organisation, y compris ceux liés au web, au cloud et aux ressources mobiles. Documente les risques potentiels et les plans d'action pour les maîtriser.
+
+Niveaux de maîtrise
+Niveau 2 - Comprend et applique les principes de gestion des risques et recherche des solutions TIC permettant de limiter les risques identifiés.
+Niveau 3 - Décide des actions nécessaires pour adapter la sécurité et prend en compte l'exposition au risque. Évalue, gère et garantit le traitement des exceptions, audite les processus et l'environnement des TIC.
+
+E.4. Gestion de la relation client
+Met en place de bonnes relations de travail au sein d'un environnement mettant en jeu diverses parties prenantes, en facilitant la collaboration d'équipes pluridisciplinaires. Entretient une communication régulière avec les collègues, clients, partenaires et fournisseurs, faisant preuve de compréhension pour les différents contextes et perspectives. Garantit que les besoins, les préoccupations et les réclamations des différentes parties prenantes sont bien compris et traités conformément à la politique de l'organisation.
+
+Niveaux de maîtrise
+Niveau 3 - Gère des relations simples et pluridisciplinaires avec des parties prenantes multiples.
+
+E.5. Amélioration des processus
+Mesure l'efficacité des approches de processus de TIC nouvelles ou existantes (en cascade, Agile, DevOps, etc.). Conçoit et met en oeuvre des changements de processus ou des évolutions technologiques prenant en charge l'organisation par un processus d'apprentissage continu. Évalue et traite les risques inhérents au changement de processus.
+
+Niveaux de maîtrise
+Niveau 3 - Exploite des connaissances spécialisées pour rechercher des processus et des solutions TIC existants afin de déterminer des possibilités d'innovations. Formule des recommandations basées sur des arguments fondés.
+Niveau 4 - Pilote et autorise la mise en oeuvre d'innovations et d'améliorations destinées à optimiser la compétitivité et l'efficacité. Démontre aux cadres dirigeants les avantages de changements potentiels pour l'activité.
+
+E.6. Gestion de la qualité des TIC
+Met en oeuvre une politique de qualité des TIC destinée à maintenir et améliorer la mise à disposition des services et des produits. Planifie et définit des indicateurs servant à gérer la qualité conformément à la stratégie des TIC. Vérifie la pertinence des indicateurs de qualité et suggère des recommandations pour orienter l'amélioration continue de la qualité.
+
+Niveaux de maîtrise
+Niveau 2 - Communique et contrôle l'application de la politique qualité de l'organisation.
+Niveau 3 - Évalue les indicateurs et les processus de gestion de la qualité en accord avec la politique qualité des TIC et propose des actions correctives. Garantit la qualité des données.
+Niveau 4 - Évalue et estime le niveau d'exigence qualité atteint et dirige la mise en oeuvre de la politique qualité. Conduit les actions transverses permettant l'élaboration et le dépassement des normes de qualité.
+
+E.7. Gestion des changements métier
+Évalue les implications de la transformation numérique, des perturbations numériques éventuelles et des changements. Définit les exigences et quantifie les avantages qui découleraient des changements envisagés. Gère la mise en oeuvre des changements en tenant compte des problématiques structurelles et culturelles. Maintient la continuité de l'activité et des processus tout au long des changements, en contrôlant leur impact et en effectuant toutes les actions de correction et les réglages nécessaires.
+
+Niveaux de maîtrise
+Niveau 3 - Évalue les besoins en matière de changement et sollicite des aptitudes spécialisées pour déterminer les méthodes et normes pouvant être mises en oeuvre.
+
+E.8. Gestion de la sécurité de l'information
+Gère la politique de sécurité de l'information et des systèmes en tenant compte des menaces de nature technique, humaine, organisationnelle et des autres menaces importantes, en accord avec la stratégie informatique et la stratégie métier, en reflétant la culture de risque de l'organisation. Déploie et gère les ressources opérationnelles et spécialisées (par exemple la criminalistique, l'intelligence des menaces et la détection des intrusions) nécessaires pour assurer l'aptitude à la gestion des incidents liés à la sécurité et faire des recommandations pour l'amélioration continue de la politique et de la stratégie de sécurité.
+
+Niveaux de maîtrise
+Niveau 2 - Analyse de manière systématique l'environnement pour identifier et définir les failles et les menaces. Consigne et fait remonter les nonconformités.
+Niveau 3 - Évalue les mesures et indicateurs de gestion de la sécurité et décide s'ils sont conformes à la politique de sécurité de l'information de l'entreprise. Étudie et suscite des mesures correctives destinées à répondre à toute atteinte à la sécurité.
+
+E.9. Gouvernance des systèmes d'information
+Définit, déploie et contrôle la gestion des systèmes et des services d'information ainsi que des données en ligne dans le respect des impératifs de l'entreprise. Prend en compte tous les paramètres internes et externes, tels que la conformité aux normes légales et industrielles, afin d'orienter la gestion du risque et le déploiement des ressources pour améliorer le niveau de service à l'entreprise.
+
+Niveaux de maîtrise
+Niveau 4 - Pilote la stratégie de gouvernance du SI en communiquant, diffusant et contrôlant les processus concernés d'un bout à l'autre de l'infrastructure des TIC.
+
+
+Source: European e-Competence Framework v3.0 – Profile Tool
+

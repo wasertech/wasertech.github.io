@@ -1,0 +1,187 @@
+> 2) Comparatif avec le CV de l’utilisateur
+
+Très bien. Pour lancer le comparatif avec votre CV, il me faut d’abord deux éléments :
+
+Le poste cible en Suisse romande — par exemple : Chef de projet IT, Business Analyst, Product Owner, Administrateur systèmes, Ingénieur réseau, Développeur Java, Data Analyst, etc.
+Votre CV, idéalement en pièce jointe. Vous pouvez aussi coller son contenu ici.
+
+À partir de là, je vais rechercher environ 20 offres récentes et distinctes en Suisse romande, puis produire :
+
+le tableau obligatoire des attentes du marché avec fréquence X / 20 ;
+une comparaison précise avec votre CV ;
+le tableau des compétences, qualifications ou expériences manquantes uniquement, également avec fréquence X / 20 ;
+une évaluation de votre alignement sur 0 à 4 pour : expérience professionnelle, formation/certifications, technologies, méthodologies, langues et aptitudes.
+
+Indiquez simplement le poste cible et joignez votre CV.
+
+> INGÉNIEUR EN MACHINE LEARNING
+
+J’ai constitué un échantillon de 20 offres uniques en Suisse romande, en privilégiant les postes intitulés Machine Learning Engineer et les équivalents directs lorsque le travail est majoritairement de l’ingénierie ML : AI Engineer, ML Research Engineer, AI Software Engineer, Computer Vision Engineer et Data Scientist/Engineer orienté production. La fenêtre observée est principalement juin–août 2026 ; quelques annonces restent actives après une publication antérieure.
+
+| #  | Employeur        | Poste                                                   | Région             | Offre                                                                                                                                                                                      |
+| -- | ---------------- | ------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1  | CERN             | Machine Learning Engineer – Next Generation Triggers    | Genève             | [Voir l’offre](https://fhjobs.ch/job/machine-learning-engineer-for-next-generation-triggers-ngt-it-cd-pi-2026-177-ld/32534e6e67?utm_source=chatgpt.com)                                    |
+| 2  | Giotto.ai        | Machine Learning Engineer                               | Lausanne           | [Voir l’offre](https://ch.indeed.com/viewjob?jk=4d09ecc4984742ab&utm_source=chatgpt.com)                                                                                                   |
+| 3  | Nexthink         | Senior AI Machine Learning Engineer                     | Lausanne           | [Voir l’offre](https://www.jobs.ch/en/vacancies/detail/aa06a83f-6276-4b73-95b0-9db7f46060a0/?utm_source=chatgpt.com)                                                                       |
+| 4  | Logitech         | Machine Learning Training Infrastructure Engineer       | Lausanne           | [Voir l’offre](https://logitech.wd5.myworkdayjobs.com/en-US/Logitech/job/Senior-AI-ML-Engineer_146488?utm_source=chatgpt.com)                                                              |
+| 5  | Proton           | Machine Learning Engineer                               | Genève             | [Voir l’offre](https://job-boards.greenhouse.io/proton/jobs/4823205101?utm_source=chatgpt.com)                                                                                             |
+| 6  | ELCA             | Senior AI Engineer                                      | Pully              | [Voir l’offre](https://www.jobup.ch/fr/emplois/detail/72cbb2b4-a2ad-48cb-8423-2cc2d304a99b/?utm_source=chatgpt.com)                                                                        |
+| 7  | Expleo           | Data Scientist – Time Series & Anomaly Detection        | Genève             | [Voir l’offre](https://ch.linkedin.com/jobs/view/data-scientist-%E2%80%93-time-series-anomaly-detection-at-expleo-group-4441494604?utm_source=chatgpt.com)                                 |
+| 8  | Synchrotech      | Data & AI Engineer confirmé·e                           | Martigny / Carouge | [Voir l’entreprise et l’offre](https://ch.linkedin.com/company/synchrotech-sa?utm_source=chatgpt.com)                                                                                      |
+| 9  | Swissquote       | AI Infrastructure Engineer                              | Gland              | [Voir l’offre](https://jobs.smartrecruiters.com/oneclick-ui/company/Swissquote/publication/43e5c27b-89f6-4976-b498-a2b05fa380fa?dcr_ci=Swissquote&utm_source=chatgpt.com)                  |
+| 10 | Adaptyv          | AI Engineer                                             | Lausanne           | [Voir l’offre](https://jobs.ashbyhq.com/adaptyv/7b16bbbc-5162-4aec-a342-5361cdd5368a?utm_source=chatgpt.com)                                                                               |
+| 11 | Adaptyv          | Data Scientist, Lab & Protein Data                      | Lausanne           | [Voir l’offre](https://ch.indeed.com/viewjob?jk=991dcd500af5262d&utm_source=chatgpt.com)                                                                                                   |
+| 12 | Visium           | AI Software Engineer                                    | Lausanne           | [Voir les postes Visium](https://www.visium.com/join-us?utm_source=chatgpt.com)                                                                                                            |
+| 13 | Harmattan AI     | Machine Learning Engineer – Detect & Track Distillation | Lausanne           | [Voir l’offre](https://jobs.ashbyhq.com/harmattan-ai/785027fc-f918-4503-91f6-1b9c5a3c6e07?utm_source=chatgpt.com)                                                                          |
+| 14 | Harmattan AI     | Computer Vision Engineer                                | Lausanne           | [Voir l’offre](https://jobs.ashbyhq.com/harmattan-ai/b91af65e-42fa-453d-8365-c456d592df52?utm_source=chatgpt.com)                                                                          |
+| 15 | Isomorphic Labs  | Research Scientist – Machine Learning                   | Lausanne           | [Voir l’offre](https://job-boards.greenhouse.io/isomorphiclabs/jobs/5460704004?utm_source=chatgpt.com)                                                                                     |
+| 16 | Sonar            | Machine Learning Research Engineer                      | Genève             | [Voir l’offre](https://www.gravityer.com/jobs/machine-learning-research-engineer-sonarsource?utm_source=chatgpt.com)                                                                       |
+| 17 | SICPA            | Principal Software Engineer – On-device Computer Vision | Prilly             | [Voir l’offre](https://jobs.sicpa.com/job/Prilly-Principal-Software-Engineer-Mobile-SDK-Tooling-%26-On%E2%80%91Device-Computer-Vision-%28iOSAndroid%29/1393025833/?utm_source=chatgpt.com) |
+| 18 | EPFL             | AI Research Engineers – LLM Safety Pretraining          | Lausanne           | [Voir l’offre](https://dlab.epfl.ch/2026-07-06-safety-pretraining-engineer-positions/?utm_source=chatgpt.com)                                                                              |
+| 19 | Procter & Gamble | Agentic AI Data Scientist / Engineer                    | Genève             | [Voir l’offre](https://ch.indeed.com/viewjob?jk=d38b0328b66c4bad&utm_source=chatgpt.com)                                                                                                   |
+| 20 | Neural Concept   | ML Application Engineer                                 | Lausanne           | [Voir l’offre](https://builtin.com/job/ml-application-engineer-french-speaking/8251841?utm_source=chatgpt.com)                                                                             |
+
+
+Les annonces confirment notamment la présence actuelle de rôles ML fortement industrialisés chez CERN, Proton, Logitech, EPFL, Swissquote et Harmattan, ainsi que des rôles appliqués en software, biotech et industrie.
+
+2. Attentes récurrentes du marché
+
+Le comptage ci-dessous porte sur les 20 offres. Je compte une exigence lorsqu’elle apparaît explicitement dans l’annonce ou dans la description technique associée ; une même offre peut naturellement alimenter plusieurs lignes.
+
+| Catégorie         | Attente du marché                                                   |   Fréquence |
+| ----------------- | ------------------------------------------------------------------- | ----------: |
+| **Expérience**    | Construire/déployer des systèmes ML utilisables en production       | **14 / 20** |
+| **Expérience**    | Expérience professionnelle ML/AI/SWE d’au moins ~2 ans              | **10 / 20** |
+| **Expérience**    | Profil senior / autonomie technique / ownership                     |  **9 / 20** |
+| **Technologies**  | Python                                                              | **10 / 20** |
+| **Technologies**  | PyTorch / TensorFlow / scikit-learn ou framework ML comparable      | **10 / 20** |
+| **Technologies**  | LLM / GenAI / agents / RAG                                          |  **9 / 20** |
+| **Technologies**  | Kubernetes / Docker / cloud / infrastructure ML                     |  **9 / 20** |
+| **Technologies**  | GPU, calcul distribué, HPC ou optimisation d'inférence              |  **7 / 20** |
+| **Technologies**  | Computer Vision / traitement d'images / Edge AI                     |  **4 / 20** |
+| **Data**          | Construction ou exploitation de data/training pipelines             | **10 / 20** |
+| **Méthodologies** | MLOps : déploiement, CI/CD, monitoring, lifecycle, retraining       | **12 / 20** |
+| **Méthodologies** | Évaluation, métriques, validation, observabilité ou expérimentation | **10 / 20** |
+| **Méthodologies** | Software engineering : code maintenable, architecture, tests        | **12 / 20** |
+| **Formation**     | Diplôme supérieur STEM explicitement demandé ou valorisé            |  **8 / 20** |
+| **Aptitudes**     | Collaboration avec software/data/product/domain experts             | **13 / 20** |
+| **Aptitudes**     | Communication technique / documentation / vulgarisation             | **10 / 20** |
+| **Langues**       | Anglais explicitement requis ou langue de travail                   |  **7 / 20** |
+| **Langues**       | Français explicitement requis                                       |  **2 / 20** |
+
+
+Ces fréquences montrent notamment que MLOps et software engineering sont presque aussi structurants que la modélisation elle-même. Proton demande par exemple des systèmes ML déployés à l’échelle avec monitoring et retraining ; ELCA insiste sur les pipelines MLOps ; Logitech cherche explicitement de l’infrastructure d’entraînement et du CI/CD ; CERN combine Kubernetes, GPU, serving et lifecycle management.
+
+3. Ce que recherche réellement le marché romand
+
+Le profil le plus compétitif n’est donc pas simplement « quelqu’un qui sait entraîner un modèle ». C’est plutôt un ingénieur logiciel spécialisé ML capable d’amener un modèle jusqu’en production. Python reste central, mais il est accompagné de pratiques de software engineering, déploiement, monitoring, cloud/containerisation et traitement de données.
+
+Une deuxième tendance très nette en 2026 est la montée de LLM engineering / agentic AI : LLM, agents, RAG, orchestration, evaluation et sécurité apparaissent chez Nexthink, Proton, CERN, EPFL, P&G et Sonar. En parallèle, Lausanne conserve un marché spécialisé très fort autour du deep learning scientifique, Computer Vision, Edge AI et biotech.
+
+Enfin, le français n’est pas une condition universelle pour travailler en ML en Suisse romande. Des environnements internationaux tels que l’EPFL fonctionnent explicitement en anglais, alors que certains rôles orientés clients, comme Neural Concept ou Expleo, demandent français et anglais.
+
+4. Maintenant : comparaison avec votre CV
+
+Envoyez-moi votre CV ici, idéalement en PDF ou DOCX.
+
+Je passerai alors directement à la deuxième partie obligatoire : un tableau contenant uniquement vos écarts par rapport au marché, avec leur importance sous la forme X / 20, puis votre score d’alignement 0 à 4 sur les six axes du Kiviat :
+
+| Axe                        |          Score |
+| -------------------------- | -------------: |
+| Expérience professionnelle | à calculer / 4 |
+| Formation + certifications | à calculer / 4 |
+| Technologies               | à calculer / 4 |
+| Méthodologies              | à calculer / 4 |
+| Langues                    | à calculer / 4 |
+| Aptitudes                  | à calculer / 4 |
+
+
+> CV_FR (version du 19.08)
+
+Comparatif marché ↔ votre CV — Machine Learning Engineer, Suisse romande
+
+Sur la base du référentiel de 20 offres analysé précédemment, votre positionnement est globalement fort pour les postes ML Engineer / AI Engineer orientés production, avec une adéquation particulièrement élevée sur les technologies, LLM, infrastructure GPU, pipelines et software engineering. Votre principal handicap de sélection n’est pas technique : c’est l’absence de diplôme supérieur STEM, qui peut jouer comme filtre RH dans certaines grandes organisations. Votre CV confirme notamment Python, PyTorch/TensorFlow, CUDA, Kubernetes, Docker, CI/CD, RAG, fine-tuning, quantification, vLLM, Hugging Face, speech ML et plusieurs systèmes effectivement déployés.
+
+1. Correspondance avec les attentes récurrentes
+
+| Attente du marché                        |      Marché | Votre CV                                                                    | Évaluation       |
+| ---------------------------------------- | ----------: | --------------------------------------------------------------------------- | ---------------- |
+| ML jusqu’à la production                 | **14 / 20** | Systèmes de voix, RAG, LLM multi-agent, pipelines et déploiements           | 🟢 Fort          |
+| Expérience ML/AI/SWE ≥ ~2 ans            | **10 / 20** | Activités ML depuis 2020 + Data Scientist + Synthflow + open source         | 🟢 Fort          |
+| Seniorité / autonomie / ownership        |  **9 / 20** | Fondateur, architecture, R&D autonome, collaboration directe avec direction | 🟢 Fort          |
+| Python                                   | **10 / 20** | Python + nombreuses contributions/projets                                   | 🟢 Fort          |
+| PyTorch / TensorFlow / frameworks ML     | **10 / 20** | PyTorch, TensorFlow, internals PyTorch                                      | 🟢 Très fort     |
+| LLM / GenAI / RAG / agents               |  **9 / 20** | RAG, SFT, LoRA, multi-agent, vLLM, llama.cpp, Hugging Face                  | 🟢 Très fort     |
+| Kubernetes / Docker / infra ML           |  **9 / 20** | Kubernetes, Docker, GitHub/GitLab CI, GPU NVIDIA                            | 🟢 Très fort     |
+| GPU / HPC / optimisation d’inférence     |  **7 / 20** | CUDA C++, Triton, AutoAWQ, quantification, 70B+ dual GPU                    | 🟢 Différenciant |
+| Data / training pipelines                | **10 / 20** | Pipelines données, STT, RAG, datasets SFT                                   | 🟢 Fort          |
+| MLOps / déploiement / lifecycle          | **12 / 20** | CI/CD, Docker, Kubernetes, Grafana, Prometheus, déploiement                 | 🟢 Fort          |
+| Évaluation / métriques / expérimentation | **10 / 20** | WER amélioré de 10 %, backtesting, latence conversationnelle                | 🟢 Bon           |
+| Software engineering                     | **12 / 20** | C++, Python, tests, APIs, CI, contributions upstream                        | 🟢 Très fort     |
+| Diplôme supérieur STEM                   |  **8 / 20** | CFC + MPC + Google Advanced Data Analytics                                  | 🔴 Écart         |
+| Collaboration multidisciplinaire         | **13 / 20** | Travail produit, direction, open source                                     | 🟢 Bon           |
+| Communication/documentation              | **10 / 20** | Contributions OSS et portfolio, mais peu explicitée                         | 🟡 À renforcer   |
+| Anglais                                  |  **7 / 20** | Anglais indiqué, niveau non précisé                                         | 🟡 À documenter  |
+| Français                                 |  **2 / 20** | Français indiqué                                                            | 🟢 Conforme      |
+
+
+Votre expérience Coqui/Mozilla est particulièrement crédible pour un recruteur ML : vous ne vous contentez pas d’indiquer des frameworks, vous montrez des corrections de mémoire d’entraînement, export TFLite, optimisation de graphes, maintenance de pipelines et amélioration mesurée du WER. Vos contributions AutoAWQ et Hugging Face renforcent également l’image d’un profil capable d’intervenir sous la couche applicative, ce qui est assez rare.
+
+2. Tableau obligatoire — écarts uniquement
+
+J’emploie ici « manque » au sens absent ou insuffisamment démontré dans le CV. Cela ne signifie pas nécessairement que vous ne possédez pas la compétence.
+
+| Élément manquant / insuffisamment démontré                                                               |   Fréquence marché | Gravité             | Commentaire                                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------- | -----------------: | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Master/Bachelor universitaire ou EPF/HES en informatique, ML, maths ou domaine STEM**                  |         **8 / 20** | 🔴 Haute            | Principal écart structurel. Votre CFC/MPC + certification Google ne remplace pas formellement un MSc/BSc lorsque celui-ci est utilisé comme filtre RH. |
+| **Expérience explicite de ML sur cloud public à échelle entreprise**                                     |         **9 / 20** | 🟠 Moyenne          | AWS/Azure/GCP sont listés, mais aucun cas concret de workload ML déployé sur ces plateformes n’est décrit.                                             |
+| **Lifecycle ML explicitement outillé : model registry, experiment tracking, versioning modèles/données** |        **12 / 20** | 🟠 Moyenne          | Vous avez un socle DevOps/MLOps solide, mais MLflow, W&B, DVC, Kubeflow ou équivalent ne sont pas démontrés.                                           |
+| **Niveau d’anglais certifié ou explicité (B2/C1/C2)**                                                    |         **7 / 20** | 🟡 Faible à moyenne | « Anglais » apparaît sans niveau. Pour Genève/Lausanne international, indiquez le niveau réel.                                                         |
+| **Collaboration avec équipes produit/data/engineering clairement quantifiée**                            |        **13 / 20** | 🟡 Faible           | Elle existe dans votre parcours, notamment chez Synthflow, mais elle est peu visible comme compétence transverse.                                      |
+| **Expérience dans une organisation ML à grande échelle**                                                 | **9 / 20** environ | 🟠 Moyenne          | Beaucoup d’autonomie et d’open source, mais moins de preuves d’un environnement avec grandes équipes, SLA, gouvernance et millions d’utilisateurs.     |
+
+Le point important est que Python, PyTorch, TensorFlow, LLM, RAG, Docker, Kubernetes, CUDA, CI/CD ou production ML ne figurent pas dans cette table, car ce ne sont pas des lacunes chez vous. Votre CV les documente directement.
+
+3. Kiviat — alignement marché sur 0 à 4
+
+| Axe                               |     Score | Analyse                                                                                                                                                             |
+| --------------------------------- | --------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1. Expérience professionnelle** | **3 / 4** | Très bonne expérience pratique et forte autonomie. Score freiné par un historique professionnel assez fragmenté et moins de références de grandes organisations ML. |
+| **2. Formation + certifications** | **2 / 4** | Certification pertinente mais absence de Bachelor/Master STEM, alors que ce critère reste fréquent dans les environnements recherche et grands groupes.             |
+| **3. Technologies**               | **4 / 4** | Très forte adéquation : Python, PyTorch, TensorFlow, CUDA, Triton, vLLM, LLM, RAG, Kubernetes, Docker, Hugging Face, speech.                                        |
+| **4. Méthodologies**              | **3 / 4** | CI/CD, tests, Agile, DevOps, pipelines et monitoring présents. Le CV pourrait mieux démontrer le lifecycle ML industriel et l’expérimentation structurée.           |
+| **5. Langues**                    | **3 / 4** | Français + anglais + allemand + espagnol constituent une bonne base, mais aucun niveau CECR n’est indiqué.                                                          |
+| **6. Aptitudes**                  | **4 / 4** | Forte autonomie, capacité R&D, résolution de problèmes bas niveau, architecture, apprentissage autonome et contribution open source.                                |
+
+Total : 19 / 24 → ~79 % d’alignement global.
+
+Ce chiffre est volontairement conservateur : sur la partie technique pure, votre alignement est plutôt de l’ordre de 90 %+. La baisse vient surtout de la formation académique formelle et de certains éléments qui ne sont pas suffisamment démontrés dans le document.
+
+Lecture visuelle du Kiviat
+
+Expérience        ███████████████░░░░░  3/4
+Formation         ██████████░░░░░░░░░░  2/4
+Technologies      ████████████████████  4/4
+Méthodologies     ███████████████░░░░░  3/4
+Langues           ███████████████░░░░░  3/4
+Aptitudes         ████████████████████  4/4
+
+4. Votre positionnement le plus crédible
+
+Je vous positionnerais prioritairement comme :
+
+Machine Learning Engineer / AI Engineer — LLM, ML Systems & Production
+
+plutôt que simplement Data Scientist.
+
+Votre avantage concurrentiel vient de la combinaison de trois couches que beaucoup de candidats ne réunissent pas : modèles ML + software engineering + infrastructure GPU. Votre CV montre notamment l’inférence locale de modèles 70B+, CUDA/Triton, quantification AWQ/GPTQ/GGUF, vLLM, Kubernetes, RAG et contributions aux bibliothèques ML elles-mêmes.
+
+Les intitulés où votre CV devrait être particulièrement compétitif sont Machine Learning Engineer, AI Engineer, LLM Engineer, ML Systems Engineer, Applied ML Engineer, Generative AI Engineer et Speech/Voice ML Engineer.
+
+En revanche, Research Scientist pur ou certains postes EPFL/CERN très académiques seront plus difficiles lorsque le Master/PhD est une condition stricte, indépendamment de votre niveau technique.
+
+Priorité CV
+
+Le principal travail n’est donc pas d’« ajouter plus de technologies ». Votre CV en contient déjà beaucoup. Il faut plutôt transformer votre profondeur technique en preuves immédiatement lisibles par un recruteur suisse : production, échelle, impact, ownership et résultats mesurables.
+
+Par exemple, vos trois preuves les plus différenciantes sont déjà là : 12+ PR open source, −10 % de WER sur les modèles français, et inférence locale 70B+ dual-GPU. Elles devraient être au centre du positionnement plutôt que noyées dans une longue liste de technologies.

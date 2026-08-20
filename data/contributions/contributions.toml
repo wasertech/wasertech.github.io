@@ -2,19 +2,21 @@
 # This file contains static overrides/additions if needed
 # The build process will merge auto-fetched data with this file
 
-# Minimum stars threshold for auto-fetch
-min_stars = 100
+# Minimum stars threshold for auto-fetch (0 = show all external repos)
+min_stars = 0
 
 # Projects to always exclude from contributions list
 exclude_repos = [
     "PredictiveSingularity/Chat-Interface",
+    "PredictiveSingularity/.github",
     "DF-Innovation/backend",
 ]
 
 # Manual additions (if any contributions aren't on GitHub)
 [[contributions]]
 project = "Mozilla Common Voice"
-url = "https://github.com/common-voice/commonvoice-fr"
+url = "https://github.com/wasertech/commonvoice-fr/releases"
+title_url = "https://github.com/common-voice/commonvoice-fr/pull/168"
 category = "speech"
 pdf_include = true
 

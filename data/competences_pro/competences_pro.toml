@@ -1,0 +1,261 @@
+[[domaines]]
+nom = "Planifier"
+[[domaines.competences]]
+id = "A.1"
+titre = "Systèmes d'information et alignement stratégique métier"
+niveaux = [ 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "A.2"
+titre = "Gestion des niveaux de service"
+niveaux = [ 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "A.3"
+titre = "Mise en place d'un plan d'activités"
+niveaux = [ 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "A.4"
+titre = "Planification des produits/services"
+niveaux = [ 2, 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "A.5"
+titre = "Conception de l'architecture"
+niveaux = [ 3, 4, 5,]
+niveau_max = 5
+
+[[domaines.competences]]
+id = "A.6"
+titre = "Conception des applications"
+niveaux = [ 1, 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "A.7"
+titre = "Veille technologique"
+niveaux = [ 3, 4, 5,]
+niveau_max = 5
+
+[[domaines.competences]]
+id = "A.8"
+titre = "Gestion du développement durable"
+niveaux = [ 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "A.9"
+titre = "Innovation"
+niveaux = [ 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "A.10"
+titre = "Expérience utilisateur"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+
+[[domaines]]
+nom = "Développer"
+[[domaines.competences]]
+id = "B.1"
+titre = "Conception et développement d'applications"
+niveaux = [ 1, 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "B.2"
+titre = "Intégration des composants"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "B.3"
+titre = "Tests"
+niveaux = [ 1, 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "B.4"
+titre = "Déploiement de la solution"
+niveaux = [ 1, 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "B.5"
+titre = "Production de la documentation"
+niveaux = [ 1, 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "B.6"
+titre = "Ingénierie système"
+niveaux = [ 3, 4,]
+niveau_max = 4
+
+
+[[domaines]]
+nom = "Exploiter"
+[[domaines.competences]]
+id = "C.1"
+titre = "Support utilisateur"
+niveaux = [ 1, 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "C.2"
+titre = "Support aux changements"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "C.3"
+titre = "Fourniture de services"
+niveaux = [ 1, 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "C.4"
+titre = "Gestion des problèmes"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "C.5"
+titre = "Gestion des systèmes"
+niveaux = [ 1, 2, 3,]
+niveau_max = 3
+
+
+[[domaines]]
+nom = "Faciliter"
+[[domaines.competences]]
+id = "D.1"
+titre = "Développement d'une stratégie de sécurité de l'information"
+niveaux = [ 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "D.2"
+titre = "Développement d'une stratégie pour la qualité des TIC"
+niveaux = [ 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "D.3"
+titre = "Prestation de services de formation"
+niveaux = [ 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "D.4"
+titre = "Achats"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "D.5"
+titre = "Développement des ventes"
+niveaux = [ 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "D.6"
+titre = "Marketing numérique"
+niveaux = [ 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "D.7"
+titre = "Science des données et analyse"
+niveaux = [ 2, 3, 4, 5,]
+niveau_max = 5
+
+[[domaines.competences]]
+id = "D.8"
+titre = "Gestion des contrats"
+niveaux = [ 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "D.9"
+titre = "Développement du personnel"
+niveaux = [ 2,]
+niveau_max = 2
+
+[[domaines.competences]]
+id = "D.10"
+titre = "Gestion de l'information et de la connaissance"
+niveaux = [ 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "D.11"
+titre = "Identification des besoins"
+niveaux = [ 3,]
+niveau_max = 3
+
+
+[[domaines]]
+nom = "Gérer"
+[[domaines.competences]]
+id = "E.1"
+titre = "Développement prévisionnel"
+niveaux = [ 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "E.2"
+titre = "Gestion des projets et du portefeuille de projets"
+niveaux = [ 2, 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "E.3"
+titre = "Gestion des risques"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "E.4"
+titre = "Gestion de la relation client"
+niveaux = [ 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "E.5"
+titre = "Amélioration des processus"
+niveaux = [ 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "E.6"
+titre = "Gestion de la qualité des TIC"
+niveaux = [ 2, 3, 4,]
+niveau_max = 4
+
+[[domaines.competences]]
+id = "E.7"
+titre = "Gestion des changements métier"
+niveaux = [ 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "E.8"
+titre = "Gestion de la sécurité de l'information"
+niveaux = [ 2, 3,]
+niveau_max = 3
+
+[[domaines.competences]]
+id = "E.9"
+titre = "Gouvernance des systèmes d'information"
+niveaux = [ 4,]
+niveau_max = 4
+
+

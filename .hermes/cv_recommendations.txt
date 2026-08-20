@@ -1,0 +1,112 @@
+- CV 3 pages max / 5 pages OK pour SSII
+- 1ere page : Page "RH" en lecture rapide 10/15 secondes max
+- pages suivantes : "Recruteur"
+- Optimisez votre CV sur l'offre et l'entreprise
+- CV Orienté Compétences
+- Titre : Positionnement
+- Photo optionnelle ok si pro / business
+- Disponibilité
+- 1ere page : Pitch orienté "réponse au besoin"
+
+1ere page Compétences (mots clefs / Phrases courtes et spécifiques):
+- Métier (ce que je sais faire dans ce rôle)
+- Technologiques
+- Méthodologiques
+- Linguistiques
+- Sectorielles (option, si pertinent pour cette postulation)
+- Soft Skills (3 / 4 maximum en lien avec l'offre d'emploi)
+
+1ere page :
+
+Education :
+- Diplômes (académique)
+- Certifications Pro / Internationales IT - Préciser les références des certifications
+- Formations (perso, mooc, formations en entreprises…)
+
+- mention "Références sur demande" (Jamais les noms et contacts)
+- Pied de page : Nom + Pagination
+
+
+puis pour le recruteur :
+
+expériences :
+- expériences à documenter en antéchronologique
+------------
+
+
+exemple :
+
+Nom de la société (ville ou Pays)              02.2020 - 01.2026  (ajouter le jour pour les périodes courtes)
+
+Dernier rôle (05/2023 - 01/2026)
+-activité/réalisaiton  1
+-activité/réalisaiton  2
+-activité/réalisaiton  3
+… 
+
+Avant dernier rôle (02/2020 - 04/2023)
+-activité/réalisaiton  1
+-activité/réalisaiton  2
+-activité/réalisaiton  3
+…
+
+etc …
+
+
+Si possible sur 1 ou 2 projets majeurs ou en lien avec l'offre d'emploi :
+1 - Contexte / besoin / problème / Projet
+2 - Rôle / Responsabilités / Actions -> réponse au besoin
+3 - Résultat -> avec des chiffres / indicateurs
+
+- réorganisez les activités selon les compétences exprimées dans l'offre
+- Mettez l'accent sur les expériences récentes
+- Réduisez / globalisez à l'essentiel les expériences plus anciennes
+
+Testez votre cv pour lisibilité par les ATS :
+- CTRL-A / Ctrl-C -> Ctrl-v dans Notepad
+- Demander un résumé avec la GenIA
+- Utilisez des sites spécialisés d'analyse de CV
+- Validez l'orthographe / Grammaire
+- Verifier en mode impression
+- Vérifier le titre affiché dans l'onglet du PDF. Typiquement : "CV Prénom NOM"
+
+---------Infos générales--------
+
+L’importance des chiffres dans un CV
+
+Constat :
+
+Beaucoup de CV manquent de données chiffrées.
+Les recruteurs cherchent des preuves tangibles et rapides de la valeur ajoutée d’un candidat.
+Sans indicateurs, l’impact réel reste invisible.
+
+Pourquoi les chiffres comptent :
+
+Ils crédibilisent le parcours et rendent visibles les résultats.
+Ils stimulent l’attention des recruteurs (différente activation cérébrale que les mots).
+Ils facilitent une lecture rapide et efficace dans un contexte de sélection ultra-compétitif.
+
+Questions à se poser pour valoriser son parcours :
+
+Qu’est-ce qui distingue mon parcours ?
+Comment mes actions ont amélioré le collectif ?
+Quel impact concret ai-je eu (équipe, service, projets) ?
+Quelles situations complexes ai-je su gérer ?
+
+Contextualiser les réalisations
+
+Indiquer le nombre de personnes encadrées, la durée d’un projet, les bénéficiaires.
+Préciser la taille et la nature de l’équipe (petite équipe soudée vs grande équipe autonome).
+Adapter la mise en valeur selon l’entreprise ou le poste ciblé.
+
+Chiffres clés :
+
+Les recruteurs passent en moyenne 7,4 secondes à lire un CV.
+Les résultats mesurables (croissance, économies, performances) augmentent les chances d’être retenu.
+
+Recommandations pratiques :
+
+Utiliser des puces pour un format clair et percutant.
+Associer missions + résultats chiffrés.
+Montrer non seulement ce que l’on a fait, mais surtout ce que l’on a accompli / réalisé avec les impacts bénéfiques pour les précédents employeurs.
+

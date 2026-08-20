@@ -1,0 +1,406 @@
+[[evidence]]
+id = "gpu-local-inference"
+domain = "GPU & Inference"
+skill = "Local LLM Inference Stack"
+en = "Designed and operate a production-grade local inference server (96GB RAM, dual RTX Titan 24GB) serving multiple LLM presets (7B-70B) with speculative decoding and model routing."
+fr = "Conception et exploitation d'un serveur d'inférence local de production (96GB RAM, dual RTX Titan 24GB) servant plusieurs presets LLM (7B-70B) avec décodage spéculatif et routage de modèles."
+metrics = [ "96GB RAM", "2× RTX Titan 24GB", "7B-70B models", "multiple presets", "1500W",]
+context = "Waser Technologies - local inference server (Destiny)"
+role = "Full-stack design: hardware selection, CUDA tuning, model management, serving API"
+result = "Production local LLM serving with zero cloud dependency, sub-second token generation"
+tags = [ "inference", "gpu", "llama.cpp", "llm", "cuda", "optimization", "serving", "vllm", "python", "local", "self-hosted", "nvidia",]
+source = "waser_technologies"
+weight = 5
+
+[[evidence]]
+id = "cuda-quantization-kernels"
+domain = "GPU & Inference"
+skill = "CUDA Quantization Kernels"
+en = "Merged PRs in [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) and [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29) - updated build process for PyTorch version compatibility and flexible quantization kernel compilation."
+fr = "PRs mergées dans [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) et [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29) - mise à jour du build process pour compatibilité PyTorch et compilation flexible de kernels de quantification."
+metrics = [ "2 PRs merged", "AutoAWQ 2.3k stars", "AutoAWQ_kernels 80 stars", "AWQ/GPTQ quantization",]
+context = "Open source - casper-hansen/AutoAWQ ecosystem"
+role = "Kernel build process, PyTorch compatibility, quantization pipeline"
+result = "Improved build flexibility for AWQ quantization across PyTorch versions"
+tags = [ "cuda", "kernels", "quantization", "awq", "gptq", "pytorch", "gpu", "c++", "optimization", "open-source",]
+source = "waser_technologies"
+weight = 5
+
+[[evidence]]
+id = "pytorch-internals"
+domain = "GPU & Inference"
+skill = "PyTorch Internals & Model Architecture"
+en = "Merged PR in [huggingface/transformers #42864](https://github.com/huggingface/transformers/pull/42864) - fixed ApertusMLP xielu activation initialization using torch_dtype. Deep knowledge of autograd, ATen, torch.compile."
+fr = "PR mergée dans [huggingface/transformers #42864](https://github.com/huggingface/transformers/pull/42864) - correction de l'initialisation de l'activation xielu d'ApertusMLP via torch_dtype. Connaissance approfondie d'autograd, ATen, torch.compile."
+metrics = [ "1 PR merged", "huggingface/transformers 164k stars", "torch.compile", "autograd/ATen",]
+context = "Open source - Hugging Face transformers"
+role = "Model architecture fix, activation initialization, dtype handling"
+result = "Fixed activation initialization bug affecting ApertusMLP models"
+tags = [ "pytorch", "transformers", "huggingface", "model-architecture", "torch.compile", "autograd", "open-source", "llm",]
+source = "waser_technologies"
+weight = 4
+
+[[evidence]]
+id = "multi-gpu-serving"
+domain = "GPU & Inference"
+skill = "Multi-GPU Model Serving"
+en = "Operate dual-GPU inference with model sharding, speculative decoding (dflash draft), and parallel computation across 24 threads (Threadripper 2920X)."
+fr = "Exploitation d'inférence multi-GPU avec sharding de modèles, décodage spéculatif (dflash draft) et calcul parallèle sur 24 threads (Threadripper 2920X)."
+metrics = [ "2× GPU", "24 threads", "Threadripper 2920X", "speculative decoding", "model sharding",]
+context = "Waser Technologies - Destiny inference server"
+role = "GPU scheduling, memory management, parallel inference"
+result = "High-throughput local inference with 98GB model support (DS4F)"
+tags = [ "multi-gpu", "inference", "serving", "cuda", "parallel", "optimization", "llm", "nvidia",]
+source = "waser_technologies"
+weight = 4
+
+[[evidence]]
+id = "multi-agent-orchestration"
+domain = "LLM & Agentic ML"
+skill = "Multi-Agent LLM Orchestration"
+en = "Built a production multi-agent assistant (Hermes Agent) orchestrating specialized agents for system ops, web research, file editing, and code generation via natural language - running on local hardware with on-premise inference."
+fr = "Construction d'un assistant multi-agent de production (Hermes Agent) orchestrant des agents spécialisés pour les opérations système, la recherche web, l'édition de fichiers et la génération de code via langage naturel - sur hardware local avec inférence sur site."
+metrics = [ "multi-agent", "local inference", "96GB RAM", "dual RTX Titan", "production",]
+context = "Waser Technologies - Assistant (gitlab.com/waser-technologies/technologies/assistant)"
+role = "Architecture design, agent specialization, tool integration, MCP protocol"
+result = "Production ML assistant with full system control, web research, and code generation"
+tags = [ "multi-agent", "llm", "orchestration", "ai-agent", "mcp", "tools", "automation", "python", "production",]
+source = "waser_technologies"
+weight = 5
+
+[[evidence]]
+id = "sft-dataset-curation"
+domain = "LLM & Agentic ML"
+skill = "SFT Dataset Curation & Fine-tuning"
+en = "Curated 50k+ SFT training examples from multiple sources with quality filtering, standardization, and intent parsing. Built complete SFT pipeline: simulator → dataset generation → model training → evaluation."
+fr = "Curation de 50k+ exemples SFT depuis plusieurs sources avec filtrage qualité, standardisation et parsing d'intentions. Pipeline SFT complet: simulateur → génération de datasets → entraînement → évaluation."
+metrics = [ "50k+ examples", "multi-source", "quality filtering", "SFT pipeline", "evaluation",]
+context = "OneOS training framework + Waser Technologies"
+role = "Data pipeline design, quality curation, training orchestration, model evaluation"
+result = "Production SFT datasets (NL2Shell, OneOS, AGI, samantha-data-cot) published on HuggingFace"
+tags = [ "sft", "fine-tuning", "dataset", "data-pipeline", "llm", "training", "evaluation", "python", "huggingface",]
+source = "waser_technologies"
+weight = 5
+
+[[evidence]]
+id = "rag-pipelines"
+domain = "LLM & Agentic ML"
+skill = "RAG Pipeline Engineering"
+en = "Built custom RAG pipelines for domain-specific document understanding and synthesis. Full stack: ingestion, chunking, embedding, retrieval, synthesis with LLM."
+fr = "Construction de pipelines RAG sur mesure pour la compréhension et la synthèse de documents spécialisés. Stack complète: ingestion, chunking, embedding, retrieval, synthèse avec LLM."
+metrics = [ "custom RAG", "domain-specific", "document understanding", "LLM synthesis",]
+context = "DF Innovation - Generative ML R&D"
+role = "RAG architecture, retrieval optimization, prompt engineering, evaluation"
+result = "Production RAG systems for specialized document processing"
+tags = [ "rag", "retrieval", "llm", "embedding", "vector-database", "nlp", "document", "python",]
+source = "ideal_isolation_df_innovation"
+weight = 4
+
+[[evidence]]
+id = "hf-ecosystem"
+domain = "LLM & Agentic ML"
+skill = "Hugging Face Ecosystem"
+en = "Published 8 models and 6 datasets on Hugging Face. Deep expertise in transformers, datasets, tokenizers, model quantization (AWQ/QLoRA), and model publishing workflows."
+fr = "8 modèles et 6 datasets publiés sur Hugging Face. Expertise approfondie en transformers, datasets, tokenizers, quantification de modèles (AWQ/QLoRA) et workflows de publication."
+metrics = [ "8 models", "6 datasets", "AWQ/QLoRA", "transformers", "tokenizers",]
+context = "Hugging Face - wasertech profile"
+role = "Model training, quantization, publishing, dataset curation"
+result = "14 public artifacts (models + datasets) on Hugging Face"
+tags = [ "huggingface", "transformers", "datasets", "models", "quantization", "awq", "qlora", "tokenizers", "open-source",]
+source = "waser_technologies"
+weight = 4
+
+[[evidence]]
+id = "prompt-engineering"
+domain = "LLM & Agentic ML"
+skill = "Prompt Engineering & LLM Systems"
+en = "Production prompt engineering: templates, chaining, context management, dynamic prompt generation for sub-second response times in live ML systems."
+fr = "Ingénierie de prompt en production: templates, chaînage, gestion de contexte, génération dynamique de prompts pour des temps de réponse inférieurs à la seconde dans des systèmes ML en direct."
+metrics = [ "sub-second response", "production", "dynamic prompts", "context management",]
+context = "Synthflow AI + Waser Technologies"
+role = "Prompt design, context optimization, response latency reduction"
+result = "Sub-second LLM response times in production voice-call systems"
+tags = [ "prompt-engineering", "llm", "optimization", "latency", "production", "nlp",]
+source = "synthflow"
+weight = 3
+
+[[evidence]]
+id = "speech-recognition"
+domain = "Speech AI"
+skill = "Speech Recognition (ASR)"
+en = "12+ merged PRs in coqui-ai/STT (2.6k stars) over 1.5 years: memory management fixes, TF graph export optimization, TFLite export pipeline, LM optimization refactoring, CI improvements. Led DeepSpeech→STT migration for French."
+fr = "12+ PRs mergées dans coqui-ai/STT (2.6k stars) sur 1,5 an: corrections de gestion mémoire, optimisation d'export de graphe TF, pipeline d'export TFLite, refactoring du module d'optimisation LM, améliorations CI. Pilotage de la migration DeepSpeech→STT pour le français."
+metrics = [ "12+ PRs merged", "coqui-ai/STT 2.6k stars", "1.5 years", "TFLite export", "TF graph optimization",]
+context = "Mozilla & Coqui-AI - open source contribution"
+role = "ASR pipeline development, memory optimization, model export, CI/CD"
+result = "Stable French STT pipeline with optimized memory usage and TFLite deployment"
+tags = [ "speech", "asr", "deep-speech", "coqui", "stt", "tensorflow", "tflite", "nlp", "open-source", "python",]
+source = "mozilla_coqui"
+weight = 5
+
+[[evidence]]
+id = "french-stt-models"
+domain = "Speech AI"
+skill = "French STT Model Training & Publication"
+en = "Trained and published French speech models with 2× higher-quality augmented data, reducing average Word Error Rate by 10%. Maintained CommonVoice-FR training pipeline after DeepSpeech deprecation."
+fr = "Entraînement et publication de modèles de parole français avec 2× plus de données augmentées de meilleure qualité, réduisant le taux d'erreur de mot moyen de 10%. Maintenance du pipeline d'entraînement CommonVoice-FR après la dépréciation de DeepSpeech."
+metrics = [ "WER -10%", "2× data quality", "CommonVoice-FR", "French STT", "model publication",]
+context = "Mozilla Common Voice + Coqui-AI"
+role = "Model training, data augmentation, pipeline maintenance, model publication"
+result = "Improved French STT models with 10% lower WER, published on HuggingFace"
+tags = [ "speech", "asr", "french", "common-voice", "model-training", "data-augmentation", "wer", "nlp",]
+source = "mozilla_coqui"
+weight = 5
+
+[[evidence]]
+id = "realtime-speech-pipeline"
+domain = "Speech AI"
+skill = "Real-Time Speech Pipeline"
+en = "Built end-to-end real-time transcription system (Listen): server-client architecture combining Faster-Whisper with VAD for latency-optimized live transcription, paired with OpenVoice v2 for few-shot voice cloning and TTS."
+fr = "Construction d'un système de transcription temps réel de bout en bout (Listen): architecture serveur-client combinant Faster-Whisper et VAD pour la transcription en direct avec latence minimale, associé à OpenVoice v2 pour le clonage vocal few-shot et la TTS."
+metrics = [ "real-time", "Faster-Whisper", "VAD", "OpenVoice v2", "few-shot cloning", "server-client",]
+context = "Waser Technologies - Listen + Say"
+role = "Architecture design, audio pipeline, VAD integration, TTS integration"
+result = "Production real-time speech-to-text and text-to-speech system"
+tags = [ "speech", "real-time", "whisper", "vad", "tts", "openvoice", "audio", "python", "server-client",]
+source = "waser_technologies"
+weight = 4
+
+[[evidence]]
+id = "voice-cloning-tts"
+domain = "Speech AI"
+skill = "Text-to-Speech & Voice Cloning"
+en = "Built TTS system (Say) generating high-quality customizable voices from 10-second audio samples using OpenVoice v2. Few-shot voice cloning with real-time multilingual synthesis."
+fr = "Construction d'un système TTS (Say) générant des voix personnalisables de haute qualité à partir d'échantillons de 10 secondes via OpenVoice v2. Clonage vocal few-shot avec synthèse multilingue temps réel."
+metrics = [ "10-second samples", "OpenVoice v2", "few-shot", "multilingual", "real-time",]
+context = "Waser Technologies - Say"
+role = "TTS pipeline, voice cloning, audio processing"
+result = "High-quality voice cloning from minimal audio samples"
+tags = [ "tts", "voice-cloning", "openvoice", "speech", "audio", "multilingual", "real-time",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "data-pipelines"
+domain = "Data & ML"
+skill = "Data Pipeline Engineering"
+en = "Built data pipelines for operational analytics: ingestion, cleaning, transformation, storage, and analysis. Developed predictive models to optimize resource allocation and reduce processing delays in quotation/invoicing workflows."
+fr = "Construction de pipelines de données pour l'analyse opérationnelle: ingestion, nettoyage, transformation, stockage et analyse. Développement de modèles prédictifs pour optimiser l'allocation des ressources et réduire les délais de traitement dans les workflows de devis/facturation."
+metrics = [ "predictive models", "resource optimization", "workflow analysis", "data pipelines",]
+context = "Idéal Isolation Sàrl - Operational Analytics"
+role = "Data pipeline design, predictive modeling, bottleneck analysis"
+result = "Optimized resource allocation and reduced processing delays in operational workflows"
+tags = [ "data-pipeline", "analytics", "predictive-models", "python", "pandas", "optimization", "business",]
+source = "ideal_isolation_df_innovation"
+weight = 3
+
+[[evidence]]
+id = "algorithmic-trading"
+domain = "Data & ML"
+skill = "Algorithmic Trading & Quantitative ML"
+en = "Developed ML-driven trading strategies with backtesting infrastructure across 52 pairs on multiple exchanges. 7-month backtest: 57% win rate, +$2,158 profit, 9.7% max drawdown. Freqtrade bot in production (live + dry-run)."
+fr = "Développement de stratégies de trading pilotées par ML avec infrastructure de backtesting sur 52 paires multi-exchanges. Backtest 7 mois: 57% win rate, +2'158$ profit, 9.7% drawdown max. Bot Freqtrade en production (live + dry-run)."
+metrics = [ "52 pairs", "7-month backtest", "57% win rate", "+$2,158", "9.7% max DD", "multi-exchange", "production",]
+context = "DF Innovation - Algorithmic Trading"
+role = "Strategy development, ML signal extraction, backtesting, risk management, deployment"
+result = "Production trading bot with validated strategy (57% WR, positive expectancy)"
+tags = [ "trading", "quantitative", "ml", "backtesting", "freqtrade", "python", "finance", "risk-management", "production",]
+source = "ideal_isolation_df_innovation"
+weight = 4
+
+[[evidence]]
+id = "blockchain-solana"
+domain = "Data & ML"
+skill = "Blockchain & Smart Contracts"
+en = "Prototyped Solana smart-contracts for automated market operations. Blockchain integration for trading infrastructure."
+fr = "Prototypage de smart-contracts Solana pour des opérations de marché automatisées. Intégration blockchain pour l'infrastructure de trading."
+metrics = [ "Solana", "smart-contracts", "automated operations",]
+context = "DF Innovation - Blockchain"
+role = "Smart contract design, blockchain integration"
+result = "Functional Solana smart-contract prototypes for market automation"
+tags = [ "blockchain", "solana", "smart-contracts", "web3", "trading", "automation",]
+source = "ideal_isolation_df_innovation"
+weight = 2
+
+[[evidence]]
+id = "docker-gpu"
+domain = "DevOps & Infrastructure"
+skill = "Docker & GPU Containerization"
+en = "Containerized multi-service deployments with GPU passthrough. Docker Compose for inference servers, ML pipelines, and web applications. systemd & s6-overlay for service supervision."
+fr = "Conteneurisation multi-services avec passthrough GPU. Docker Compose pour serveurs d'inférence, pipelines ML et applications web. systemd & s6-overlay pour la supervision de services."
+metrics = [ "GPU passthrough", "multi-service", "systemd", "s6-overlay", "Docker Compose",]
+context = "Waser Technologies + DF Innovation"
+role = "Container orchestration, GPU scheduling, service supervision"
+result = "Reliable multi-service deployments with GPU acceleration"
+tags = [ "docker", "gpu", "containerization", "systemd", "devops", "infrastructure", "deployment",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "linux-systems"
+domain = "DevOps & Infrastructure"
+skill = "GNU/Linux System Administration"
+en = "Advanced Linux administration (Arch/Manjaro): kernel tuning, module management, performance optimization, fan control (NCT6779 hwmon), GPU monitoring. 8+ years of daily Linux usage."
+fr = "Administration Linux avancée (Arch/Manjaro): tuning du kernel, gestion de modules, optimisation de performance, contrôle des ventilateurs (NCT6779 hwmon), monitoring GPU. 8+ ans d'utilisation quotidienne de Linux."
+metrics = [ "8+ years", "kernel tuning", "performance optimization", "GPU monitoring",]
+context = "All projects - daily driver"
+role = "System administration, performance tuning, hardware management"
+result = "Stable, optimized Linux systems for ML workloads"
+tags = [ "linux", "arch", "manjaro", "systemd", "kernel", "performance", "devops", "administration",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "git-cicd"
+domain = "DevOps & Infrastructure"
+skill = "Git & CI/CD"
+en = "GitHub/GitLab workflows, GitHub Actions CI pipelines, automated testing, PR management. 57 merged PRs across 12+ external repositories."
+fr = "Workflows GitHub/GitLab, pipelines CI GitHub Actions, tests automatisés, gestion de PRs. 57 PRs mergées dans 12+ dépôts externes."
+metrics = [ "57 PRs merged", "12+ repos", "GitHub Actions", "CI/CD",]
+context = "All projects"
+role = "Version control, CI/CD, code review, PR management"
+result = "Consistent code quality across multiple projects and teams"
+tags = [ "git", "cicd", "github", "gitlab", "ci", "cd", "automation", "code-review",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "fullstack-web"
+domain = "Full-Stack"
+skill = "Full-Stack Web Development"
+en = "Built web applications with Django/FastAPI backends, REST APIs, async WebSocket, and responsive frontends (HTML/CSS/JS, Pico.css). Real-time architectures with SSE and audio streaming."
+fr = "Construction d'applications web avec backends Django/FastAPI, APIs REST, WebSocket asynchrone et frontends responsives (HTML/CSS/JS, Pico.css). Architectures temps réel avec SSE et streaming audio."
+metrics = [ "Django", "FastAPI", "REST", "WebSocket", "real-time", "responsive",]
+context = "Waser Technologies + Synthflow AI"
+role = "Full-stack development, API design, real-time communication"
+result = "Production web applications with real-time capabilities"
+tags = [ "fullstack", "django", "fastapi", "rest", "websocket", "html", "css", "javascript", "real-time", "web",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "translation-nlp"
+domain = "Full-Stack"
+skill = "NLP Translation Pipeline"
+en = "Built batch translation CLI (Translator) with NLLB-200 integration, PO file support, multi-language detection. 4 merged PRs covering locale handling, type safety, and PO workflow."
+fr = "Construction d'une CLI de traduction par lots (Translator) avec intégration NLLB-200, support PO, détection multi-langue. 4 PRs mergées couvrant la gestion de locale, la type safety et le workflow PO."
+metrics = [ "NLLB-200", "4 PRs merged", "PO files", "multi-language", "batch processing",]
+context = "Waser Technologies - Translator (github.com/wasertech/Translator)"
+role = "NLP pipeline, CLI design, i18n, PO file handling"
+result = "Production batch translation tool with full PO file support"
+tags = [ "nlp", "translation", "nllb", "cli", "i18n", "python", "huggingface",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "django-cms-contribution"
+domain = "Full-Stack"
+skill = "Django CMS Contribution"
+en = "Merged PR in django-cms/django-cms (10.6k stars) - fixed French translations. Contributed to one of the largest Django-based CMS projects."
+fr = "PR mergée dans django-cms/django-cms (10.6k stars) - correction des traductions françaises. Contribution à l'un des plus grands projets CMS basés sur Django."
+metrics = [ "1 PR merged", "django-cms 10.6k stars", "French translations",]
+context = "Open source - django-cms"
+role = "Translation fix, i18n, Django"
+result = "Improved French localization in django-cms"
+tags = [ "django", "cms", "i18n", "translations", "open-source", "python",]
+source = "waser_technologies"
+weight = 2
+
+[[evidence]]
+id = "rapid-prototyping"
+domain = "Entrepreneurship"
+skill = "Rapid Prototyping & R&D"
+en = "Concept to functional prototype in under 2 weeks per feature, working directly with C-suite on product requirements. Multi-agent conversational systems for production voice-call telephony."
+fr = "Du concept au prototype fonctionnel en moins de 2 semaines par fonctionnalité, en travaillant directement avec la direction sur les exigences produit. Systèmes conversationnels multi-agents pour la téléphonie vocale de production."
+metrics = [ "<2 weeks per feature", "C-suite collaboration", "production telephony", "multi-agent",]
+context = "Synthflow AI - freelance mission"
+role = "R&D, prototyping, product requirements, dialogue management"
+result = "Production voice-call AI systems with sub-second response times"
+tags = [ "prototyping", "rnd", "product", "ai", "voice", "telephony", "multi-agent", "rapid",]
+source = "synthflow"
+weight = 4
+
+[[evidence]]
+id = "entrepreneurship"
+domain = "Entrepreneurship"
+skill = "Entrepreneurship & Independent Operation"
+en = "Founded and operate Waser Technologies (2020-2023): AI development, open source contributions, product development. Operate DF Innovation (2024-2026): R&D in generative AI, algorithmic trading, blockchain. Self-directed, full ownership of technical decisions."
+fr = "Fondation et exploitation de Waser Technologies (2020-2023): développement ML, contributions open source, développement produit. Exploitation de DF Innovation (2024-2026): R&D en ML génératif, trading algorithmique, blockchain. Auto-dirigé, pleine propriété des décisions techniques."
+metrics = [ "2 companies", "2020-2026", "full ownership", "self-directed",]
+context = "Waser Technologies + DF Innovation"
+role = "Founding, technical direction, product development, business operations"
+result = "Sustainable independent operation with multiple revenue streams"
+tags = [ "entrepreneurship", "founder", "independent", "business", "leadership", "autonomy",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "stakeholder-communication"
+domain = "Entrepreneurship"
+skill = "Stakeholder Communication & Technical Leadership"
+en = "Present complex AI/ML concepts to non-technical stakeholders. Supervise external consultants. Animate AI communities. Translate business requirements into technical specifications."
+fr = "Présentation de concepts ML complexes à des parties prenantes non-techniques. Supervision de consultants externes. Animation de communautés ML. Traduction des exigences métier en spécifications techniques."
+metrics = [ "non-technical stakeholders", "consultant supervision", "community animation",]
+context = "All projects"
+role = "Communication, leadership, requirement translation"
+result = "Effective bridge between technical and business worlds"
+tags = [ "communication", "leadership", "stakeholders", "presentation", "management", "soft-skills",]
+source = "waser_technologies"
+weight = 3
+
+[[evidence]]
+id = "open-source-contributions"
+domain = "Open Source"
+skill = "Open Source Contributions"
+en = "57 merged PRs across 12+ external repositories: huggingface/transformers (164k stars), django-cms (10.6k stars), coqui-ai/STT (2.6k stars), AutoAWQ (2.3k stars), EsupPortail (government), ixray (game engine). 8 models + 6 datasets published on HuggingFace."
+fr = "57 PRs mergées dans 12+ dépôts externes: huggingface/transformers (164k stars), django-cms (10.6k stars), coqui-ai/STT (2.6k stars), AutoAWQ (2.3k stars), EsupPortail (gouvernement), ixray (moteur de jeu). 8 modèles + 6 datasets publiés sur HuggingFace."
+metrics = [ "57 PRs", "12+ repos", "164k stars max", "8 models", "6 datasets", "government portal",]
+context = "GitHub + Hugging Face"
+role = "Code contribution, bug fixing, feature development, documentation"
+result = "Sustained open source impact across AI, web, and government projects"
+tags = [ "open-source", "github", "contributions", "community", "huggingface", "transformers", "django",]
+source = "waser_technologies"
+weight = 5
+
+[[evidence]]
+id = "government-portal"
+domain = "Open Source"
+skill = "Government Portal Integration"
+en = "Merged PR in EsupPortail/Esup-Pod (French government education portal) - integrated 🐸-STT speech recognition. Contributed to a public-sector project serving French students."
+fr = "PR mergée dans EsupPortail/Esup-Pod (portail éducatif gouvernemental français) - intégration de la reconnaissance vocale 🐸-STT. Contribution à un projet du secteur public servant les étudiants français."
+metrics = [ "government project", "French education", "STT integration",]
+context = "Open source - EsupPortail"
+role = "Speech recognition integration, public sector"
+result = "Speech recognition capability added to French government education portal"
+tags = [ "government", "public-sector", "education", "speech", "stt", "integration", "open-source",]
+source = "mozilla_coqui"
+weight = 3
+
+[[evidence]]
+id = "python-expert"
+domain = "Languages"
+skill = "Python (8+ years)"
+en = "8+ years of Python: system programming, async, performance optimization, ML pipelines, web backends, data processing. Daily driver for all AI/ML work."
+fr = "8+ ans de Python: programmation système, asynchrone, optimisation de performance, pipelines ML, backends web, traitement de données. Outil quotidien pour tout le travail ML."
+metrics = [ "8+ years", "async", "performance", "ML", "web", "data",]
+context = "All projects"
+role = "Primary language for all development"
+result = "Production-grade Python across all domains"
+tags = [ "python", "programming", "async", "performance", "ml", "web", "data",]
+source = "waser_technologies"
+weight = 4
+
+[[evidence]]
+id = "multilingual"
+domain = "Languages"
+skill = "Multilingual (FR/EN/ES/DE)"
+en = "French (C2, native), English (C1), Spanish (C1), German (B1). Work in all four languages. CV and cover letters in the language of the job posting."
+fr = "Français (C2, natif), Anglais (C1), Espagnol (C1), Allemand (B1). Travail dans les quatre langues. CV et lettres de motivation dans la langue de l'annonce."
+metrics = [ "4 languages", "FR native", "EN C1", "ES C1", "DE B1",]
+context = "All projects"
+role = "Communication, documentation, client interaction"
+result = "Full multilingual capability for Swiss and international markets"
+tags = [ "french", "english", "spanish", "german", "multilingual", "communication",]
+source = "profile"
+weight = 3
+

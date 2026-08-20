@@ -1,9 +1,9 @@
 [en]
 content = """
-Passionate about conversational intelligence, I'm fluent in French, English and Spanish. With expertise in language model design and full-stack development, I specialise in improving the accuracy of speech transcription and creating conversational assistants. My ability to migrate and train AI models, combined with my experience in translation tools, make me a valuable asset for any AI company looking to innovate and optimise its solutions.
+Machine Learning Engineer & Data Scientist: end-to-end ML solutions — from data exploration and analysis (e-CF D.7) to production deployment (B.4) — including data pipelines, RAG, LLM fine-tuning, speech and automation. 57 merged PRs across 12+ open-source repositories (Coqui-STT, AutoAWQ, HuggingFace); 10% WER reduction on French speech models; local inference of 70B+ models on a dual-GPU workstation. Direct C-suite collaboration: functional prototype in under 2 weeks per feature.
 """
 
 [fr]
 content = """
-Passionné par l'intelligence conversationnelle, je parle couramment le français, l'anglais et l'espagnol. Avec une expertise dans la conception de modèles de langage et le développement full-stack, je me spécialise dans l'amélioration de la précision de la transcription vocale et la création d'assistants conversationnels. Ma capacité à migrer et à entraîner des modèles d'IA, combinée à mon expérience des outils de traduction, fait de moi un atout précieux pour toute entreprise d'IA cherchant à innover et à optimiser ses solutions.
+Ingénieur en machine learning & scientifique des données : solutions ML de bout en bout — de l'exploration et l'analyse des données (e-CF D.7) au déploiement en production (B.4) — incluant pipelines de données, RAG, fine-tuning de LLMs, traitement de la parole et automatisation. 57 PRs mergées dans 12+ dépôts open source (Coqui-STT, AutoAWQ, HuggingFace) ; réduction de 10% du taux d'erreur de parole sur les modèles français ; inférence locale de modèles 70B+ sur station dual-GPU. Collaboration directe avec la direction : prototype fonctionnel en moins de 2 semaines par fonctionnalité.
 """

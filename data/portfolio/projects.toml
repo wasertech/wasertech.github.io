@@ -6,11 +6,9 @@ image = "static/images/portrait_thumb.png"
 pdf_include = true
 
 [projects.en]
-description = "Official Hugging Face profile hosting open-source LLMs, speech models, and specialized AI datasets."
-
+description = "Official Hugging Face profile hosting open-source LLMs, speech models, and specialized ML datasets."
 [projects.fr]
-description = "Profil Hugging Face officiel hébergeant des LLM open-source, des modèles de parole et des ensembles de données IA spécialisés."
-
+description = "Profil Hugging Face officiel hébergeant des LLM open-source, des modèles de parole et des ensembles de données ML spécialisés."
 [[projects]]
 name = "Assistant"
 category = "software"
@@ -20,10 +18,8 @@ pdf_include = true
 
 [projects.en]
 description = "Multi-agent LLM shell orchestrating specialised agents for system ops, web research, and file editing via a natural language prompt."
-
 [projects.fr]
 description = "Shell LLM multi-agent orchestrant des agents spécialisés pour les opérations système, la recherche web et l'édition de fichiers via prompt naturel."
-
 [[projects]]
 name = "Listen"
 category = "software"
@@ -33,10 +29,8 @@ pdf_include = true
 
 [projects.en]
 description = "Real-time speech-to-text system with server-client architecture using Faster-Whisper and VAD for efficient audio transcription."
-
 [projects.fr]
 description = "Système de reconnaissance vocale en temps réel avec architecture serveur-client utilisant Faster-Whisper et VAD pour une transcription efficace."
-
 [[projects]]
 name = "Say"
 category = "software"
@@ -46,10 +40,8 @@ pdf_include = true
 
 [projects.en]
 description = "Text-to-speech tool generating high-quality customizable voices from 10-second audio samples using OpenVoice v2."
-
 [projects.fr]
 description = "Outil de synthèse vocale générant des voix personnalisables de haute qualité à partir d'échantillons de 10 secondes via OpenVoice v2."
-
 [[projects]]
 name = "Translator"
 category = "software"
@@ -59,10 +51,8 @@ pdf_include = true
 
 [projects.en]
 description = "Batch-friendly translation CLI leveraging Hugging Face translation pipelines (NLLB-200 and compatible models) with full support for metadata-preserving PO file handling."
-
 [projects.fr]
 description = "CLI de traduction par lots exploitant les pipelines de traduction Hugging Face (NLLB-200 et modèles compatibles) avec support complet des fichiers PO préservant les métadonnées."
-
 [[projects]]
 name = "Cloud.API"
 category = "software"
@@ -71,14 +61,13 @@ image = "static/images/cloud_api.jpg"
 pdf_include = false
 
 [projects.en]
-description = "Python library and MCP server for programmatic management and AI-driven interaction with Jelastic cloud environments."
-
+description = "Python library and MCP server for programmatic management and ML-driven interaction with Jelastic cloud environments."
 [projects.fr]
-description = "Bibliothèque Python et serveur MCP pour la gestion programmatique et l'interaction par IA des environnements cloud Jelastic."
-
+description = "Bibliothèque Python et serveur MCP pour la gestion programmatique et l'interaction par ML des environnements cloud Jelastic."
 [[projects]]
 name = "Google Advanced Data Analytics"
 category = "course"
 url = "static/GoogleAdvancedDataAnalyticsCertificate.pdf"
 image = "static/images/gada-badge.png"
 pdf_include = false
+

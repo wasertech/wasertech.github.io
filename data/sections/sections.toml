@@ -10,6 +10,10 @@ fr = "CONTACT"
 en = "TECHNICAL SKILLS"
 fr = "COMPÉTENCES TECHNIQUES"
 
+[professional_competencies]
+en = "PROFESSIONAL COMPETENCIES"
+fr = "COMPÉTENCES PROFESSIONNELLES"
+
 [languages]
 en = "LANGUAGES"
 fr = "LANGUES"

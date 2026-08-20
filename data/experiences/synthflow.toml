@@ -1,17 +1,19 @@
-date = "Jan. 2024 - March 2024"
+date = "01.2024 - 03.2024"
 
 [en]
-title = "Engineer in Artificial Intelligence (AI)"
+title = "Machine Learning Engineer"
 company = "Synthflow AI"
 details = """
-- Rapid R&D and prototyping of multi-agent conversational systems for telephonic deployment.
-- Iterative implementation of LLM-based dialogue managers and prompt engineering for real-time interaction.
+- Multi-agent conversational systems (e-CF B.1): Designed and prototyped production voice-call systems deploying multiple specialized LLM agents in tandem for telephony.
+- Real-time dialogue management: Iterative implementation of LLM-based dialogue managers with dynamic prompt engineering for sub-second response times in live calls.
+- Rapid R&D cycle (e-CF E.2): From concept to functional prototype in under 2 weeks per feature, working directly with C-suite on product requirements.
 """
 
 [fr]
-title = "Ingénieur en Intelligence Artificielle (IA)"
+title = "Ingénieur en Machine Learning (ML)"
 company = "Synthflow AI"
 details = """
-- R&D rapide et prototypage de systèmes conversationnels multi-agents pour le déploiement téléphonique.
-- Implémentation itérative de gestionnaires de dialogue basés sur les LLM et ingénierie de prompt pour l'interaction en temps réel.
+- Systèmes conversationnels multi-agents (e-CF B.1) : Conception et prototypage de systèmes d'appels vocaux de production déployant plusieurs agents LLM spécialisés en tandem pour la téléphonie.
+- Gestion de dialogue temps réel : Implémentation itérative de gestionnaires de dialogue basés sur LLM avec ingénierie de prompt dynamique pour des temps de réponse inférieurs à la seconde en appel en direct.
+- Cycle R&D rapide (e-CF E.2) : Du concept au prototype fonctionnel en moins de 2 semaines par fonctionnalité, en travaillant directement avec la direction sur les exigences produit.
 """

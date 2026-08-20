@@ -23,6 +23,8 @@ def fetch_github_contributions(username="wasertech", min_stars=100, exclude_repo
                 title
                 url
                 mergedAt
+                additions
+                deletions
                 repository {
                   nameWithOwner
                   owner { login }
@@ -77,13 +79,20 @@ def fetch_github_contributions(username="wasertech", min_stars=100, exclude_repo
             contributions[repo_name]['prs'].append({
                 'title': pr['title'],
                 'url': pr['url'],
-                'merged_at': pr['mergedAt']
+                'merged_at': pr['mergedAt'],
+                'additions': pr.get('additions', 0),
+                'deletions': pr.get('deletions', 0),
+                'size': pr.get('additions', 0) + pr.get('deletions', 0),
             })
             
             # Track latest merge date
             merge_date = pr['mergedAt']
             if contributions[repo_name]['latest_merge'] is None or merge_date > contributions[repo_name]['latest_merge']:
                 contributions[repo_name]['latest_merge'] = merge_date
+        
+        # Sort PRs within each repo by size (additions + deletions, descending)
+        for c in contributions.values():
+            c['prs'].sort(key=lambda x: x['size'], reverse=True)
         
         # Sort by stars (descending)
         sorted_contribs = sorted(contributions.values(), key=lambda x: x['stars'], reverse=True)
@@ -110,6 +119,12 @@ def build_data():
 
     # Skills
     data['skills'] = toml.load('data/skills/skills.toml')['skills']
+
+    # Professional competencies (Lab4Tech 5 domains)
+    if os.path.exists('data/competences_pro/competences_pro.toml'):
+        data['competences_pro'] = toml.load('data/competences_pro/competences_pro.toml')['domaines']
+    else:
+        data['competences_pro'] = []
 
     # Languages
     data['languages'] = toml.load('data/languages/languages.toml')['languages']

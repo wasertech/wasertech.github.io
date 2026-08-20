@@ -1,78 +1,1169 @@
-# IA & Frameworks
 [[skills]]
-category = "IA & Frameworks"
-en = "PyTorch & TensorFlow"
-fr = "PyTorch & TensorFlow"
+category = "Administration systèmes"
+fr = "Centre de calcul"
+en = "Data Center Operations"
+fr_desc = "Server infrastructure operations and supervision"
+en_desc = "Exploitation et supervision d'infrastructure serveur"
 
 [[skills]]
-category = "IA & Frameworks"
-en = "Transformers (Hugging Face)"
-fr = "Transformers (Hugging Face)"
+category = "Applications serveur"
+fr = "Apache Tomcat"
+en = "Apache Tomcat"
+fr_desc = "Déploiement et configuration de conteneur de servlets"
+en_desc = "Servlet container deployment and configuration"
 
 [[skills]]
-category = "IA & Frameworks"
-en = "RAG & LLM Orchestration"
-fr = "RAG & Orchestration LLM"
+category = "Applications serveur"
+fr = "Apache HTTP Server"
+en = "Apache HTTP Server"
+fr_desc = "Configuration de serveur web et virtual hosts"
+en_desc = "Web server configuration and virtual hosts"
 
 [[skills]]
-category = "IA & Frameworks"
-en = "Automatic Speech Recognition (ASR)"
-fr = "Reconnaissance Vocale (ASR)"
+category = "Base de données"
+fr = "ETL"
+en = "ETL"
+fr_desc = "Pipelines d'extraction, transformation, chargement de données"
+en_desc = "Data extraction, transformation, loading pipelines"
 
 [[skills]]
-category = "IA & Frameworks"
-en = "Text-to-Speech (TTS)"
-fr = "Synthèse Vocale (TTS)"
-
-# Programming Languages
-[[skills]]
-category = "Languages"
-en = "Python"
-fr = "Python"
+category = "Base de données"
+fr = "MariaDB"
+en = "MariaDB"
+fr_desc = "Gestion de base de données relationnelle"
+en_desc = "Relational database management"
 
 [[skills]]
-category = "Languages"
-en = "Bash & Zsh"
-fr = "Bash & Zsh"
+category = "Base de données"
+fr = "MongoDB"
+en = "MongoDB"
+fr_desc = "Base de données NoSQL orientée documents"
+en_desc = "NoSQL document database"
 
 [[skills]]
-category = "Languages"
-en = "JavaScript (Node.js)"
-fr = "JavaScript (Node.js)"
+category = "Base de données"
+fr = "MySQL"
+en = "MySQL"
+fr_desc = "Base de données relationnelle"
+en_desc = "Relational database"
 
 [[skills]]
-category = "Languages"
-en = "HTML & CSS"
-fr = "HTML & CSS"
+category = "Base de données"
+fr = "PostgreSQL"
+en = "PostgreSQL"
+fr_desc = "Base de données relationnelle avancée, JSONB, extensions"
+en_desc = "Advanced relational database, JSONB, extensions"
 
-# DevOps & Tools
 [[skills]]
-category = "DevOps & Tools"
-en = "Docker"
+category = "Base de données"
+fr = "SQL Server"
+en = "SQL Server"
+fr_desc = "Base de données relationnelle Microsoft"
+en_desc = "Microsoft relational database"
+
+[[skills]]
+category = "BI & Data science"
+fr = "Tableau"
+en = "Tableau"
+fr_desc = "Visualisation de données et tableaux de bord"
+en_desc = "Data visualization and dashboards"
+
+[[skills]]
+category = "Blockchain"
+fr = "Ethereum"
+en = "Ethereum"
+fr_desc = "Smart contracts, DeFi, technologie blockchain"
+en_desc = "Smart contracts, DeFi, blockchain technology"
+
+[[skills]]
+category = "Bureautique / Gestion"
+fr = "MS Office"
+en = "MS Office"
+fr_desc = "Word, Excel, PowerPoint, Outlook"
+en_desc = "Word, Excel, PowerPoint, Outlook"
+
+[[skills]]
+category = "Cloud"
+fr = "AWS"
+en = "AWS"
+fr_desc = "EC2, S3, Lambda, infrastructure cloud"
+en_desc = "EC2, S3, Lambda, cloud infrastructure"
+
+[[skills]]
+category = "Cloud"
+fr = "Azure"
+en = "Azure"
+fr_desc = "Services cloud Microsoft"
+en_desc = "Microsoft cloud services"
+
+[[skills]]
+category = "Cloud"
+fr = "Firebase"
+en = "Firebase"
+fr_desc = "Backend as a service mobile/web"
+en_desc = "Mobile/Web backend as a service"
+
+[[skills]]
+category = "Cloud"
+fr = "Google Cloud Platform"
+en = "Google Cloud Platform"
+fr_desc = "GCP compute, stockage, services ML"
+en_desc = "GCP compute, storage, ML services"
+
+[[skills]]
+category = "Bureautique / Gestion"
+fr = "Microsoft 365"
+en = "Microsoft 365"
+fr_desc = "Suite collaborative, bureautique cloud"
+en_desc = "Collaboration suite, cloud office"
+
+[[skills]]
+category = "CMS"
+fr = "Wordpress"
+en = "Wordpress"
+fr_desc = "Gestion de contenu, thèmes, plugins"
+en_desc = "Content management, themes, plugins"
+
+[[skills]]
+category = "Design Patterns"
+fr = "MVC"
+en = "MVC"
+fr_desc = "Architecture Model-View-Controller"
+en_desc = "Model-View-Controller architecture"
+
+[[skills]]
+category = "Design Patterns"
+fr = "MVVM"
+en = "MVVM"
+fr_desc = "Architecture Model-View-ViewModel"
+en_desc = "Model-View-ViewModel architecture"
+
+[[skills]]
+category = "DevOps"
+fr = "Ansible"
+en = "Ansible"
+fr_desc = "Gestion de configuration, automatisation"
+en_desc = "Configuration management, automation"
+
+[[skills]]
+category = "DevOps"
+fr = "CD"
+en = "CD"
+fr_desc = "Pipelines de livraison continue"
+en_desc = "Continuous delivery pipelines"
+
+[[skills]]
+category = "DevOps"
+fr = "CI"
+en = "CI"
+fr_desc = "Pipelines d'intégration continue"
+en_desc = "Continuous integration pipelines"
+
+[[skills]]
+category = "DevOps"
 fr = "Docker"
+en = "Docker"
+fr_desc = "Containerization, images, orchestration"
+en_desc = "Conteneurisation, images, orchestration"
 
 [[skills]]
-category = "DevOps & Tools"
-en = "GNU/Linux Administration"
-fr = "Administration GNU/Linux"
+category = "DevOps"
+fr = "GitHub Actions"
+en = "GitHub Actions"
+fr_desc = "Automatisation CI/CD sur GitHub"
+en_desc = "CI/CD automation on GitHub"
 
 [[skills]]
-category = "DevOps & Tools"
-en = "Git"
-fr = "Git"
+category = "DevOps"
+fr = "GitLab"
+en = "GitLab"
+fr_desc = "Plateforme Git, CI/CD, DevOps"
+en_desc = "Git platform, CI/CD, DevOps"
 
 [[skills]]
-category = "DevOps & Tools"
-en = "Cloud Infrastructure (Jelastic)"
-fr = "Infrastructure Cloud (Jelastic)"
+category = "DevOps"
+fr = "Grafana"
+en = "Grafana"
+fr_desc = "Tableaux de bord de monitoring, observabilité"
+en_desc = "Monitoring dashboards, observability"
 
-# Libraries
 [[skills]]
-category = "Libraries"
-en = "Django"
+category = "DevOps"
+fr = "Kubernetes"
+en = "Kubernetes"
+fr_desc = "Orchestration de conteneurs, gestion de clusters"
+en_desc = "Container orchestration, cluster management"
+
+[[skills]]
+category = "DevOps"
+fr = "Prometheus"
+en = "Prometheus"
+fr_desc = "Collecte de métriques, alerting"
+en_desc = "Metrics collection, alerting"
+
+[[skills]]
+category = "DevOps"
+fr = "YAML"
+en = "YAML"
+fr_desc = "Langage de configuration, pipelines"
+en_desc = "Configuration language, pipelines"
+
+[[skills]]
+category = "Framework"
+fr = "Angular"
+en = "Angular"
+fr_desc = "Framework frontend, TypeScript"
+en_desc = "Frontend framework, TypeScript"
+
+[[skills]]
+category = "Framework"
+fr = "Bootstrap"
+en = "Bootstrap"
+fr_desc = "Framework CSS, design responsive"
+en_desc = "CSS framework, responsive design"
+
+[[skills]]
+category = "Framework"
 fr = "Django"
+en = "Django"
+fr_desc = "Framework web Python, ORM, admin"
+en_desc = "Python web framework, ORM, admin"
 
 [[skills]]
-category = "Libraries"
-en = "Prompt Toolkit"
-fr = "Prompt Toolkit"
+category = "Framework"
+fr = "jQuery"
+en = "jQuery"
+fr_desc = "Bibliothèque JavaScript, manipulation DOM"
+en_desc = "JavaScript library, DOM manipulation"
+
+[[skills]]
+category = "Framework"
+fr = "Node"
+en = "Node"
+fr_desc = "Runtime JavaScript, côté serveur"
+en_desc = "JavaScript runtime, server-side"
+
+[[skills]]
+category = "Framework"
+fr = "PyTorch"
+en = "PyTorch"
+fr_desc = "Framework deep learning, tenseurs, autograd"
+en_desc = "Deep learning framework, tensors, autograd"
+
+[[skills]]
+category = "Framework"
+fr = "React"
+en = "React"
+fr_desc = "Bibliothèque frontend, composants"
+en_desc = "Frontend library, components"
+
+[[skills]]
+category = "Framework"
+fr = "Vue"
+en = "Vue"
+fr_desc = "Framework frontend progressif"
+en_desc = "Progressive frontend framework"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Deep learning"
+en = "Deep learning"
+fr_desc = "Réseaux de neurones, transformers, entraînement"
+en_desc = "Neural networks, transformers, training"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Machine learning"
+en = "Machine learning"
+fr_desc = "Apprentissage supervisé/non supervisé, feature engineering"
+en_desc = "Supervised/unsupervised learning, feature engineering"
+
+[[skills]]
+category = "Machine Learning"
+fr = "NLP"
+en = "NLP"
+fr_desc = "Traitement du langage naturel, LLMs"
+en_desc = "Natural language processing, LLMs"
+
+[[skills]]
+category = "Interface de programmation (API)"
+fr = "DirectX"
+en = "DirectX"
+fr_desc = "API graphique, rendu GPU"
+en_desc = "Graphics API, GPU rendering"
+
+[[skills]]
+category = "Interface de programmation (API)"
+fr = "DOM"
+en = "DOM"
+fr_desc = "Document Object Model, APIs navigateur"
+en_desc = "Document Object Model, browser APIs"
+
+[[skills]]
+category = "ITSM & Services"
+fr = "JIRA"
+en = "JIRA"
+fr_desc = "Suivi de tickets, gestion de projet"
+en_desc = "Issue tracking, project management"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "Bash"
+en = "Bash"
+fr_desc = "Scripting shell, automatisation"
+en_desc = "Shell scripting, automation"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "C++"
+en = "C++"
+fr_desc = "Programmation système, performance"
+en_desc = "System programming, performance"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "CSS"
+en = "CSS"
+fr_desc = "Styles, design responsive"
+en_desc = "Styling, responsive design"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "HTML"
+en = "HTML"
+fr_desc = "Balises, structure sémantique"
+en_desc = "Markup, semantic structure"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "Javascript"
+en = "Javascript"
+fr_desc = "Scripting frontend/backend, ES6+"
+en_desc = "Frontend/backend scripting, ES6+"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "JSON"
+en = "JSON"
+fr_desc = "Format d'échange de données"
+en_desc = "Data interchange format"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "PHP"
+en = "PHP"
+fr_desc = "Scripting côté serveur"
+en_desc = "Server-side scripting"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "Python"
+en = "Python"
+fr_desc = "8+ ans, programmation système, asynchrone, ML"
+en_desc = "8+ years, system programming, async, ML"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "SH"
+en = "SH"
+fr_desc = "Scripting shell"
+en_desc = "Shell scripting"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "Shell"
+en = "Shell"
+fr_desc = "Shell Unix, scripting"
+en_desc = "Unix shell, scripting"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "SQL"
+en = "SQL"
+fr_desc = "Requêtes, jointures, optimisation"
+en_desc = "Queries, joins, optimization"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "TypeScript"
+en = "TypeScript"
+fr_desc = "Sur-ensemble JavaScript typé"
+en_desc = "Typed JavaScript superset"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "XML"
+en = "XML"
+fr_desc = "Balises, sérialisation de données"
+en_desc = "Markup, data serialization"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Desktop"
+en = "Desktop"
+fr_desc = "Matériel, assemblage, dépannage"
+en_desc = "Hardware, assembly, troubleshooting"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Laptop"
+en = "Laptop"
+fr_desc = "Matériel, assemblage, dépannage"
+en_desc = "Hardware, assembly, troubleshooting"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Imprimante"
+en = "Imprimante"
+fr_desc = "Imprimantes, pilotes, maintenance"
+en_desc = "Printers, drivers, maintenance"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Périphériques"
+en = "Périphériques"
+fr_desc = "Périphériques, connectivité"
+en_desc = "Peripherals, connectivity"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Routeurs"
+en = "Routeurs"
+fr_desc = "Routeurs, équipement réseau"
+en_desc = "Routers, network equipment"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Smartphone"
+en = "Smartphone"
+fr_desc = "Appareils mobiles, configuration"
+en_desc = "Mobile devices, configuration"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "tablette"
+en = "tablette"
+fr_desc = "Appareils mobiles, configuration"
+en_desc = "Mobile devices, configuration"
+
+[[skills]]
+category = "Matériel & Equipement"
+fr = "Switch"
+en = "Switch"
+fr_desc = "Switches, infrastructure LAN"
+en_desc = "Switches, LAN infrastructure"
+
+[[skills]]
+category = "OS"
+fr = "Android"
+en = "Android"
+fr_desc = "OS mobile, développement"
+en_desc = "Mobile OS, development"
+
+[[skills]]
+category = "OS"
+fr = "iOS"
+en = "iOS"
+fr_desc = "OS mobile Apple"
+en_desc = "Apple mobile OS"
+
+[[skills]]
+category = "OS"
+fr = "Linux"
+en = "Linux"
+fr_desc = "Administration, kernel, systemd"
+en_desc = "Administration, kernel, systemd"
+
+[[skills]]
+category = "OS"
+fr = "OSX"
+en = "OSX"
+fr_desc = "OS desktop Apple"
+en_desc = "Apple desktop OS"
+
+[[skills]]
+category = "OS"
+fr = "Unix"
+en = "Unix"
+fr_desc = "Systèmes Unix, POSIX"
+en_desc = "Unix systems, POSIX"
+
+[[skills]]
+category = "OS"
+fr = "Windows"
+en = "Windows"
+fr_desc = "OS desktop, administration"
+en_desc = "Desktop OS, administration"
+
+[[skills]]
+category = "OS"
+fr = "Windows serveur"
+en = "Windows serveur"
+fr_desc = "OS serveur, Active Directory"
+en_desc = "Server OS, Active Directory"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "3G"
+en = "3G"
+fr_desc = "Technologies réseau mobile"
+en_desc = "Mobile network technologies"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "4G"
+en = "4G"
+fr_desc = "Technologies réseau mobile"
+en_desc = "Mobile network technologies"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "5G"
+en = "5G"
+fr_desc = "Technologies réseau mobile"
+en_desc = "Mobile network technologies"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "DHCP"
+en = "DHCP"
+fr_desc = "Allocation d'adresses IP"
+en_desc = "IP address allocation"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "Ethernet"
+en = "Ethernet"
+fr_desc = "Réseau filaire"
+en_desc = "Wired networking"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "HTTP"
+en = "HTTP"
+fr_desc = "Protocole web, REST"
+en_desc = "Web protocol, REST"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "Internet"
+en = "Internet"
+fr_desc = "Fondamentaux réseau"
+en_desc = "Networking fundamentals"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "IP"
+en = "IP"
+fr_desc = "Protocole Internet, adressage"
+en_desc = "Internet Protocol, addressing"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "LAN"
+en = "LAN"
+fr_desc = "Réseaux locaux et étendus"
+en_desc = "Local and wide area networks"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "WAN"
+en = "WAN"
+fr_desc = "Réseaux locaux et étendus"
+en_desc = "Local and wide area networks"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "POP3"
+en = "POP3"
+fr_desc = "Protocoles email"
+en_desc = "Email protocols"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "SMTP"
+en = "SMTP"
+fr_desc = "Protocoles email"
+en_desc = "Email protocols"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "TCP"
+en = "TCP"
+fr_desc = "Pile réseau, sockets"
+en_desc = "Network stack, sockets"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "VoIP"
+en = "VoIP"
+fr_desc = "Voix sur IP"
+en_desc = "Voice over IP"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "Wifi"
+en = "Wifi"
+fr_desc = "Réseau sans fil"
+en_desc = "Wireless networking"
+
+[[skills]]
+category = "Sécurité"
+fr = "Antivirus"
+en = "Antivirus"
+fr_desc = "Protection contre les malwares"
+en_desc = "Malware protection"
+
+[[skills]]
+category = "Sécurité"
+fr = "Firewall"
+en = "Firewall"
+fr_desc = "Sécurité réseau, filtrage"
+en_desc = "Network security, filtering"
+
+[[skills]]
+category = "Sécurité"
+fr = "GPO"
+en = "GPO"
+fr_desc = "Gestion des stratégies de groupe"
+en_desc = "Group policy management"
+
+[[skills]]
+category = "Sécurité"
+fr = "Spyware"
+en = "Spyware"
+fr_desc = "Protection anti-spyware"
+en_desc = "Anti-spyware protection"
+
+[[skills]]
+category = "Sécurité"
+fr = "SSL"
+en = "SSL"
+fr_desc = "Chiffrement de transport, certificats"
+en_desc = "Transport encryption, certificates"
+
+[[skills]]
+category = "Sécurité"
+fr = "VPN"
+en = "VPN"
+fr_desc = "Réseaux privés virtuels"
+en_desc = "Virtual private networks"
+
+[[skills]]
+category = "Test & Qualité"
+fr = "Selenium"
+en = "Selenium"
+fr_desc = "Tests navigateur automatisés"
+en_desc = "Automated browser testing"
+
+[[skills]]
+category = "Virtualisation"
+fr = "HyperV"
+en = "HyperV"
+fr_desc = "Hyperviseur Microsoft"
+en_desc = "Microsoft hypervisor"
+
+[[skills]]
+category = "Virtualisation"
+fr = "VirtualBox"
+en = "VirtualBox"
+fr_desc = "Virtualisation desktop"
+en_desc = "Desktop virtualization"
+
+[[skills]]
+category = "Virtualisation"
+fr = "VMWare"
+en = "VMWare"
+fr_desc = "Plateforme de virtualisation"
+en_desc = "Virtualization platform"
+
+[[skills]]
+category = "Virtualisation"
+fr = "VMWare Workstation"
+en = "VMWare Workstation"
+fr_desc = "Hyperviseur desktop"
+en_desc = "Desktop hypervisor"
+
+[[skills]]
+category = "Visioconférence"
+fr = "Teams"
+en = "Teams"
+fr_desc = "Collaboration, réunions"
+en_desc = "Collaboration, meetings"
+
+[[skills]]
+category = "Visioconférence"
+fr = "Zoom"
+en = "Zoom"
+fr_desc = "Visioconférence"
+en_desc = "Video conferencing"
+
+[[skills]]
+category = "Web Service"
+fr = "REST"
+en = "REST"
+fr_desc = "APIs RESTful, verbes HTTP"
+en_desc = "RESTful APIs, HTTP verbs"
+
+[[skills]]
+category = "Gouvernance"
+fr = "Lean"
+en = "Lean"
+fr_desc = "Principes Lean, réduction du gaspillage"
+en_desc = "Lean principles, waste reduction"
+
+[[skills]]
+category = "Gouvernance"
+fr = "RGPD"
+en = "RGPD"
+fr_desc = "Conformité RGPD, protection des données"
+en_desc = "GDPR compliance, data protection"
+
+[[skills]]
+category = "Processus"
+fr = "BPM"
+en = "BPM"
+fr_desc = "Gestion des processus métier"
+en_desc = "Business process management"
+
+[[skills]]
+category = "Projet"
+fr = "Agile"
+en = "Agile"
+fr_desc = "Méthodologies agiles, cérémonies"
+en_desc = "Agile methodologies, ceremonies"
+
+[[skills]]
+category = "Projet"
+fr = "DevOps"
+en = "DevOps"
+fr_desc = "Culture DevOps, pipelines"
+en_desc = "DevOps culture, pipelines"
+
+[[skills]]
+category = "Projet"
+fr = "Kanban"
+en = "Kanban"
+fr_desc = "Gestion visuelle du flux de travail"
+en_desc = "Visual workflow management"
+
+[[skills]]
+category = "Projet"
+fr = "Scrum"
+en = "Scrum"
+fr_desc = "Framework Scrum, sprints"
+en_desc = "Scrum framework, sprints"
+
+[[skills]]
+category = "Test"
+fr = "BDD"
+en = "BDD"
+fr_desc = "Développement piloté par le comportement"
+en_desc = "Behavior-driven development"
+
+[[skills]]
+category = "Test"
+fr = "TDD"
+en = "TDD"
+fr_desc = "Développement piloté par les tests"
+en_desc = "Test-driven development"
+
+[[skills]]
+category = "Langues"
+fr = "Français"
+en = "French"
+fr_desc = "Langue maternelle (C2)"
+en_desc = "Native language (C2)"
+
+[[skills]]
+category = "Langues"
+fr = "Anglais"
+en = "English"
+fr_desc = "Niveau professionnel (C1)"
+en_desc = "Professional working proficiency (C1)"
+
+[[skills]]
+category = "Langues"
+fr = "Espagnol"
+en = "Spanish"
+fr_desc = "Niveau avancé (C1)"
+en_desc = "Advanced proficiency (C1)"
+
+[[skills]]
+category = "Langues"
+fr = "Allemand"
+en = "German"
+fr_desc = "Niveau intermédiaire (B1)"
+en_desc = "Intermediate proficiency (B1)"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "CUDA C++"
+en = "CUDA C++"
+fr_desc = "Développement de kernels GPU, optimisation mémoire, parallélisation"
+en_desc = "GPU kernel development, memory optimization, parallelization"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "Kernels Triton"
+en = "Triton Kernels"
+fr_desc = "Langage de kernel Triton pour optimisations d'inférence"
+en_desc = "Triton kernel language for inference optimization"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Quantification AWQ"
+en = "AWQ Quantization"
+fr_desc = "Pipelines de quantification, PR mergée AutoAWQ #573"
+en_desc = "Quantization pipelines, merged PR AutoAWQ #573"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Quantification GPTQ"
+en = "GPTQ Quantization"
+fr_desc = "Pipelines de quantification de modèles"
+en_desc = "Model quantization pipelines"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Quantification GGUF"
+en = "GGUF Quantization"
+fr_desc = "Quantification GGUF, formats llama.cpp"
+en_desc = "GGUF quantization, llama.cpp formats"
+
+[[skills]]
+category = "Machine Learning"
+fr = "PyTorch Internals"
+en = "PyTorch Internals"
+fr_desc = "autograd, ATen, torch.compile, PR mergée transformers #42864"
+en_desc = "autograd, ATen, torch.compile, merged PR transformers #42864"
+
+[[skills]]
+category = "Machine Learning"
+fr = "llama.cpp"
+en = "llama.cpp"
+fr_desc = "Inférence LLM locale, décodage spéculatif, cache tree-of-thought"
+en_desc = "Local LLM inference, speculative decoding, tree-of-thought caching"
+
+[[skills]]
+category = "Machine Learning"
+fr = "vLLM"
+en = "vLLM"
+fr_desc = "Serveur d'inférence haute performance, batching continu"
+en_desc = "High-throughput inference server, continuous batching"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Orchestration multi-agent"
+en = "Multi-Agent Orchestration"
+fr_desc = "Systèmes multi-agents pour interaction système complexe"
+en_desc = "Multi-agent systems for complex system interaction"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Pipelines RAG"
+en = "RAG Pipelines"
+fr_desc = "Génération augmentée par recherche pour recherche & synthèse documentaire"
+en_desc = "Retrieval-augmented generation for document search & synthesis"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Fine-tuning LoRA"
+en = "LoRA Fine-tuning"
+fr_desc = "Fine-tuning paramétrique efficace (LoRA/QLoRA)"
+en_desc = "Parameter-efficient fine-tuning (LoRA/QLoRA)"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Fine-tuning SFT"
+en = "SFT Fine-tuning"
+fr_desc = "Curatation de datasets SFT (50k+ exemples) & fine-tuning supervisé"
+en_desc = "SFT dataset curation (50k+ examples) & supervised fine-tuning"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Écosystème Hugging Face"
+en = "Hugging Face Ecosystem"
+fr_desc = "transformers, datasets, tokenizers, ~10 modèles publiés"
+en_desc = "transformers, datasets, tokenizers, ~10 models published"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Ingénierie de prompt"
+en = "Prompt Engineering"
+fr_desc = "Templates, chaînage, gestion de contexte pour systèmes LLM de production"
+en_desc = "Templates, chaining, context management for production LLM systems"
+
+[[skills]]
+category = "Machine Learning"
+fr = "DeepSpeech"
+en = "DeepSpeech"
+fr_desc = "Reconnaissance vocale, entraînement et déploiement"
+en_desc = "Speech recognition, training and deployment"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Coqui STT"
+en = "Coqui STT"
+fr_desc = "12 PR mergées dans coqui-ai/STT"
+en_desc = "12 merged PRs in coqui-ai/STT"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Whisper"
+en = "Whisper"
+fr_desc = "Transcription automatique, intégration Faster-Whisper"
+en_desc = "Automatic transcription, Faster-Whisper integration"
+
+[[skills]]
+category = "Machine Learning"
+fr = "OpenVoice"
+en = "OpenVoice"
+fr_desc = "Clonage vocal few-shot, synthèse multilingue temps réel (OpenVoice v2)"
+en_desc = "Few-shot voice cloning, real-time multilingual synthesis (OpenVoice v2)"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Détection d'activité vocale"
+en = "Voice Activity Detection"
+fr_desc = "VAD temps réel pour pipelines de reconnaissance vocale"
+en_desc = "Real-time VAD for speech recognition pipelines"
+
+[[skills]]
+category = "Machine Learning"
+fr = "FFmpeg"
+en = "FFmpeg"
+fr_desc = "Traitement et streaming audio/vidéo, pipelines multimédia"
+en_desc = "Audio/video processing and streaming, multimedia pipelines"
+
+[[skills]]
+category = "DevOps"
+fr = "GNU"
+en = "GNU"
+fr_desc = "systemd, kernel tuning, modules, performance optimization"
+en_desc = "systemd, kernel tuning, modules, performance optimization"
+
+[[skills]]
+category = "DevOps"
+fr = "Arch Linux"
+en = "Arch Linux"
+fr_desc = "GNU/Linux, systemd, kernel tuning, modules, performance optimization"
+en_desc = "GNU/Linux, systemd, kernel tuning, modules, performance optimization"
+
+[[skills]]
+category = "DevOps"
+fr = "Manjaro"
+en = "Manjaro"
+fr_desc = "Distribution GNU/Linux Arch-based, gestion de paquets, maintenance"
+en_desc = "Arch-based GNU/Linux distribution, package management, maintenance"
+
+[[skills]]
+category = "DevOps"
+fr = "Serveur GPU NVIDIA"
+en = "NVIDIA GPU Server"
+fr_desc = "Multi-GPU (dual RTX Titan), CUDA toolkit, inference serving, fan control"
+en_desc = "Multi-GPU (dual RTX Titan), CUDA toolkit, inference serving, fan control"
+
+[[skills]]
+category = "DevOps"
+fr = "CUDA Toolkit"
+en = "CUDA Toolkit"
+fr_desc = "Toolkit NVIDIA pour calcul GPU, compilation, profilage"
+en_desc = "NVIDIA GPU computing toolkit, compilation, profiling"
+
+[[skills]]
+category = "DevOps"
+fr = "Git & CI"
+en = "Git & CI"
+fr_desc = "GitHub/GitLab, GitHub Actions, pipelines CI, automations"
+en_desc = "GitHub/GitLab, GitHub Actions, CI pipelines, automations"
+
+[[skills]]
+category = "Machine Learning"
+fr = "OmniRoute Gateway"
+en = "OmniRoute Gateway"
+fr_desc = "Passerelle LLM locale avec search, fetch, routage d'inférence et proxy CLI"
+en_desc = "Local LLM gateway with search, fetch, inference routing, and CLI proxy"
+
+[[skills]]
+category = "Applications serveur"
+fr = "SearXNG"
+en = "SearXNG"
+fr_desc = "Moteur de recherche auto-hébergé, scraping et extraction web par ML"
+en_desc = "Self-hosted search engine, AI-powered web scraping and extraction"
+
+[[skills]]
+category = "Machine Learning"
+fr = "crawl4ai"
+en = "crawl4ai"
+fr_desc = "Moteur de recherche auto-hébergé, scraping et extraction web par ML"
+en_desc = "Self-hosted search engine, AI-powered web scraping and extraction"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Docling"
+en = "Docling"
+fr_desc = "Conversion de documents (PDF/images → Markdown) sur GPU"
+en_desc = "Document conversion (PDF/images → Markdown) on GPU"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Docling Serve"
+en = "Docling Serve"
+fr_desc = "Conversion de documents (PDF/images → Markdown) sur GPU"
+en_desc = "Document conversion (PDF/images → Markdown) on GPU"
+
+[[skills]]
+category = "Framework"
+fr = "TensorFlow"
+en = "TensorFlow"
+fr_desc = "Entraînement, export TFLite, optimisation de graphes, PR mergées STT #2222 #2221"
+en_desc = "Training, TFLite export, graph optimization, merged PRs STT #2222 #2221"
+
+[[skills]]
+category = "Framework"
+fr = "FastAPI"
+en = "FastAPI"
+fr_desc = "Framework web asynchrone, APIs REST, documentation automatique"
+en_desc = "Async web framework, REST APIs, auto-documentation"
+
+[[skills]]
+category = "Réseaux, protocoles & Télécommunications"
+fr = "WebSocket"
+en = "WebSocket"
+fr_desc = "Architectures temps réel, streaming audio, clients asynchrones, SSE"
+en_desc = "Real-time architectures, audio streaming, async clients, SSE"
+
+[[skills]]
+category = "Framework"
+fr = "Hermes Agent"
+en = "Hermes Agent"
+fr_desc = "Framework agent ML multi-provider, skills, cron, MCP, gateway, Telegram"
+en_desc = "Multi-provider AI agent framework, skills, cron, MCP, gateway, Telegram"
+
+[[skills]]
+category = "Applications serveur"
+fr = "Freqtrade"
+en = "Freqtrade"
+fr_desc = "Bot de trading algorithmique, stratégies ML, backtesting, 52 paires multi-exchange"
+en_desc = "Algorithmic trading bot, ML-driven strategies, backtesting, 52-pair multi-exchange"
+
+[[skills]]
+category = "Base de données"
+fr = "SQLite"
+en = "SQLite"
+fr_desc = "Recherche plein texte, bases vectorielles, stockage de sessions, analytics"
+en_desc = "Full-text search, vector databases, session storage, analytics"
+
+[[skills]]
+category = "Base de données"
+fr = "FTS5"
+en = "FTS5"
+fr_desc = "Recherche plein texte, bases vectorielles, stockage de sessions, analytics"
+en_desc = "Full-text search, vector databases, session storage, analytics"
+
+[[skills]]
+category = "Data Science"
+fr = "Jupyter"
+en = "Jupyter"
+fr_desc = "Analyse de données interactive, séries temporelles, prototypage de pipelines ML"
+en_desc = "Interactive data analysis, time series, ML pipeline prototyping"
+
+[[skills]]
+category = "Data Science"
+fr = "Pandas"
+en = "Pandas"
+fr_desc = "Analyse de données interactive, séries temporelles, prototypage de pipelines ML"
+en_desc = "Interactive data analysis, time series, ML pipeline prototyping"
+
+[[skills]]
+category = "Data Science"
+fr = "NumPy"
+en = "NumPy"
+fr_desc = "Analyse de données interactive, séries temporelles, prototypage de pipelines ML"
+en_desc = "Interactive data analysis, time series, ML pipeline prototyping"
+
+[[skills]]
+category = "Data Science"
+fr = "Pipelines de données"
+en = "Data Pipelines"
+fr_desc = "Ingestion, nettoyage, transformation, stockage, analyse"
+en_desc = "Ingestion, cleaning, transformation, storage, analysis"
+
+[[skills]]
+category = "Data Science"
+fr = "Curatation de datasets SFT"
+en = "SFT Dataset Curation"
+fr_desc = "Standardisation multi-sources, filtrage qualité (50k+ exemples)"
+en_desc = "Multi-source standardization, quality filtering (50k+ examples)"
+
+[[skills]]
+category = "Machine Learning"
+fr = "OpenCV"
+en = "OpenCV"
+fr_desc = "Traitement d'image, pipelines de vision par ordinateur, intégration caméra"
+en_desc = "Image processing, computer vision pipelines, camera integration"
+
+[[skills]]
+category = "Machine Learning"
+fr = "Pillow"
+en = "Pillow"
+fr_desc = "Traitement d'image, pipelines de vision par ordinateur, intégration caméra"
+en_desc = "Image processing, computer vision pipelines, camera integration"
+
+[[skills]]
+category = "Blockchain"
+fr = "Solana"
+en = "Solana"
+fr_desc = "Développement d'applications décentralisées et smart contracts sur Solana (Rust, Anchor)"
+en_desc = "Decentralized app development and smart contracts on Solana (Rust, Anchor)"
+
+[[skills]]
+category = "CMS"
+fr = "Django CMS"
+en = "Django CMS"
+fr_desc = "Gestion de contenu et personnalisation de thèmes avec Django CMS"
+en_desc = "Content management and theme customization with Django CMS"
+
+[[skills]]
+category = "Langages informatiques"
+fr = "xonsh"
+en = "xonsh"
+fr_desc = "Shell Python mixte pour scripts et automatisation"
+en_desc = "Python-powered shell for scripting and automation"
+
+[[skills]]
+category = "OS"
+fr = "systemd"
+en = "systemd"
+fr_desc = "Gestion de services et init system Linux"
+en_desc = "Linux service management and init system"
+
+[[skills]]
+category = "Machine Learning"
+fr = "pi"
+en = "pi"
+fr_desc = "Agent CLI (Nous Research) pour délégation de tâches de coding"
+en_desc = "Nous Research CLI agent for coding task delegation"
+
+[[skills]]
+category = "Machine Learning"
+fr = "oh-my-pi"
+en = "oh-my-pi"
+fr_desc = "Framework d'orchestration et de configuration d'agents pi"
+en_desc = "Orchestration and configuration framework for pi agents"
+
+[[skills]]
+category = "Machine Learning"
+fr = "opencode"
+en = "opencode"
+fr_desc = "Agent CLI open source pour implémentation et revue de code"
+en_desc = "Open-source CLI agent for code implementation and review"
+
+[[skills]]
+category = "Machine Learning"
+fr = "GitHub Copilot"
+en = "GitHub Copilot"
+fr_desc = "Assistant de code IA, complétion et refactoring en éditeur"
+en_desc = "AI code assistant, editor completion and refactoring"
+
