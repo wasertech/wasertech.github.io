@@ -1,21 +1,21 @@
-date = "11.2021 - 12.2022"
+date = "11.2021 à 12.2022"
 
 [en]
 title = "Speech recognition developer"
 company = "Mozilla & Coqui-AI"
 details = """
-- 12 merged PRs in coqui-ai/STT across 1.5 years: Fixes to memory management during batch training [#2205](https://github.com/coqui-ai/STT/pull/2205), TF graph export optimization [#2222](https://github.com/coqui-ai/STT/pull/2222) ; removed memmapped format, TFLite export pipeline [#2221](https://github.com/coqui-ai/STT/pull/2221), LM optimization module refactoring [#2116](https://github.com/coqui-ai/STT/pull/2116), [#2203](https://github.com/coqui-ai/STT/pull/2203), importer fixes [#2148](https://github.com/coqui-ai/STT/pull/2148), [#2111](https://github.com/coqui-ai/STT/pull/2111), and CI improvements [#2285](https://github.com/coqui-ai/STT/pull/2285).
-- CommonVoice FR maintenance ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)): Reimplemented the DeepSpeech model training image using the STT framework to continue French transcription capacity after DeepSpeech deprecation.
-- Published French speech models ([github.com/wasertech/commonvoice-fr/releases](https://github.com/wasertech/commonvoice-fr/releases)): Trained new French models using 2× higher-quality augmented data, reducing average Word Error Rate by 10%.
-- DeepSpeech → STT migration: Led the migration of the French-language training pipeline from deprecated DeepSpeech to the STT codebase.
+- 12 merged PRs in coqui-ai/STT : memory management in batch training [#2205](https://github.com/coqui-ai/STT/pull/2205), TF graph export [#2222](https://github.com/coqui-ai/STT/pull/2222), TFLite export [#2221](https://github.com/coqui-ai/STT/pull/2221), LM optimization [#2116](https://github.com/coqui-ai/STT/pull/2116).
+- CommonVoice FR maintenance ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : DeepSpeech training image on STT framework.
+- Published French speech models : 2× higher-quality augmented data, −10% average Word Error Rate.
+- DeepSpeech → STT migration : led the French training pipeline migration.
 """
 
 [fr]
-title = "Développeur en reconnaissance vocale"
+title = "Développeur reconnaissance vocale"
 company = "Mozilla & Coqui-AI"
 details = """
-- 12 PR mergées dans coqui-ai/STT sur 1.5 ans : Corrections de gestion mémoire pendant l'entraînement batch [#2205](https://github.com/coqui-ai/STT/pull/2205), optimisation d'export de graphe TF [#2222](https://github.com/coqui-ai/STT/pull/2222) ; suppression du format memmapped, pipeline d'export TFLite [#2221](https://github.com/coqui-ai/STT/pull/2221), refactoring du module d'optimisation LM [#2116](https://github.com/coqui-ai/STT/pull/2116), [#2203](https://github.com/coqui-ai/STT/pull/2203), corrections d'importers [#2148](https://github.com/coqui-ai/STT/pull/2148), [#2111](https://github.com/coqui-ai/STT/pull/2111) et améliorations CI [#2285](https://github.com/coqui-ai/STT/pull/2285).
-- Maintenance CommonVoice FR ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : Réimplémentation de l'image d'entraînement DeepSpeech avec le framework STT pour continuer la transcription française après la dépréciation de DeepSpeech.
-- Modèles français publiés ([github.com/wasertech/commonvoice-fr/releases](https://github.com/wasertech/commonvoice-fr/releases)) : Entraînement de nouveaux modèles français avec 2× plus de données augmentées de meilleure qualité, réduisant le taux d'erreur de mot moyen de 10%.
-- Migration DeepSpeech → STT : Pilotage de la migration du pipeline d'entraînement francophone de DeepSpeech (déprécié) vers la codebase STT.
+- 12 PR mergées dans coqui-ai/STT : gestion mémoire en entraînement batch [#2205](https://github.com/coqui-ai/STT/pull/2205), export de graphe TF [#2222](https://github.com/coqui-ai/STT/pull/2222), export TFLite [#2221](https://github.com/coqui-ai/STT/pull/2221), optimisation LM [#2116](https://github.com/coqui-ai/STT/pull/2116).
+- Maintenance CommonVoice FR ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : image d'entraînement DeepSpeech sur le framework STT.
+- Modèles français publiés : 2× plus de données augmentées de meilleure qualité, −10% de taux d'erreur de mot moyen.
+- Migration DeepSpeech → STT : pilotage de la migration du pipeline francophone.
 """

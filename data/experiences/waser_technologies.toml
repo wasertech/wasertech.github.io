@@ -1,23 +1,25 @@
-date = "01.2020 - 07.2023"
+date = "01.2020 à 07.2023"
 
 [en]
 title = "AI Developer & Founder (Entrepreneurial)"
 company = "Waser Technologies"
 details = """
-- CUDA kernel optimization: Merged PRs in [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) and [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29), updated build process for Torch version compatibility and flexible quantization kernel compilation.
-- Multi-modal translator ([github.com/wasertech/Translator](https://github.com/wasertech/Translator)): Batch translation CLI with PO file support, multi-language detection, and NLLB-200 integration. 4 merged PRs covering locale handling, type safety, and PO workflow.
-- Real-time speech transcription pipeline ([gitlab.com/waser-technologies/technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)): End-to-end client-server architecture combining Faster-Whisper with VAD for latency-optimized live transcription; paired with OpenVoice v2 for few-shot voice cloning and TTS.
-- Multi-agent LLM orchestrator ([gitlab.com/waser-technologies/technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)): production assistant running on local hardware (96GB RAM, dual RTX Titan) orchestrating specialized agents for system ops, web research, and file editing via natural language, with on-premise inference serving.
-- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)): Merged fix for ApertusMLP xielu activation initialization using torch_dtype.
+- CUDA kernel optimization : 2 merged PRs in [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) & [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29); quantization build pipeline.
+- Multi-modal translator ([wasertech/Translator](https://github.com/wasertech/Translator)) : batch CLI, NLLB-200, 4 merged PRs.
+- Real-time speech pipeline ([waser-technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Faster-Whisper + VAD, low-latency transcription, OpenVoice v2.
+- Multi-agent LLM orchestrator ([waser-technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : production assistant on local hardware (96GB RAM, 2×RTX Titan); natural-language ops, on-premise inference.
+- Production MLOps : containerized deployments with GPU passthrough (Docker Compose), service supervision (systemd, s6-overlay), model lifecycle and performance monitoring on local inference stack.
+- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : merged activation-init fix.
 """
 
 [fr]
 title = "Développeur ML & Fondateur (Activité Entrepreneuriale)"
 company = "Waser Technologies"
 details = """
-- Optimisation de kernels CUDA : PR mergées dans [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) et [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29), mise à jour du build process pour compatibilité Torch et compilation flexible de kernels de quantification.
-- Traducteur multi-modal ([github.com/wasertech/Translator](https://github.com/wasertech/Translator)) : CLI de traduction par lots avec support PO, détection multi-langue et intégration NLLB-200. 4 PR mergées (locale, type safety, workflow PO).
-- Pipeline de transcription vocale temps réel ([gitlab.com/waser-technologies/technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Architecture client-serveur de bout en bout combinant Faster-Whisper et VAD pour la transcription en direct avec latence minimale ; associé à OpenVoice v2 pour le clonage vocal few-shot et la TTS.
-- Orchestrateur LLM multi-agent ([gitlab.com/waser-technologies/technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : assistant de production sur hardware local (96GB RAM, dual RTX Titan) orchestrant des agents spécialisés pour les opérations système, la recherche web et l'édition de fichiers via langage naturel, avec inférence sur site.
-- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : Correction mergée pour l'initialisation de l'activation xielu d'ApertusMLP utilisant torch_dtype.
+- Optimisation de kernels CUDA : 2 PR mergées dans [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) & [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29) ; pipeline de quantification.
+- Traducteur multi-modal ([wasertech/Translator](https://github.com/wasertech/Translator)) : CLI par lots, NLLB-200, 4 PR mergées.
+- Pipeline vocal temps réel ([waser-technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Faster-Whisper + VAD, transcription faible latence, OpenVoice v2.
+- Orchestrateur LLM multi-agents ([waser-technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : assistant de production sur hardware local (96GB RAM, 2×RTX Titan) ; ops en langage naturel, inférence sur site.
+- MLOps de production : déploiements conteneurisés avec passthrough GPU (Docker Compose), supervision de services (systemd, s6-overlay), cycle de vie des modèles et monitoring de performance sur la stack d'inférence locale.
+- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : correction mergée d'initialisation.
 """

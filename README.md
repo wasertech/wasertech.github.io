@@ -54,7 +54,7 @@ After any change, run `make all` to regenerate all assets.
 
 *   `make all`: (Default) Builds the JSON data, vCard, QR code, and generates the PDFs.
 *   `make build`: Builds the `cv_data.json`, `waser.vcf`, and `qrc.png` from the TOML data.
-*   `make pdf`: Generates the `CV_EN.pdf` and `CV_FR.pdf` files.
+*   `make pdf`: Generates the `CV_Danny_Waser_AI_ML_Engineer.pdf` (EN) and `CV_Danny_Waser_Ingenieur_AI_ML.pdf` (FR) files.
 *   `make install`: Sets up the Python virtual environment and installs all required dependencies from `requirements.txt`.
 *   `make serve`: Starts a local development server for viewing the website.
 *   `make clean`: Removes all generated files.

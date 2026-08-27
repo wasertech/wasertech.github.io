@@ -30,6 +30,6 @@ serve:
 
 clean:
 	@echo "Cleaning up generated files..."
-	rm -f static/cv_data.json static/CV_EN.pdf static/CV_FR.pdf static/waser.vcf static/images/qrc.png
+	rm -f static/cv_data.json static/CV_Danny_Waser_AI_ML_Engineer.pdf static/CV_Danny_Waser_Ingenieur_AI_ML.pdf static/waser.vcf static/images/qrc.png
 
 .PHONY: all install build pdf clean serve

@@ -13,7 +13,7 @@ The project separates content (data) from presentation (templates/scripts), maki
 *   **Applications Tracking (`contacts/`)**: Subdirectory per job application. Each contains a `contact.toml` file acting as the source of truth for that application's metadata and cover letter text.
 *   **Build Scripts**:
     *   `build.py`: Aggregates all `.toml` files into a single `static/cv_data.json` file for the frontend. It also fetches GitHub contributions using the `gh` CLI and generates the vCard/QR code.
-    *   `generate_pdf.py`: Reads `static/cv_data.json` and uses `fpdf2` to render pixel-perfect PDF resumes (`CV_EN.pdf`, `CV_FR.pdf`).
+    *   `generate_pdf.py`: Reads `static/cv_data.json` and uses `fpdf2` to render pixel-perfect PDF resumes (`CV_Danny_Waser_AI_ML_Engineer.pdf`, `CV_Danny_Waser_Ingenieur_AI_ML.pdf`).
     *   `gen_letters.py`: Reads a `contact.toml` file (or its containing directory) to render a specific `COVER_LETTER.pdf` in that folder.
 *   **Frontend (`static/`)**: A static web application.
     *   `index.html`: The main entry point.

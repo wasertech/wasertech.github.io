@@ -5,7 +5,7 @@
 Python-based Curriculum Vitae (CV) generator. CV content lives in `data/*.toml` files. Build scripts aggregate TOML into `static/cv_data.json`, then generate a static website, bilingual PDFs, a vCard, and a QR code.
 
 **Two-generation system:**
-1. **Portfolio (vitrine)** — `build.py` → `generate_pdf.py` produces the generic `CV_EN.pdf`/`CV_FR.pdf` from `static/cv_data.json`.
+1. **Portfolio (vitrine)** — `build.py` → `generate_pdf.py` produces the generic `CV_Danny_Waser_AI_ML_Engineer.pdf`/`CV_Danny_Waser_Ingenieur_AI_ML.pdf` from `static/cv_data.json`.
 2. **Sur mesure (par postulation)** — `match_skills.py` → `generate_cv.py` + `gen_letters.py` produces a targeted CV + cover letter per job offer from the evidence reservoir (`data/evidence/evidence.toml`).
 
 ## Architecture
@@ -14,7 +14,7 @@ Python-based Curriculum Vitae (CV) generator. CV content lives in `data/*.toml` 
   - `data/evidence/evidence.toml` — **evidence reservoir**: proof entries (bilingual, quantified, tagged) that feed BOTH the targeted CV and the cover letter. Each entry: `skill`, `domain`, `tags`, `metrics` (numbers), `fr`/`en` descriptions, `source`.
 - **Applications Tracking (`contacts/`)**: Subdirectory per job application. Each has a `contact.toml` (metadata) + `offre.md` (job posting text). Generated outputs follow the naming convention below.
 - **`build.py`**: Aggregates TOML into `static/cv_data.json`, fetches GitHub contributions via `gh` CLI, generates vCard and QR code.
-- **`generate_pdf.py`**: Portfolio CV — reads `cv_data.json` and uses `fpdf2` to render `CV_EN.pdf` and `CV_FR.pdf`.
+- **`generate_pdf.py`**: Portfolio CV — reads `cv_data.json` and uses `fpdf2` to render `CV_Danny_Waser_AI_ML_Engineer.pdf` (EN) and `CV_Danny_Waser_Ingenieur_AI_ML.pdf` (FR).
 - **`match_skills.py`**: Matches a job offer (`offre.md`) against the evidence reservoir. Scores each proof by keyword overlap + synonym map, produces a `brief` (top evidence, language detection FR/EN). Used by both `generate_cv.py` and `gen_letters.py`.
 - **`generate_cv.py`**: Targeted CV from an offer. `--generic` mode produces the portfolio CV from the strongest evidence.
 - **`gen_letters.py`**: Targeted cover letter from an offer, Lab4Tech VOUS→MOI→NOUS structure.

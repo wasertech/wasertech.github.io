@@ -1,19 +1,19 @@
-date = "01.2024 - 03.2024"
+date = "01.2024 à 03.2024"
 
 [en]
 title = "Machine Learning Engineer"
 company = "Synthflow AI"
 details = """
-- Multi-agent conversational systems (e-CF B.1): Designed and prototyped production voice-call systems deploying multiple specialized LLM agents in tandem for telephony.
-- Real-time dialogue management: Iterative implementation of LLM-based dialogue managers with dynamic prompt engineering for sub-second response times in live calls.
-- Rapid R&D cycle (e-CF E.2): From concept to functional prototype in under 2 weeks per feature, working directly with C-suite on product requirements.
+- Multi-agent conversational systems : production voice-call systems with specialized LLM agents in tandem for telephony.
+- Real-time dialogue management : LLM-based dialogue managers, dynamic prompt engineering, sub-second response in live calls.
+- Rapid R&D cycle : concept to functional prototype in <2 weeks per feature; direct C-suite collaboration.
 """
 
 [fr]
-title = "Ingénieur en Machine Learning (ML)"
+title = "Ingénieur en Machine Learning"
 company = "Synthflow AI"
 details = """
-- Systèmes conversationnels multi-agents (e-CF B.1) : Conception et prototypage de systèmes d'appels vocaux de production déployant plusieurs agents LLM spécialisés en tandem pour la téléphonie.
-- Gestion de dialogue temps réel : Implémentation itérative de gestionnaires de dialogue basés sur LLM avec ingénierie de prompt dynamique pour des temps de réponse inférieurs à la seconde en appel en direct.
-- Cycle R&D rapide (e-CF E.2) : Du concept au prototype fonctionnel en moins de 2 semaines par fonctionnalité, en travaillant directement avec la direction sur les exigences produit.
+- Systèmes conversationnels multi-agents : systèmes d'appels vocaux de production avec plusieurs agents LLM spécialisés en tandem pour la téléphonie.
+- Gestion de dialogue temps réel : gestionnaires de dialogue basés LLM, ingénierie de prompt dynamique, temps de réponse < 1 s en appel live.
+- Cycle R&D rapide : du concept au prototype fonctionnel en < 2 semaines par fonctionnalité ; collaboration directe avec la direction.
 """

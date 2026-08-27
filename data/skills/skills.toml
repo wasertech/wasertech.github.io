@@ -286,6 +286,13 @@ fr_desc = "Traitement du langage naturel, LLMs"
 en_desc = "Natural language processing, LLMs"
 
 [[skills]]
+category = "Machine Learning"
+fr = "MLOps"
+en = "MLOps"
+fr_desc = "Déploiement, monitoring, cycles de vie de modèles, pipelines de production"
+en_desc = "Deployment, monitoring, model lifecycle, production pipelines"
+
+[[skills]]
 category = "Interface de programmation (API)"
 fr = "DirectX"
 en = "DirectX"
@@ -421,7 +428,7 @@ en_desc = "Printers, drivers, maintenance"
 [[skills]]
 category = "Matériel & Equipement"
 fr = "Périphériques"
-en = "Périphériques"
+en = "Peripherals"
 fr_desc = "Périphériques, connectivité"
 en_desc = "Peripherals, connectivity"
 
@@ -996,8 +1003,8 @@ en_desc = "Self-hosted search engine, AI-powered web scraping and extraction"
 category = "Machine Learning"
 fr = "crawl4ai"
 en = "crawl4ai"
-fr_desc = "Moteur de recherche auto-hébergé, scraping et extraction web par ML"
-en_desc = "Self-hosted search engine, AI-powered web scraping and extraction"
+fr_desc = "Scraping et extraction web par IA (markdown structuré, LLM-friendly)"
+en_desc = "AI-powered web scraping and extraction (structured markdown, LLM-friendly)"
 
 [[skills]]
 category = "Machine Learning"
@@ -1166,4 +1173,81 @@ fr = "GitHub Copilot"
 en = "GitHub Copilot"
 fr_desc = "Assistant de code IA, complétion et refactoring en éditeur"
 en_desc = "AI code assistant, editor completion and refactoring"
+
+[[skills]]
+category = "Administration systèmes"
+fr = "Headscale"
+en = "Headscale"
+fr_desc = "Réseau mesh privé (Tailscale open source), coordination de noeuds"
+en_desc = "Private mesh network (open-source Tailscale), node coordination"
+
+[[skills]]
+category = "Bureautique / Gestion"
+fr = "LibreOffice"
+en = "LibreOffice"
+fr_desc = "Suite bureautique open source, traitement de texte, tableur, présentations"
+en_desc = "Open-source office suite, word processing, spreadsheets, presentations"
+
+[[skills]]
+category = "Interface de programmation (API)"
+fr = "Vulkan"
+en = "Vulkan"
+fr_desc = "API graphique et de calcul bas niveau, rendu GPU"
+en_desc = "Low-level graphics and compute API, GPU rendering"
+
+[[skills]]
+category = "Interface de programmation (API)"
+fr = "MCP"
+en = "MCP"
+fr_desc = "Model Context Protocol, intégration d'outils et de données pour agents IA"
+en_desc = "Model Context Protocol, tool and data integration for AI agents"
+
+[[skills]]
+category = "Interface de programmation (API)"
+fr = "A2A"
+en = "A2A"
+fr_desc = "Agent-to-Agent, communication entre agents IA autonomes"
+en_desc = "Agent-to-Agent, communication between autonomous AI agents"
+
+[[skills]]
+category = "Test & Qualité"
+fr = "Playwright"
+en = "Playwright"
+fr_desc = "Tests navigateur automatisés, scraping, multi-navigateurs"
+en_desc = "Automated browser testing, scraping, cross-browser"
+
+[[skills]]
+category = "Web Scraping & Automatisation"
+fr = "BeautifulSoup4"
+en = "BeautifulSoup4"
+fr_desc = "Parsing HTML/XML, extraction de données, scraping traditionnel"
+en_desc = "HTML/XML parsing, data extraction, traditional scraping"
+
+[[skills]]
+category = "Web Scraping & Automatisation"
+fr = "Scrapy"
+en = "Scrapy"
+fr_desc = "Framework de scraping Python, crawlers à grande échelle"
+en_desc = "Python scraping framework, large-scale crawlers"
+
+[[skills]]
+category = "Visioconférence"
+fr = "kMeet"
+en = "kMeet"
+fr_desc = "Visioconférence open source, auto-hébergeable, WebRTC"
+en_desc = "Open-source video conferencing, self-hostable, WebRTC"
+
+[[skills]]
+category = "3D & Game Development"
+fr = "Godot"
+en = "Godot"
+fr_desc = "Moteur de jeu open source, 2D/3D, scènes et scripts"
+en_desc = "Open-source game engine, 2D/3D, scenes and scripting"
+
+[[skills]]
+category = "3D & Game Development"
+fr = "Ursina"
+en = "Ursina"
+fr_desc = "Moteur 3D Python, simulations interactives rapides"
+en_desc = "Python 3D engine, fast interactive simulations"
 

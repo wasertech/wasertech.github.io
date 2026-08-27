@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """
-gen_letters.py — Lettre de motivation sur mesure (méthode Lab4Tech)
+gen_letters.py - Lettre de motivation sur mesure (méthode Lab4Tech)
 
 Même source de vérité que generate_cv.py: le réservoir de preuves
 (data/evidence/evidence.toml) + le brief produit par match_skills.py.
 
 Structure Lab4Tech (guide lettre motivation):
-  OBJET  — identifier clairement le poste (référence si existante)
-  VOUS   — intérêt pour l'entreprise/poste, actualité, montrer qu'on a compris
-  MOI    — se positionner en fournisseur de compétences (preuves chiffrées)
-  NOUS   — ce qu'on peut faire ensemble, inciter à se rencontrer
+  OBJET  - identifier clairement le poste (référence si existante)
+  VOUS   - intérêt pour l'entreprise/poste, actualité, montrer qu'on a compris
+  MOI    - se positionner en fournisseur de compétences (preuves chiffrées)
+  NOUS   - ce qu'on peut faire ensemble, inciter à se rencontrer
 
 Usage:
     python gen_letters.py contacts/<entreprise>/offre.md \
@@ -164,7 +164,7 @@ def render_letter(brief: dict, contact: dict, offer_text: str, out_path: Path, l
     pdf.cell(0, 4.5, "github.com/wasertech  |  huggingface.co/wasertech  |  wasertech.github.io",
              new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
-    # Destinataire — À DROITE (format suisse, fenêtre d'enveloppe)
+    # Destinataire - À DROITE (format suisse, fenêtre d'enveloppe)
     pdf.ln(6)
     pdf.set_font("DejaVuSans", "", 9)
     pdf.set_text_color(0, 0, 0)
@@ -188,7 +188,7 @@ def render_letter(brief: dict, contact: dict, offer_text: str, out_path: Path, l
         pdf.set_x(110)
         pdf.multi_cell(80, 5, line)
 
-    # Date — à droite
+    # Date - à droite
     pdf.set_x(110)
     pdf.set_font("DejaVuSans", "", 9)
     pdf.cell(80, 5, today_str(lang), align="R")
@@ -233,7 +233,7 @@ def render_letter(brief: dict, contact: dict, offer_text: str, out_path: Path, l
 
     # Limite 1 page
     if pdf.page_no() > 1:
-        raise RuntimeError(f"Lettre dépasse 1 page ({pdf.page_no()}) — raccourcir")
+        raise RuntimeError(f"Lettre dépasse 1 page ({pdf.page_no()}) - raccourcir")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     pdf.output(str(out_path))
@@ -265,7 +265,7 @@ def main():
     if args.out:
         out_path = Path(args.out)
     else:
-        # Convention: {CV|ML|LM}_Danny_Waser_{titre}.pdf — ML (EN) / LM (FR)
+        # Convention: {CV|ML|LM}_Danny_Waser_{titre}.pdf - ML (EN) / LM (FR)
         abbr = "ML" if lang == "en" else "LM"
         poste = contact.get("contact", {}).get("poste", "Letter")
         poste_safe = re.sub(r"[^a-zA-Z0-9]+", "_", poste).strip("_")[:40]

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-match_skills.py — Moteur de matching offre → preuves
+match_skills.py - Moteur de matching offre → preuves
 
 Analyse une offre d'emploi (offre.md) et score les preuves du réservoir
 (data/evidence/evidence.toml) pour produire un "brief" JSON utilisé par
@@ -325,7 +325,7 @@ SYNONYM_MAP = {
 def extract_keywords(offer_text: str) -> dict[str, list[str]]:
     """Extrait les mots-clés de l'offre et les mappe vers des tags de preuves.
 
-    Retourne {tag: [mots_cles_source]} — chaque tag est un tag de preuve
+    Retourne {tag: [mots_cles_source]} - chaque tag est un tag de preuve
     qui correspond à au moins un mot-clé de l'offre.
     """
     text = offer_text.lower()

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-generate_cv.py — CV sur mesure par postulation (méthode Lab4Tech)
+generate_cv.py - CV sur mesure par postulation (méthode Lab4Tech)
 
 Lit le brief produit par match_skills.py + les données du projet
 (data/experiences, data/profile, data/education, data/languages,
@@ -25,7 +25,7 @@ Usage:
         [--out contacts/<entreprise>/CV_Poste.pdf]
 
 Règles Lab4Tech appliquées:
-    - 3 pages max (5 OK pour SSII — non implémenté, 3 par défaut)
+    - 3 pages max (5 OK pour SSII - non implémenté, 3 par défaut)
     - Page 1 = page RH, lecture rapide
     - Compétences en phrases courtes et spécifiques
     - Expériences chiffrées, réorganisées selon les compétences de l'offre
@@ -108,7 +108,7 @@ def build_pitch(brief: dict, lang: str) -> str:
     top = brief["evidence"][:3]
     parts = []
     for ev in top:
-        # Prendre la description (en/fr) — 1 phrase
+        # Prendre la description (en/fr) - 1 phrase
         desc = ev.get(lang, ev.get("en", ""))
         # Garder la 1ère phrase
         first = re.split(r"(?<=[.!?])\s+", desc)[0]
@@ -213,7 +213,7 @@ class CVPDF(FPDF):
         self._name = ""
 
     def header(self):
-        pass  # Pas de header automatique — on gère tout en body
+        pass  # Pas de header automatique - on gère tout en body
 
     def footer(self):
         if self.page_no() == 1:
@@ -236,7 +236,7 @@ class CVPDF(FPDF):
         self.set_text_color(0, 0, 0)
 
     def bullet(self, text, indent=4, font_size=8.5, leading=4.2):
-        """Bulle avec texte (pas de liens — on les retire)."""
+        """Bulle avec texte (pas de liens - on les retire)."""
         # Retirer les liens markdown [label](url) → garder le label
         text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
         x = self.l_margin + indent
@@ -434,7 +434,7 @@ def render_cv(brief: dict, contact: dict, out_path: Path, lang: str):
             pdf.bullet(phrase)
 
     # ── FORMATION (page 2+, pas pertinente pour le domaine) ──
-    # Rendu APRÈS le add_page() des expériences — voir bloc plus bas
+    # Rendu APRÈS le add_page() des expériences - voir bloc plus bas
 
     # Références
     pdf.ln(3)
@@ -500,7 +500,7 @@ def render_cv(brief: dict, contact: dict, out_path: Path, lang: str):
 
     # ── LIMITE 3 PAGES ──
     if pdf.page_no() > 3:
-        raise RuntimeError(f"CV dépasse 3 pages ({pdf.page_no()}) — réduire le contenu")
+        raise RuntimeError(f"CV dépasse 3 pages ({pdf.page_no()}) - réduire le contenu")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     pdf.output(str(out_path))
@@ -514,7 +514,7 @@ def render_cv(brief: dict, contact: dict, out_path: Path, lang: str):
 def build_brief_generic(top_n: int = 10) -> dict:
     """Brief générique (portfolio): les preuves les plus fortes, sans offre.
 
-    Utilisé pour le CV du portfolio — la version 'meilleure synthèse' qui
+    Utilisé pour le CV du portfolio - la version 'meilleure synthèse' qui
     résume le mieux le profil, indépendante de toute offre.
     """
     evidence = load_evidence()

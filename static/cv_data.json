@@ -1,10 +1,10 @@
 {
   "profile": {
     "en": {
-      "content": "Machine Learning Engineer & Data Scientist: end-to-end ML solutions \u2014 from data exploration and analysis (e-CF D.7) to production deployment (B.4) \u2014 including data pipelines, RAG, LLM fine-tuning, speech and automation. 57 merged PRs across 12+ open-source repositories (Coqui-STT, AutoAWQ, HuggingFace); 10% WER reduction on French speech models; local inference of 70B+ models on a dual-GPU workstation. Direct C-suite collaboration: functional prototype in under 2 weeks per feature.\n"
+      "content": "AI/ML Engineer building AI systems end-to-end : from complex problems to production, covering data pipelines, LLM inference and fine-tuning, RAG, multi-agent orchestration, speech and intelligent automation. 57 merged PRs across 12+ open-source repositories (Coqui-STT, AutoAWQ, HuggingFace) ; 10% WER reduction on French speech models ; local inference of 70B+ models on a dual-GPU workstation. Direct C-suite collaboration : a functional prototype in under 2 weeks per feature. The red thread of my work : the interface between high-volume information and the people who act on it.\n"
     },
     "fr": {
-      "content": "Ing\u00e9nieur en machine learning & scientifique des donn\u00e9es : solutions ML de bout en bout \u2014 de l'exploration et l'analyse des donn\u00e9es (e-CF D.7) au d\u00e9ploiement en production (B.4) \u2014 incluant pipelines de donn\u00e9es, RAG, fine-tuning de LLMs, traitement de la parole et automatisation. 57 PRs merg\u00e9es dans 12+ d\u00e9p\u00f4ts open source (Coqui-STT, AutoAWQ, HuggingFace) ; r\u00e9duction de 10% du taux d'erreur de parole sur les mod\u00e8les fran\u00e7ais ; inf\u00e9rence locale de mod\u00e8les 70B+ sur station dual-GPU. Collaboration directe avec la direction : prototype fonctionnel en moins de 2 semaines par fonctionnalit\u00e9.\n"
+      "content": "Ing\u00e9nieur AI/ML qui con\u00e7oit des syst\u00e8mes AI de bout en bout : du probl\u00e8me complexe \u00e0 la production, couvrant pipelines de donn\u00e9es, inf\u00e9rence et fine-tuning de LLMs, RAG, orchestration multi-agents, parole et automatisation intelligente. 57 PRs merg\u00e9es dans 12+ d\u00e9p\u00f4ts open source (Coqui-STT, AutoAWQ, HuggingFace) ; r\u00e9duction de 10% du taux d'erreur de parole sur les mod\u00e8les fran\u00e7ais ; inf\u00e9rence locale de mod\u00e8les 70B+ sur station dual-GPU. Collaboration directe avec la direction : prototype fonctionnel en moins de 2 semaines par fonctionnalit\u00e9. Le fil rouge de mon travail : l'interface entre une information \u00e0 volume \u00e9lev\u00e9 et les personnes qui agissent dessus.\n"
     }
   },
   "contact": {
@@ -311,6 +311,13 @@
       "en_desc": "Natural language processing, LLMs"
     },
     {
+      "category": "Machine Learning",
+      "fr": "MLOps",
+      "en": "MLOps",
+      "fr_desc": "D\u00e9ploiement, monitoring, cycles de vie de mod\u00e8les, pipelines de production",
+      "en_desc": "Deployment, monitoring, model lifecycle, production pipelines"
+    },
+    {
       "category": "Interface de programmation (API)",
       "fr": "DirectX",
       "en": "DirectX",
@@ -446,7 +453,7 @@
     {
       "category": "Mat\u00e9riel & Equipement",
       "fr": "P\u00e9riph\u00e9riques",
-      "en": "P\u00e9riph\u00e9riques",
+      "en": "Peripherals",
       "fr_desc": "P\u00e9riph\u00e9riques, connectivit\u00e9",
       "en_desc": "Peripherals, connectivity"
     },
@@ -1021,8 +1028,8 @@
       "category": "Machine Learning",
       "fr": "crawl4ai",
       "en": "crawl4ai",
-      "fr_desc": "Moteur de recherche auto-h\u00e9berg\u00e9, scraping et extraction web par ML",
-      "en_desc": "Self-hosted search engine, AI-powered web scraping and extraction"
+      "fr_desc": "Scraping et extraction web par IA (markdown structur\u00e9, LLM-friendly)",
+      "en_desc": "AI-powered web scraping and extraction (structured markdown, LLM-friendly)"
     },
     {
       "category": "Machine Learning",
@@ -1191,399 +1198,200 @@
       "en": "GitHub Copilot",
       "fr_desc": "Assistant de code IA, compl\u00e9tion et refactoring en \u00e9diteur",
       "en_desc": "AI code assistant, editor completion and refactoring"
+    },
+    {
+      "category": "Administration syst\u00e8mes",
+      "fr": "Headscale",
+      "en": "Headscale",
+      "fr_desc": "R\u00e9seau mesh priv\u00e9 (Tailscale open source), coordination de noeuds",
+      "en_desc": "Private mesh network (open-source Tailscale), node coordination"
+    },
+    {
+      "category": "Bureautique / Gestion",
+      "fr": "LibreOffice",
+      "en": "LibreOffice",
+      "fr_desc": "Suite bureautique open source, traitement de texte, tableur, pr\u00e9sentations",
+      "en_desc": "Open-source office suite, word processing, spreadsheets, presentations"
+    },
+    {
+      "category": "Interface de programmation (API)",
+      "fr": "Vulkan",
+      "en": "Vulkan",
+      "fr_desc": "API graphique et de calcul bas niveau, rendu GPU",
+      "en_desc": "Low-level graphics and compute API, GPU rendering"
+    },
+    {
+      "category": "Interface de programmation (API)",
+      "fr": "MCP",
+      "en": "MCP",
+      "fr_desc": "Model Context Protocol, int\u00e9gration d'outils et de donn\u00e9es pour agents IA",
+      "en_desc": "Model Context Protocol, tool and data integration for AI agents"
+    },
+    {
+      "category": "Interface de programmation (API)",
+      "fr": "A2A",
+      "en": "A2A",
+      "fr_desc": "Agent-to-Agent, communication entre agents IA autonomes",
+      "en_desc": "Agent-to-Agent, communication between autonomous AI agents"
+    },
+    {
+      "category": "Test & Qualit\u00e9",
+      "fr": "Playwright",
+      "en": "Playwright",
+      "fr_desc": "Tests navigateur automatis\u00e9s, scraping, multi-navigateurs",
+      "en_desc": "Automated browser testing, scraping, cross-browser"
+    },
+    {
+      "category": "Web Scraping & Automatisation",
+      "fr": "BeautifulSoup4",
+      "en": "BeautifulSoup4",
+      "fr_desc": "Parsing HTML/XML, extraction de donn\u00e9es, scraping traditionnel",
+      "en_desc": "HTML/XML parsing, data extraction, traditional scraping"
+    },
+    {
+      "category": "Web Scraping & Automatisation",
+      "fr": "Scrapy",
+      "en": "Scrapy",
+      "fr_desc": "Framework de scraping Python, crawlers \u00e0 grande \u00e9chelle",
+      "en_desc": "Python scraping framework, large-scale crawlers"
+    },
+    {
+      "category": "Visioconf\u00e9rence",
+      "fr": "kMeet",
+      "en": "kMeet",
+      "fr_desc": "Visioconf\u00e9rence open source, auto-h\u00e9bergeable, WebRTC",
+      "en_desc": "Open-source video conferencing, self-hostable, WebRTC"
+    },
+    {
+      "category": "3D & Game Development",
+      "fr": "Godot",
+      "en": "Godot",
+      "fr_desc": "Moteur de jeu open source, 2D/3D, sc\u00e8nes et scripts",
+      "en_desc": "Open-source game engine, 2D/3D, scenes and scripting"
+    },
+    {
+      "category": "3D & Game Development",
+      "fr": "Ursina",
+      "en": "Ursina",
+      "fr_desc": "Moteur 3D Python, simulations interactives rapides",
+      "en_desc": "Python 3D engine, fast interactive simulations"
     }
   ],
   "competences_pro": [
     {
-      "nom": "Planifier",
+      "nom": "Data Science & Analyse",
+      "couleur": "#4A90D9",
+      "icone": "bi-graph-up-arrow",
       "competences": [
         {
-          "id": "A.1",
-          "titre": "Syst\u00e8mes d'information et alignement strat\u00e9gique m\u00e9tier",
-          "niveaux": [
-            4
-          ],
-          "niveau_max": 4
+          "id": "ds1",
+          "nom": "Exploration et pr\u00e9paration des donn\u00e9es",
+          "niveau_max": 4,
+          "termes": "recueil multi-sources, pr\u00e9paration, v\u00e9rification de la v\u00e9racit\u00e9, visualisation"
         },
         {
-          "id": "A.2",
-          "titre": "Gestion des niveaux de service",
-          "niveaux": [
-            3
-          ],
-          "niveau_max": 3
+          "id": "ds2",
+          "nom": "Analyses prescriptives et pr\u00e9dictives",
+          "niveau_max": 5,
+          "termes": "apprentissage automatique, mod\u00e8les pr\u00e9dictifs, algorithmes, aide \u00e0 la d\u00e9cision"
         },
         {
-          "id": "A.3",
-          "titre": "Mise en place d'un plan d'activit\u00e9s",
-          "niveaux": [
-            3,
-            4
-          ],
-          "niveau_max": 4
+          "id": "ds3",
+          "nom": "Gouvernance et conformit\u00e9 des donn\u00e9es",
+          "niveau_max": 3,
+          "termes": "donn\u00e9es h\u00e9t\u00e9rog\u00e8nes, aspects \u00e9thiques, protection des donn\u00e9es personnelles"
         },
         {
-          "id": "A.4",
-          "titre": "Planification des produits/services",
-          "niveaux": [
-            2,
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "A.5",
-          "titre": "Conception de l'architecture",
-          "niveaux": [
-            3,
-            4,
-            5
-          ],
-          "niveau_max": 5
-        },
-        {
-          "id": "A.6",
-          "titre": "Conception des applications",
-          "niveaux": [
-            1,
-            2,
-            3
-          ],
-          "niveau_max": 3
-        },
-        {
-          "id": "A.7",
-          "titre": "Veille technologique",
-          "niveaux": [
-            3,
-            4,
-            5
-          ],
-          "niveau_max": 5
-        },
-        {
-          "id": "A.8",
-          "titre": "Gestion du d\u00e9veloppement durable",
-          "niveaux": [
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "A.9",
-          "titre": "Innovation",
-          "niveaux": [
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "A.10",
-          "titre": "Exp\u00e9rience utilisateur",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "ds4",
+          "nom": "Cycle de vie des donn\u00e9es",
+          "niveau_max": 4,
+          "termes": "outils d'analyse, interpr\u00e9tation des r\u00e9sultats, nouvelles sources de donn\u00e9es"
         }
       ]
     },
     {
-      "nom": "D\u00e9velopper",
+      "nom": "D\u00e9veloppement & Architecture",
+      "couleur": "#27AE60",
+      "icone": "bi-code-slash",
       "competences": [
         {
-          "id": "B.1",
-          "titre": "Conception et d\u00e9veloppement d'applications",
-          "niveaux": [
-            1,
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "dev1",
+          "nom": "Conception et d\u00e9veloppement d'applications",
+          "niveau_max": 4,
+          "termes": "d\u00e9veloppement, d\u00e9bogage, documentation, int\u00e9gration, mise en service"
         },
         {
-          "id": "B.2",
-          "titre": "Int\u00e9gration des composants",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "dev2",
+          "nom": "Conception de l'architecture",
+          "niveau_max": 4,
+          "termes": "interop\u00e9rabilit\u00e9, \u00e9volutivit\u00e9, s\u00e9curit\u00e9, gestion de la vuln\u00e9rabilit\u00e9"
         },
         {
-          "id": "B.3",
-          "titre": "Tests",
-          "niveaux": [
-            1,
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "dev3",
+          "nom": "Conception des applications",
+          "niveau_max": 4,
+          "termes": "structures de donn\u00e9es, langages de mod\u00e9lisation, approche it\u00e9rative"
         },
         {
-          "id": "B.4",
-          "titre": "D\u00e9ploiement de la solution",
-          "niveaux": [
-            1,
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "dev4",
+          "nom": "D\u00e9ploiement de la solution",
+          "niveau_max": 4,
+          "termes": "installation, s\u00e9curisation, interop\u00e9rabilit\u00e9 des composants, mise en service"
         },
         {
-          "id": "B.5",
-          "titre": "Production de la documentation",
-          "niveaux": [
-            1,
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "dev5",
+          "nom": "Tests et conformit\u00e9",
+          "niveau_max": 4,
+          "termes": "proc\u00e9dures de tests, conformit\u00e9 aux sp\u00e9cifications, journal d'audit"
         },
         {
-          "id": "B.6",
-          "titre": "Ing\u00e9nierie syst\u00e8me",
-          "niveaux": [
-            3,
-            4
-          ],
-          "niveau_max": 4
+          "id": "dev6",
+          "nom": "Int\u00e9gration des composants",
+          "niveau_max": 3,
+          "termes": "gestion de configurations, compatibilit\u00e9, int\u00e9grit\u00e9 du syst\u00e8me"
         }
       ]
     },
     {
-      "nom": "Exploiter",
+      "nom": "Gestion & Innovation",
+      "couleur": "#E67E22",
+      "icone": "bi-lightbulb",
       "competences": [
         {
-          "id": "C.1",
-          "titre": "Support utilisateur",
-          "niveaux": [
-            1,
-            2
-          ],
-          "niveau_max": 2
+          "id": "gi1",
+          "nom": "Gestion des projets et du portefeuille de projets",
+          "niveau_max": 4,
+          "termes": "planification, ressources et budget, optimisation co\u00fbts-d\u00e9lais, livraison"
         },
         {
-          "id": "C.2",
-          "titre": "Support aux changements",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "gi2",
+          "nom": "Alignement strat\u00e9gique m\u00e9tier",
+          "niveau_max": 4,
+          "termes": "besoins m\u00e9tier, architecture d'entreprise, efficacit\u00e9 des processus, d\u00e9cisions strat\u00e9giques"
         },
         {
-          "id": "C.3",
-          "titre": "Fourniture de services",
-          "niveaux": [
-            1,
-            2
-          ],
-          "niveau_max": 2
+          "id": "gi3",
+          "nom": "Innovation",
+          "niveau_max": 4,
+          "termes": "solutions cr\u00e9atives, nouveaux concepts, mode de pens\u00e9e innovant"
         },
         {
-          "id": "C.4",
-          "titre": "Gestion des probl\u00e8mes",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
+          "id": "gi4",
+          "nom": "Am\u00e9lioration des processus",
+          "niveau_max": 4,
+          "termes": "apprentissage continu, optimisation comp\u00e9titivit\u00e9, recommandations fond\u00e9es"
         },
         {
-          "id": "C.5",
-          "titre": "Gestion des syst\u00e8mes",
-          "niveaux": [
-            1,
-            2,
-            3
-          ],
-          "niveau_max": 3
-        }
-      ]
-    },
-    {
-      "nom": "Faciliter",
-      "competences": [
-        {
-          "id": "D.1",
-          "titre": "D\u00e9veloppement d'une strat\u00e9gie de s\u00e9curit\u00e9 de l'information",
-          "niveaux": [
-            4
-          ],
-          "niveau_max": 4
+          "id": "gi5",
+          "nom": "Gestion de la relation client",
+          "niveau_max": 3,
+          "termes": "\u00e9quipes pluridisciplinaires, communication, partenaires"
         },
         {
-          "id": "D.2",
-          "titre": "D\u00e9veloppement d'une strat\u00e9gie pour la qualit\u00e9 des TIC",
-          "niveaux": [
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "D.3",
-          "titre": "Prestation de services de formation",
-          "niveaux": [
-            2
-          ],
-          "niveau_max": 2
-        },
-        {
-          "id": "D.4",
-          "titre": "Achats",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
-        },
-        {
-          "id": "D.5",
-          "titre": "D\u00e9veloppement des ventes",
-          "niveaux": [
-            2
-          ],
-          "niveau_max": 2
-        },
-        {
-          "id": "D.6",
-          "titre": "Marketing num\u00e9rique",
-          "niveaux": [
-            2
-          ],
-          "niveau_max": 2
-        },
-        {
-          "id": "D.7",
-          "titre": "Science des donn\u00e9es et analyse",
-          "niveaux": [
-            2,
-            3,
-            4,
-            5
-          ],
-          "niveau_max": 5
-        },
-        {
-          "id": "D.8",
-          "titre": "Gestion des contrats",
-          "niveaux": [
-            2
-          ],
-          "niveau_max": 2
-        },
-        {
-          "id": "D.9",
-          "titre": "D\u00e9veloppement du personnel",
-          "niveaux": [
-            2
-          ],
-          "niveau_max": 2
-        },
-        {
-          "id": "D.10",
-          "titre": "Gestion de l'information et de la connaissance",
-          "niveaux": [
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "D.11",
-          "titre": "Identification des besoins",
-          "niveaux": [
-            3
-          ],
-          "niveau_max": 3
-        }
-      ]
-    },
-    {
-      "nom": "G\u00e9rer",
-      "competences": [
-        {
-          "id": "E.1",
-          "titre": "D\u00e9veloppement pr\u00e9visionnel",
-          "niveaux": [
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "E.2",
-          "titre": "Gestion des projets et du portefeuille de projets",
-          "niveaux": [
-            2,
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "E.3",
-          "titre": "Gestion des risques",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
-        },
-        {
-          "id": "E.4",
-          "titre": "Gestion de la relation client",
-          "niveaux": [
-            3
-          ],
-          "niveau_max": 3
-        },
-        {
-          "id": "E.5",
-          "titre": "Am\u00e9lioration des processus",
-          "niveaux": [
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "E.6",
-          "titre": "Gestion de la qualit\u00e9 des TIC",
-          "niveaux": [
-            2,
-            3,
-            4
-          ],
-          "niveau_max": 4
-        },
-        {
-          "id": "E.7",
-          "titre": "Gestion des changements m\u00e9tier",
-          "niveaux": [
-            3
-          ],
-          "niveau_max": 3
-        },
-        {
-          "id": "E.8",
-          "titre": "Gestion de la s\u00e9curit\u00e9 de l'information",
-          "niveaux": [
-            2,
-            3
-          ],
-          "niveau_max": 3
-        },
-        {
-          "id": "E.9",
-          "titre": "Gouvernance des syst\u00e8mes d'information",
-          "niveaux": [
-            4
-          ],
-          "niveau_max": 4
+          "id": "gi6",
+          "nom": "Identification des besoins",
+          "niveau_max": 3,
+          "termes": "\u00e9coute client, exigences m\u00e9tier, conception centr\u00e9e utilisateur"
         }
       ]
     }
@@ -1634,61 +1442,61 @@
   ],
   "experiences": [
     {
-      "date": "09.2024 - 03.2026",
+      "date": "09.2024 \u00e0 03.2026",
       "en": {
         "title": "Data Scientist",
         "company": "Id\u00e9al Isolation S\u00e0rl & DF Innovation S\u00e0rl",
-        "details": "- Operational Analytics (e-CF D.7): Strategic analysis of bottlenecks in quotation and invoicing workflows; developed data pipelines and predictive models to optimize resource allocation and reduce processing delays \u2014 in direct collaboration with management on business requirements.\n- Generative AI R&D (e-CF B.1): Designed and developed custom RAG pipelines and fine-tuned LLMs for domain-specific document understanding and synthesis.\n- Algorithmic Trading: Developed quantitative trading strategies using ML-driven signal extraction from market data, with backtesting infrastructure and performance analysis.\n- Blockchain: Prototyped Solana smart-contracts for automated market operations.\n"
+        "details": "- Operational analytics : bottleneck analysis of quotation/invoicing workflows; data pipelines + predictive models for resource allocation.\n- Generative AI R&D : custom RAG pipelines, fine-tuned LLMs for document understanding and synthesis.\n- Algorithmic trading : ML signal extraction from market data, backtesting infrastructure, performance analysis, production bot (live + dry-run).\n- Blockchain : Solana smart-contract prototypes for automated market operations.\n"
       },
       "fr": {
         "title": "Data Scientist",
         "company": "Id\u00e9al Isolation S\u00e0rl & DF Innovation S\u00e0rl",
-        "details": "- Analyse Op\u00e9rationnelle (e-CF D.7) : Analyse strat\u00e9gique des goulets d'\u00e9tranglement dans les workflows de devis et facturation ; d\u00e9veloppement de pipelines de donn\u00e9es et mod\u00e8les pr\u00e9dictifs pour optimiser l'allocation des ressources et r\u00e9duire les d\u00e9lais de traitement \u2014 en collaboration directe avec la direction sur les exigences m\u00e9tier.\n- R&D en ML G\u00e9n\u00e9ratif (e-CF B.1) : Conception et d\u00e9veloppement d'applications RAG sur mesure et fine-tuning de LLMs pour la compr\u00e9hension et la synth\u00e8se de documents sp\u00e9cialis\u00e9s.\n- Trading Algorithmique : D\u00e9veloppement de strat\u00e9gies de trading quantitatives utilisant l'extraction de signaux par ML sur des donn\u00e9es de march\u00e9, avec infrastructure de backtest et analyse de performance.\n- Blockchain : Prototypage de smart-contracts Solana pour des op\u00e9rations de march\u00e9 automatis\u00e9es.\n"
+        "details": "- Analyse op\u00e9rationnelle : goulets d'\u00e9tranglement des workflows devis/facturation ; pipelines de donn\u00e9es + mod\u00e8les pr\u00e9dictifs pour l'allocation des ressources.\n- R&D en ML g\u00e9n\u00e9ratif : pipelines RAG sur mesure, fine-tuning de LLMs pour la compr\u00e9hension et la synth\u00e8se de documents.\n- Trading algorithmique : extraction de signaux ML sur donn\u00e9es de march\u00e9, infrastructure de backtest, analyse de performance, bot de production (live + dry-run).\n- Blockchain : prototypes de smart-contracts Solana pour des op\u00e9rations de march\u00e9 automatis\u00e9es.\n"
       }
     },
     {
-      "date": "11.2021 - 12.2022",
+      "date": "11.2021 \u00e0 12.2022",
       "en": {
         "title": "Speech recognition developer",
         "company": "Mozilla & Coqui-AI",
-        "details": "- 12 merged PRs in coqui-ai/STT across 1.5 years: Fixes to memory management during batch training [#2205](https://github.com/coqui-ai/STT/pull/2205), TF graph export optimization [#2222](https://github.com/coqui-ai/STT/pull/2222) ; removed memmapped format, TFLite export pipeline [#2221](https://github.com/coqui-ai/STT/pull/2221), LM optimization module refactoring [#2116](https://github.com/coqui-ai/STT/pull/2116), [#2203](https://github.com/coqui-ai/STT/pull/2203), importer fixes [#2148](https://github.com/coqui-ai/STT/pull/2148), [#2111](https://github.com/coqui-ai/STT/pull/2111), and CI improvements [#2285](https://github.com/coqui-ai/STT/pull/2285).\n- CommonVoice FR maintenance ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)): Reimplemented the DeepSpeech model training image using the STT framework to continue French transcription capacity after DeepSpeech deprecation.\n- Published French speech models ([github.com/wasertech/commonvoice-fr/releases](https://github.com/wasertech/commonvoice-fr/releases)): Trained new French models using 2\u00d7 higher-quality augmented data, reducing average Word Error Rate by 10%.\n- DeepSpeech \u2192 STT migration: Led the migration of the French-language training pipeline from deprecated DeepSpeech to the STT codebase.\n"
+        "details": "- 12 merged PRs in coqui-ai/STT : memory management in batch training [#2205](https://github.com/coqui-ai/STT/pull/2205), TF graph export [#2222](https://github.com/coqui-ai/STT/pull/2222), TFLite export [#2221](https://github.com/coqui-ai/STT/pull/2221), LM optimization [#2116](https://github.com/coqui-ai/STT/pull/2116).\n- CommonVoice FR maintenance ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : DeepSpeech training image on STT framework.\n- Published French speech models : 2\u00d7 higher-quality augmented data, \u221210% average Word Error Rate.\n- DeepSpeech \u2192 STT migration : led the French training pipeline migration.\n"
       },
       "fr": {
-        "title": "D\u00e9veloppeur en reconnaissance vocale",
+        "title": "D\u00e9veloppeur reconnaissance vocale",
         "company": "Mozilla & Coqui-AI",
-        "details": "- 12 PR merg\u00e9es dans coqui-ai/STT sur 1.5 ans : Corrections de gestion m\u00e9moire pendant l'entra\u00eenement batch [#2205](https://github.com/coqui-ai/STT/pull/2205), optimisation d'export de graphe TF [#2222](https://github.com/coqui-ai/STT/pull/2222) ; suppression du format memmapped, pipeline d'export TFLite [#2221](https://github.com/coqui-ai/STT/pull/2221), refactoring du module d'optimisation LM [#2116](https://github.com/coqui-ai/STT/pull/2116), [#2203](https://github.com/coqui-ai/STT/pull/2203), corrections d'importers [#2148](https://github.com/coqui-ai/STT/pull/2148), [#2111](https://github.com/coqui-ai/STT/pull/2111) et am\u00e9liorations CI [#2285](https://github.com/coqui-ai/STT/pull/2285).\n- Maintenance CommonVoice FR ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : R\u00e9impl\u00e9mentation de l'image d'entra\u00eenement DeepSpeech avec le framework STT pour continuer la transcription fran\u00e7aise apr\u00e8s la d\u00e9pr\u00e9ciation de DeepSpeech.\n- Mod\u00e8les fran\u00e7ais publi\u00e9s ([github.com/wasertech/commonvoice-fr/releases](https://github.com/wasertech/commonvoice-fr/releases)) : Entra\u00eenement de nouveaux mod\u00e8les fran\u00e7ais avec 2\u00d7 plus de donn\u00e9es augment\u00e9es de meilleure qualit\u00e9, r\u00e9duisant le taux d'erreur de mot moyen de 10%.\n- Migration DeepSpeech \u2192 STT : Pilotage de la migration du pipeline d'entra\u00eenement francophone de DeepSpeech (d\u00e9pr\u00e9ci\u00e9) vers la codebase STT.\n"
+        "details": "- 12 PR merg\u00e9es dans coqui-ai/STT : gestion m\u00e9moire en entra\u00eenement batch [#2205](https://github.com/coqui-ai/STT/pull/2205), export de graphe TF [#2222](https://github.com/coqui-ai/STT/pull/2222), export TFLite [#2221](https://github.com/coqui-ai/STT/pull/2221), optimisation LM [#2116](https://github.com/coqui-ai/STT/pull/2116).\n- Maintenance CommonVoice FR ([PR #168](https://github.com/common-voice/commonvoice-fr/pull/168)) : image d'entra\u00eenement DeepSpeech sur le framework STT.\n- Mod\u00e8les fran\u00e7ais publi\u00e9s : 2\u00d7 plus de donn\u00e9es augment\u00e9es de meilleure qualit\u00e9, \u221210% de taux d'erreur de mot moyen.\n- Migration DeepSpeech \u2192 STT : pilotage de la migration du pipeline francophone.\n"
       }
     },
     {
-      "date": "01.2024 - 03.2024",
+      "date": "01.2024 \u00e0 03.2024",
       "en": {
         "title": "Machine Learning Engineer",
         "company": "Synthflow AI",
-        "details": "- Multi-agent conversational systems (e-CF B.1): Designed and prototyped production voice-call systems deploying multiple specialized LLM agents in tandem for telephony.\n- Real-time dialogue management: Iterative implementation of LLM-based dialogue managers with dynamic prompt engineering for sub-second response times in live calls.\n- Rapid R&D cycle (e-CF E.2): From concept to functional prototype in under 2 weeks per feature, working directly with C-suite on product requirements.\n"
+        "details": "- Multi-agent conversational systems : production voice-call systems with specialized LLM agents in tandem for telephony.\n- Real-time dialogue management : LLM-based dialogue managers, dynamic prompt engineering, sub-second response in live calls.\n- Rapid R&D cycle : concept to functional prototype in <2 weeks per feature; direct C-suite collaboration.\n"
       },
       "fr": {
-        "title": "Ing\u00e9nieur en Machine Learning (ML)",
+        "title": "Ing\u00e9nieur en Machine Learning",
         "company": "Synthflow AI",
-        "details": "- Syst\u00e8mes conversationnels multi-agents (e-CF B.1) : Conception et prototypage de syst\u00e8mes d'appels vocaux de production d\u00e9ployant plusieurs agents LLM sp\u00e9cialis\u00e9s en tandem pour la t\u00e9l\u00e9phonie.\n- Gestion de dialogue temps r\u00e9el : Impl\u00e9mentation it\u00e9rative de gestionnaires de dialogue bas\u00e9s sur LLM avec ing\u00e9nierie de prompt dynamique pour des temps de r\u00e9ponse inf\u00e9rieurs \u00e0 la seconde en appel en direct.\n- Cycle R&D rapide (e-CF E.2) : Du concept au prototype fonctionnel en moins de 2 semaines par fonctionnalit\u00e9, en travaillant directement avec la direction sur les exigences produit.\n"
+        "details": "- Syst\u00e8mes conversationnels multi-agents : syst\u00e8mes d'appels vocaux de production avec plusieurs agents LLM sp\u00e9cialis\u00e9s en tandem pour la t\u00e9l\u00e9phonie.\n- Gestion de dialogue temps r\u00e9el : gestionnaires de dialogue bas\u00e9s LLM, ing\u00e9nierie de prompt dynamique, temps de r\u00e9ponse < 1 s en appel live.\n- Cycle R&D rapide : du concept au prototype fonctionnel en < 2 semaines par fonctionnalit\u00e9 ; collaboration directe avec la direction.\n"
       }
     },
     {
-      "date": "01.2020 - 07.2023",
+      "date": "01.2020 \u00e0 07.2023",
       "en": {
         "title": "AI Developer & Founder (Entrepreneurial)",
         "company": "Waser Technologies",
-        "details": "- CUDA kernel optimization: Merged PRs in [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) and [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29), updated build process for Torch version compatibility and flexible quantization kernel compilation.\n- Multi-modal translator ([github.com/wasertech/Translator](https://github.com/wasertech/Translator)): Batch translation CLI with PO file support, multi-language detection, and NLLB-200 integration. 4 merged PRs covering locale handling, type safety, and PO workflow.\n- Real-time speech transcription pipeline ([gitlab.com/waser-technologies/technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)): End-to-end client-server architecture combining Faster-Whisper with VAD for latency-optimized live transcription; paired with OpenVoice v2 for few-shot voice cloning and TTS.\n- Multi-agent LLM orchestrator ([gitlab.com/waser-technologies/technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)): production assistant running on local hardware (96GB RAM, dual RTX Titan) orchestrating specialized agents for system ops, web research, and file editing via natural language, with on-premise inference serving.\n- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)): Merged fix for ApertusMLP xielu activation initialization using torch_dtype.\n"
+        "details": "- CUDA kernel optimization : 2 merged PRs in [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) & [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29); quantization build pipeline.\n- Multi-modal translator ([wasertech/Translator](https://github.com/wasertech/Translator)) : batch CLI, NLLB-200, 4 merged PRs.\n- Real-time speech pipeline ([waser-technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Faster-Whisper + VAD, low-latency transcription, OpenVoice v2.\n- Multi-agent LLM orchestrator ([waser-technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : production assistant on local hardware (96GB RAM, 2\u00d7RTX Titan); natural-language ops, on-premise inference.\n- Production MLOps : containerized deployments with GPU passthrough (Docker Compose), service supervision (systemd, s6-overlay), model lifecycle and performance monitoring on local inference stack.\n- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : merged activation-init fix.\n"
       },
       "fr": {
         "title": "D\u00e9veloppeur ML & Fondateur (Activit\u00e9 Entrepreneuriale)",
         "company": "Waser Technologies",
-        "details": "- Optimisation de kernels CUDA : PR merg\u00e9es dans [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) et [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29), mise \u00e0 jour du build process pour compatibilit\u00e9 Torch et compilation flexible de kernels de quantification.\n- Traducteur multi-modal ([github.com/wasertech/Translator](https://github.com/wasertech/Translator)) : CLI de traduction par lots avec support PO, d\u00e9tection multi-langue et int\u00e9gration NLLB-200. 4 PR merg\u00e9es (locale, type safety, workflow PO).\n- Pipeline de transcription vocale temps r\u00e9el ([gitlab.com/waser-technologies/technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Architecture client-serveur de bout en bout combinant Faster-Whisper et VAD pour la transcription en direct avec latence minimale ; associ\u00e9 \u00e0 OpenVoice v2 pour le clonage vocal few-shot et la TTS.\n- Orchestrateur LLM multi-agent ([gitlab.com/waser-technologies/technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : assistant de production sur hardware local (96GB RAM, dual RTX Titan) orchestrant des agents sp\u00e9cialis\u00e9s pour les op\u00e9rations syst\u00e8me, la recherche web et l'\u00e9dition de fichiers via langage naturel, avec inf\u00e9rence sur site.\n- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : Correction merg\u00e9e pour l'initialisation de l'activation xielu d'ApertusMLP utilisant torch_dtype.\n"
+        "details": "- Optimisation de kernels CUDA : 2 PR merg\u00e9es dans [AutoAWQ #573](https://github.com/casper-hansen/AutoAWQ/pull/573) & [AutoAWQ_kernels #29](https://github.com/casper-hansen/AutoAWQ_kernels/pull/29) ; pipeline de quantification.\n- Traducteur multi-modal ([wasertech/Translator](https://github.com/wasertech/Translator)) : CLI par lots, NLLB-200, 4 PR merg\u00e9es.\n- Pipeline vocal temps r\u00e9el ([waser-technologies/listen](https://gitlab.com/waser-technologies/technologies/listen)) : Faster-Whisper + VAD, transcription faible latence, OpenVoice v2.\n- Orchestrateur LLM multi-agents ([waser-technologies/assistant](https://gitlab.com/waser-technologies/technologies/assistant)) : assistant de production sur hardware local (96GB RAM, 2\u00d7RTX Titan) ; ops en langage naturel, inf\u00e9rence sur site.\n- MLOps de production : d\u00e9ploiements conteneuris\u00e9s avec passthrough GPU (Docker Compose), supervision de services (systemd, s6-overlay), cycle de vie des mod\u00e8les et monitoring de performance sur la stack d'inf\u00e9rence locale.\n- HuggingFace transformers ([PR #42864](https://github.com/huggingface/transformers/pull/42864)) : correction merg\u00e9e d'initialisation.\n"
       }
     }
   ],
   "education": [
     {
-      "date": "08.2014 - 07.2017",
+      "date": "08.2014 \u00e0 07.2017",
       "pdf_include": true,
       "en": {
         "title": "Commercial Diploma (CFC + MPC)",
@@ -1702,7 +1510,7 @@
       }
     },
     {
-      "date": "08.2005 - 07.2014",
+      "date": "08.2005 \u00e0 07.2014",
       "pdf_include": false,
       "en": {
         "title": "Secondary Level Certificate (VSG)",
@@ -1754,7 +1562,7 @@
       {
         "project": "huggingface/transformers",
         "url": "https://github.com/huggingface/transformers",
-        "stars": 164276,
+        "stars": 164514,
         "pr_count": 1,
         "prs": [
           {
@@ -1771,7 +1579,7 @@
       {
         "project": "django-cms/django-cms",
         "url": "https://github.com/django-cms/django-cms",
-        "stars": 10661,
+        "stars": 10665,
         "pr_count": 1,
         "prs": [
           {
@@ -1788,7 +1596,7 @@
       {
         "project": "coqui-ai/STT",
         "url": "https://github.com/coqui-ai/STT",
-        "stars": 2604,
+        "stars": 2606,
         "pr_count": 12,
         "prs": [
           {
@@ -1910,7 +1718,7 @@
       {
         "project": "ixray-team/ixray-1.6-stcop",
         "url": "https://github.com/ixray-team/ixray-1.6-stcop",
-        "stars": 440,
+        "stars": 442,
         "pr_count": 3,
         "prs": [
           {

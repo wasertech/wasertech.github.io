@@ -1,21 +1,21 @@
-date = "09.2024 - 03.2026"
+date = "09.2024 à 03.2026"
 
 [en]
 title = "Data Scientist"
 company = "Idéal Isolation Sàrl & DF Innovation Sàrl"
 details = """
-- Operational Analytics (e-CF D.7): Strategic analysis of bottlenecks in quotation and invoicing workflows; developed data pipelines and predictive models to optimize resource allocation and reduce processing delays — in direct collaboration with management on business requirements.
-- Generative AI R&D (e-CF B.1): Designed and developed custom RAG pipelines and fine-tuned LLMs for domain-specific document understanding and synthesis.
-- Algorithmic Trading: Developed quantitative trading strategies using ML-driven signal extraction from market data, with backtesting infrastructure and performance analysis.
-- Blockchain: Prototyped Solana smart-contracts for automated market operations.
+- Operational analytics : bottleneck analysis of quotation/invoicing workflows; data pipelines + predictive models for resource allocation.
+- Generative AI R&D : custom RAG pipelines, fine-tuned LLMs for document understanding and synthesis.
+- Algorithmic trading : ML signal extraction from market data, backtesting infrastructure, performance analysis, production bot (live + dry-run).
+- Blockchain : Solana smart-contract prototypes for automated market operations.
 """
 
 [fr]
 title = "Data Scientist"
 company = "Idéal Isolation Sàrl & DF Innovation Sàrl"
 details = """
-- Analyse Opérationnelle (e-CF D.7) : Analyse stratégique des goulets d'étranglement dans les workflows de devis et facturation ; développement de pipelines de données et modèles prédictifs pour optimiser l'allocation des ressources et réduire les délais de traitement — en collaboration directe avec la direction sur les exigences métier.
-- R&D en ML Génératif (e-CF B.1) : Conception et développement d'applications RAG sur mesure et fine-tuning de LLMs pour la compréhension et la synthèse de documents spécialisés.
-- Trading Algorithmique : Développement de stratégies de trading quantitatives utilisant l'extraction de signaux par ML sur des données de marché, avec infrastructure de backtest et analyse de performance.
-- Blockchain : Prototypage de smart-contracts Solana pour des opérations de marché automatisées.
+- Analyse opérationnelle : goulets d'étranglement des workflows devis/facturation ; pipelines de données + modèles prédictifs pour l'allocation des ressources.
+- R&D en ML génératif : pipelines RAG sur mesure, fine-tuning de LLMs pour la compréhension et la synthèse de documents.
+- Trading algorithmique : extraction de signaux ML sur données de marché, infrastructure de backtest, analyse de performance, bot de production (live + dry-run).
+- Blockchain : prototypes de smart-contracts Solana pour des opérations de marché automatisées.
 """

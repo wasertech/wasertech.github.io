@@ -28,8 +28,8 @@ class PDF(FPDF):
         self.set_xy(self.l_margin, y)
         lang = getattr(self, 'lang', 'en')
         footer_titles = {
-            'en': 'Danny Waser  |  Machine Learning Engineer',
-            'fr': 'Danny Waser  |  Ingénieur en Machine Learning',
+            'en': 'Danny Waser  |  AI/ML Engineer',
+            'fr': 'Danny Waser  |  Ingénieur AI/ML',
         }
         self.cell(0, 5, footer_titles.get(lang, footer_titles['en']), new_x=XPos.RIGHT, new_y=YPos.TOP, align='L')
         # Numéro de page à droite, sur la MÊME ligne de base que le nom
@@ -54,7 +54,7 @@ class PDF(FPDF):
         """Render text with [label](url) links in blue (like every other link).
 
         Continuation lines must wrap to the text indent (x_start+4), NOT to the
-        global left margin — otherwise multi-line bullets misalign (see bug where
+        global left margin - otherwise multi-line bullets misalign (see bug where
         bullets with links wrapped to x=14 while bullets without links wrapped to x=20).
 
         Manual word-level wrapping: a word or link label that does not fit on the
@@ -109,7 +109,7 @@ class PDF(FPDF):
                 continue
             i += 1
         # Group consecutive non-link tokens into words+space units so we can
-        # check the WHOLE next word before writing — fpdf2's write() with
+        # check the WHOLE next word before writing - fpdf2's write() with
         # wrapmode=WORD will split a word mid-way ('sur' -> 'su' + 'r') when
         # it sits at the right margin, and we must never let that happen.
         # Strategy: before writing each word, check if it fits; if not, ln()
@@ -146,8 +146,9 @@ class PDF(FPDF):
             first = False
         self.ln(leading)
         self.set_left_margin(prev_lm)
+        self.set_x(prev_lm)
 
-    def body_text(self, text, font_size=9, leading=4.2):
+    def body_text(self, text, font_size=8.5, leading=3.9):
         """Render text with *italic* markers and [link](url) links."""
         self.set_font('DejaVuSans', '', font_size)
         for para in text.strip().split('\n\n'):
@@ -183,13 +184,100 @@ def crop_and_resize_image(image_path, output_path, target_width_mm=25, dpi=300):
 
 
 def date_key(experience):
-    date_str = experience['date'].split(' - ')[0]
+    date_str = experience['date'].split(' à ')[0]
     for fmt in ('%m.%Y', '%b %Y', '%B %Y'):
         try:
             return datetime.datetime.strptime(date_str, fmt)
         except ValueError:
             continue
     return datetime.datetime.min
+
+
+# Output file names (user requirement 2026-08-27: CV_Danny_Waser_AI_ML_Engineer.pdf EN / equivalent FR)
+OUTPUT_NAMES = {
+    'en': 'CV_Danny_Waser_AI_ML_Engineer.pdf',
+    'fr': 'CV_Danny_Waser_Ingenieur_AI_ML.pdf',
+}
+
+# Category localization FR -> EN for TECHNICAL SKILLS (page 1)
+CATEGORY_EN = {
+    'Administration systèmes': 'System Administration',
+    'Applications serveur': 'Server Applications',
+    'Base de données': 'Databases',
+    'BI & Data science': 'BI & Data Science',
+    'Bureautique / Gestion': 'Office & Management',
+    'Interface de programmation (API)': 'Programming Interfaces (API)',
+    'Langages informatiques': 'Programming Languages',
+    'Matériel & Equipement': 'Hardware & Equipment',
+    'Réseaux, protocoles & Télécommunications': 'Networks, Protocols & Telecom',
+    'Sécurité': 'Security',
+    'Test & Qualité': 'Testing & Quality',
+    'Visioconférence': 'Video Conferencing',
+    'Gouvernance': 'Governance',
+    'Processus': 'Processes',
+    'Projet': 'Projects',
+    'Test': 'Testing',
+    'Langues': 'Languages',
+    'Web Scraping & Automatisation': 'Web Scraping & Automation',
+    '3D & Game Development': '3D & Game Development',
+    'Environnement de développement (EDI)': 'Development Environment (IDE)',
+    'ERP/PGI': 'ERP/PMIS',
+    'GED': 'Document Management (EDM)',
+    'Modélisation': 'Modeling',
+    'Sauvegarde & Stockage': 'Backup & Storage',
+    'Business analyse': 'Business Analysis',
+    'Référencement': 'SEO & Referencing',
+}
+
+# Professional competencies (e-CF nomenclature) localization FR -> EN
+COMPETENCES_EN = {
+    'Data Science & Analyse': {
+        '__label__': 'Data Science & Analysis',
+        'Exploration et préparation des données': ('Data exploration and preparation',
+                                                   'multi-source collection, preparation, truthfulness checking, visualization'),
+        'Analyses prescriptives et prédictives': ('Prescriptive and predictive analytics',
+                                                  'machine learning, predictive models, algorithms, decision support'),
+        'Gouvernance et conformité des données': ('Data governance and compliance',
+                                                  'heterogeneous data, ethical aspects, personal data protection'),
+        'Cycle de vie des données': ('Data lifecycle',
+                                     'analysis tools, results interpretation, new data sources'),
+    },
+    'Développement & Architecture': {
+        '__label__': 'Development & Architecture',
+        'Conception et développement d\'applications': ('Application design and development',
+                                                        'development, debugging, documentation, integration, commissioning'),
+        'Conception de l\'architecture': ('Architecture design',
+                                          'interoperability, scalability, security, vulnerability management'),
+        'Conception des applications': ('Application design',
+                                        'data structures, modeling languages, iterative approach'),
+        'Déploiement de la solution': ('Solution deployment',
+                                       'installation, securing, component interoperability, commissioning'),
+        'Tests et conformité': ('Testing and compliance',
+                                'test procedures, specification compliance, audit trail'),
+        'Intégration des composants': ('Component integration',
+                                       'configuration management, compatibility, system integrity'),
+    },
+    'Gestion & Innovation': {
+        '__label__': 'Management & Innovation',
+        'Gestion des projets et du portefeuille de projets': ('Project and portfolio management',
+                                                              'planning, resources and budget, cost-delay optimization, delivery'),
+        'Alignement stratégique métier': ('Strategic business alignment',
+                                          'business needs, enterprise architecture, process efficiency, strategic decisions'),
+        'Innovation': ('Innovation',
+                       'creative solutions, new concepts, innovative mindset'),
+        'Amélioration des processus': ('Process improvement',
+                                       'continuous learning, competitiveness optimization, evidence-based recommendations'),
+        'Gestion de la relation client': ('Customer relationship management',
+                                          'multidisciplinary teams, communication, partners'),
+        'Identification des besoins': ('Needs identification',
+                                       'customer listening, business requirements, user-centered design'),
+    },
+}
+
+AVAILABILITY = {
+    'en': 'Availability: immediate',
+    'fr': 'Disponibilité : immédiate',
+}
 
 
 def generate_pdf(lang):
@@ -223,8 +311,8 @@ def generate_pdf(lang):
     pdf.set_font('DejaVuSans', 'B', 9.5)
     pdf.set_text_color(100, 100, 100)
     titles = {
-        'en': 'MACHINE LEARNING ENGINEER  |  DATA SCIENTIST',
-        'fr': 'INGÉNIEUR EN MACHINE LEARNING  |  SCIENTIFIQUE DES DONNÉES',
+        'en': 'AI/ML ENGINEER  |  AI SYSTEMS, LLM & AUTOMATION',
+        'fr': 'INGÉNIEUR AI/ML  |  SYSTÈMES AI, LLM & AUTOMATISATION',
     }
     pdf.cell(0, 4.5, titles.get(lang, titles['en']), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     pdf.set_text_color(0, 0, 0)
@@ -234,9 +322,9 @@ def generate_pdf(lang):
     contact = data['contact']
     info_parts = [contact.get('phone', ''), contact.get('email', ''), 'Lausanne, CH']
     pdf.cell(0, 3.5, '  |  '.join(p for p in info_parts if p), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-    # Disponibilité — coach: "Disponibilité" (cv_recommendations ligne 8)
+    # Disponibilité - coach: "Disponibilité" (cv_recommendations ligne 8)
     pdf.set_font('DejaVuSans', 'I', 7.5)
-    pdf.cell(0, 3.5, 'Disponibilité : immédiate', new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+    pdf.cell(0, 3.5, AVAILABILITY.get(lang, AVAILABILITY['en']), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
     pdf.set_font('DejaVuSans', '', 7.8)
 
     # Links
@@ -262,29 +350,34 @@ def generate_pdf(lang):
     pdf.body_text(data['profile'][lang]['content'].strip())
 
     # ════════════════════════════════════════
-    # PROFESSIONAL COMPETENCIES — 5 domains (Lab4Tech), separate section
+    # PROFESSIONAL COMPETENCIES - 5 domains (Lab4Tech), separate section
     # ════════════════════════════════════════
     competences = data.get('competences_pro', [])
     if competences:
-        pdf.section_header(data['sections']['professional_competencies'][lang], margin_top=3)
+        pdf.section_header(data['sections']['professional_competencies'][lang], margin_top=2.5)
         for dom in competences:
-            comps = sorted(dom['competences'], key=lambda c: -c['niveau_max'])[:5]
-            # e-CF codes (A.1, B.2, D.7...) + title — vocabulaire officiel TIC lab4tech
-            comps_text = '  •  '.join(f"{c['id']} {c['titre']}" for c in comps)
-            # Bold domain name inline, then competencies
-            domain_label = dom['nom'].upper() + ':  '
-            pdf.set_font('DejaVuSans', 'B', 7.8)
-            label_w = pdf.get_string_width(domain_label)
-            pdf.write(3.2, domain_label)
-            pdf.set_font('DejaVuSans', '', 7.8)
-            # multi_cell repart du x courant (après le label) → retirer label_w pour rester dans la marge droite
-            pdf.multi_cell(PW - L - R - label_w, 3.2, comps_text, align='J')
-            pdf.ln(0.4)
+            comps = sorted(dom['competences'], key=lambda c: -c['niveau_max'])[:3]
+            dom_en = COMPETENCES_EN.get(dom['nom'], {})
+            # Nomenclature e-CF : termes exacts comme mots-clés (sans les codes A.1, D.4...)
+            pdf.set_font('DejaVuSans', 'B', 7.2)
+            dom_label = dom_en.get('__label__', dom['nom']) if lang == 'en' else dom['nom']
+            pdf.multi_cell(PW - L - R, 3.0, dom_label.upper() + ':', align='L',
+                           new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            pdf.set_font('DejaVuSans', '', 7.0)
+            for c in comps:
+                nom = c.get('nom', c.get('titre', ''))
+                termes = c.get('termes', '')
+                if lang == 'en' and nom in dom_en:
+                    nom, termes = dom_en[nom]
+                line = f"  •  {nom}" + (f" : {termes}" if termes else "")
+                pdf.multi_cell(PW - L - R, 2.8, line, align='L',
+                               new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+            pdf.ln(0.3)
 
     # ════════════════════════════════════════
-    # SKILLS — compact by category (page 1 RH)
+    # SKILLS - compact by category (page 1 RH)
     # ════════════════════════════════════════
-    pdf.section_header(data['sections']['technical_skills'][lang], margin_top=4)
+    pdf.section_header(data['sections']['technical_skills'][lang], margin_top=3)
 
     grouped = {}
     for sk in data['skills']:
@@ -303,7 +396,8 @@ def generate_pdf(lang):
         'ITSM & Services', 'Langages informatiques', 'Matériel & Equipement',
         'Modélisation', 'OS', 'Réseaux, protocoles & Télécommunications',
         'Sauvegarde & Stockage', 'Sécurité', 'Test & Qualité', 'Virtualisation',
-        'Visioconférence', 'Web Service',
+        'Visioconférence', 'Web Service', 'Web Scraping & Automatisation',
+        '3D & Game Development',
         # Méthodologiques
         'Business analyse', 'Gouvernance', 'Innovation', 'Processus', 'Projet',
         'Référencement', 'Test',
@@ -314,25 +408,26 @@ def generate_pdf(lang):
     for cat in category_order:
         if cat not in grouped:
             continue
-        blocks.append((cat, ', '.join(grouped[cat])))
+        cat_display = CATEGORY_EN.get(cat, cat) if lang == 'en' else cat
+        blocks.append((cat_display, ', '.join(grouped[cat])))
 
-    # Rendu 2 colonnes équilibré — multi_cell uniquement (pas de cell)
+    # Rendu 2 colonnes équilibré - multi_cell uniquement (pas de cell)
     col_gap = 5
     col_w = (PW - L - R - col_gap) / 2
-    y_bottom = 285
+    y_bottom = 288
     y = [pdf.get_y(), pdf.get_y()]
     x = [L, L + col_w + col_gap]
 
     pdf.set_auto_page_break(auto=False)
     for title, text in blocks:
-        # Mesure exacte de la hauteur (dry_run) — pas d'estimation approximative
+        # Mesure exacte de la hauteur (dry_run) - pas d'estimation approximative
         pdf.set_font('DejaVuSans', 'B', 7.6)
         pdf.set_left_margin(x[0])
         h_title = pdf.multi_cell(col_w, 3.4, title + ':', dry_run=True, output=MethodReturnValue.HEIGHT)
         pdf.set_font('DejaVuSans', '', 7.4)
         h_text = pdf.multi_cell(col_w, 3.1, text, dry_run=True, output=MethodReturnValue.HEIGHT)
         pdf.set_left_margin(L)
-        h_est = h_title + h_text + 1.0
+        h_est = h_title + h_text + 0.5
         c = 0 if y[0] <= y[1] else 1
         if y[c] + h_est > y_bottom:
             pdf.add_page()
@@ -350,7 +445,7 @@ def generate_pdf(lang):
     pdf.set_y(max(y))
 
     # ════════════════════════════════════════
-    # CERTIFICATIONS — page 1, section dédiée
+    # CERTIFICATIONS - page 1, section dédiée
     # ════════════════════════════════════════
     certs = data.get('certifications', [])
     if certs:
@@ -360,7 +455,7 @@ def generate_pdf(lang):
             issuer = cert.get(lang, {}).get('issuer', '')
             sd = cert.get('start_date', '')
             ed = cert.get('end_date', '')
-            period = f"{sd} - {ed}" if sd and ed and sd != ed else (sd or ed)
+            period = f"{sd} {'to' if lang == 'en' else 'à'} {ed}" if sd and ed and sd != ed else (sd or ed)
             url = cert.get('url', '')
             pdf.set_font('DejaVuSans', 'B', 8.5)
             if url:
@@ -376,7 +471,7 @@ def generate_pdf(lang):
             pdf.ln(4)
 
     # ════════════════════════════════════════
-    # LANGUAGES — page 1 (requis RH si EN/FR demandé)
+    # LANGUAGES - page 1 (requis RH si EN/FR demandé)
     # ════════════════════════════════════════
     pdf.section_header(data['sections']['languages'][lang], margin_top=3)
     pdf.set_font('DejaVuSans', '', 8.5)
@@ -384,17 +479,18 @@ def generate_pdf(lang):
     pdf.cell(0, 4.2, '  |  '.join(lang_items), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
     # ════════════════════════════════════════
-    # PROFESSIONAL EXPERIENCE — page 2+ (Recruteur)
+    # PROFESSIONAL EXPERIENCE - page 2+ (Recruteur)
     # ════════════════════════════════════════
     pdf.add_page()
     pdf.section_header(data['sections']['professional_experience'][lang], margin_top=0)
 
     for exp in sorted(data['experiences'], key=date_key, reverse=True):
-        # Company (left) + Date (right, numeric) — coach: société à gauche, date à droite
+        # Company (left) + Date (right, numeric) - coach: société à gauche, date à droite
         pdf.set_font('DejaVuSans', 'B', 9.5)
         pdf.cell(120, 4.8, exp[lang]['company'])
         pdf.set_font('DejaVuSans', 'I', 8.3)
-        pdf.cell(PW - L - 120 - R, 4.8, exp['date'],
+        exp_date = exp['date'].replace(' à ', ' to ') if lang == 'en' else exp['date']
+        pdf.cell(PW - L - 120 - R, 4.8, exp_date,
                  new_x=XPos.LMARGIN, new_y=YPos.NEXT, align='R')
 
         # Role / Title
@@ -436,13 +532,14 @@ def generate_pdf(lang):
         pdf.set_font('DejaVuSans', 'B', 8.5)
         pdf.cell(0, 4, f"  {edu[lang]['title']}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.set_font('DejaVuSans', 'I', 8.3)
+        edu_date = edu['date'].replace(' à ', ' to ') if lang == 'en' else edu['date']
         pdf.set_x(L + 7)
-        pdf.cell(0, 3.5, f"{edu[lang]['institution']}  |  {edu['date']}",
+        pdf.cell(0, 3.5, f"{edu[lang]['institution']}  |  {edu_date}",
                  new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(1)
 
     # ════════════════════════════════════════
-    # KEY PROJECTS — page 3 (tout en bas)
+    # KEY PROJECTS - page 3 (tout en bas)
     # ════════════════════════════════════════
     pdf.add_page()
     pdf.section_header(data['sections']['portfolio'][lang], margin_top=0)
@@ -520,7 +617,7 @@ def generate_pdf(lang):
             pr_title = ''.join(ch for ch in pr_title if ord(ch) <= 0xFFFF)
             # Collapse double spaces left by stripped glyphs
             pr_title = ' '.join(pr_title.split())
-            # Title, truncated to fit — leaving room for size indicator
+            # Title, truncated to fit - leaving room for size indicator
             pdf.write(3.5, pr_title[:70], pr_url)
             pdf.set_text_color(0, 0, 0)
             # Size indicator (+add/-del)
@@ -542,18 +639,20 @@ def generate_pdf(lang):
     interests = [i[lang] for i in data['interests']]
     pdf.cell(0, 4.2, ', '.join(interests), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 
-    # Page limit: 3 pages max
-    if pdf.page_no() > 3:
-        raise RuntimeError(f"CV ({lang.upper()}) exceeds 3 pages ({pdf.page_no()} pages) — reduce content!")
+    # Portfolio = vitrine complète (réservoir de compétences).
+    # La contrainte "3 pages" s'applique aux CV sur mesure filtrés par annonce
+    # (generate_cv.py), pas ici. On avertit au-delà de 4 pages sans bloquer.
+    if pdf.page_no() > 4:
+        print(f"[warn] CV portfolio ({lang.upper()}) = {pdf.page_no()} pages (vitrine complète, OK)")
 
     # Coach: "Vérifier le titre affiché dans l'onglet du PDF. Typiquement : 'CV Prénom NOM'"
     pdf.set_title(f"CV Danny Waser - {titles.get(lang, titles['en'])}")
     pdf.set_author("Danny Waser")
-    pdf.set_subject("Curriculum Vitae - Machine Learning Engineer")
-    pdf.set_keywords("Machine Learning, Data Science, LLM, MLOps, CV")
+    pdf.set_subject("Curriculum Vitae - AI/ML Engineer")
+    pdf.set_keywords("AI/ML, AI Systems, LLM, Applied AI, Automation, MLOps, CV")
     pdf.set_creator("portfolio-cv-pipeline")
 
-    pdf.output(f"static/CV_{lang.upper()}.pdf")
+    pdf.output(f"static/{OUTPUT_NAMES[lang]}")
 
 
 if __name__ == '__main__':
